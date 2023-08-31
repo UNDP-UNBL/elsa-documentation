@@ -1,9 +1,9 @@
 .. include:: ../README.rst
 
-Welcome to ELSA's documentation!
+Welcome to ELSA's Online Documentation!
 ===================================
 
-**ELSA** is a work in progress
+**ELSA Documentation** is a work in progress
 
 Check out the :doc:`usage` section for further information
 
@@ -17,4 +17,6 @@ Contents
 .. toctree::
 
    Home <self>
-   usage
+   about-elsa
+   registration
+   scp

@@ -1,2 +1,2 @@
-ELSA tool documentation
+ELSA Tool Documentation
 =======================
