@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'ELSA'
-copyright = '2022, UNDP-UNBL'
+copyright = '2023, UNDP-UNBL'
 author = 'UNDP-UNBL'
 release = '1'
 
