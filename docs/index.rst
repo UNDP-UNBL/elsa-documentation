@@ -18,4 +18,3 @@ Contents
 
    Home <self>
    usage
-   api

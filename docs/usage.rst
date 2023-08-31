@@ -1,12 +1,11 @@
 Usage
 =====
 
-.. _installation:
-
 Using ELSA
 ----------
 
 TBD
+
 
 Registering
 -----------
