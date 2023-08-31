@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = "ELSA Sphinx Example Project"
-copyright = "2023, Read the Docs core team"
-author = "Read the Docs core team"
+copyright = "2023, UNBL"
+author = "UNBL core team"
 
 
 # -- General configuration ---------------------------------------------------
@@ -57,6 +57,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # a list of builtin themes.
 #
 html_theme = "sphinx_rtd_theme"
+html_theme_path = ["_themes", ]
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
