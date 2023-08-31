@@ -1,11 +1,11 @@
 .. include:: ../README.rst
 
 Welcome to ELSA's Online Documentation!
-===================================
+=======================================
 
-**ELSA Documentation** is a work in progress
+**ELSA Tool Documentation** is a work in progress
 
-Check out the :doc:`usage` section for further information
+Check out the :doc:`about-elsa` section for further information
 
 .. note::
 
