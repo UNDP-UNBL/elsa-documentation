@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "ELSA Sphinx Example Project"
-copyright = "2023, UNBL"
-author = "UNBL core team"
+project = "ELSA Tool Online Documentation"
+copyright = "2023, UNBL - United Nations Development Programme"
+author = "ELSA Core Team"
 
 
 # -- General configuration ---------------------------------------------------
