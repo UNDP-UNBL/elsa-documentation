@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = "ELSA Tool Online Documentation"
-copyright = "2023, UNBL - United Nations Development Programme"
+copyright = "2024, UNBL - United Nations Development Programme"
 author = "ELSA Core Team"
 
 
