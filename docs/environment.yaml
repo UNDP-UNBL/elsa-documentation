@@ -1,0 +1,24 @@
+name: readthedocs
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - sphinx
+  - sphinx-rtd-theme
+  - requests
+  - babel
+  - docutils
+  - pygments
+  - jinja2
+  - packaging
+  - snowballstemmer
+#  - readthedocs-sphinx-search
+  - sphinxcontrib-applehelp
+  - sphinxcontrib-devhelp
+  - sphinxcontrib-htmlhelp
+  - sphinxcontrib-jsmath
+  - sphinxcontrib-qthelp
+  - sphinxcontrib-serializinghtml
+  - sphinx-copybutton
+  - sphinx-material
+  - urllib3

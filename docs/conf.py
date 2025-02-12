@@ -17,8 +17,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "ELSA Tool Online Documentation"
-copyright = "2023, UNBL - United Nations Development Programme"
+project = "ELSA Online Documentation"
+copyright = "2025, UN Biodiversity Lab - UNDP"
 author = "ELSA Core Team"
 
 
@@ -30,7 +30,8 @@ extensions = [
     "sphinx.ext.doctest",
     "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
-    "sphinx.ext.intersphinx"
+    "sphinx.ext.intersphinx",
+    "sphinx_copybutton"
 ]
 
 intersphinx_mapping = {
