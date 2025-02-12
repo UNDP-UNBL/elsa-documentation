@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, UN Biodiversity Lab - UNDP
+# This file is distributed under the same license as the ELSA Online Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Online Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-12 16:03+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../index.rst:17
+msgid "Home"
+msgstr ""
+
+#: ../../../README.rst:2
+msgid "ELSA Tool Online Documentation"
+msgstr ""
+
+#: ../../index.rst:4
+msgid "Welcome to ELSA's Online Documentation!"
+msgstr ""
+
+#: ../../index.rst:6
+msgid "**ELSA Tool Documentation** is a work in progress"
+msgstr ""
+
+#: ../../index.rst:8
+msgid "Check out the :doc:`about-elsa` section for further information"
+msgstr ""
+
+#: ../../index.rst:12
+msgid "This project is under active development."
+msgstr ""
+
+#: ../../index.rst:15
+msgid "Contents"
+msgstr ""

@@ -18,3 +18,9 @@ formats:
 
 conda:
   environment: docs/environment.yaml
+
+# Enable localization
+languages:
+  only:
+    - en  # Default English version
+    - es  # Spanish translation

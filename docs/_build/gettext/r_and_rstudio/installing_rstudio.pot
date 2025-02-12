@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, UN Biodiversity Lab - UNDP
+# This file is distributed under the same license as the ELSA Online Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Online Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-12 16:03+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../r_and_rstudio/installing_rstudio.rst:2
+msgid "Installing *RStudio*"
+msgstr ""
+
+#: ../../r_and_rstudio/installing_rstudio.rst:4
+msgid "*R* is not a program that one simply opens and starts using, like Microsoft Word or Google Chrome. R is a computer language, much like *C++*, *Python*, or *Java Script*, etc., whereby commands (in the *R* language in our case) are passed to the operating system, which is in turn able to interpret them and provide responses (this can be as simple as adding ``2 + 2`` or as complex as making your favourite AI chat bot telling you where to eat tonight). There are various front-end coding environments (called IDEs, or Integrated Development Environments) which can be used to interact with *R*, but the most common *R* IDE is a program developped by `Posit <https://posit.co/>`_ called *RStudio* - *RStudio* will be used in all the Prioritizing Nature project training series."
+msgstr ""
+
+#: ../../r_and_rstudio/installing_rstudio.rst:7
+msgid "Why use an IDE like RStudio instead of the command line?"
+msgstr ""
+
+#: ../../r_and_rstudio/installing_rstudio.rst:9
+msgid "RStudio is available for free for use with Windows, macOS, and Linux operating systems."
+msgstr ""
+
+#: ../../r_and_rstudio/installing_rstudio.rst:10
+msgid "Its interface, and all-in-one place design make working with *R* easier, more productive, and more organized. This is especially true for new users."
+msgstr ""
+
+#: ../../r_and_rstudio/installing_rstudio.rst:11
+msgid "*RStudio* is able to easily run `RShiny <https://shiny.posit.co/>`_ applications, of which the various ELSA tool are instances of."
+msgstr ""
+
+#: ../../r_and_rstudio/installing_rstudio.rst:12
+msgid "The *R* CLI (command line interface), while fully running *R*, has very limited other features."
+msgstr ""
+
+#: ../../r_and_rstudio/installing_rstudio.rst:15
+msgid "Even if you have *RStudio* installed, you will still need to have R installed on your computer. *RStudio* helps you use the version of R that exists on your computer, but it doesn't come with an installed version of R on its own."
+msgstr ""
+
+#: ../../r_and_rstudio/installing_rstudio.rst:17
+msgid "Again, you are free to use any IDE you are most composrtable using, but this workshop will using *RStudio* and troublehsooting assitance with other IDEs may not be possible. To install *RStudio*:"
+msgstr ""
+
+#: ../../r_and_rstudio/installing_rstudio.rst:19
+msgid "Go to the `RStudio Desktop download website <https://posit.co/download/rstudio-desktop/>`_"
+msgstr ""
+
+#: ../../r_and_rstudio/installing_rstudio.rst:20
+msgid "Scroll down until you see **All Installers and Tarballs**."
+msgstr ""
+
+#: ../../r_and_rstudio/installing_rstudio.rst:21
+msgid "From the list, choose and download the corresponding version based on your computer operating system."
+msgstr ""
+
+#: ../../r_and_rstudio/installing_rstudio.rst:28
+msgid "Follow the simple instructions that follow, install and you are ready to use *RStudio*."
+msgstr ""
