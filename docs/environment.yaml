@@ -22,4 +22,5 @@ dependencies:
   - sphinxcontrib-serializinghtml
   - sphinx-copybutton
   - sphinx-material
+  - sphinx-intl
   - urllib3

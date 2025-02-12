@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, UN Biodiversity Lab - UNDP
+# This file is distributed under the same license as the ELSA Online Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Online Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-12 16:03+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../r_and_rstudio/using_rstudio.rst:2
+msgid "Using *RStudio*: A (very) brief guide!"
+msgstr ""
+
+#: ../../r_and_rstudio/using_rstudio.rst:4
+msgid "Now that you have both *R* and *RStudio* installed on your computer, you can begin using *R* by opening the *RStudio* program. Open *RStudio* just as you would any program, by clicking on its icon or by typing “RStudio” at the Windows Run prompt."
+msgstr ""
+
+#: ../../r_and_rstudio/using_rstudio.rst:7
+msgid "Layout"
+msgstr ""
+
+#: ../../r_and_rstudio/using_rstudio.rst:9
+msgid "*RStudio* has four main panes each in a quadrant of your screen. You can set what appears in each (through Tools/Options menu in Windows or *RStudio*/Preference on a Mac), but the default shows:"
+msgstr ""
+
+#: ../../r_and_rstudio/using_rstudio.rst:11
+msgid "Console (bottom left)"
+msgstr ""
+
+#: ../../r_and_rstudio/using_rstudio.rst:12
+msgid "Source editor (top left)"
+msgstr ""
+
+#: ../../r_and_rstudio/using_rstudio.rst:13
+msgid "Environment and History (top right), and"
+msgstr ""
+
+#: ../../r_and_rstudio/using_rstudio.rst:14
+msgid "Plots, Files, Packages, Help, Viewer (bottom right)."
+msgstr ""
+
+#: ../../r_and_rstudio/using_rstudio.rst:21
+msgid "Each pane can be minimized or maximized within the column by clicking the minimize/maximize buttons - these also show which shows a collapsed or expanded Window.."
+msgstr ""
+
+#: ../../r_and_rstudio/using_rstudio.rst:24
+msgid "Customising the Layout"
+msgstr ""
+
+#: ../../r_and_rstudio/using_rstudio.rst:26
+msgid "You can change the layout of the panes, and their arrangement, to something you prefer by modying these setting within ``Tools > Global Options > Pane Layout``."
+msgstr ""

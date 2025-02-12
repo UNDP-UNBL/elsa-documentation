@@ -1,10 +1,10 @@
-Running ELSA Rshiny Locally
-===========================
+Running ELSA Locally
+====================
 
 Rshiny
 ^^^^^^
 
-The  ELSA natioan tools we will be setting up to run locally and working with during this workshop run using *Rshiny*. *RShiny* is an *R* package that allows users to create interactive web applications directly from *R* code -  meaning that in a nutshell, users can open the applcation in their web browser (Chrome, Firefox, Safari, etc). Some of the key features of *RShiny* are:
+The  ELSA national tools we will be setting up to run locally and working with during this workshop uses *Rshiny*. *RShiny* is an *R* package that allows users to create interactive web applications directly from *R* code without the need for specialist web programming skills - meaning that in a nutshell, users can build functional web applcations and open the application in their web browser (Chrome, Firefox, Safari, etc). Some of the key features of *RShiny* are:
 
 -   It provides a web application framework for *R*, allowing for interactive app development.
 -   Includes reactive programming, allowing for automatically updating of outputs when inputs change.
@@ -21,8 +21,8 @@ The  ELSA natioan tools we will be setting up to run locally and working with du
     We run the various national ELSA web tools on private and secure UNICC infrastructure.
 
 
-Code Repositories (Git)
-^^^^^^^^^^^^^^^^^^^^^^^
+ELSA Code Repositories (Git)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 TO DO:
 
@@ -34,8 +34,8 @@ TO DO:
     -   Need to set up to run locally and not via CLI 
 
 
-Getting the Data
-^^^^^^^^^^^^^^^^
+Getting the Input GIS Data 
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -   Download link to data
 -   Setting up an R project and file structure

@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, UN Biodiversity Lab - UNDP
+# This file is distributed under the same license as the ELSA Online Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Online Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-12 16:03+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../r_and_rstudio/running_elsa_locally.rst:2
+msgid "Running ELSA Locally"
+msgstr ""
+
+#: ../../r_and_rstudio/running_elsa_locally.rst:5
+msgid "Rshiny"
+msgstr ""
+
+#: ../../r_and_rstudio/running_elsa_locally.rst:7
+msgid "The  ELSA national tools we will be setting up to run locally and working with during this workshop uses *Rshiny*. *RShiny* is an *R* package that allows users to create interactive web applications directly from *R* code without the need for specialist web programming skills - meaning that in a nutshell, users can build functional web applcations and open the application in their web browser (Chrome, Firefox, Safari, etc). Some of the key features of *RShiny* are:"
+msgstr ""
+
+#: ../../r_and_rstudio/running_elsa_locally.rst:9
+msgid "It provides a web application framework for *R*, allowing for interactive app development."
+msgstr ""
+
+#: ../../r_and_rstudio/running_elsa_locally.rst:10
+msgid "Includes reactive programming, allowing for automatically updating of outputs when inputs change."
+msgstr ""
+
+#: ../../r_and_rstudio/running_elsa_locally.rst:11
+msgid "It integrates with other *R* libraries, working seamlessly with *ggplot2*, *leaflet*, *dplyr*, *shinyWidgets*, etc."
+msgstr ""
+
+#: ../../r_and_rstudio/running_elsa_locally.rst:12
+msgid "Apps can be deployed on Web and hosted on `ShinyApps.io <https://www.shinyapps.io/>`_, `RStudio Connect <https://posit.co/products/enterprise/connect/>`_, or private servers (see the example below)."
+msgstr ""
+
+#: ../../r_and_rstudio/running_elsa_locally.rst:21
+msgid "We run the various national ELSA web tools on private and secure UNICC infrastructure."
+msgstr ""
+
+#: ../../r_and_rstudio/running_elsa_locally.rst:25
+msgid "ELSA Code Repositories (Git)"
+msgstr ""
+
+#: ../../r_and_rstudio/running_elsa_locally.rst:27
+msgid "TO DO:"
+msgstr ""
+
+#: ../../r_and_rstudio/running_elsa_locally.rst:29
+msgid "Git hub repo download - which branch"
+msgstr ""
+
+#: ../../r_and_rstudio/running_elsa_locally.rst:31
+msgid "Data and files set up"
+msgstr ""
+
+#: ../../r_and_rstudio/running_elsa_locally.rst:32
+msgid "Need to run pre-run.R"
+msgstr ""
+
+#: ../../r_and_rstudio/running_elsa_locally.rst:34
+msgid "Need to set up to run locally and not via CLI"
+msgstr ""
+
+#: ../../r_and_rstudio/running_elsa_locally.rst:38
+msgid "Getting the Input GIS Data"
+msgstr ""
+
+#: ../../r_and_rstudio/running_elsa_locally.rst:40
+msgid "Download link to data"
+msgstr ""
+
+#: ../../r_and_rstudio/running_elsa_locally.rst:41
+msgid "Setting up an R project and file structure"
+msgstr ""
+
+#: ../../r_and_rstudio/running_elsa_locally.rst:44
+msgid "Setting it all up"
+msgstr ""

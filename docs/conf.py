@@ -23,7 +23,11 @@ author = "ELSA Core Team"
 
 
 # -- General configuration ---------------------------------------------------
-# -- General configuration
+language = 'en'  # Default language is English
+
+# Define locale directory where translations will be stored
+locale_dirs = ['locales/']
+gettext_compact = False  # Ensures separate .po files per source file
 
 extensions = [
     "sphinx.ext.duration",
