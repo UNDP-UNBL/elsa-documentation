@@ -3,7 +3,7 @@ Installing Solvers (General)
 
 .. note:: 
 
-   This section is not required reading for the Protecting Nature workshops, since we will making use of our paid Gurobi solver license. It is worth familiarising yourself with the text below, but feel free to skip foward to :ref:`running_elsa/using_gurobi`.
+   This section is not required reading for the Protecting Nature workshops, since we will making use of our paid Gurobi solver license. It is worth familiarising yourself with the text below, but feel free to skip foward to :ref:`using_gurobi`.
    
    
 Solving conservation problems with *prioritizr* also requires having a solver installed on your machine. Solvers use specific algorithms that use mathematical optimization to find an optimal solution to a problem. There are many different solvers available that differ in terms of their efficiency and cost. The best solvers are proprietary and usually expensive to use, but there are some good free ones available. For more information on solver comparisons and benchmarks, the developers of *prioritizr* have written a helpful `article <https://prioritizr.net/articles/solver_benchmarks.html>`_ .
