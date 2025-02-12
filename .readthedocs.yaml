@@ -17,8 +17,5 @@ formats:
   - epub
 
 # Declare Python dependencies using Conda (preferred) or pip
-python:
-  install:
-    - method: conda
-      environment: docs/environment.yml
-
+conda:
+  environment: docs/environment.yml
