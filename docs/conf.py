@@ -61,6 +61,13 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # a list of builtin themes.
 #
 html_theme = "sphinx_rtd_theme"
+html_context = {
+    "languages": [
+        ("en", "English"),
+        ("es", "Español"),  # Override "Spanish" with "Español"
+    ]
+}
+
 pygments_style = "friendly"
 
 # Add any paths that contain custom static files (such as style sheets) here,
