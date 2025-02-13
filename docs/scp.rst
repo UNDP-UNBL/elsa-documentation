@@ -1,4 +1,0 @@
-Systematic Conservation Planning
-================================
-
-TBD
