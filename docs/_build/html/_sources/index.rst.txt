@@ -1,15 +1,15 @@
 .. include:: ../README.rst
 
-Welcome to ELSA's Online Documentation!
-=======================================
+==================================================================
+Bienvenido | Welcome | Добро пожаловать | مرحبًا | Bienvenue | 欢迎
+==================================================================
 
-**ELSA Tool Documentation** is a work in progress
+.. important:: 
 
-Check out the :doc:`about-elsa` section for further information
+   This project and tool documentation is under active development - please bear with us!
+   
+   Check out the :doc:`about-elsa` section for further information.
 
-.. note::
-
-   This project is under active development.
 
 Contents
 --------
@@ -19,7 +19,4 @@ Contents
 
    Home <self>
    about-elsa
-   scp
-
-   r_and_rstudio/index
-
+   trainings/index

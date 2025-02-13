@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, UN Biodiversity Lab - UNDP
+# This file is distributed under the same license as the ELSA Online Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Online Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-13 17:13+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:2
+msgid "Installing *R* packages"
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:4
+msgid "One of the most useful things about the *R* language is the very large number of software libraries that *R* users have created for often very specific use cases. Indeed, many of *R*'s most useful functions are found in these packages. An *R* package bundles together useful functions, help files, and data sets, and they can be used within your own *R* scripts once you have installed and then loaded the library in your *R* session."
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:7
+msgid "Using base *R*"
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:10
+msgid "Installing packages"
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:12
+msgid "To install a package we can use base *R* functions:"
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:19
+msgid "For example, within an RStudio session, type (or copy/paste) the following into the console, press ``Enter``:"
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:27
+msgid "Multiple packages can be installed at the same time by passing (i.e., concatenating) the names of each package within the ``c()`` function."
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:29
+msgid "For example, within an RStudio session, type (or copy/paste) the following into the ``Console`` panel, and press ``Enter``:"
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:37
+msgid "Loading packages"
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:39
+msgid "To load a package that we already have correctly installed, we can use the base *R* function:"
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:46
+msgid "This function can be used in the console as well; however, typically we will want to load istalled packages within a script we are developing, that will be saved (as a ``.R`` file) for later use. By convention, best practice is to install and load all necessary packages to run each script at the top of the *R* script, one package per line (although, see the :ref:`pacman` section below). First, within your open *RStudio* session, we need to create a new R Script, either by:"
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:48
+msgid "Clicking on **File →  New File → R Script** or"
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:49
+msgid "Typing ``Ctrl+Shift+N`` on your keyboard (**NOTE: your keyboard shortcuts may differ!**)"
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:52
+msgid "This will open a new (empty) text file in your ``Source`` panel; type (or copy/paste) the following into the new file."
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:59
+msgid "Before running these lines of code we must save our new script, either by:"
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:61
+msgid "Clicking on **File → Save As...**"
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:62
+msgid "``Ctrl+S``"
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:63
+msgid "These will open a dialogue window - save your file to location you will remember. It will automatically have the ``.R`` file type appended to it."
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:66
+msgid "Clicking on **File → Save** will also work if you are saving a new file the first time"
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:68
+msgid "You can now run the new script by either:"
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:70
+msgid "Clicking on the ``Source`` button (on the top right of the ``Source`` panel in RStudio)"
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:71
+msgid "Typing ``Ctrl+Shift+S`` or ``Ctrl+Shift+Enter``."
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:73
+msgid "Some infomration about the versions of you packages, and other infomration, may print to your ``Console`` window (or report errors if they occur... eeek!)"
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:78
+msgid "pacman"
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:81
+msgid "Installing and loading packages"
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:83
+msgid "One particularly useful *R* package that helps streamline the installation of R packages that are in the CRAN repositories is **pacman**. Following the conventional best practice of installing and loading all packages required to run each script at the top of the R script, **pacman** can simplify the process by both installing (if not previously installed) and loading required packages, in a more concise format."
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:85
+msgid "First, create a new R Script as done previously, and save it to disk. We will need to install the **pacman** first; afterwards we can use the ``pacman::p_load()`` function both install (again, if not already installed) and load the desired packages. Type (or copy/paste) the following into the new file:"
+msgstr ""
+
+#: ../../trainings/t3_r_setup/installing_r_packages.rst:92
+msgid "You can now run your script using the methods shown above (e.g., typing ``Ctrl+Shift+S``, ``Ctrl+Shift+Enter``, or clicking on the ``Source`` button)."
+msgstr ""
