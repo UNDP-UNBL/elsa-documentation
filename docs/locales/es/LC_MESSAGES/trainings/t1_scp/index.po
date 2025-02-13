@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ELSA Online Documentation \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-13 17:13+1000\n"
+"POT-Creation-Date: 2025-02-13 18:05+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Generated-By: Babel 2.17.0\n"
 
 #: ../../trainings/t1_scp/index.rst:2
-msgid "Capacitación 1: Planificación sistemática de la conservación"
+msgid "Training 1: Systematic Conservation Planning"
 msgstr ""
 
 #: ../../trainings/t1_scp/index.rst:4
