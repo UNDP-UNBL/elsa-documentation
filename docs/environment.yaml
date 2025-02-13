@@ -21,6 +21,5 @@ dependencies:
   - sphinxcontrib-qthelp
   - sphinxcontrib-serializinghtml
   - sphinx-copybutton
-  - sphinx-theme-pd
   - sphinx-intl
   - urllib3
