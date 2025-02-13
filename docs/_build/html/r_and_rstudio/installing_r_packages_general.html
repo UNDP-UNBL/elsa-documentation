@@ -1,28 +1,27 @@
 
 
 <!DOCTYPE html>
-<html class="writer-html5" lang="es" data-content_root="../">
+<html class="writer-html5" lang="en" data-content_root="../">
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Installing R packages &mdash; documentación de ELSA Online Documentation - </title>
-      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+  <title>Installing R packages &mdash; ELSA Online Documentation  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
 
   
       <script src="../_static/jquery.js?v=5d32c60e"></script>
       <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="../_static/documentation_options.js?v=e2bb6099"></script>
+      <script src="../_static/documentation_options.js?v=5929fcd5"></script>
       <script src="../_static/doctools.js?v=9bcbadda"></script>
       <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
       <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
       <script src="../_static/copybutton.js?v=f281be69"></script>
-      <script src="../_static/translations.js?v=f85f4cfb"></script>
     <script src="../_static/js/theme.js"></script>
-    <link rel="index" title="Índice" href="../genindex.html" />
-    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Installing Solvers (General)" href="installing_solvers.html" />
     <link rel="prev" title="Using RStudio: A (very) brief guide!" href="using_rstudio.html" /> 
 </head>
@@ -40,7 +39,7 @@
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Buscar documentos" aria-label="Buscar documentos" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -67,9 +66,9 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="installing_solvers.html">Installing Solvers (General)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="running_elsa_locally.html">Running ELSA Locally</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="../running_elsa_locally/index.html">Running ELSA Locally</a></li>
 </ul>
 
         </div>
@@ -89,7 +88,7 @@
           <li class="breadcrumb-item"><a href="index.html">R and RStudio - Running ELSA locally</a></li>
       <li class="breadcrumb-item active">Installing <em>R</em> packages</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/r_and_rstudio/installing_r_packages_general.rst.txt" rel="nofollow"> Ver código fuente de la página</a>
+            <a href="../_sources/r_and_rstudio/installing_r_packages_general.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -104,10 +103,10 @@
 <h2>Using base <em>R</em><a class="headerlink" href="#using-base-r" title="Link to this heading"></a></h2>
 <section id="installing-packages">
 <h3>Installing packages<a class="headerlink" href="#installing-packages" title="Link to this heading"></a></h3>
-<p>To install a package we can use base <em>R</em> function:</p>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">install.packages()</span></code></p></li>
-</ul>
+<p>To install a package we can use base <em>R</em> functions:</p>
+<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="nf">install.packages</span><span class="p">()</span>
+</pre></div>
+</div>
 <p>For example, within an RStudio session, type (or copy/paste) the following into the console, press <code class="docutils literal notranslate"><span class="pre">Enter</span></code>:</p>
 <div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="nf">install.packages</span><span class="p">(</span><span class="s">&quot;terra&quot;</span><span class="p">)</span>
 <span class="nf">install.packages</span><span class="p">(</span><span class="s">&quot;sf&quot;</span><span class="p">)</span>
@@ -122,9 +121,9 @@
 <section id="loading-packages">
 <h3>Loading packages<a class="headerlink" href="#loading-packages" title="Link to this heading"></a></h3>
 <p>To load a package that we already have correctly installed, we can use the base <em>R</em> function:</p>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">library()</span></code></p></li>
-</ul>
+<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="nf">library</span><span class="p">()</span>
+</pre></div>
+</div>
 <p>This function can be used in the console as well; however, typically we will want to load istalled packages within a script we are developing, that will be saved (as a <code class="docutils literal notranslate"><span class="pre">.R</span></code> file) for later use. By convention, best practice is to install and load all necessary packages to run each script at the top of the <em>R</em> script, one package per line (although, see the <a class="reference internal" href="#pacman"><span class="std std-ref">pacman</span></a> section below). First, within your open <em>RStudio</em> session, we need to create a new R Script, either by:</p>
 <ul class="simple">
 <li><p>Clicking on <code class="docutils literal notranslate"><span class="pre">File</span> <span class="pre">&gt;</span> <span class="pre">New</span> <span class="pre">File</span> <span class="pre">&gt;</span> <span class="pre">R</span> <span class="pre">Script</span></code> or</p></li>
@@ -142,7 +141,7 @@
 <li><p>These will open a dialogue window - save your file to location you will remember. It will automatically have the <code class="docutils literal notranslate"><span class="pre">.R</span></code> file type appended to it.</p></li>
 </ul>
 <div class="admonition note">
-<p class="admonition-title">Nota</p>
+<p class="admonition-title">Note</p>
 <p>Clicking on <code class="docutils literal notranslate"><span class="pre">File</span> <span class="pre">&gt;</span> <span class="pre">Save</span></code> will also work if you are saving a new file the first time</p>
 </div>
 <p>You can now run the new script by either:</p>
@@ -171,20 +170,20 @@
 
            </div>
           </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
-        <a href="using_rstudio.html" class="btn btn-neutral float-left" title="Using RStudio: A (very) brief guide!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
-        <a href="installing_solvers.html" class="btn btn-neutral float-right" title="Installing Solvers (General)" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="using_rstudio.html" class="btn btn-neutral float-left" title="Using RStudio: A (very) brief guide!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="installing_solvers.html" class="btn btn-neutral float-right" title="Installing Solvers (General)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Derechos de autor 2025, UN Biodiversity Lab - UNDP.</p>
+    <p>&#169; Copyright 2025, UN Biodiversity Lab - UNDP.</p>
   </div>
 
-  Compilado con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
-    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
-    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>.
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
    
 
 </footer>

@@ -7,7 +7,7 @@ While some software tools for conservation planning (e.g. `Marxan <https://marxa
 
 Therefore, we need to install *R*, RStudio, and some other requirements for using `prioritizr`.
 
-.. note::
+.. important:: 
 
    Even if you already have `R`, RStudio, and some of the required packages installed, we recommend making sure that all of these are updated regularly and on the latest version. Some of the material provided here might throw errors if old software versions are used.
 
@@ -20,4 +20,3 @@ Therefore, we need to install *R*, RStudio, and some other requirements for usin
    using_rstudio
    installing_r_packages_general
    installing_solvers
-   running_elsa_locally
