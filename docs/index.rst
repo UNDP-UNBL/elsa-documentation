@@ -18,5 +18,5 @@ Contents
    :maxdepth: 3
 
    Home <self>
-   about-elsa
+   about
    trainings/index

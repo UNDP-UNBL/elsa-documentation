@@ -63,4 +63,4 @@ Setting it all up
    :maxdepth: 1
    
    installing_required_packages
-   using_gurobi   
+   setting_up_gurobi   

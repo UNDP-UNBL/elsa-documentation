@@ -17,5 +17,5 @@ The first step to all this (of course) is to install *R*. We will also install s
    installing_rstudio
    using_rstudio
    creating_r_projects
-   installing_r_packages
+   installing_packages
    installing_solvers

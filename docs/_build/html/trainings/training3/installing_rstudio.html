@@ -1,0 +1,165 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="es" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instalación de RStudio &mdash; documentación de ELSA Online Documentation - </title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=d75fae25" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=e2bb6099"></script>
+      <script src="../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../../_static/copybutton.js?v=f281be69"></script>
+      <script src="../../_static/translations.js?v=f85f4cfb"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="author" title="Sobre este documento" href="../../about.html" />
+    <link rel="index" title="Índice" href="../../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../../search.html" />
+    <link rel="next" title="Usando RStudio: ¡Una guía (muy) breve!" href="using_rstudio.html" />
+    <link rel="prev" title="Usuarios de Linux" href="operating_systems/linux_os.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            ELSA Online Documentation
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar documentos" aria-label="Buscar documentos" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Inicio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about.html">Acerca de las Áreas Esenciales de Soporte de Vida (ELSA)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Capacitaciones</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../training1/index.html">Capacitación 1: Planificación Sistemática de la Conservación</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../training2/index.html">Capacitación 2: Uso de la herramienta web en línea para co-crear el Mapa de Priorización Espacial</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Capacitación 3: Configuración de <em>R</em> y <em>RStudio</em></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="installing_r.html">Instalación de <em>R</em></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Instalación de <em>RStudio</em></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#if-r-works-via-the-command-line-why-use-an-ide-like-rstudio-instead">Si <em>R</em> funciona en la línea de comandos, ¿por qué usar un IDE como <em>RStudio</em> en su lugar?</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="using_rstudio.html">Usando <em>RStudio</em>: ¡Una guía (muy) breve!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="creating_r_projects.html">Proyectos de R</a></li>
+<li class="toctree-l3"><a class="reference internal" href="installing_packages.html">Instalación de paquetes en <em>R</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="installing_solvers.html">Instalación de Solvers</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../training4/index.html">Capacitación 4: Datos espaciales utilizados: estructura, selección y procesamiento</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../training5/index.html">Training 5: Running Spatial Prioritisations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../prioritizr_advanced/index.html">prioritizr (Advanced)</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ELSA Online Documentation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Capacitaciones</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Capacitación 3: Configuración de <em>R</em> y <em>RStudio</em></a></li>
+      <li class="breadcrumb-item active">Instalación de <em>RStudio</em></li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/trainings/training3/installing_rstudio.rst.txt" rel="nofollow"> Ver código fuente de la página</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="installing-rstudio">
+<h1>Instalación de <em>RStudio</em><a class="headerlink" href="#installing-rstudio" title="Link to this heading"></a></h1>
+<p><em>R</em> no es un programa como Microsoft Word o Google Chrome que un usuario simplemente abre y comienza a usar. Más bien, <em>R</em> es un lenguaje de programación, similar a <em>C++</em>, <em>Python</em> o <em>JavaScript</em>, en el que se ejecutan comandos (en nuestro caso, en <em>R</em>) que son interpretados por el sistema operativo y devuelven respuestas. Estas pueden ser tan simples como sumar <code class="docutils literal notranslate"><span class="pre">2</span> <span class="pre">+</span> <span class="pre">2</span></code> o tan complejas como realizar consultas a tu chatbot de IA favorito para encontrar el restaurante de phở más cercano. Existen varios entornos de desarrollo integrados (IDE) para interactuar con <em>R</em>, pero el IDE más utilizado es <em>RStudio</em>, un programa desarrollado por <a class="reference external" href="https://posit.co/">Posit</a>. <em>RStudio</em> se utilizará en toda la serie de capacitaciones del proyecto Prioritizing Nature.</p>
+<section id="if-r-works-via-the-command-line-why-use-an-ide-like-rstudio-instead">
+<h2>Si <em>R</em> funciona en la línea de comandos, ¿por qué usar un IDE como <em>RStudio</em> en su lugar?<a class="headerlink" href="#if-r-works-via-the-command-line-why-use-an-ide-like-rstudio-instead" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>La interfaz de línea de comandos (<em>CLI</em>) de <em>R</em>, aunque ejecuta <em>R</em> por completo, tiene características muy limitadas.</p></li>
+<li><p><em>RStudio</em> está disponible de forma gratuita para Windows, macOS y Linux, por lo que <strong>el costo no es un problema</strong>.</p></li>
+<li><p>Su interfaz y diseño todo en uno hacen que trabajar con <em>R</em> sea más fácil, productivo y organizado. Esto es especialmente útil para los nuevos usuarios.</p></li>
+<li><p><em>RStudio</em> permite ejecutar fácilmente aplicaciones de <a class="reference external" href="https://shiny.posit.co/">RShiny</a>, de las cuales las herramientas ELSA son ejemplos.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Incluso si tienes <em>RStudio</em> instalado, todavía necesitarás instalar <em>R</em> en tu computadora. <em>RStudio</em> te ayuda a utilizar la versión de <em>R</em> que tengas instalada, pero no incluye una versión de <em>R</em> por defecto.</p>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Importante</p>
+<p>Eres libre de usar cualquier IDE con el que te sientas más cómodo, pero en este taller utilizaremos <em>RStudio</em> y la asistencia para solucionar problemas con otros IDEs puede ser limitada o no estar disponible.</p>
+</div>
+<p>Para instalar <em>RStudio</em>:</p>
+<ol class="arabic simple">
+<li><p>Visita el sitio web de descarga de <a class="reference external" href="https://posit.co/download/rstudio-desktop/">RStudio Desktop</a>.</p></li>
+<li><p>Desplázate hacia abajo hasta encontrar <strong>Todos los instaladores y paquetes Tarball</strong>.</p></li>
+<li><p>De la lista, elige y descarga la versión correspondiente según el sistema operativo de tu computadora.</p></li>
+</ol>
+<img alt="../../_images/rstudio_os_version.gif" class="align-center" src="../../_images/rstudio_os_version.gif" />
+<hr class="docutils" />
+<ol class="arabic simple" start="4">
+<li><p>Sigue las instrucciones de instalación, instala el programa y estarás listo para usar <em>RStudio</em>.</p></li>
+</ol>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
+        <a href="operating_systems/linux_os.html" class="btn btn-neutral float-left" title="Usuarios de Linux" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="using_rstudio.html" class="btn btn-neutral float-right" title="Usando RStudio: ¡Una guía (muy) breve!" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Derechos de autor 2025, UN Biodiversity Lab - UNDP.</p>
+  </div>
+
+  Compilado con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

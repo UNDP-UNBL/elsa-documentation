@@ -4,9 +4,9 @@ Trainings
 .. toctree::
    :maxdepth: 3
 
-   t1_scp/index
-   t2/index
-   t3_r_setup/index
-   t4/index
-   t5_running_spatial_prioritisations/index
+   training1/index
+   training2/index
+   training3/index
+   training4/index
+   training5/index
    prioritizr_advanced/index
