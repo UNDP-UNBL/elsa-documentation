@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../trainings/t3_r_setup/installing_r_packages.rst:2
 msgid "Installing *R* packages"
-msgstr ""
+msgstr "Instalación de paquetes en *R*"
 
 #: ../../trainings/t3_r_setup/installing_r_packages.rst:4
 msgid ""
@@ -34,46 +34,60 @@ msgid ""
 "scripts once you have installed and then loaded the library in your *R* "
 "session."
 msgstr ""
+"Una de las características más útiles del lenguaje *R* es la gran cantidad "
+"de bibliotecas de software que los usuarios han creado para casos de uso muy "
+"específicos. De hecho, muchas de las funciones más útiles de *R* se encuentran "
+"en estos paquetes. Un paquete de *R* agrupa funciones útiles, archivos de ayuda "
+"y conjuntos de datos, y se pueden utilizar dentro de tus propios scripts de *R* "
+"una vez que hayas instalado y cargado la biblioteca en tu sesión de *R*."
 
 #: ../../trainings/t3_r_setup/installing_r_packages.rst:7
 msgid "Using base *R*"
-msgstr ""
+msgstr "Uso de *R* base"
 
 #: ../../trainings/t3_r_setup/installing_r_packages.rst:10
 msgid "Installing packages"
-msgstr ""
+msgstr "Instalación de paquetes"
 
 #: ../../trainings/t3_r_setup/installing_r_packages.rst:12
 msgid "To install a package we can use base *R* functions:"
-msgstr ""
+msgstr "Para instalar un paquete, podemos usar las funciones base de *R*:"
 
 #: ../../trainings/t3_r_setup/installing_r_packages.rst:19
 msgid ""
 "For example, within an RStudio session, type (or copy/paste) the "
 "following into the console, press ``Enter``:"
 msgstr ""
+"Por ejemplo, dentro de una sesión de RStudio, escribe (o copia/pega) lo "
+"siguiente en la consola y presiona ``Enter``:"
 
 #: ../../trainings/t3_r_setup/installing_r_packages.rst:27
 msgid ""
 "Multiple packages can be installed at the same time by passing (i.e., "
 "concatenating) the names of each package within the ``c()`` function."
 msgstr ""
+"Se pueden instalar múltiples paquetes al mismo tiempo pasando (es decir, "
+"concatenando) los nombres de cada paquete dentro de la función ``c()``."
 
 #: ../../trainings/t3_r_setup/installing_r_packages.rst:29
 msgid ""
 "For example, within an RStudio session, type (or copy/paste) the "
 "following into the ``Console`` panel, and press ``Enter``:"
 msgstr ""
+"Por ejemplo, dentro de una sesión de RStudio, escribe (o copia/pega) lo siguiente "
+"en el panel de la ``Consola`` y presiona ``Enter``:"
 
 #: ../../trainings/t3_r_setup/installing_r_packages.rst:37
 msgid "Loading packages"
-msgstr ""
+msgstr "Cargando paquetes"
 
 #: ../../trainings/t3_r_setup/installing_r_packages.rst:39
 msgid ""
 "To load a package that we already have correctly installed, we can use "
 "the base *R* function:"
 msgstr ""
+"Para cargar un paquete que ya hemos instalado correctamente, podemos usar "
+"la función base de *R*:"
 
 #: ../../trainings/t3_r_setup/installing_r_packages.rst:46
 msgid ""
@@ -85,75 +99,32 @@ msgid ""
 ":ref:`pacman` section below). First, within your open *RStudio* session, "
 "we need to create a new R Script, either by:"
 msgstr ""
+"Esta función también se puede usar en la consola; sin embargo, normalmente "
+"querremos cargar los paquetes instalados dentro de un script que estemos desarrollando, "
+"el cual será guardado (como un archivo ``.R``) para su uso posterior. Por convención, "
+"la mejor práctica es instalar y cargar todos los paquetes necesarios para ejecutar cada "
+"script en la parte superior del script de *R*, un paquete por línea (aunque, consulta la "
+"sección :ref:`pacman` a continuación). Primero, dentro de tu sesión abierta de *RStudio*, "
+"debemos crear un nuevo script de *R*, ya sea:"
 
 #: ../../trainings/t3_r_setup/installing_r_packages.rst:48
 msgid "Clicking on **File →  New File → R Script** or"
-msgstr ""
+msgstr "Haciendo clic en **Archivo → Nuevo archivo → Script de R** o"
 
 #: ../../trainings/t3_r_setup/installing_r_packages.rst:49
 msgid ""
 "Typing ``Ctrl+Shift+N`` on your keyboard (**NOTE: your keyboard shortcuts"
 " may differ!**)"
 msgstr ""
-
-#: ../../trainings/t3_r_setup/installing_r_packages.rst:52
-msgid ""
-"This will open a new (empty) text file in your ``Source`` panel; type (or"
-" copy/paste) the following into the new file."
-msgstr ""
-
-#: ../../trainings/t3_r_setup/installing_r_packages.rst:59
-msgid "Before running these lines of code we must save our new script, either by:"
-msgstr ""
-
-#: ../../trainings/t3_r_setup/installing_r_packages.rst:61
-msgid "Clicking on **File → Save As...**"
-msgstr ""
-
-#: ../../trainings/t3_r_setup/installing_r_packages.rst:62
-msgid "``Ctrl+S``"
-msgstr ""
-
-#: ../../trainings/t3_r_setup/installing_r_packages.rst:63
-msgid ""
-"These will open a dialogue window - save your file to location you will "
-"remember. It will automatically have the ``.R`` file type appended to it."
-msgstr ""
-
-#: ../../trainings/t3_r_setup/installing_r_packages.rst:66
-msgid ""
-"Clicking on **File → Save** will also work if you are saving a new file "
-"the first time"
-msgstr ""
-
-#: ../../trainings/t3_r_setup/installing_r_packages.rst:68
-msgid "You can now run the new script by either:"
-msgstr ""
-
-#: ../../trainings/t3_r_setup/installing_r_packages.rst:70
-msgid ""
-"Clicking on the ``Source`` button (on the top right of the ``Source`` "
-"panel in RStudio)"
-msgstr ""
-
-#: ../../trainings/t3_r_setup/installing_r_packages.rst:71
-msgid "Typing ``Ctrl+Shift+S`` or ``Ctrl+Shift+Enter``."
-msgstr ""
-
-#: ../../trainings/t3_r_setup/installing_r_packages.rst:73
-msgid ""
-"Some infomration about the versions of you packages, and other "
-"infomration, may print to your ``Console`` window (or report errors if "
-"they occur... eeek!)"
-msgstr ""
+"Presionando ``Ctrl+Shift+N`` en tu teclado (**NOTA: los atajos de teclado pueden diferir!**)"
 
 #: ../../trainings/t3_r_setup/installing_r_packages.rst:78
 msgid "pacman"
-msgstr ""
+msgstr "pacman"
 
 #: ../../trainings/t3_r_setup/installing_r_packages.rst:81
 msgid "Installing and loading packages"
-msgstr ""
+msgstr "Instalación y carga de paquetes"
 
 #: ../../trainings/t3_r_setup/installing_r_packages.rst:83
 msgid ""
@@ -165,6 +136,11 @@ msgid ""
 "previously installed) and loading required packages, in a more concise "
 "format."
 msgstr ""
+"Un paquete de *R* particularmente útil que ayuda a agilizar la instalación de paquetes "
+"disponibles en los repositorios de CRAN es **pacman**. Siguiendo la mejor práctica convencional "
+"de instalar y cargar todos los paquetes requeridos en la parte superior de cada script de *R*, "
+"**pacman** puede simplificar el proceso instalando (si aún no está instalado) y cargando los "
+"paquetes requeridos de manera más concisa."
 
 #: ../../trainings/t3_r_setup/installing_r_packages.rst:85
 msgid ""
@@ -174,11 +150,7 @@ msgid ""
 "installed) and load the desired packages. Type (or copy/paste) the "
 "following into the new file:"
 msgstr ""
-
-#: ../../trainings/t3_r_setup/installing_r_packages.rst:92
-msgid ""
-"You can now run your script using the methods shown above (e.g., typing "
-"``Ctrl+Shift+S``, ``Ctrl+Shift+Enter``, or clicking on the ``Source`` "
-"button)."
-msgstr ""
-
+"Primero, crea un nuevo script de *R* como hicimos anteriormente y guárdalo en el disco. "
+"Necesitaremos instalar primero **pacman**; después podemos usar la función ``pacman::p_load()`` "
+"para instalar (si aún no está instalado) y cargar los paquetes deseados. Escribe (o copia/pega) "
+"lo siguiente en el nuevo archivo:"

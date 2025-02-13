@@ -22,25 +22,28 @@ msgstr ""
 
 #: ../../trainings/t3_r_setup/installing_r.rst:2
 msgid "Installing *R*"
-msgstr ""
+msgstr "Instalación de *R*"
 
 #: ../../trainings/t3_r_setup/installing_r.rst:4
 msgid "Installing *R* on your machine is straightforward. Follow these steps:"
-msgstr ""
+msgstr "Instalar *R* en tu computadora es un proceso sencillo. Sigue estos pasos:"
 
 #: ../../trainings/t3_r_setup/installing_r.rst:6
 msgid ""
 "Go to the `CRAN <http://cran.r-project.org>`_ (Comprehensive *R* Archive "
 "Network) *R* website. If you type \"r\" into Google it is the first entry"
 msgstr ""
+"Visita el sitio web de `CRAN <http://cran.r-project.org>`_ (Comprehensive *R* Archive "
+"Network). Si escribes \"r\" en Google, será el primer resultado."
 
 #: ../../trainings/t3_r_setup/installing_r.rst:8
 msgid "Follow the instructions for your operating system:"
-msgstr ""
+msgstr "Sigue las instrucciones para tu sistema operativo:"
 
 #: ../../trainings/t3_r_setup/installing_r.rst:20
 msgid ""
 "If you already have *R* installed, please ensure it has been updated "
 "recently."
 msgstr ""
+"Si ya tienes *R* instalado, asegúrate de que esté actualizado recientemente."
 

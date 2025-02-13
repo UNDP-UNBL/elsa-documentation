@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../trainings/t3_r_setup/using_rstudio.rst:2
 msgid "Using *RStudio*: A (very) brief guide!"
-msgstr ""
+msgstr "Usando *RStudio*: ¡Una guía (muy) breve!"
 
 #: ../../trainings/t3_r_setup/using_rstudio.rst:4
 msgid ""
@@ -33,10 +33,15 @@ msgid ""
 "in your *Menu* of installed programs (in Windows this would be your "
 "*Start Menu*)."
 msgstr ""
+"Ahora que tienes tanto *R* como *RStudio* instalados en tu computadora, "
+"puedes comenzar a usar e interactuar con *R* abriendo el programa *RStudio*. "
+"Abre *RStudio* como lo harías con cualquier otro programa, haciendo clic en su ícono "
+"(si creaste un acceso directo en el escritorio) o buscando “RStudio” en el *Menú* "
+"de programas instalados (en Windows, esto sería el *Menú de Inicio*)."
 
 #: ../../trainings/t3_r_setup/using_rstudio.rst:7
 msgid "Layout"
-msgstr ""
+msgstr "Disposición"
 
 #: ../../trainings/t3_r_setup/using_rstudio.rst:9
 msgid ""
@@ -45,22 +50,26 @@ msgid ""
 "Windows, **RStudio/Preference** on MacOS, and **Tools → Global Options** "
 "on Linux (Linux Mint)), but the default shows:"
 msgstr ""
+"*RStudio* tiene cuatro paneles principales, cada uno en un cuadrante de tu pantalla. "
+"Puedes configurar qué aparece en cada panel (a través del menú **Herramientas → Opciones** en "
+"Windows, **RStudio/Preferencias** en MacOS, y **Herramientas → Opciones globales** en Linux (Linux Mint)), "
+"pero la configuración predeterminada muestra:"
 
 #: ../../trainings/t3_r_setup/using_rstudio.rst:11
 msgid "``Console`` (bottom left)"
-msgstr ""
+msgstr "``Consola`` (abajo a la izquierda)"
 
 #: ../../trainings/t3_r_setup/using_rstudio.rst:12
 msgid "``Source`` editor (top left)"
-msgstr ""
+msgstr "Editor de ``Código fuente`` (arriba a la izquierda)"
 
 #: ../../trainings/t3_r_setup/using_rstudio.rst:13
 msgid "Environment, History, Connections, etc. (top right), and"
-msgstr ""
+msgstr "Entorno, Historial, Conexiones, etc. (arriba a la derecha), y"
 
 #: ../../trainings/t3_r_setup/using_rstudio.rst:14
 msgid "Plots, Files, Packages, Help, Viewer, etc. (bottom right)."
-msgstr ""
+msgstr "Gráficos, Archivos, Paquetes, Ayuda, Visor, etc. (abajo a la derecha)."
 
 #: ../../trainings/t3_r_setup/using_rstudio.rst:21
 msgid ""
@@ -68,10 +77,13 @@ msgid ""
 " minimize/maximize buttons - you can also see if a pane is collapsed (and"
 " not visible) in this way."
 msgstr ""
+"Cada panel se puede minimizar o maximizar dentro de su columna haciendo clic en "
+"los botones de minimizar/maximizar. También puedes ver si un panel está colapsado "
+"(y no es visible) de esta manera."
 
 #: ../../trainings/t3_r_setup/using_rstudio.rst:24
 msgid "Customising the Layout"
-msgstr ""
+msgstr "Personalización de la Disposición"
 
 #: ../../trainings/t3_r_setup/using_rstudio.rst:26
 msgid ""
@@ -79,26 +91,28 @@ msgid ""
 "something you prefer by modifying these setting within **Tools → Global "
 "Options → Pane Layout** (Linux Mint)."
 msgstr ""
+"Puedes cambiar la disposición de los paneles y su organización a algo que prefieras "
+"modificando esta configuración en **Herramientas → Opciones globales → Disposición de paneles** (Linux Mint)."
 
 #: ../../trainings/t3_r_setup/using_rstudio.rst:33
 msgid ""
 "Does the default Light theme *RStudio* burn your retinas? You can also "
 "change the:"
 msgstr ""
+"¿El tema claro predeterminado de *RStudio* te quema la vista? También puedes cambiar:"
 
 #: ../../trainings/t3_r_setup/using_rstudio.rst:35
 msgid "RStudio theme"
-msgstr ""
+msgstr "El tema de RStudio"
 
 #: ../../trainings/t3_r_setup/using_rstudio.rst:36
 msgid "Editor font and size, and"
-msgstr ""
+msgstr "La fuente y el tamaño del editor, y"
 
 #: ../../trainings/t3_r_setup/using_rstudio.rst:37
 msgid "Editor theme"
-msgstr ""
+msgstr "El tema del editor"
 
 #: ../../trainings/t3_r_setup/using_rstudio.rst:39
 msgid "in **Tools → Global Options → Appearance**."
-msgstr ""
-
+msgstr "en **Herramientas → Opciones globales → Apariencia**."

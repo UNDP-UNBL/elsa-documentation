@@ -22,5 +22,5 @@ msgstr ""
 
 #: ../../trainings/index.rst:2
 msgid "Trainings"
-msgstr ""
+msgstr "Capacitaciones"
 

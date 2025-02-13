@@ -22,19 +22,19 @@ msgstr ""
 
 #: ../../trainings/t3_r_setup/operating_systems/mac_os.rst:2
 msgid "MacOS users"
-msgstr ""
+msgstr "Usuarios de MacOS"
 
 #: ../../trainings/t3_r_setup/operating_systems/mac_os.rst:4
 msgid "Click on `Download R for macOS <https://cran.r-project.org/bin/macosx/>`_."
-msgstr ""
+msgstr "Haz clic en `Descargar R para macOS <https://cran.r-project.org/bin/macosx/>`_."
 
 #: ../../trainings/t3_r_setup/operating_systems/mac_os.rst:6
 msgid "Choose the version relevant to your operating system."
-msgstr ""
+msgstr "Elige la versión adecuada para tu sistema operativo."
 
 #: ../../trainings/t3_r_setup/operating_systems/mac_os.rst:8
 msgid "image1"
-msgstr ""
+msgstr "imagen1"
 
 #: ../../trainings/t3_r_setup/operating_systems/mac_os.rst:16
 msgid ""
@@ -42,6 +42,9 @@ msgid ""
 " Arm version `R-4.4.2-arm64.pkg <https://cran.r-project.org/bin/macosx"
 "/big-sur-arm64/base/R-4.4.2-arm64.pkg>`_;"
 msgstr ""
+"Si tienes una Mac con los nuevos chips M1, M2, etc., necesitarás descargar la "
+"versión Arm `R-4.4.2-arm64.pkg <https://cran.r-project.org/bin/macosx"
+"/big-sur-arm64/base/R-4.4.2-arm64.pkg>`_;"
 
 #: ../../trainings/t3_r_setup/operating_systems/mac_os.rst:17
 msgid ""
@@ -49,6 +52,9 @@ msgid ""
 "`R-4.4.2-x86_64.pkg <https://cran.r-project.org/bin/macosx/big-"
 "sur-x86_64/base/R-4.4.2-x86_64.pkg>`_ version."
 msgstr ""
+"si tienes una Mac Intel más antigua, necesitarás descargar la versión "
+"`R-4.4.2-x86_64.pkg <https://cran.r-project.org/bin/macosx/big-"
+"sur-x86_64/base/R-4.4.2-x86_64.pkg>`_."
 
 #: ../../trainings/t3_r_setup/operating_systems/mac_os.rst:20
 msgid ""
@@ -57,4 +63,7 @@ msgid ""
 "defaults will be suitable for most users. If your computer requires a "
 "password before installing new programs, you will need it here."
 msgstr ""
-
+"Se descargará un instalador que te guiará a través del proceso de instalación. "
+"El instalador te permitirá personalizar la instalación, pero la configuración "
+"predeterminada será adecuada para la mayoría de los usuarios. Si tu computadora "
+"requiere una contraseña antes de instalar nuevos programas, la necesitarás aquí."

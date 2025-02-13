@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../trainings/t3_r_setup/index.rst:2
 msgid "Training 3: *R* and *RStudio* Setup"
-msgstr ""
+msgstr "Capacitación 3: Configuración de *R* y *RStudio*"
 
 #: ../../trainings/t3_r_setup/index.rst:4
 msgid ""
@@ -41,6 +41,19 @@ msgid ""
 "language. It also allows for pre- and post-processing of your data, all "
 "in *R*."
 msgstr ""
+"La mayoría de las herramientas de software para la planificación de la conservación "
+"(e.g., `Marxan <https://marxansolutions.org/>`_ o `Zonation "
+"<https://zonationteam.github.io/Zonation5/>`_) no requieren habilidades específicas "
+"de programación y solo requieren capacidades básicas en GIS para extraer y preparar "
+"correctamente los datos de entrada. Sin embargo, `prioritizr "
+"<https://prioritizr.net/>`_, la herramienta que funciona detrás de escena en ELSA "
+"(que utilizaremos hoy), está escrita en *R*, por lo que tener un conocimiento básico "
+"del lenguaje de programación *R* ayudará tanto en la resolución de problemas a "
+"pequeña escala como en la comprensión del funcionamiento interno de las herramientas "
+"de ELSA. Además, comprender cómo opera *R* (o cualquier otro lenguaje de programación "
+"con el que trabajes) permite crear flujos de trabajo rápidos y reproducibles aprovechando "
+"las ventajas del lenguaje. También facilita el preprocesamiento y posprocesamiento de tus "
+"datos, todo dentro de *R*."
 
 #: ../../trainings/t3_r_setup/index.rst:6
 msgid ""
@@ -49,6 +62,9 @@ msgid ""
 "libraries), such as *RStudio*, that either are requirements for using "
 "*prioritizr* or will simply make our lives a little bit easier."
 msgstr ""
+"El primer paso para todo esto (por supuesto) es instalar *R*. También instalaremos "
+"varios otros programas de software útiles y necesarios (o bibliotecas), como *RStudio*, "
+"que son requisitos para usar *prioritizr* o simplemente harán nuestra vida un poco más fácil."
 
 #: ../../trainings/t3_r_setup/index.rst:10
 msgid ""
@@ -57,4 +73,8 @@ msgid ""
 "updated regularly and on the latest version. Some of the material "
 "provided here might throw errors if old software versions are used."
 msgstr ""
+"Incluso si ya tienes *R*, *RStudio* y algunos de los paquetes necesarios instalados, "
+"recomendamos asegurarnos de que todos estén actualizados regularmente y en la última versión. "
+"Parte del material proporcionado aquí podría generar errores si se utilizan versiones antiguas "
+"del software."
 

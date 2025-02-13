@@ -22,9 +22,8 @@ msgstr ""
 
 #: ../../trainings/t1_scp/index.rst:2
 msgid "Training 1: Systematic Conservation Planning"
-msgstr ""
+msgstr "Capacitación 1: Planificación Sistemática de la Conservación"
 
 #: ../../trainings/t1_scp/index.rst:4
 msgid "TBD"
-msgstr ""
-
+msgstr "Por definir"

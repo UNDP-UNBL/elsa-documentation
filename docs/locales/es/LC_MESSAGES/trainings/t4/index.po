@@ -22,5 +22,6 @@ msgstr ""
 
 #: ../../trainings/t4/index.rst:2
 msgid "Training 4: Spatial data used: structure, selection and processing"
-msgstr ""
+msgstr "Capacitación 4: Datos espaciales utilizados: estructura, selección y procesamiento"
+
 
