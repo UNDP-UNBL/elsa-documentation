@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:2
 msgid "R Projects"
-msgstr ""
+msgstr "Proyectos de R"
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:5
 msgid "Why Use R Projects?"
-msgstr ""
+msgstr "¿Por qué usar proyectos de R?"
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:6
 msgid ""
@@ -34,100 +34,111 @@ msgid ""
 "help manage file paths, working directories, and dependencies, ensuring "
 "that code runs consistently. Benefits include:"
 msgstr ""
+"Los proyectos de *R* proporcionan una forma estructurada de organizar tu trabajo en *R*. "
+"Ayudan a gestionar rutas de archivos, directorios de trabajo y dependencias, asegurando "
+"que el código se ejecute de manera consistente. Sus beneficios incluyen:"
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:9
 msgid ""
 "**Self-contained workflows**: Keeps all scripts, data, and outputs in one"
 " directory."
 msgstr ""
+"**Flujos de trabajo autónomos**: Mantiene todos los scripts, datos y resultados en un solo directorio."
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:10
 msgid ""
 "**Automatic working directory management**: Avoids the need to use "
 "``setwd()``, ensuring that paths remain consistent."
 msgstr ""
+"**Gestión automática del directorio de trabajo**: Evita la necesidad de usar ``setwd()``, asegurando "
+"que las rutas sean consistentes."
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:12
 msgid "**Version control integration**: Works seamlessly with Git and GitHub."
-msgstr ""
+msgstr "**Integración con control de versiones**: Funciona sin problemas con Git y GitHub."
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:13
 msgid ""
 "**Easier collaboration**: Facilitates sharing and replicability of "
 "projects."
 msgstr ""
+"**Colaboración más sencilla**: Facilita el intercambio y la replicabilidad de los proyectos."
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:16
 msgid "Setting Up an R Project"
-msgstr ""
+msgstr "Configuración de un proyecto de R"
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:19
 msgid "Creating a New R Project"
-msgstr ""
+msgstr "Creando un nuevo proyecto de R"
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:20
 msgid "To create a new R Project in **RStudio**:"
-msgstr ""
+msgstr "Para crear un nuevo proyecto de R en **RStudio**:"
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:22
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:35
 msgid "Open **RStudio**."
-msgstr ""
+msgstr "Abre **RStudio**."
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:23
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:36
 msgid "Go to **File → New Project...**."
-msgstr ""
+msgstr "Ve a **Archivo → Nuevo Proyecto...**."
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:24
 msgid "Choose **New Directory**."
-msgstr ""
+msgstr "Selecciona **Nuevo Directorio**."
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:25
 msgid ""
 "Select **Empty Project** (you can also use project templates, but ww will"
 " not go into tha there)."
 msgstr ""
+"Selecciona **Proyecto Vacío** (también puedes usar plantillas de proyectos, pero no entraremos en detalle aquí)."
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:26
 msgid "Choose a directory name and location."
-msgstr ""
+msgstr "Elige un nombre y una ubicación para el directorio."
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:27
 msgid "Click **Create Project**."
-msgstr ""
+msgstr "Haz clic en **Crear Proyecto**."
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:29
 msgid ""
 "RStudio will now open the new project with a ``*.Rproj`` file, managing "
 "paths automatically."
 msgstr ""
+"RStudio abrirá ahora el nuevo proyecto con un archivo ``*.Rproj``, gestionando "
+"automáticamente las rutas de los archivos."
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:32
 msgid "Using an Existing Directory as an R Project"
-msgstr ""
+msgstr "Usar un directorio existente como un proyecto de R"
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:33
 msgid "To convert an existing directory into an R Project:"
-msgstr ""
+msgstr "Para convertir un directorio existente en un proyecto de R:"
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:37
 msgid "Choose **Existing Directory**."
-msgstr ""
+msgstr "Selecciona **Directorio Existente**."
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:38
 msgid "Browse to the directory and click **Create Project**."
-msgstr ""
+msgstr "Busca el directorio y haz clic en **Crear Proyecto**."
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:40
 msgid ""
 "RStudio will create a ``*.Rproj`` file inside the folder, enabling "
 "project-based workflows."
 msgstr ""
+"RStudio creará un archivo ``*.Rproj`` dentro de la carpeta, habilitando flujos de trabajo basados en proyectos."
 
 #: ../../trainings/t3_r_setup/creating_r_projects.rst:42
 msgid ""
 "Now, whenever you open the ``*.Rproj`` file, RStudio will set the working"
 " directory correctly."
 msgstr ""
-
+"Ahora, cada vez que abras el archivo ``*.Rproj``, RStudio configurará correctamente el directorio de trabajo."

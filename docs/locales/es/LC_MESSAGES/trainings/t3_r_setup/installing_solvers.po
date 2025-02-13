@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../trainings/t3_r_setup/installing_solvers.rst:2
 msgid "Installing Solvers"
-msgstr ""
+msgstr "Instalación de Solvers"
 
 #: ../../trainings/t3_r_setup/installing_solvers.rst:6
 msgid ""
@@ -31,6 +31,10 @@ msgid ""
 "familiarising yourself with the text below, in particular if you intend "
 "to use the ELSA tools locally without a Gurobi license."
 msgstr ""
+"Esta sección no es lectura obligatoria para los talleres de Protecting Nature, "
+"ya que utilizaremos nuestra licencia de pago del solver Gurobi. Sin embargo, "
+"vale la pena familiarizarse con la información a continuación, especialmente si "
+"planeas usar las herramientas de ELSA de manera local sin una licencia de Gurobi."
 
 #: ../../trainings/t3_r_setup/installing_solvers.rst:9
 msgid ""
@@ -44,6 +48,13 @@ msgid ""
 "*prioritizr* have written a helpful `article "
 "<https://prioritizr.net/articles/solver_benchmarks.html>`_ ."
 msgstr ""
+"Resolver problemas de conservación con *prioritizr* también requiere tener "
+"un solver instalado en tu computadora. Los solvers utilizan algoritmos de optimización "
+"matemática para encontrar la mejor solución a un problema. Existen muchos solvers "
+"disponibles que varían en eficiencia y costo. Los mejores solvers son de pago y suelen "
+"ser costosos, pero también existen buenas opciones gratuitas. Para más información sobre "
+"comparaciones y rendimiento de solvers, los desarrolladores de *prioritizr* han escrito "
+"un útil `artículo <https://prioritizr.net/articles/solver_benchmarks.html>`_."
 
 #: ../../trainings/t3_r_setup/installing_solvers.rst:13
 msgid ""
@@ -56,12 +67,20 @@ msgid ""
 " *prioritizr* website. We recommend using this solver if you have access "
 "to it."
 msgstr ""
+"Si estás afiliado a una institución académica, podrías acceder a una "
+"licencia académica gratuita de Gurobi, uno de los solvers más avanzados "
+"disponibles. Aunque aquí no explicaremos paso a paso cómo instalar Gurobi, "
+"hay muchos recursos disponibles para su instalación, como `la guía de instalación "
+"<https://prioritizr.net/articles/gurobi_installation_guide.html>`_ en la página "
+"de *prioritizr*. Recomendamos usar este solver si tienes acceso a él."
 
 #: ../../trainings/t3_r_setup/installing_solvers.rst:15
 msgid ""
 "For the Protecting Nature workshops please go the specific workshop "
 "directions for :ref:`using_gurobi` as part of :ref:`training_5`."
 msgstr ""
+"Para los talleres de Protecting Nature, consulta las instrucciones específicas "
+"del taller en :ref:`using_gurobi` dentro de :ref:`training_5`."
 
 #: ../../trainings/t3_r_setup/installing_solvers.rst:17
 msgid ""
@@ -69,6 +88,8 @@ msgid ""
 "are supported by *prioritizr* and are easily installed, such as the "
 "SYMPHONY solver, which can be installed using."
 msgstr ""
+"En general, recomendamos usar uno de los solvers gratuitos compatibles con *prioritizr*, "
+"que además son fáciles de instalar, como el solver SYMPHONY."
 
 #: ../../trainings/t3_r_setup/installing_solvers.rst:19
 msgid ""
@@ -76,16 +97,22 @@ msgid ""
 "website for more details: "
 "https://www.bioconductor.org/packages/release/bioc/html/lpsymphony.html."
 msgstr ""
+"Si eres usuario de Windows, *lpsymphony* podría funcionar mejor. Consulta su "
+"sitio web para más detalles: "
+"https://www.bioconductor.org/packages/release/bioc/html/lpsymphony.html."
 
 #: ../../trainings/t3_r_setup/installing_solvers.rst:26
 msgid ""
 "If you are a Mac/Linux user, rcbc might work better. Check their README "
 "for more details https://github.com/dirkschumacher/rcbc."
 msgstr ""
+"Si eres usuario de Mac/Linux, *rcbc* podría ser una mejor opción. Consulta su README "
+"para más detalles: https://github.com/dirkschumacher/rcbc."
 
 #: ../../trainings/t3_r_setup/installing_solvers.rst:33
 msgid ""
 "Alternatively, if the installation fails for some reason, on your "
 "machine, try installing the HiGHS solver."
 msgstr ""
-
+"Alternativamente, si la instalación falla por alguna razón en tu computadora, "
+"intenta instalar el solver HiGHS."

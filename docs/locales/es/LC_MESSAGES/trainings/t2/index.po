@@ -24,9 +24,8 @@ msgstr ""
 msgid ""
 "Training 2: Using the online webtool to co-create the Spatial "
 "Prioritization Map"
-msgstr ""
+msgstr "Capacitación 2: Uso de la herramienta web en línea para co-crear el Mapa de Priorización Espacial"
 
 #: ../../trainings/t2/index.rst:4
 msgid "TBD"
-msgstr ""
-
+msgstr "Por definir"

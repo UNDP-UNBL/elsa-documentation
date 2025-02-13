@@ -31,7 +31,7 @@ if (themeFlyoutDisplay === "attached") {
     }
     const versionsHTML = `
       <dl>
-        <dt>Versions</dt>
+        <dt>Versiones</dt>
         ${config.versions.active
           .map(
             (version) => `
@@ -58,7 +58,7 @@ if (themeFlyoutDisplay === "attached") {
 
     const downloadsHTML = `
       <dl>
-        <dt>Downloads</dt>
+        <dt>Descargas</dt>
         ${Object.entries(config.versions.current.downloads)
           .map(
             ([name, url]) => `
@@ -89,27 +89,27 @@ if (themeFlyoutDisplay === "attached") {
             ${renderVersions(config)}
             ${renderDownloads(config)}
             <dl>
-              <dt>On Read the Docs</dt>
+              <dt>En Read the Docs</dt>
               <dd>
-                <a href="${config.projects.current.urls.home}">Project Home</a>
+                <a href="${config.projects.current.urls.home}">Página de Proyecto</a>
               </dd>
               <dd>
-                <a href="${config.projects.current.urls.builds}">Builds</a>
+                <a href="${config.projects.current.urls.builds}">Compilaciones</a>
               </dd>
               <dd>
-                <a href="${config.projects.current.urls.downloads}">Downloads</a>
+                <a href="${config.projects.current.urls.downloads}">Descargas</a>
               </dd>
             </dl>
             <dl>
-              <dt>Search</dt>
+              <dt>Búsqueda</dt>
               <dd>
                 <form id="flyout-search-form">
                   <input
                     class="wy-form"
                     type="text"
                     name="q"
-                    aria-label="Search docs"
-                    placeholder="Search docs"
+                    aria-label="Buscar documentos"
+                    placeholder="Buscar documentos"
                     />
                 </form>
               </dd>
