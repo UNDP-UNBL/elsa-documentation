@@ -8,7 +8,7 @@ Bienvenido | Welcome | Добро пожаловать | مرحبًا | Bienvenu
 
    This project and tool documentation is under active development - please bear with us!
    
-   Check out the :doc:`about-elsa` section for further information.
+   Check out the :doc:`about` section for further information.
 
 
 Contents

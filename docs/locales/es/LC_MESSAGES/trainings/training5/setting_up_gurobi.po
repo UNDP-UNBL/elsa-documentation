@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../trainings/t5_running_spatial_prioritisations/using_gurobi.rst:4
 msgid "Setting up Gurobi"
-msgstr ""
+msgstr "Configuración de Gurobi"
 
 #: ../../trainings/t5_running_spatial_prioritisations/using_gurobi.rst:7
 msgid ""
@@ -30,30 +30,35 @@ msgid ""
 "solver for our workshop usage. Note that use is only for workshop use via"
 " use a temporary API key."
 msgstr ""
+"Tenemos la suerte de poder proporcionarte acceso al solucionador Gurobi "
+"para su uso en nuestro taller. Ten en cuenta que el uso está limitado al "
+"taller mediante una clave de API temporal."
 
 #: ../../trainings/t5_running_spatial_prioritisations/using_gurobi.rst:9
 msgid "have a paid subscription to use the Gurobi solver."
-msgstr ""
+msgstr "Se requiere una suscripción de pago para utilizar el solucionador Gurobi."
 
 #: ../../trainings/t5_running_spatial_prioritisations/using_gurobi.rst:11
 msgid "TO DO:"
-msgstr ""
+msgstr "POR HACER:"
 
 #: ../../trainings/t5_running_spatial_prioritisations/using_gurobi.rst:13
 msgid "Download correct version of Gurobi_installation_guide"
-msgstr ""
+msgstr "Descargar la versión correcta de Gurobi_installation_guide"
 
 #: ../../trainings/t5_running_spatial_prioritisations/using_gurobi.rst:15
 msgid "we'll provide"
-msgstr ""
+msgstr "Nosotros lo proporcionaremos"
 
 #: ../../trainings/t5_running_spatial_prioritisations/using_gurobi.rst:17
 msgid "gurobi install in r (correct file path needed)"
-msgstr ""
+msgstr "Instalar Gurobi en R (se necesita la ruta de archivo correcta)"
 
 #: ../../trainings/t5_running_spatial_prioritisations/using_gurobi.rst:18
 msgid ""
 "needs to provide cloud use gurobi.env file (create on day of - destroy "
 "right after)"
 msgstr ""
+"Se necesita proporcionar el archivo gurobi.env para su uso en la nube "
+"(crearlo el día del taller y eliminarlo inmediatamente después)."
 

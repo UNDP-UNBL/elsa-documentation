@@ -22,19 +22,20 @@ msgstr ""
 
 #: ../../trainings/t5_running_spatial_prioritisations/installing_required_packages.rst:2
 msgid "Setting up to run ELSA Locally"
-msgstr ""
+msgstr "Configuración para ejecutar ELSA localmente"
 
 #: ../../trainings/t5_running_spatial_prioritisations/installing_required_packages.rst:4
 msgid ""
 "For the Prioritizing Nature project training series you will need to "
 "install the following R packages:"
 msgstr ""
+"Para la serie de capacitaciones del proyecto Prioritizing Nature, "
+"necesitarás instalar los siguientes paquetes de R:"
 
 #: ../../trainings/t5_running_spatial_prioritisations/installing_required_packages.rst:12
 msgid "Scott to add here the rest"
-msgstr ""
+msgstr "Scott agregará aquí el resto"
 
 #: ../../trainings/t5_running_spatial_prioritisations/installing_required_packages.rst:14
 msgid "Install and use R packages for the Prioritizing Nature project"
-msgstr ""
-
+msgstr "Instalar y usar paquetes de R para el proyecto Prioritizing Nature"

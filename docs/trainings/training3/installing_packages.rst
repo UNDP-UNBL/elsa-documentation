@@ -43,7 +43,7 @@ To load a package that we already have correctly installed, we can use the base 
     library()
 
 
-This function can be used in the console as well; however, typically we will want to load istalled packages within a script we are developing, that will be saved (as a ``.R`` file) for later use. By convention, best practice is to install and load all necessary packages to run each script at the top of the *R* script, one package per line (although, see the :ref:`pacman` section below). First, within your open *RStudio* session, we need to create a new R Script, either by:
+This function can be used in the console as well; however, typically we will want to load installed packages within a script we are developing, that will be saved (as a ``.R`` file) for later use. By convention, best practice is to install and load all necessary packages to run each script at the top of the *R* script, one package per line (although, see the :ref:`pacman` section below). First, within your open *RStudio* session, we need to create a new R Script, either by:
 
 -   Clicking on **File →  New File → R Script** or
 -   Typing ``Ctrl+Shift+N`` on your keyboard (**NOTE: your keyboard shortcuts may differ!**)
@@ -70,7 +70,7 @@ You can now run the new script by either:
 -   Clicking on the ``Source`` button (on the top right of the ``Source`` panel in RStudio)
 -   Typing ``Ctrl+Shift+S`` or ``Ctrl+Shift+Enter``.
 
-Some infomration about the versions of you packages, and other infomration, may print to your ``Console`` window (or report errors if they occur... eeek!)
+Some information about the versions of you packages, and other information, may print to your ``Console`` window (or report errors if they occur... eeek!)
 
 .. _pacman:
 
