@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ELSA Online Documentation \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-13 17:13+1000\n"
+"POT-Creation-Date: 2025-02-13 18:05+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -22,8 +22,8 @@ msgstr ""
 
 #: ../../trainings/t2/index.rst:2
 msgid ""
-"Capacitación 2: Uso de la herramienta web en línea para co-crear el"
-"Mapa de Priorización Espacial"
+"Training 2: Using the online webtool to co-create the Spatial "
+"Prioritization Map"
 msgstr ""
 
 #: ../../trainings/t2/index.rst:4

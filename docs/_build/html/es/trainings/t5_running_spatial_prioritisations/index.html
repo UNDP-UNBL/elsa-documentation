@@ -1,0 +1,187 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="es" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Training 5: Running Spatial Prioritisations &mdash; documentación de ELSA Online Documentation - </title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=d75fae25" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=e2bb6099"></script>
+      <script src="../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../../_static/copybutton.js?v=f281be69"></script>
+      <script src="../../_static/translations.js?v=f85f4cfb"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Índice" href="../../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../../search.html" />
+    <link rel="next" title="Setting up to run ELSA Locally" href="installing_required_packages.html" />
+    <link rel="prev" title="Training 4: Spatial data used: structure, selection and processing" href="../t4/index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            ELSA Online Documentation
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar documentos" aria-label="Buscar documentos" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Inicio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about-elsa.html">Acerca de las Áreas Esenciales de Soporte de Vida (ELSA)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Trainings</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../t1_scp/index.html">Training 1: Systematic Conservation Planning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../t2/index.html">Training 2: Using the online webtool to co-create the Spatial Prioritization Map</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../t3_r_setup/index.html">Training 3: <em>R</em> and <em>RStudio</em> Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../t4/index.html">Training 4: Spatial data used: structure, selection and processing</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Training 5: Running Spatial Prioritisations</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#rshiny">Rshiny</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#elsa-code-repositories-git">ELSA Code Repositories (Git)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gis-data-downloads">GIS Data Downloads</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#setting-it-all-up">Setting it all up</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="installing_required_packages.html">Setting up to run ELSA Locally</a></li>
+<li class="toctree-l4"><a class="reference internal" href="using_gurobi.html">Setting up Gurobi</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../prioritizr_advanced/index.html">prioritizr (Advanced)</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ELSA Online Documentation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Trainings</a></li>
+      <li class="breadcrumb-item active">Training 5: Running Spatial Prioritisations</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/trainings/t5_running_spatial_prioritisations/index.rst.txt" rel="nofollow"> Ver código fuente de la página</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="training-5-running-spatial-prioritisations">
+<span id="training-5"></span><h1>Training 5: Running Spatial Prioritisations<a class="headerlink" href="#training-5-running-spatial-prioritisations" title="Link to this heading"></a></h1>
+<p>This module is an online workshop followed by interactive exercises. It will provide training on how to import the spatial data from the Prioritizing Nature Project to the prioritizr, and run the prioritizr analysis in R software to generate the spatial prioritization map.</p>
+<div class="admonition important">
+<p class="admonition-title">Importante</p>
+<p>Participants are expected to have basic knowledge of GIS, R software and language, such as running scripts in R</p>
+</div>
+<section id="rshiny">
+<h2>Rshiny<a class="headerlink" href="#rshiny" title="Link to this heading"></a></h2>
+<p>The  ELSA national tools you may have seen or used on-line are built using <em>RShiny</em>, and those we will be setting up to run locally on your computer during this workshop also use <em>Rshiny</em>. <em>RShiny</em> is an <em>R</em> package that allows users to create interactive web applications directly from <em>R</em> code without the need for specialist web programming skills - meaning that in a nutshell, users can build/run functional web applications by simply opening the application in their web browser (Chrome, Firefox, Safari, etc). Some of the key features of <em>RShiny</em> are:</p>
+<ul class="simple">
+<li><p>It provides a web application framework for <em>R</em>, allowing for interactive app development.</p></li>
+<li><p>Includes reactive programming, allowing for automatically updating of outputs when inputs change.</p></li>
+<li><p>It integrates with other <em>R</em> libraries, working seamlessly with with the <a class="reference external" href="https://www.tidyverse.org/">tidyverse</a> (e.g., <em>ggplot2</em>, <em>dplyr</em>, <em>readr</em>, etc.) <em>leaflet</em>, <em>shinyWidgets</em>, <em>terra</em>, and other <em>R</em> libraries.</p></li>
+<li><p>Apps can be deployed on Web and hosted on <a class="reference external" href="https://www.shinyapps.io/">ShinyApps.io</a>, <a class="reference external" href="https://posit.co/products/enterprise/connect/">RStudio Connect</a>, or on private servers (for example, one of the tools for Peru seen below).</p></li>
+</ul>
+<img alt="../../_images/bezos_tool_per_reduced.png" class="align-center" src="../../_images/bezos_tool_per_reduced.png" />
+<hr class="docutils" />
+<div class="admonition important">
+<p class="admonition-title">Importante</p>
+<p>We run the various national ELSA web tools on private and secure UNICC infrastructure.</p>
+</div>
+</section>
+<section id="elsa-code-repositories-git">
+<h2>ELSA Code Repositories (Git)<a class="headerlink" href="#elsa-code-repositories-git" title="Link to this heading"></a></h2>
+<p>TO DO:</p>
+<ul class="simple">
+<li><p>Git hub repo download - which branch</p></li>
+<li><p>Data and files set up</p></li>
+<li><p>Need to run pre-run.R</p>
+<ul>
+<li><p>Need to set up to run locally and not via CLI</p></li>
+</ul>
+</li>
+</ul>
+<p>Download as zip file</p>
+</section>
+<section id="gis-data-downloads">
+<h2>GIS Data Downloads<a class="headerlink" href="#gis-data-downloads" title="Link to this heading"></a></h2>
+<p>Data stacks for this workshop have been pre-created so that we can focus less on data processing and more on working with and understanding the ELSA outputs.</p>
+<p>Download the data stack for your country of interest below:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="TBD">Peru</a></p></li>
+<li><p><a class="reference external" href="TBD">Ecuador</a></p></li>
+<li><p>Setting up an <em>R</em> project and file structure</p></li>
+</ul>
+</section>
+<section id="setting-it-all-up">
+<h2>Setting it all up<a class="headerlink" href="#setting-it-all-up" title="Link to this heading"></a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="installing_required_packages.html">Setting up to run ELSA Locally</a></li>
+<li class="toctree-l1"><a class="reference internal" href="using_gurobi.html">Setting up Gurobi</a></li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
+        <a href="../t4/index.html" class="btn btn-neutral float-left" title="Training 4: Spatial data used: structure, selection and processing" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="installing_required_packages.html" class="btn btn-neutral float-right" title="Setting up to run ELSA Locally" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Derechos de autor 2025, UN Biodiversity Lab - UNDP.</p>
+  </div>
+
+  Compilado con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

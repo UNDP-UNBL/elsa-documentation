@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ELSA Online Documentation \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-13 17:13+1000\n"
+"POT-Creation-Date: 2025-02-13 18:05+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -22,27 +22,28 @@ msgstr ""
 
 #: ../../index.rst:17
 msgid "Home"
-msgstr ""
+msgstr "Inicio"
 
 #: ../../../README.rst:2
 msgid "ELSA Tool Online Documentation"
-msgstr ""
+msgstr "Documentación en Línea de la Herramienta ELSA"
 
 #: ../../index.rst:5
 msgid "Bienvenido | Welcome | Добро пожаловать | مرحبًا | Bienvenue | 欢迎"
-msgstr ""
+msgstr "Bienvenido | Welcome | Добро пожаловать | مرحبًا | Bienvenue | 欢迎"
 
 #: ../../index.rst:9
 msgid ""
-"Este proyecto y la documentación de la herramienta están en desarrollo activo."
-"¡Gracias por tu paciencia!"
+"This project and tool documentation is under active development - please "
+"bear with us!"
 msgstr ""
+"Este proyecto y su documentación están en desarrollo activo. ¡Gracias por tu paciencia!"
 
 #: ../../index.rst:11
-msgid " Consulta la sección :doc:`about-elsa` para más información."
-msgstr ""
+msgid "Check out the :doc:`about-elsa` section for further information."
+msgstr "Consulta la sección :doc:`about-elsa` para más información."
 
 #: ../../index.rst:15
 msgid "Contents"
-msgstr ""
+msgstr "Contenido"
 
