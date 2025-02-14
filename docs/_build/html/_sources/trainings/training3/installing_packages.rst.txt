@@ -59,10 +59,11 @@ This will open a new (empty) text file in your ``Source`` panel; type (or copy/p
 Before running these lines of code we must save our new script, either by:
 
 -   Clicking on **File → Save As...**
--   ``Ctrl+S``
+-   Typing ``Ctrl+S``
 -   These will open a dialogue window - save your file to location you will remember. It will automatically have the ``.R`` file type appended to it.
 
 .. note:: 
+    
     Clicking on **File → Save** will also work if you are saving a new file the first time 
 
 You can now run the new script by either:

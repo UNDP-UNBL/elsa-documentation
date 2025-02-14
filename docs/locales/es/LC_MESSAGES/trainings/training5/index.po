@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ELSA Online Documentation \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-13 18:05+1000\n"
+"POT-Creation-Date: 2025-02-14 12:12+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -20,11 +20,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: ../../trainings/t5_running_spatial_prioritisations/index.rst:4
+#: ../../trainings/training5/index.rst:3
 msgid "Training 5: Running Spatial Prioritisations"
 msgstr "Capacitación 5: Ejecución de Priorizaciones Espaciales"
 
-#: ../../trainings/t5_running_spatial_prioritisations/index.rst:6
+#: ../../trainings/training5/index.rst:6
 msgid ""
 "This module is an online workshop followed by interactive exercises. It "
 "will provide training on how to import the spatial data from the "
@@ -33,10 +33,10 @@ msgid ""
 msgstr ""
 "Este módulo es un taller en línea seguido de ejercicios interactivos. "
 "Proporcionará capacitación sobre cómo importar los datos espaciales del "
-"Proyecto Prioritizing Nature en prioritizr, y ejecutar el análisis en "
-"R para generar el mapa de priorización espacial."
+"Proyecto Prioritizing Nature en prioritizr, y ejecutar el análisis en R "
+"para generar el mapa de priorización espacial."
 
-#: ../../trainings/t5_running_spatial_prioritisations/index.rst:10
+#: ../../trainings/training5/index.rst:10
 msgid ""
 "Participants are expected to have basic knowledge of GIS, R software and "
 "language, such as running scripts in R"
@@ -44,71 +44,74 @@ msgstr ""
 "Se espera que los participantes tengan conocimientos básicos de SIG, el "
 "software R y su lenguaje, como la ejecución de scripts en R."
 
-#: ../../trainings/t5_running_spatial_prioritisations/index.rst:14
+#: ../../trainings/training5/index.rst:12
 msgid "Rshiny"
 msgstr "RShiny"
 
-#: ../../trainings/t5_running_spatial_prioritisations/index.rst:16
+#: ../../trainings/training5/index.rst:14
 msgid ""
-"The ELSA national tools you may have seen or used on-line are built "
-"using RShiny, and those we will be setting up to run locally on your "
-"computer during this workshop also use Rshiny. RShiny is an R "
+"The  ELSA national tools you may have seen or used on-line are built "
+"using *RShiny*, and those we will be setting up to run locally on your "
+"computer during this workshop also use *Rshiny*. *RShiny* is an *R* "
 "package that allows users to create interactive web applications directly"
-" from R code without the need for specialist web programming skills - "
+" from *R* code without the need for specialist web programming skills - "
 "meaning that in a nutshell, users can build/run functional web "
 "applications by simply opening the application in their web browser "
-"(Chrome, Firefox, Safari, etc). Some of the key features of RShiny are:"
+"(Chrome, Firefox, Safari, etc). Some of the key features of *RShiny* are:"
 msgstr ""
-"Las herramientas nacionales de ELSA que puedes haber visto o utilizado en "
-"línea están construidas con RShiny, y las que configuraremos para "
-"ejecutarlas localmente en tu computadora durante este taller también usan "
-"RShiny. RShiny es un paquete de R que permite a los usuarios crear "
-"aplicaciones web interactivas directamente desde código en R, sin "
+"Las herramientas nacionales de ELSA que puedes haber visto o utilizado en"
+" línea están construidas con *RShiny*, y las que configuraremos para "
+"ejecutarlas localmente en tu computadora durante este taller también usan"
+" *RShiny*. *RShiny* es un paquete de *R* que permite a los usuarios crear"
+" aplicaciones web interactivas directamente desde código en *R*, sin "
 "necesidad de conocimientos especializados en programación web. En "
 "resumen, los usuarios pueden construir y ejecutar aplicaciones web "
 "funcionales simplemente abriendo la aplicación en su navegador web "
 "(Chrome, Firefox, Safari, etc.). Algunas de las características clave de "
-"RShiny son:"
+"*RShiny* son:"
 
-#: ../../trainings/t5_running_spatial_prioritisations/index.rst:18
+#: ../../trainings/training5/index.rst:16
 msgid ""
-"It provides a web application framework for R, allowing for interactive"
+"It provides a web application framework for *R*, allowing for interactive"
 " app development."
 msgstr ""
-"Proporciona un marco de aplicaciones web para R, permitiendo el "
+"Proporciona un marco de aplicaciones web para *R*, permitiendo el "
 "desarrollo de aplicaciones interactivas."
 
-#: ../../trainings/t5_running_spatial_prioritisations/index.rst:19
+#: ../../trainings/training5/index.rst:17
 msgid ""
 "Includes reactive programming, allowing for automatically updating of "
 "outputs when inputs change."
 msgstr ""
-"Incluye programación reactiva, lo que permite la actualización automática "
-"de las salidas cuando cambian las entradas."
+"Incluye programación reactiva, lo que permite la actualización automática"
+" de las salidas cuando cambian las entradas."
 
-#: ../../trainings/t5_running_spatial_prioritisations/index.rst:20
+#: ../../trainings/training5/index.rst:18
 msgid ""
-"It integrates with other R libraries, working seamlessly with with the "
-"tidyverse <https://www.tidyverse.org/>_ (e.g., ggplot2, dplyr, "
-"readr, etc.) leaflet, shinyWidgets, terra, and other R "
+"It integrates with other *R* libraries, working seamlessly with with the "
+"`tidyverse <https://www.tidyverse.org/>`_ (e.g., *ggplot2*, *dplyr*, "
+"*readr*, etc.) *leaflet*, *shinyWidgets*, *terra*, and other *R* "
 "libraries."
 msgstr ""
-"Se integra con otras bibliotecas de R, funcionando sin problemas con "
-"tidyverse <https://www.tidyverse.org/>_ (p. ej., ggplot2, dplyr, "
-"readr, etc.), leaflet, shinyWidgets, terra, y otras bibliotecas "
-"de R."
+"Se integra con otras bibliotecas de *R*, funcionando sin problemas con el"
+" `tidyverse <https://www.tidyverse.org/>`_ (por ejemplo, *ggplot2*, "
+"*dplyr*, *readr*, etc.), *leaflet*, *shinyWidgets*, *terra* y otras "
+"bibliotecas de *R*."
 
-#: ../../trainings/t5_running_spatial_prioritisations/index.rst:21
+#: ../../trainings/training5/index.rst:19
 msgid ""
-"Apps can be deployed on Web and hosted on ShinyApps.io " "<https://www.shinyapps.io/>, RStudio Connect " "<https://posit.co/products/enterprise/connect/>, or on private servers "
+"Apps can be deployed on Web and hosted on `ShinyApps.io "
+"<https://www.shinyapps.io/>`_, `RStudio Connect "
+"<https://posit.co/products/enterprise/connect/>`_, or on private servers "
 "(for example, one of the tools for Peru seen below)."
 msgstr ""
-"Las aplicaciones pueden implementarse en la web y alojarse en "
-"ShinyApps.io <https://www.shinyapps.io/>, RStudio Connect " "<https://posit.co/products/enterprise/connect/>, o en servidores "
-"privados (por ejemplo, una de las herramientas para Perú que se muestra a "
-"continuación)."
+"Las aplicaciones pueden desplegarse en la web y alojarse en `ShinyApps.io"
+" <https://www.shinyapps.io/>`_, `RStudio Connect "
+"<https://posit.co/products/enterprise/connect/>`_ o en servidores "
+"privados (por ejemplo, una de las herramientas para Perú que se muestra a"
+" continuación)."
 
-#: ../../trainings/t5_running_spatial_prioritisations/index.rst:30
+#: ../../trainings/training5/index.rst:28
 msgid ""
 "We run the various national ELSA web tools on private and secure UNICC "
 "infrastructure."
@@ -116,42 +119,64 @@ msgstr ""
 "Ejecutamos las diversas herramientas web nacionales de ELSA en una "
 "infraestructura privada y segura de UNICC."
 
-#: ../../trainings/t5_running_spatial_prioritisations/index.rst:34
+#: ../../trainings/training5/index.rst:31
 msgid "ELSA Code Repositories (Git)"
 msgstr "Repositorios de Código de ELSA (Git)"
 
-#: ../../trainings/t5_running_spatial_prioritisations/index.rst:36
+#: ../../trainings/training5/index.rst:34
 msgid "TO DO:"
 msgstr "POR HACER:"
 
-#: ../../trainings/t5_running_spatial_prioritisations/index.rst:38
+#: ../../trainings/training5/index.rst:36
 msgid "Git hub repo download - which branch"
 msgstr "Descarga del repositorio de GitHub - qué rama"
 
-#: ../../trainings/t5_running_spatial_prioritisations/index.rst:40
+#: ../../trainings/training5/index.rst:38
 msgid "Data and files set up"
 msgstr "Configuración de datos y archivos"
 
-#: ../../trainings/t5_running_spatial_prioritisations/index.rst:41
+#: ../../trainings/training5/index.rst:38
 msgid "Need to run pre-run.R"
 msgstr "Es necesario ejecutar pre-run.R"
 
-#: ../../trainings/t5_running_spatial_prioritisations/index.rst:43
+#: ../../trainings/training5/index.rst:41
 msgid "Need to set up to run locally and not via CLI"
 msgstr "Es necesario configurar para ejecutar localmente y no a través de CLI"
 
-#: ../../trainings/t5_running_spatial_prioritisations/index.rst:45
+#: ../../trainings/training5/index.rst:43
 msgid "Download as zip file"
 msgstr "Descargar como archivo ZIP"
 
-#: ../../trainings/t5_running_spatial_prioritisations/index.rst:49
+#: ../../trainings/training5/index.rst:46
 msgid "GIS Data Downloads"
 msgstr "Descargas de Datos SIG"
 
-#: ../../trainings/t5_running_spatial_prioritisations/index.rst:57
-msgid "Setting up an R project and file structure"
-msgstr "Configuración de un proyecto en R y estructura de archivos"
+#: ../../trainings/training5/index.rst:48
+msgid ""
+"Data stacks for this workshop have been pre-created so that we can focus "
+"less on data processing and more on working with and understanding the "
+"ELSA outputs."
+msgstr ""
+"Los conjuntos de datos para este taller han sido pre-creados para que "
+"podamos enfocarnos menos en el procesamiento de datos y más en trabajar y"
+" comprender los resultados de ELSA."
 
-#: ../../trainings/t5_running_spatial_prioritisations/index.rst:60
+#: ../../trainings/training5/index.rst:50
+msgid "Download the data stack for your country of interest below:"
+msgstr "Descarga el conjunto de datos para tu país de interés a continuación:"
+
+#: ../../trainings/training5/index.rst:52
+msgid "`Peru <TBD>`_"
+msgstr "`Perú <TBD>`_"
+
+#: ../../trainings/training5/index.rst:53
+msgid "`Ecuador <TBD>`_"
+msgstr "`Ecuador <TBD>`_"
+
+#: ../../trainings/training5/index.rst:55
+msgid "Setting up an *R* project and file structure"
+msgstr "Configuración de un proyecto en *R* y estructura de archivos"
+
+#: ../../trainings/training5/index.rst:57
 msgid "Setting it all up"
-msgstr "Configurando todo"
+msgstr "Configurándolo todo"

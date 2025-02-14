@@ -12,7 +12,6 @@ This module is an online workshop followed by interactive exercises. It will pro
 
 Rshiny
 ^^^^^^
-
 The  ELSA national tools you may have seen or used on-line are built using *RShiny*, and those we will be setting up to run locally on your computer during this workshop also use *Rshiny*. *RShiny* is an *R* package that allows users to create interactive web applications directly from *R* code without the need for specialist web programming skills - meaning that in a nutshell, users can build/run functional web applications by simply opening the application in their web browser (Chrome, Firefox, Safari, etc). Some of the key features of *RShiny* are:
 
 -   It provides a web application framework for *R*, allowing for interactive app development.

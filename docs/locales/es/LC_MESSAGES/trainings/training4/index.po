@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ELSA Online Documentation \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-13 18:05+1000\n"
+"POT-Creation-Date: 2025-02-14 12:12+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -20,8 +20,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: ../../trainings/t4/index.rst:2
+#: ../../trainings/training4/index.rst:2
 msgid "Training 4: Spatial data used: structure, selection and processing"
-msgstr "Capacitación 4: Datos espaciales utilizados: estructura, selección y procesamiento"
+msgstr ""
+"Capacitación 4: Datos espaciales utilizados: estructura, selección y "
+"procesamiento"
 
+#~ msgid "TBD"
+#~ msgstr "Por definir"
 
