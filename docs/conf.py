@@ -17,8 +17,8 @@
 # -- Project information -----------------------------------------------------
 
 project = "ELSA Online Documentation"
-copyright = "2025, UN Biodiversity Lab - UNDP"
-author = "ELSA Core Team"
+copyright = "2025, UN Biodiversity Lab"
+author = "ELSA Team"
 
 
 # -- General configuration ---------------------------------------------------
@@ -61,12 +61,15 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # a list of builtin themes.
 #
 html_theme = "sphinx_rtd_theme"
-html_context = {
-    "languages": [
-        ("en", "English"),
-        ("es", "Español"),  # Override "Spanish" with "Español"
-    ]
-}
+html_static_path = ["_static"]
+html_js_files = ["js/custom.js"]
+
+# html_context = {
+#     "languages": [
+#         ("en", "English"),
+#         ("es", "Español"),  # Override "Spanish" with "Español"
+#     ]
+# }
 
 pygments_style = "friendly"
 

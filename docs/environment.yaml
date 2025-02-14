@@ -13,7 +13,6 @@ dependencies:
   - jinja2
   - packaging
   - snowballstemmer
-#  - readthedocs-sphinx-search
   - sphinxcontrib-applehelp
   - sphinxcontrib-devhelp
   - sphinxcontrib-htmlhelp
