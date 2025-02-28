@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, UN Biodiversity Lab
+# This file is distributed under the same license as the ELSA Online
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Online Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-28 18:59+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../trainings/training5/01_rshiny_interface.rst:2
+msgid "RShiny - the Graphical User Interface (GUI)"
+msgstr ""
+
+#: ../../trainings/training5/01_rshiny_interface.rst:4
+msgid ""
+"The  ELSA national tools you may have seen or used on-line are built "
+"using *RShiny*, and those we will be setting up to run locally on your "
+"computer during this workshop also use *Rshiny*. *RShiny* is an *R* "
+"package that allows users to create interactive web applications directly"
+" from *R* code without the need for specialist web programming skills - "
+"meaning that in a nutshell, users can build/run functional web "
+"applications by simply opening the application in their web browser "
+"(Chrome, Firefox, Safari, etc). Some of the key features of *RShiny* are:"
+msgstr ""
+
+#: ../../trainings/training5/01_rshiny_interface.rst:6
+msgid ""
+"It provides a web application framework for *R*, allowing for interactive"
+" app development."
+msgstr ""
+
+#: ../../trainings/training5/01_rshiny_interface.rst:7
+msgid ""
+"Includes reactive programming, allowing for automatically updating of "
+"outputs when inputs change."
+msgstr ""
+
+#: ../../trainings/training5/01_rshiny_interface.rst:8
+msgid ""
+"It integrates with other *R* libraries, working seamlessly with with the "
+"`tidyverse <https://www.tidyverse.org/>`_ (e.g., *ggplot2*, *dplyr*, "
+"*readr*, etc.) *leaflet*, *shinyWidgets*, *terra*, and other *R* "
+"libraries."
+msgstr ""
+
+#: ../../trainings/training5/01_rshiny_interface.rst:9
+msgid ""
+"Apps can be deployed on Web and hosted on `ShinyApps.io "
+"<https://www.shinyapps.io/>`_, `RStudio Connect "
+"<https://posit.co/products/enterprise/connect/>`_, or on private servers "
+"(for example, one of the tools for Peru seen below)."
+msgstr ""
+
+#: ../../trainings/training5/01_rshiny_interface.rst:18
+msgid ""
+"We run the various national *ELSA*, *Prioritizing Nature Webtools*, and "
+"other related web tools on private and secure UNICC infrastructure "
+"running on servers based in `GDPR (General Data Protection Regulation) "
+"<https://gdpr-info.eu/>`_ compliant locales."
+msgstr ""
+

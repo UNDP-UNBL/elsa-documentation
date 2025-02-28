@@ -1,0 +1,216 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="es" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Running the Prioritizing Nature Webtool - Data Setup &mdash; documentación de ELSA Online Documentation - </title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=d75fae25" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=e2bb6099"></script>
+      <script src="../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../../_static/copybutton.js?v=f281be69"></script>
+      <script src="../../_static/translations.js?v=f85f4cfb"></script>
+      <script src="../../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="author" title="Sobre este documento" href="../../about.html" />
+    <link rel="index" title="Índice" href="../../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../../search.html" />
+    <link rel="next" title="Running the Prioritizing Nature Webtool" href="11_running_webtool_p2.html" />
+    <link rel="prev" title="Installing Required R Packages" href="09_installing_required_r_packages.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            ELSA Online Documentation
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar documentos" aria-label="Buscar documentos" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Inicio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about.html">Acerca de las Áreas Esenciales de Soporte de Vida (ELSA)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Capacitaciones</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../training1/index.html">Capacitación 1: Planificación Sistemática de la Conservación</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../training2/index.html">Capacitación 2: Uso de la herramienta web en línea para co-crear el Mapa de Priorización Espacial</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../training3/index.html">Capacitación 3: Configuración de <em>R</em> y <em>RStudio</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../training4/index.html">Capacitación 4: Datos espaciales utilizados: estructura, selección y procesamiento</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Training 5: Running Spatial Prioritisations</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="01_rshiny_interface.html">RShiny - the Graphical User Interface (GUI)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="02_github_repository.html">Code Repositories (git &amp; <em>GitHub</em>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03_exploring_data_structure.html">Exploring the Repository’s Data Structure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="04_create_r_project.html">Create a <em>Prioritizing Nature</em> <em>R</em> Project</a></li>
+<li class="toctree-l3"><a class="reference internal" href="05_installing_gurobi.html">Installing Gurobi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="06_installing_gurobi_r_package.html">Installing the <em>Gurobi R</em> package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="07_getting_gurobi_env.html"><em>Gurobi</em> Cloud Access</a></li>
+<li class="toctree-l3"><a class="reference internal" href="08_checking_gurobi_installation.html">Checking if your <em>Gurobi R</em> Installation was Successful</a></li>
+<li class="toctree-l3"><a class="reference internal" href="09_installing_required_r_packages.html">Installing Required <em>R</em> Packages</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Running the <em>Prioritizing Nature Webtool</em> - Data Setup</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#running-pre-run-r">Running <cite>pre_run.R</cite></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="11_running_webtool_p2.html">Running the <em>Prioritizing Nature Webtool</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="12_exploring_webtool.html">Exploring the <em>Prioritizing Nature Webtool</em></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../prioritizr_advanced/index.html">prioritizr (Advanced)</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ELSA Online Documentation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Capacitaciones</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Training 5: Running Spatial Prioritisations</a></li>
+      <li class="breadcrumb-item active">Running the <em>Prioritizing Nature Webtool</em> - Data Setup</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/trainings/training5/10_running_webtool_p1.rst.txt" rel="nofollow"> Ver código fuente de la página</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="running-the-prioritizing-nature-webtool-data-setup">
+<h1>Running the <em>Prioritizing Nature Webtool</em> - Data Setup<a class="headerlink" href="#running-the-prioritizing-nature-webtool-data-setup" title="Link to this heading"></a></h1>
+<p>Before the <em>Prioritizing Nature Webtool</em> app can run we needs to run a script called <code class="docutils literal notranslate"><span class="pre">pre_run.R</span></code>. The <code class="docutils literal notranslate"><span class="pre">pre_run.R</span></code> script has several primary functions:</p>
+<ol class="arabic">
+<li><p>It reads in information from the <code class="docutils literal notranslate"><span class="pre">prioritizing-nature-database-master.xlsx</span></code> Excel sheet on:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Feature names (including local translations),</p></li>
+<li><p>File names;</p></li>
+<li><p>Feature weights;</p></li>
+<li><p>Feature impact scores; and</p></li>
+<li><p>Budget values,</p></li>
+<li><p>and other feature layers metadata (policy relevance, source info, etc)</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>It does any geospatial work needed to prepare input feature, zone, locked in area, and <em>prioritizr</em> zone data and layers, and creates file pointers to the rasters found in <code class="docutils literal notranslate"><span class="pre">data/elsa_inputs</span></code> so they can be used by the <cite>terra</cite> package.</p></li>
+</ol>
+<p>An compressed <em>R</em> data format file called <code class="docutils literal notranslate"><span class="pre">prioritizing_nature.Rdata</span></code> is created at the end of the the <code class="docutils literal notranslate"><span class="pre">pre_run.R</span></code> - this is read back back in quickly and efficiently when the RShiny app is run, and called in the <code class="docutils literal notranslate"><span class="pre">global.R</span></code> function.</p>
+<section id="running-pre-run-r">
+<h2>Running <cite>pre_run.R</cite><a class="headerlink" href="#running-pre-run-r" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>Open the <code class="docutils literal notranslate"><span class="pre">pre_run.R</span></code> file by typing either <strong>Ctrl+O</strong> or clicking on <strong>File → Open File…</strong> and selecting the <code class="docutils literal notranslate"><span class="pre">`pre_run.R</span></code> file.</p></li>
+<li><p>Inspect lines 11-18 of the script:</p></li>
+</ol>
+<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="n">iso3</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="s">&quot;ECU&quot;</span><span class="w"> </span><span class="c1"># not used - local testing only</span>
+<span class="n">country</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="s">&quot;Ecuador&quot;</span>
+<span class="n">language</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="s">&quot;es&quot;</span><span class="w"> </span><span class="c1"># not used - local testing only</span>
+<span class="n">input_spreadsheet</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="s">&quot;prioritizing-nature-database-master.xlsx&quot;</span>
+<span class="n">sheetname</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="s">&quot;ECU_data_stack&quot;</span>
+<span class="n">blm</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="m">0</span>
+<span class="n">reducedres</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="kc">FALSE</span>
+<span class="n">weight_cal</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="kc">FALSE</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>Ensure that they point to the correct <code class="docutils literal notranslate"><span class="pre">iso3</span></code> code (i.e., <code class="docutils literal notranslate"><span class="pre">ECU</span></code> if you are working with Ecuador’s data and <code class="docutils literal notranslate"><span class="pre">PER</span></code> if Peru)</p></li>
+<li><p>Ensure the language is set to the language you prefer: currently options are English, Spanish, and French.</p></li>
+</ol>
+<ol class="arabic simple" start="4">
+<li><p>Ensure the <code class="docutils literal notranslate"><span class="pre">input_spreadsheet</span></code> and <code class="docutils literal notranslate"><span class="pre">sheetname</span></code> variables are correct.</p></li>
+</ol>
+<p>The <code class="docutils literal notranslate"><span class="pre">blm</span></code>, <code class="docutils literal notranslate"><span class="pre">reducedres</span></code>, and <code class="docutils literal notranslate"><span class="pre">weight_cal</span></code> fields should be left as is - they should only be changed if you need to rerun pre-calibration weights or do local testing on reduced resolution data (so it runs faster).</p>
+<ol class="arabic" start="5">
+<li><p>Run the <code class="docutils literal notranslate"><span class="pre">pre_run.R</span></code> script by either</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Typing <strong>Ctrl+Alt+Enter</strong> (which is the same as running:</p></li>
+</ol>
+<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="nf">source</span><span class="p">(</span><span class="s">&#39;pre_run.R&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Or clicking on the <img alt="pre_run1" src="../../_images/pre_run1.png" /> button in the upper right side of the editor panel.</p></li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+<ol class="arabic simple" start="6">
+<li><p>You will see the script running in the console window - it may take several minutes depending on how powerful your computer is.</p></li>
+</ol>
+<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span><span class="w"> </span><span class="c1">#!/usr/bin/env Rscript</span>
+<span class="o">&gt;</span><span class="w"> </span><span class="nf">source</span><span class="p">(</span><span class="s">&quot;packages.R&quot;</span><span class="p">)</span>
+<span class="o">&gt;</span><span class="w"> </span><span class="p">[</span><span class="kc">...</span><span class="p">]</span>
+<span class="o">&gt;</span><span class="w"> </span><span class="nf">save.image</span><span class="p">(</span><span class="n">here</span><span class="o">::</span><span class="nf">here</span><span class="p">(</span><span class="s">&quot;prioritizing_nature.RData&quot;</span><span class="p">),</span><span class="w"> </span><span class="n">compress</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;gzip&quot;</span><span class="p">)</span>
+<span class="o">&gt;</span><span class="w"> </span><span class="nf">gc</span><span class="p">()</span>
+<span class="w">            </span><span class="nf">used  </span><span class="p">(</span><span class="n">Mb</span><span class="p">)</span><span class="w"> </span><span class="n">gc</span><span class="w"> </span><span class="nf">trigger  </span><span class="p">(</span><span class="n">Mb</span><span class="p">)</span><span class="w"> </span><span class="n">max</span><span class="w"> </span><span class="nf">used  </span><span class="p">(</span><span class="n">Mb</span><span class="p">)</span>
+<span class="n">Ncells</span><span class="w"> </span><span class="m">4778855</span><span class="w"> </span><span class="m">255.3</span><span class="w">    </span><span class="m">8503747</span><span class="w"> </span><span class="m">454.2</span><span class="w">  </span><span class="m">8503747</span><span class="w"> </span><span class="m">454.2</span>
+<span class="n">Vcells</span><span class="w"> </span><span class="m">7689927</span><span class="w">  </span><span class="m">58.7</span><span class="w">   </span><span class="m">14786712</span><span class="w"> </span><span class="m">112.9</span><span class="w"> </span><span class="m">14786554</span><span class="w"> </span><span class="m">112.9</span>
+<span class="o">&gt;</span><span class="w"> </span><span class="c1"># terra::tmpFiles(remove = TRUE)</span>
+</pre></div>
+</div>
+<p>If you see any errors here, let us know.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
+        <a href="09_installing_required_r_packages.html" class="btn btn-neutral float-left" title="Installing Required R Packages" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="11_running_webtool_p2.html" class="btn btn-neutral float-right" title="Running the Prioritizing Nature Webtool" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Derechos de autor 2025, UN Biodiversity Lab.</p>
+  </div>
+
+  Compilado con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

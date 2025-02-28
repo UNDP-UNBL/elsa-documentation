@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ELSA Online Documentation \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-13 18:05+1000\n"
+"POT-Creation-Date: 2025-02-28 18:59+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -25,6 +25,9 @@ msgid "prioritizr (Advanced)"
 msgstr ""
 
 #: ../../trainings/prioritizr_advanced/index.rst:4
-msgid "TBD"
+msgid "Yet to come..."
 msgstr ""
+
+#~ msgid "TBD"
+#~ msgstr ""
 

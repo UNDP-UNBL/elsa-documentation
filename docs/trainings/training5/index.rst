@@ -3,63 +3,39 @@
 Training 5: Running Spatial Prioritisations
 ===========================================
 
-This module is an online workshop followed by interactive exercises. It will provide training on how to import the spatial data from the Prioritizing Nature Project to the prioritizr, and run the prioritizr analysis in R software to generate the spatial prioritization map. 
+This training module is going cover two main components:
+
+1) We will pick back up again from :ref:`training_3` and further set up your computers to run the *Prioritizing Nature Webtools* on your own computers, using the *Gurobi* solver; and
+2) We will go through setting analyses on the working *Prioritizing Nature Webtools* - you will then be able to run some analyses on your computer.
+
+This is an online workshop (followed by interactive exercises) that will provide training on how to:
+
+-   Connect to and access the software's online repository (on *Github* - no registration needed)
+-   Correctly install required *R* packages needed for the tool to run;
+-   Correctly install the *Gurobi* solver software;
+-   Set up usage of our paid *Gurobi* Cloud services for use during the workshop; and
+-   Correctly run the *Prioritizing Nature Webtools* tool locally from within *Rstudio* to generate the spatial prioritization map. 
+
+At the end the training you should have a better understanding of the webtools, the software that they use, and a greater clarity on how various changes to the tool's parameters ca greatly change the outputs and identified priority areas.
 
 .. important:: 
     
-    Participants are expected to have basic knowledge of GIS, R software and language, such as running scripts in R
+    Participants are expected to have basic knowledge of GIS, *R* software and language, such as running scripts in *R*. The latter of these topics were covered in :ref:`training_3`.
 
-
-Rshiny
-^^^^^^
-The  ELSA national tools you may have seen or used on-line are built using *RShiny*, and those we will be setting up to run locally on your computer during this workshop also use *Rshiny*. *RShiny* is an *R* package that allows users to create interactive web applications directly from *R* code without the need for specialist web programming skills - meaning that in a nutshell, users can build/run functional web applications by simply opening the application in their web browser (Chrome, Firefox, Safari, etc). Some of the key features of *RShiny* are:
-
--   It provides a web application framework for *R*, allowing for interactive app development.
--   Includes reactive programming, allowing for automatically updating of outputs when inputs change.
--   It integrates with other *R* libraries, working seamlessly with with the `tidyverse <https://www.tidyverse.org/>`_ (e.g., *ggplot2*, *dplyr*, *readr*, etc.) *leaflet*, *shinyWidgets*, *terra*, and other *R* libraries.
--   Apps can be deployed on Web and hosted on `ShinyApps.io <https://www.shinyapps.io/>`_, `RStudio Connect <https://posit.co/products/enterprise/connect/>`_, or on private servers (for example, one of the tools for Peru seen below).
-
-.. image:: images/bezos_tool_per_reduced.png
-    :align: center
-
------
-
-.. important:: 
-    
-    We run the various national ELSA web tools on private and secure UNICC infrastructure.
-
-
-ELSA Code Repositories (Git)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-TO DO:
-
--   Git hub repo download - which branch
-
--   Data and files set up
--   Need to run pre-run.R
-
-    -   Need to set up to run locally and not via CLI 
-
-Download as zip file
-
-
-GIS Data Downloads 
-^^^^^^^^^^^^^^^^^^
-Data stacks for this workshop have been pre-created so that we can focus less on data processing and more on working with and understanding the ELSA outputs.
-
-Download the data stack for your country of interest below:
-
--   `Peru <TBD>`_
--   `Ecuador <TBD>`_
-
--   Setting up an *R* project and file structure
-
-Setting it all up
-^^^^^^^^^^^^^^^^^
+----
 
 .. toctree::
    :maxdepth: 1
    
-   installing_required_packages
-   setting_up_gurobi   
+   01_rshiny_interface
+   02_github_repository
+   03_exploring_data_structure
+   04_create_r_project
+   05_installing_gurobi
+   06_installing_gurobi_r_package
+   07_getting_gurobi_env
+   08_checking_gurobi_installation
+   09_installing_required_r_packages
+   10_running_webtool_p1
+   11_running_webtool_p2
+   12_exploring_webtool

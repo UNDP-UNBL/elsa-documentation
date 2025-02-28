@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2025, UN Biodiversity Lab - UNDP
+# Copyright (C) 2025, UN Biodiversity Lab
 # This file is distributed under the same license as the ELSA Online
 # Documentation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ELSA Online Documentation \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-13 18:05+1000\n"
+"POT-Creation-Date: 2025-02-14 12:12+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -20,22 +20,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: ../../trainings/t5_running_spatial_prioritisations/installing_required_packages.rst:2
+#: ../../trainings/training5/installing_required_packages.rst:2
 msgid "Setting up to run ELSA Locally"
-msgstr "Configuración para ejecutar ELSA localmente"
+msgstr ""
 
-#: ../../trainings/t5_running_spatial_prioritisations/installing_required_packages.rst:4
+#: ../../trainings/training5/installing_required_packages.rst:4
 msgid ""
 "For the Prioritizing Nature project training series you will need to "
 "install the following R packages:"
 msgstr ""
-"Para la serie de capacitaciones del proyecto Prioritizing Nature, "
-"necesitarás instalar los siguientes paquetes de R:"
 
-#: ../../trainings/t5_running_spatial_prioritisations/installing_required_packages.rst:12
+#: ../../trainings/training5/installing_required_packages.rst:12
 msgid "Scott to add here the rest"
-msgstr "Scott agregará aquí el resto"
+msgstr ""
 
-#: ../../trainings/t5_running_spatial_prioritisations/installing_required_packages.rst:14
+#: ../../trainings/training5/installing_required_packages.rst:14
 msgid "Install and use R packages for the Prioritizing Nature project"
-msgstr "Instalar y usar paquetes de R para el proyecto Prioritizing Nature"
+msgstr ""
+

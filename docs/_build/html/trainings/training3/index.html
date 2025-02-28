@@ -10,6 +10,7 @@
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=d75fae25" />
       <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
 
   
       <script src="../../_static/jquery.js?v=5d32c60e"></script>
@@ -20,11 +21,12 @@
       <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
       <script src="../../_static/copybutton.js?v=f281be69"></script>
       <script src="../../_static/translations.js?v=f85f4cfb"></script>
+      <script src="../../_static/design-tabs.js?v=f930bc37"></script>
     <script src="../../_static/js/theme.js"></script>
     <link rel="author" title="Sobre este documento" href="../../about.html" />
     <link rel="index" title="Índice" href="../../genindex.html" />
     <link rel="search" title="Búsqueda" href="../../search.html" />
-    <link rel="next" title="Instalación de R" href="installing_r.html" />
+    <link rel="next" title="Installing R" href="01_installing_r.html" />
     <link rel="prev" title="Capacitación 2: Uso de la herramienta web en línea para co-crear el Mapa de Priorización Espacial" href="../training2/index.html" /> 
 </head>
 
@@ -54,16 +56,16 @@
 <li class="toctree-l2"><a class="reference internal" href="../training1/index.html">Capacitación 1: Planificación Sistemática de la Conservación</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../training2/index.html">Capacitación 2: Uso de la herramienta web en línea para co-crear el Mapa de Priorización Espacial</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Capacitación 3: Configuración de <em>R</em> y <em>RStudio</em></a><ul>
-<li class="toctree-l3"><a class="reference internal" href="installing_r.html">Instalación de <em>R</em></a></li>
-<li class="toctree-l3"><a class="reference internal" href="installing_rstudio.html">Instalación de <em>RStudio</em></a></li>
-<li class="toctree-l3"><a class="reference internal" href="using_rstudio.html">Usando <em>RStudio</em>: ¡Una guía (muy) breve!</a></li>
-<li class="toctree-l3"><a class="reference internal" href="creating_r_projects.html">Proyectos de R</a></li>
-<li class="toctree-l3"><a class="reference internal" href="installing_packages.html">Instalación de paquetes en <em>R</em></a></li>
-<li class="toctree-l3"><a class="reference internal" href="installing_solvers.html">Instalación de Solvers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="01_installing_r.html">Installing <em>R</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="02_installing_rstudio.html">Instalación de <em>RStudio</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="03_using_rstudio.html">Usando <em>RStudio</em>: ¡Una guía (muy) breve!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="04_creating_r_projects.html">Proyectos de R</a></li>
+<li class="toctree-l3"><a class="reference internal" href="05_installing_packages.html">Installing <em>R</em> packages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="06_installing_solvers.html">Instalación de Solvers</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../training4/index.html">Capacitación 4: Datos espaciales utilizados: estructura, selección y procesamiento</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../training5/index.html">Capacitación 5: Ejecución de Priorizaciones Espaciales</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../training5/index.html">Training 5: Running Spatial Prioritisations</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../prioritizr_advanced/index.html">prioritizr (Advanced)</a></li>
 </ul>
 </li>
@@ -95,8 +97,8 @@
            <div itemprop="articleBody">
              
   <section id="training-3-r-and-rstudio-setup">
-<h1>Capacitación 3: Configuración de <em>R</em> y <em>RStudio</em><a class="headerlink" href="#training-3-r-and-rstudio-setup" title="Link to this heading"></a></h1>
-<p>La mayoría de las herramientas de software para la planificación de la conservación (e.g., <a class="reference external" href="https://marxansolutions.org/">Marxan</a> o <a class="reference external" href="https://zonationteam.github.io/Zonation5/">Zonation</a>) no requieren habilidades específicas de programación y solo requieren capacidades básicas en GIS para extraer y preparar correctamente los datos de entrada. Sin embargo, <a class="reference external" href="https://prioritizr.net/">prioritizr</a>, la herramienta que funciona detrás de escena en ELSA (que utilizaremos hoy), está escrita en <em>R</em>, por lo que tener un conocimiento básico del lenguaje de programación <em>R</em> ayudará tanto en la resolución de problemas a pequeña escala como en la comprensión del funcionamiento interno de las herramientas de ELSA. Además, comprender cómo opera <em>R</em> (o cualquier otro lenguaje de programación con el que trabajes) permite crear flujos de trabajo rápidos y reproducibles aprovechando las ventajas del lenguaje. También facilita el preprocesamiento y posprocesamiento de tus datos, todo dentro de <em>R</em>.</p>
+<span id="training-3"></span><h1>Capacitación 3: Configuración de <em>R</em> y <em>RStudio</em><a class="headerlink" href="#training-3-r-and-rstudio-setup" title="Link to this heading"></a></h1>
+<p>Most software tools for conservation planning (e.g. <a class="reference external" href="https://marxansolutions.org/">Marxan</a> or <a class="reference external" href="https://zonationteam.github.io/Zonation5/">Zonation</a>) do not require any specific coding skills, and only require basic GIS capabilities to correctly extract and prepare input data. However, <a class="reference external" href="https://prioritizr.net/">prioritizr</a>, the tool that runs behind the scenes in the <em>Prioritizing Nature Webtools</em> (that we will be using today) is written in <em>R</em> and having a basic understanding of the <em>R</em> programming language will help with both small-scale troubleshooting and provide a better understanding of the inner workings of the <em>Prioritizing Nature Webtools</em> tools. On top of that, understanding how <em>R</em> (or any computer language you work with) operates allows for creating fast and reproducible workflows by exploiting the advantages of the programming language. It also allows for pre- and post-processing of your data, all in <em>R</em>.</p>
 <p>El primer paso para todo esto (por supuesto) es instalar <em>R</em>. También instalaremos varios otros programas de software útiles y necesarios (o bibliotecas), como <em>RStudio</em>, que son requisitos para usar <em>prioritizr</em> o simplemente harán nuestra vida un poco más fácil.</p>
 <div class="admonition important">
 <p class="admonition-title">Importante</p>
@@ -104,32 +106,12 @@
 </div>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="installing_r.html">Instalación de <em>R</em></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="operating_systems/windows_os.html">Usuarios de Windows</a></li>
-<li class="toctree-l2"><a class="reference internal" href="operating_systems/mac_os.html">Usuarios de MacOS</a></li>
-<li class="toctree-l2"><a class="reference internal" href="operating_systems/linux_os.html">Usuarios de Linux</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="installing_rstudio.html">Instalación de <em>RStudio</em></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="installing_rstudio.html#if-r-works-via-the-command-line-why-use-an-ide-like-rstudio-instead">Si <em>R</em> funciona en la línea de comandos, ¿por qué usar un IDE como <em>RStudio</em> en su lugar?</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="using_rstudio.html">Usando <em>RStudio</em>: ¡Una guía (muy) breve!</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="using_rstudio.html#layout">Disposición</a></li>
-<li class="toctree-l2"><a class="reference internal" href="using_rstudio.html#customising-the-layout">Personalización de la Disposición</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="creating_r_projects.html">Proyectos de R</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="creating_r_projects.html#why-use-r-projects">¿Por qué usar proyectos de R?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="creating_r_projects.html#setting-up-an-r-project">Configuración de un proyecto de R</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="installing_packages.html">Instalación de paquetes en <em>R</em></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="installing_packages.html#using-base-r">Uso de <em>R</em> base</a></li>
-<li class="toctree-l2"><a class="reference internal" href="installing_packages.html#pacman">pacman</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="installing_solvers.html">Instalación de Solvers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="01_installing_r.html">Installing <em>R</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="02_installing_rstudio.html">Instalación de <em>RStudio</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="03_using_rstudio.html">Usando <em>RStudio</em>: ¡Una guía (muy) breve!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04_creating_r_projects.html">Proyectos de R</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05_installing_packages.html">Installing <em>R</em> packages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06_installing_solvers.html">Instalación de Solvers</a></li>
 </ul>
 </div>
 </section>
@@ -139,7 +121,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
         <a href="../training2/index.html" class="btn btn-neutral float-left" title="Capacitación 2: Uso de la herramienta web en línea para co-crear el Mapa de Priorización Espacial" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
-        <a href="installing_r.html" class="btn btn-neutral float-right" title="Instalación de R" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="01_installing_r.html" class="btn btn-neutral float-right" title="Installing R" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

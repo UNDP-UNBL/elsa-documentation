@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ELSA Online Documentation \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 12:12+1000\n"
+"POT-Creation-Date: 2025-02-28 18:59+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../trainings/training2/index.rst:2
+#: ../../trainings/training2/index.rst:4
 msgid "Training 2: Using the online webtool to co-create the Spatial Prioritization Map"
 msgstr ""
 
-#: ../../trainings/training2/index.rst:4
+#: ../../trainings/training2/index.rst:6
 msgid "TBD"
 msgstr ""

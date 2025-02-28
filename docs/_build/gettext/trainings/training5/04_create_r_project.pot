@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, UN Biodiversity Lab
+# This file is distributed under the same license as the ELSA Online Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Online Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-28 18:59+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../trainings/training5/04_create_r_project.rst:2
+msgid "Create a *Prioritizing Nature* *R* Project"
+msgstr ""
+
+#: ../../trainings/training5/04_create_r_project.rst:4
+msgid "We covered the benefits of and how to create an project in R in :ref:`r_projects` of :ref:`training_3`. We are now going to create one in the repository that we just downloaded end extracted."
+msgstr ""
+
+#: ../../trainings/training5/04_create_r_project.rst:6
+msgid "Open *Rstudio*."
+msgstr ""
+
+#: ../../trainings/training5/04_create_r_project.rst:8
+msgid "In the upper right, click on the drop menu that shows: |proj1|"
+msgstr ""
+
+#: ../../trainings/training5/04_create_r_project.rst:10
+msgid "proj1"
+msgstr ""
+
+#: ../../trainings/training5/04_create_r_project.rst:12
+msgid "In the dropdown menu that opens, select: |proj2|"
+msgstr ""
+
+#: ../../trainings/training5/04_create_r_project.rst:14
+msgid "proj2"
+msgstr ""
+
+#: ../../trainings/training5/04_create_r_project.rst:16
+msgid "In the window that opens, select *Existing Directory*:"
+msgstr ""
+
+#: ../../trainings/training5/04_create_r_project.rst:24
+msgid "Click on *Browse* and then navigate the location of the directory you saved the downloaded repository files:"
+msgstr ""
+
+#: ../../trainings/training5/04_create_r_project.rst:32
+msgid "Click *Choose* when you have entered the directory location."
+msgstr ""
+
+#: ../../trainings/training5/04_create_r_project.rst:34
+msgid "Finally, click on the *Create Project* button."
+msgstr ""
+
+#: ../../trainings/training5/04_create_r_project.rst:36
+msgid "This will create an ``.Rproj`` in the directory, and *Rstudio* will now also show that the working directory has been set to the root of the directory. You can see this shown in the console window of *Rstudio*, which should look something like the image below:"
+msgstr ""
+
+#: ../../trainings/training5/04_create_r_project.rst:46
+msgid "The name of the project defaults to the name of the folder you create it but as with many things in *R* and *Rstudio* you can change it something you find more suitable."
+msgstr ""

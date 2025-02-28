@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2025, UN Biodiversity Lab - UNDP
+# Copyright (C) 2025, UN Biodiversity Lab
 # This file is distributed under the same license as the ELSA Online
 # Documentation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ELSA Online Documentation \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-13 18:05+1000\n"
+"POT-Creation-Date: 2025-02-14 12:12+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -20,19 +20,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: ../../trainings/t3_r_setup/operating_systems/linux_os.rst:2
+#: ../../trainings/training3/operating_systems/linux_os.rst:2
 msgid "Linux users"
-msgstr "Usuarios de Linux"
+msgstr ""
 
-#: ../../trainings/t3_r_setup/operating_systems/linux_os.rst:4
+#: ../../trainings/training3/operating_systems/linux_os.rst:4
 msgid ""
 "*R* comes preinstalled on many Linux distros, but you will need to have "
 "the most updated version of *R* installed."
 msgstr ""
-"*R* viene preinstalado en muchas distribuciones de Linux, pero necesitarás tener "
-"la versión más actualizada de *R* instalada."
 
-#: ../../trainings/t3_r_setup/operating_systems/linux_os.rst:5
+#: ../../trainings/training3/operating_systems/linux_os.rst:5
 msgid ""
 "To update your version of *R*, or in case you need to install it in the "
 "first place, click on `Download R for Linux "
@@ -42,35 +40,26 @@ msgid ""
 "required linux flavour and then follow the directory trail to the version"
 " of Linux you wish to install on."
 msgstr ""
-"Para actualizar tu versión de *R*, o en caso de que necesites instalarlo por primera vez, "
-"haz clic en `Descargar R para Linux <https://cran.r-project.org/bin/linux/>`_; "
-"el sitio web de CRAN proporciona archivos para compilar *R* desde el código fuente o "
-"desde los repositorios oficiales en Debian, Fedora, Redhat, SUSE y sistemas basados en Ubuntu. "
-"Simplemente selecciona la versión de Linux que necesitas e instala siguiendo las instrucciones."
 
-#: ../../trainings/t3_r_setup/operating_systems/linux_os.rst:7
+#: ../../trainings/training3/operating_systems/linux_os.rst:7
 msgid "image1"
-msgstr "imagen1"
+msgstr ""
 
-#: ../../trainings/t3_r_setup/operating_systems/linux_os.rst:13
+#: ../../trainings/training3/operating_systems/linux_os.rst:13
 msgid ""
 "For example, Ubuntu based distros (e.g., Ubuntu, Linux Mint, etc.) can be"
 " installed via apt by adding the CRAN repository, as follows:"
 msgstr ""
-"Por ejemplo, las distribuciones basadas en Ubuntu (como Ubuntu, Linux Mint, etc.) pueden "
-"instalarse a través de apt agregando el repositorio de CRAN, de la siguiente manera:"
 
-#: ../../trainings/t3_r_setup/operating_systems/linux_os.rst:31
+#: ../../trainings/training3/operating_systems/linux_os.rst:31
 msgid ""
 "The exact installation procedure will vary depending on the Linux distro "
 "you use. CRAN guides the process by grouping each set of source files "
 "with documentation or README files that explain how to install on your "
 "system."
 msgstr ""
-"El procedimiento exacto de instalación variará según la distribución de Linux que uses. "
-"CRAN guía el proceso agrupando cada conjunto de archivos fuente con documentación o "
-"archivos README que explican cómo instalarlo en tu sistema."
 
-#: ../../trainings/t3_r_setup/operating_systems/linux_os.rst:33
+#: ../../trainings/training3/operating_systems/linux_os.rst:33
 msgid "If you are a Linux user, you probably know all this by now! Apologies."
-msgstr "Si eres usuario de Linux, ¡seguramente ya sabes todo esto! Disculpa la redundancia."
+msgstr ""
+

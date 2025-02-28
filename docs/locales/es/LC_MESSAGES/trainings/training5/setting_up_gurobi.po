@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2025, UN Biodiversity Lab - UNDP
+# Copyright (C) 2025, UN Biodiversity Lab
 # This file is distributed under the same license as the ELSA Online
 # Documentation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ELSA Online Documentation \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-13 18:05+1000\n"
+"POT-Creation-Date: 2025-02-14 12:12+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -20,45 +20,40 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: ../../trainings/t5_running_spatial_prioritisations/using_gurobi.rst:4
+#: ../../trainings/training5/setting_up_gurobi.rst:4
 msgid "Setting up Gurobi"
-msgstr "Configuración de Gurobi"
+msgstr ""
 
-#: ../../trainings/t5_running_spatial_prioritisations/using_gurobi.rst:7
+#: ../../trainings/training5/setting_up_gurobi.rst:7
 msgid ""
 "We are fortunate to be able to provide you with access to the Gurobi "
 "solver for our workshop usage. Note that use is only for workshop use via"
 " use a temporary API key."
 msgstr ""
-"Tenemos la suerte de poder proporcionarte acceso al solucionador Gurobi "
-"para su uso en nuestro taller. Ten en cuenta que el uso está limitado al "
-"taller mediante una clave de API temporal."
 
-#: ../../trainings/t5_running_spatial_prioritisations/using_gurobi.rst:9
+#: ../../trainings/training5/setting_up_gurobi.rst:9
 msgid "have a paid subscription to use the Gurobi solver."
-msgstr "Se requiere una suscripción de pago para utilizar el solucionador Gurobi."
+msgstr ""
 
-#: ../../trainings/t5_running_spatial_prioritisations/using_gurobi.rst:11
+#: ../../trainings/training5/setting_up_gurobi.rst:11
 msgid "TO DO:"
-msgstr "POR HACER:"
+msgstr ""
 
-#: ../../trainings/t5_running_spatial_prioritisations/using_gurobi.rst:13
+#: ../../trainings/training5/setting_up_gurobi.rst:13
 msgid "Download correct version of Gurobi_installation_guide"
-msgstr "Descargar la versión correcta de Gurobi_installation_guide"
+msgstr ""
 
-#: ../../trainings/t5_running_spatial_prioritisations/using_gurobi.rst:15
+#: ../../trainings/training5/setting_up_gurobi.rst:15
 msgid "we'll provide"
-msgstr "Nosotros lo proporcionaremos"
+msgstr ""
 
-#: ../../trainings/t5_running_spatial_prioritisations/using_gurobi.rst:17
+#: ../../trainings/training5/setting_up_gurobi.rst:17
 msgid "gurobi install in r (correct file path needed)"
-msgstr "Instalar Gurobi en R (se necesita la ruta de archivo correcta)"
+msgstr ""
 
-#: ../../trainings/t5_running_spatial_prioritisations/using_gurobi.rst:18
+#: ../../trainings/training5/setting_up_gurobi.rst:18
 msgid ""
 "needs to provide cloud use gurobi.env file (create on day of - destroy "
 "right after)"
 msgstr ""
-"Se necesita proporcionar el archivo gurobi.env para su uso en la nube "
-"(crearlo el día del taller y eliminarlo inmediatamente después)."
 

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2025, UN Biodiversity Lab - UNDP
+# Copyright (C) 2025, UN Biodiversity Lab
 # This file is distributed under the same license as the ELSA Online
 # Documentation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ELSA Online Documentation \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 12:12+1000\n"
+"POT-Creation-Date: 2025-02-28 18:59+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -20,163 +20,71 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: ../../trainings/training5/index.rst:3
+#: ../../trainings/training5/index.rst:4
 msgid "Training 5: Running Spatial Prioritisations"
-msgstr "Capacitación 5: Ejecución de Priorizaciones Espaciales"
+msgstr ""
 
 #: ../../trainings/training5/index.rst:6
-msgid ""
-"This module is an online workshop followed by interactive exercises. It "
-"will provide training on how to import the spatial data from the "
-"Prioritizing Nature Project to the prioritizr, and run the prioritizr "
-"analysis in R software to generate the spatial prioritization map."
+msgid "This training module is going cover two main components:"
 msgstr ""
-"Este módulo es un taller en línea seguido de ejercicios interactivos. "
-"Proporcionará capacitación sobre cómo importar los datos espaciales del "
-"Proyecto Prioritizing Nature en prioritizr, y ejecutar el análisis en R "
-"para generar el mapa de priorización espacial."
 
-#: ../../trainings/training5/index.rst:10
+#: ../../trainings/training5/index.rst:8
 msgid ""
-"Participants are expected to have basic knowledge of GIS, R software and "
-"language, such as running scripts in R"
+"We will pick back up again from :ref:`training_3` and further set up your"
+" computers to run the *Prioritizing Nature Webtools* on your own "
+"computers, using the *Gurobi* solver; and"
 msgstr ""
-"Se espera que los participantes tengan conocimientos básicos de SIG, el "
-"software R y su lenguaje, como la ejecución de scripts en R."
 
-#: ../../trainings/training5/index.rst:12
-msgid "Rshiny"
-msgstr "RShiny"
+#: ../../trainings/training5/index.rst:9
+msgid ""
+"We will go through setting analyses on the working *Prioritizing Nature "
+"Webtools* - you will then be able to run some analyses on your computer."
+msgstr ""
+
+#: ../../trainings/training5/index.rst:11
+msgid ""
+"This is an online workshop (followed by interactive exercises) that will "
+"provide training on how to:"
+msgstr ""
+
+#: ../../trainings/training5/index.rst:13
+msgid ""
+"Connect to and access the software's online repository (on *Github* - no "
+"registration needed)"
+msgstr ""
 
 #: ../../trainings/training5/index.rst:14
-msgid ""
-"The  ELSA national tools you may have seen or used on-line are built "
-"using *RShiny*, and those we will be setting up to run locally on your "
-"computer during this workshop also use *Rshiny*. *RShiny* is an *R* "
-"package that allows users to create interactive web applications directly"
-" from *R* code without the need for specialist web programming skills - "
-"meaning that in a nutshell, users can build/run functional web "
-"applications by simply opening the application in their web browser "
-"(Chrome, Firefox, Safari, etc). Some of the key features of *RShiny* are:"
+msgid "Correctly install required *R* packages needed for the tool to run;"
 msgstr ""
-"Las herramientas nacionales de ELSA que puedes haber visto o utilizado en"
-" línea están construidas con *RShiny*, y las que configuraremos para "
-"ejecutarlas localmente en tu computadora durante este taller también usan"
-" *RShiny*. *RShiny* es un paquete de *R* que permite a los usuarios crear"
-" aplicaciones web interactivas directamente desde código en *R*, sin "
-"necesidad de conocimientos especializados en programación web. En "
-"resumen, los usuarios pueden construir y ejecutar aplicaciones web "
-"funcionales simplemente abriendo la aplicación en su navegador web "
-"(Chrome, Firefox, Safari, etc.). Algunas de las características clave de "
-"*RShiny* son:"
+
+#: ../../trainings/training5/index.rst:15
+msgid "Correctly install the *Gurobi* solver software;"
+msgstr ""
 
 #: ../../trainings/training5/index.rst:16
 msgid ""
-"It provides a web application framework for *R*, allowing for interactive"
-" app development."
+"Set up usage of our paid *Gurobi* Cloud services for use during the "
+"workshop; and"
 msgstr ""
-"Proporciona un marco de aplicaciones web para *R*, permitiendo el "
-"desarrollo de aplicaciones interactivas."
 
 #: ../../trainings/training5/index.rst:17
 msgid ""
-"Includes reactive programming, allowing for automatically updating of "
-"outputs when inputs change."
+"Correctly run the *Prioritizing Nature Webtools* tool locally from within"
+" *Rstudio* to generate the spatial prioritization map."
 msgstr ""
-"Incluye programación reactiva, lo que permite la actualización automática"
-" de las salidas cuando cambian las entradas."
-
-#: ../../trainings/training5/index.rst:18
-msgid ""
-"It integrates with other *R* libraries, working seamlessly with with the "
-"`tidyverse <https://www.tidyverse.org/>`_ (e.g., *ggplot2*, *dplyr*, "
-"*readr*, etc.) *leaflet*, *shinyWidgets*, *terra*, and other *R* "
-"libraries."
-msgstr ""
-"Se integra con otras bibliotecas de *R*, funcionando sin problemas con el"
-" `tidyverse <https://www.tidyverse.org/>`_ (por ejemplo, *ggplot2*, "
-"*dplyr*, *readr*, etc.), *leaflet*, *shinyWidgets*, *terra* y otras "
-"bibliotecas de *R*."
 
 #: ../../trainings/training5/index.rst:19
 msgid ""
-"Apps can be deployed on Web and hosted on `ShinyApps.io "
-"<https://www.shinyapps.io/>`_, `RStudio Connect "
-"<https://posit.co/products/enterprise/connect/>`_, or on private servers "
-"(for example, one of the tools for Peru seen below)."
+"At the end the training you should have a better understanding of the "
+"webtools, the software that they use, and a greater clarity on how "
+"various changes to the tool's parameters ca greatly change the outputs "
+"and identified priority areas."
 msgstr ""
-"Las aplicaciones pueden desplegarse en la web y alojarse en `ShinyApps.io"
-" <https://www.shinyapps.io/>`_, `RStudio Connect "
-"<https://posit.co/products/enterprise/connect/>`_ o en servidores "
-"privados (por ejemplo, una de las herramientas para Perú que se muestra a"
-" continuación)."
 
-#: ../../trainings/training5/index.rst:28
+#: ../../trainings/training5/index.rst:23
 msgid ""
-"We run the various national ELSA web tools on private and secure UNICC "
-"infrastructure."
+"Participants are expected to have basic knowledge of GIS, *R* software "
+"and language, such as running scripts in *R*. The latter of these topics "
+"were covered in :ref:`training_3`."
 msgstr ""
-"Ejecutamos las diversas herramientas web nacionales de ELSA en una "
-"infraestructura privada y segura de UNICC."
 
-#: ../../trainings/training5/index.rst:31
-msgid "ELSA Code Repositories (Git)"
-msgstr "Repositorios de Código de ELSA (Git)"
-
-#: ../../trainings/training5/index.rst:34
-msgid "TO DO:"
-msgstr "POR HACER:"
-
-#: ../../trainings/training5/index.rst:36
-msgid "Git hub repo download - which branch"
-msgstr "Descarga del repositorio de GitHub - qué rama"
-
-#: ../../trainings/training5/index.rst:38
-msgid "Data and files set up"
-msgstr "Configuración de datos y archivos"
-
-#: ../../trainings/training5/index.rst:38
-msgid "Need to run pre-run.R"
-msgstr "Es necesario ejecutar pre-run.R"
-
-#: ../../trainings/training5/index.rst:41
-msgid "Need to set up to run locally and not via CLI"
-msgstr "Es necesario configurar para ejecutar localmente y no a través de CLI"
-
-#: ../../trainings/training5/index.rst:43
-msgid "Download as zip file"
-msgstr "Descargar como archivo ZIP"
-
-#: ../../trainings/training5/index.rst:46
-msgid "GIS Data Downloads"
-msgstr "Descargas de Datos SIG"
-
-#: ../../trainings/training5/index.rst:48
-msgid ""
-"Data stacks for this workshop have been pre-created so that we can focus "
-"less on data processing and more on working with and understanding the "
-"ELSA outputs."
-msgstr ""
-"Los conjuntos de datos para este taller han sido pre-creados para que "
-"podamos enfocarnos menos en el procesamiento de datos y más en trabajar y"
-" comprender los resultados de ELSA."
-
-#: ../../trainings/training5/index.rst:50
-msgid "Download the data stack for your country of interest below:"
-msgstr "Descarga el conjunto de datos para tu país de interés a continuación:"
-
-#: ../../trainings/training5/index.rst:52
-msgid "`Peru <TBD>`_"
-msgstr "`Perú <TBD>`_"
-
-#: ../../trainings/training5/index.rst:53
-msgid "`Ecuador <TBD>`_"
-msgstr "`Ecuador <TBD>`_"
-
-#: ../../trainings/training5/index.rst:55
-msgid "Setting up an *R* project and file structure"
-msgstr "Configuración de un proyecto en *R* y estructura de archivos"
-
-#: ../../trainings/training5/index.rst:57
-msgid "Setting it all up"
-msgstr "Configurándolo todo"
