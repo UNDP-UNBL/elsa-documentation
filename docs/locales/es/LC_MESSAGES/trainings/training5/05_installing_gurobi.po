@@ -1,0 +1,185 @@
+# Copyright (C) 2025, UN Biodiversity Lab
+# This file is distributed under the same license as the ELSA Online
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Online Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-28 18:59+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../trainings/training5/05_installing_gurobi.rst:4
+msgid "Installing Gurobi"
+msgstr "Instalación de Gurobi"
+
+#: ../../trainings/training5/05_installing_gurobi.rst:6
+msgid ""
+"The exact methods for installing the *Gurobi* solver depends on the "
+"operating system installed on your computer. Thankfully *Gurobi* provides"
+" detailed `platform-specific instructions <https://support.gurobi.com/hc"
+"/en-us/articles/4534161999889-How-do-I-install-Gurobi-Optimizer>`_ for "
+"Windows, MacOS, and Linux systems that should help with this."
+msgstr ""
+"Los métodos exactos para instalar el solver *Gurobi* dependen del sistema "
+"operativo instalado en tu computadora. Afortunadamente, *Gurobi* proporciona "
+"unas `instrucciones detalladas específicas por plataforma "
+"<https://support.gurobi.com/hc/en-us/articles/4534161999889-How-do-I-install-Gurobi-Optimizer>`_ "
+"para sistemas Windows, MacOS y Linux que pueden ayudar con este proceso."
+
+#: ../../trainings/training5/05_installing_gurobi.rst:8
+msgid ""
+"Broadly speaking, on Windows systems, you need only double-click on the "
+"*Gurobi* installer, follow the prompts, and the installer will "
+"automatically handle everything for you (using default settings). On "
+"Linux and MacOS systems, you will need to manually extract the downloaded"
+" file’s contents to a folder, move the extracted contents to a suitable "
+"location (typically ``/opt/gurobi``), and update your system’s variables "
+"so that it knows where to find *Gurobi* (i.e., the PATH variable). See OS"
+" specific instructions below for more details."
+msgstr ""
+"En términos generales, en sistemas Windows, solo necesitas hacer doble clic "
+"en el instalador de *Gurobi*, seguir las instrucciones y el instalador "
+"se encargará automáticamente de todo (utilizando la configuración predeterminada). "
+"En los sistemas Linux y MacOS, deberás extraer manualmente el contenido del "
+"archivo descargado en una carpeta, mover los archivos extraídos a una ubicación "
+"adecuada (generalmente ``/opt/gurobi``) y actualizar las variables del sistema "
+"para que reconozca dónde se encuentra *Gurobi* (es decir, la variable PATH). "
+"Consulta las instrucciones específicas para cada sistema operativo a continuación "
+"para más detalles."
+
+#: ../../trainings/training5/05_installing_gurobi.rst:10
+msgid ""
+"After installing the *Gurobi* software suite on your computer, you will "
+"need to activate your license."
+msgstr ""
+"Después de instalar el software *Gurobi* en tu computadora, deberás activar tu licencia."
+
+#: ../../trainings/training5/05_installing_gurobi.rst:14
+msgid ""
+"*Gurobi* is a commercial and proprietary computer program. This means that is will not work without a valid license - downloading the software is also not possible without being registered with *Gurobi*."
+msgstr ""
+"*Gurobi* es un programa informático comercial y propietario. Esto significa que no funcionará sin una licencia válida; además, descargar el software tampoco es posible sin estar registrado en *Gurobi*."
+
+#: ../../trainings/training5/05_installing_gurobi.rst:16
+msgid ""
+"We provide a short term usage of our cloud license for the *Prioritizing Nature* Trainings, only. Academics (including students) can obtain a special free license at no cost but individuals and others that are not affiliated with a recognized educational institution may need to purchase a license."
+msgstr ""
+"Ofrecemos un uso temporal de nuestra licencia en la nube exclusivamente para las capacitaciones de *Prioritizing Nature*. Los académicos (incluidos los estudiantes) pueden obtener una licencia especial gratuita, pero las personas y otros usuarios que no estén afiliados a una institución educativa reconocida pueden necesitar comprar una licencia."
+
+#: ../../trainings/training5/05_installing_gurobi.rst
+msgid "Windows"
+msgstr "Windows"
+
+#: ../../trainings/training5/05_installing_gurobi.rst:21
+msgid "Double-click on the Gurobi installer that you downloaded (unless you selected *Run* when downloading. in which case you've already run the installer and don't need to do it again.)"
+msgstr "Haz doble clic en el instalador de Gurobi que descargaste (a menos que hayas seleccionado *Ejecutar* al descargarlo, en cuyo caso ya has ejecutado el instalador y no necesitas hacerlo de nuevo)."
+
+#: ../../trainings/training5/05_installing_gurobi.rst:23
+msgid "By default, the installer will place the Gurobi 12.0.* files in the directory ``c:\gurobi1201\win64``. The installer gives you the option to change the installation target, but it's easiest to accept the default settings."
+msgstr "Por defecto, el instalador colocará los archivos de Gurobi 12.0.* en el directorio ``c:\gurobi1201\win64``. El instalador te da la opción de cambiar el destino de la instalación, pero es más fácil aceptar la configuración predeterminada."
+
+#: ../../trainings/training5/05_installing_gurobi.rst:25
+msgid "The installer can also be used to repair or remove a past installation."
+msgstr "El instalador también se puede utilizar para reparar o eliminar una instalación anterior."
+
+#: ../../trainings/training5/05_installing_gurobi.rst:29
+msgid "To work with compressed files within Gurobi Optimizer, it is recommended that you install `gzip <www.gzip.org>`_ and/or `7zip <www.7-zip.org>`_."
+msgstr "Para trabajar con archivos comprimidos dentro de Gurobi Optimizer, se recomienda instalar `gzip <www.gzip.org>`_ y/o `7zip <www.7-zip.org>`_."
+
+#: ../../trainings/training5/05_installing_gurobi.rst
+msgid "macOS"
+msgstr "macOS"
+
+#: ../../trainings/training5/05_installing_gurobi.rst:34
+msgid "Double-click on the appropriate Gurobi installer (e.g., gurobi12.0.1_macos_universal2.pkg for Gurobi 12.0.1) and follow the prompts."
+msgstr "Haz doble clic en el instalador de Gurobi correspondiente (por ejemplo, gurobi12.0.1_macos_universal2.pkg para Gurobi 12.0.1) y sigue las instrucciones."
+
+#: ../../trainings/training5/05_installing_gurobi.rst:36
+msgid "By default, the installer will place the Gurobi 12.0.* files in ``/Library/gurobi1201/macos_universal2`` (note that this is the system ``/Library`` directory, not your personal ``~/Library`` directory)."
+msgstr "Por defecto, el instalador colocará los archivos de Gurobi 12.0.* en ``/Library/gurobi1201/macos_universal2`` (ten en cuenta que este es el directorio ``/Library`` del sistema, no tu directorio personal ``~/Library``)."
+
+#: ../../trainings/training5/05_installing_gurobi.rst:40
+msgid ""
+"Your <installdir>  will be ``/Library/gurobi1201/macos_universal2``."
+msgstr ""
+"Tu <installdir> será ``/Library/gurobi1201/macos_universal2``."
+
+#: ../../trainings/training5/05_installing_gurobi.rst
+msgid "**Linux (x64/armlinux64)**"
+msgstr "**Linux (x64/armlinux64)**"
+
+#: ../../trainings/training5/05_installing_gurobi.rst:32
+msgid ""
+"The following instructions are for **x64** and **armlinux64** Linux "
+"systems only."
+msgstr ""
+"Las siguientes instrucciones son solo para sistemas Linux **x64** y **armlinux64**."
+
+#: ../../trainings/training5/05_installing_gurobi.rst:34
+msgid ""
+"Extract the download to your chosen destination directory. Gurobi recommend ``/opt`` for a shared installation (assuming you have sudo privileges to write in that directory), or your home directory for a private installation, but other directories will work as well. You'll need to change your working directory to the destination directory:"
+msgstr ""
+"Extrae la descarga en el directorio de destino que elijas. Gurobi recomienda ``/opt`` para una instalación compartida (suponiendo que tengas privilegios de sudo para escribir en ese directorio), o tu directorio de inicio para una instalación privada, pero otros directorios también funcionarán. Deberás cambiar tu directorio de trabajo al directorio de destino:"
+
+#: ../../trainings/training5/05_installing_gurobi.rst:36
+msgid "For example:"
+msgstr "Por ejemplo:"
+
+#: ../../trainings/training5/05_installing_gurobi.rst:42
+msgid ""
+"Then copy the *Gurobi* distribution to that directory, and then extract "
+"the contents:"
+msgstr ""
+"Luego copia la distribución de *Gurobi* a ese directorio y extrae su contenido:"
+
+#: ../../trainings/training5/05_installing_gurobi.rst:48
+msgid "or"
+msgstr "o"
+
+#: ../../trainings/training5/05_installing_gurobi.rst:55
+msgid ""
+"This command will create a sub-directory ``/opt/gurobi1201/linux64`` or "
+"``/opt/gurobi1201/armlinux64`` that contains the complete Gurobi "
+"distribution (assuming you chose /opt). Your <installdir> will be this "
+"subdirectory."
+msgstr ""
+"Este comando creará un subdirectorio ``/opt/gurobi1201/linux64`` o "
+"``/opt/gurobi1201/armlinux64`` que contendrá la distribución completa de *Gurobi* "
+"(suponiendo que hayas elegido /opt). Tu <installdir> será este subdirectorio."
+
+#: ../../trainings/training5/05_installing_gurobi.rst:57
+msgid "Gurobi's Optimizer makes use of several executable files. To allow these files to be found when needed, you will need to modify a few environment variables:"
+msgstr "El optimizador de Gurobi utiliza varios archivos ejecutables. Para que estos archivos puedan encontrarse cuando sea necesario, deberás modificar algunas variables de entorno:"
+
+#: ../../trainings/training5/05_installing_gurobi.rst:59
+msgid "``GUROBI_HOME`` should point to your ``<installdir>``."
+msgstr "``GUROBI_HOME`` debe apuntar a tu ``<installdir>``."
+
+#: ../../trainings/training5/05_installing_gurobi.rst:61
+msgid "``PATH`` should be extended to include ``<installdir>/bin``."
+msgstr "El ``PATH`` debe ampliarse para incluir ``<installdir>/bin``."
+
+#: ../../trainings/training5/05_installing_gurobi.rst:63
+msgid "``LD_LIBRARY_PATH`` should be extended to include ``<installdir>/lib``."
+msgstr "El ``LD_LIBRARY_PATH`` debe ampliarse para incluir ``<installdir>/lib``."
+
+#: ../../trainings/training5/05_installing_gurobi.rst:66
+msgid "If you are using *RStudio* on a Linux system, you might need to add the following text to a *Rstudio* configuration file (located at ``/etc/rstudio/rserver.conf``):"
+msgstr "Si estás usando *RStudio* en un sistema Linux, es posible que necesites agregar el siguiente texto a un archivo de configuración de *RStudio* (ubicado en ``/etc/rstudio/rserver.conf``):"
+
+#: ../../trainings/training5/05_installing_gurobi.rst:72
+msgid ""
+"We have also found that on some Ubuntu based distros (e.g., Ubuntu, Linux Mint) you may need to run the following:"
+msgstr ""
+"También hemos encontrado que en algunas distribuciones basadas en Ubuntu (por ejemplo, Ubuntu, Linux Mint) puede ser necesario ejecutar lo siguiente:"

@@ -1,0 +1,261 @@
+# Copyright (C) 2025, UN Biodiversity Lab
+# This file is distributed under the same license as the ELSA Online
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Online Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-28 18:59+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../trainings/training5/02_github_repository.rst:2
+msgid "Code Repositories (git & *GitHub*)"
+msgstr "Repositorios de Código (git & *GitHub*)"
+
+#: ../../trainings/training5/02_github_repository.rst:4
+msgid ""
+"The multiple permutations of the *ELSA*, *Protecting Nature*, and related"
+" webtools are manged as separate branches (think of branches as subtle "
+"offshoots of a main project, where there are main commonalities but "
+"subtle and smaller differences) of a single version controlled git "
+"repository hosted on `GitHub <https://github.com/>`_. You may or may not "
+"be familiar with git (or other version control software) but, as the term"
+" implies, git is a control system thats tracks changes in code, "
+"documents, etc., and allows multiple people to collaborate, add new "
+"functionality, merge, and revert changes efficiently, all while "
+"maintaining a history of modifications that prevents conflicts and "
+"enables rollback to previous states if needed. This setup allows for a "
+"simplified management and development of shared functionality between "
+"tools, but still allow for bespoke development of tools specific to a "
+"project and country's individual needs (ranging from tailored "
+"language/translations differences to data input specifications)."
+msgstr ""
+"Las múltiples variaciones de las herramientas web *ELSA*, *Protecting "
+"Nature* y otras relacionadas se gestionan como ramas separadas (piensa en"
+" las ramas como derivaciones sutiles de un proyecto principal, donde hay "
+"elementos comunes pero también diferencias más pequeñas y específicas) "
+"dentro de un único repositorio de código con control de versiones alojado"
+" en `GitHub <https://github.com/>`_. Puede que estés familiarizado o no "
+"con *git* (u otro software de control de versiones), pero, como su nombre"
+" indica, *git* es un sistema de control que rastrea cambios en el código,"
+" documentos, etc., y permite que varias personas colaboren, añadan nuevas"
+" funcionalidades, combinen cambios y reviertan modificaciones de manera "
+"eficiente, manteniendo siempre un historial de cambios que evita "
+"conflictos y permite volver a versiones anteriores cuando sea necesario. "
+"Esta configuración permite una gestión simplificada y el desarrollo de "
+"funcionalidades compartidas entre herramientas, al mismo tiempo que "
+"posibilita el desarrollo personalizado de herramientas específicas para "
+"cada proyecto y país, adaptándose a diferencias en el idioma, las "
+"traducciones y las especificaciones de los datos de entrada."
+
+#: ../../trainings/training5/02_github_repository.rst:6
+msgid ""
+"The publicly accessible repository for the *Protecting Nature Webtools* "
+"being used in these workshops can be accessed at:"
+msgstr ""
+"El repositorio público de *Protecting Nature Webtools*, utilizado en "
+"estos talleres, está disponible en:"
+
+#: ../../trainings/training5/02_github_repository.rst:8
+msgid ""
+"`Download - Protecting Nature Webtools GitHub Repository "
+"<https://github.com/ELSA-UNDP/prioritizing-nature-"
+"workshops/tree/prioritizing_nature_main>`_"
+msgstr ""
+"`Descargar - Repositorio de GitHub de Protecting Nature Webtools "
+"<https://github.com/ELSA-UNDP/prioritizing-nature-"
+"workshops/tree/prioritizing_nature_main>`_"
+
+#: ../../trainings/training5/02_github_repository.rst:12
+msgid ""
+"You do not need to be registered on *GitHub*, nor be familiar with "
+"*GitHub* to access this repository."
+msgstr ""
+"No necesitas estar registrado en *GitHub* ni estar familiarizado con "
+"*GitHub* para acceder a este repositorio."
+
+#: ../../trainings/training5/02_github_repository.rst:14
+msgid ""
+"If you navigate to the URL above you should find yourself seeing the "
+"following (or similar):"
+msgstr "Si accedes a la URL anterior, deberías ver lo siguiente (o algo similar):"
+
+#: ../../trainings/training5/02_github_repository.rst:24
+msgid ""
+"For the rest of this training we will assume that you do not have any "
+"experience using git or GitHub and will show you how to download the "
+"repository code without using git."
+msgstr ""
+"Para el resto de este entrenamiento, asumiremos que no tienes experiencia"
+" usando *git* o *GitHub*, y te mostraremos cómo descargar el código del "
+"repositorio sin necesidad de usar *git*."
+
+#: ../../trainings/training5/02_github_repository.rst:26
+msgid ""
+"For users who are familiar with git and *GitHub* please feel free to "
+"clone the repository to you computer."
+msgstr ""
+"Para los usuarios que están familiarizados con *git* y *GitHub*, "
+"siéntanse libres de clonar el repositorio en su computadora."
+
+#: ../../trainings/training5/02_github_repository.rst:28
+msgid ""
+"In the repository there exists three (3) branches of the *Protecting "
+"Nature Webtools*:"
+msgstr ""
+"En el repositorio existen tres (3) ramas de las *Protecting Nature "
+"Webtools*:"
+
+#: ../../trainings/training5/02_github_repository.rst:30
+msgid "**prioritizing_nature_main** (the main development branch)"
+msgstr "**prioritizing_nature_main** (rama principal de desarrollo)"
+
+#: ../../trainings/training5/02_github_repository.rst:31
+#, fuzzy
+msgid "**prioritizing_nature_per** (the branch for the Peru specific tool)"
+msgstr "**prioritizing_nature_per** (rama para la herramienta específica de Perú)"
+
+#: ../../trainings/training5/02_github_repository.rst:32
+#, fuzzy
+msgid "**prioritizing_nature_ecu** (the branch for the Ecuador specific tool)"
+msgstr ""
+"**prioritizing_nature_ecu** (rama para la herramienta específica de "
+"Ecuador)"
+
+#: ../../trainings/training5/02_github_repository.rst:34
+msgid ""
+"At any one time you will be working with either the tool for Peru or the "
+"tool for Ecuador (depending on your preference of course). To do so, you "
+"will first download the branch of the repository corresponding to your "
+"country of preference, in a zip format. To select the branch of your "
+"choice:"
+msgstr ""
+"En cualquier momento estarás trabajando con la herramienta para Perú o la"
+" herramienta para Ecuador (dependiendo de tu preferencia, por supuesto). "
+"Para hacerlo, primero debes descargar la rama del repositorio "
+"correspondiente a tu país de preferencia en formato ZIP. Para seleccionar"
+" la rama de tu elección:"
+
+#: ../../trainings/training5/02_github_repository.rst:36
+msgid ""
+"Click on the dropdown menu that (by default) shows "
+"``prioritizing_nature_main``."
+msgstr ""
+"Haz clic en el menú desplegable que (por defecto) muestra "
+"``prioritizing_nature_main``."
+
+#: ../../trainings/training5/02_github_repository.rst:37
+msgid ""
+"Select either the ``prioritizing_nature_ecu`` or "
+"``prioritizing_nature_per`` branch."
+msgstr ""
+"Selecciona la rama ``prioritizing_nature_ecu`` o "
+"``prioritizing_nature_per``."
+
+#: ../../trainings/training5/02_github_repository.rst:45
+msgid "Once you have selected your desired branch:"
+msgstr "Una vez que hayas seleccionado la rama deseada:"
+
+#: ../../trainings/training5/02_github_repository.rst:47
+msgid ""
+"Click on the box on the right that shows ``<> Code`` (seen in Green in "
+"the image below)."
+msgstr ""
+"Haz clic en la caja a la derecha que muestra ``<> Code`` (visible en "
+"verde en la imagen a continuación)."
+
+#: ../../trainings/training5/02_github_repository.rst:51
+msgid ""
+"The ``<> Code`` button may be another colour if you use another theme in "
+"your browser."
+msgstr ""
+"El botón ``<> Code`` puede tener otro color si usas un tema diferente en "
+"tu navegador."
+
+#: ../../trainings/training5/02_github_repository.rst:59
+msgid "Click on the ``Download ZIP`` icon."
+msgstr "Haz clic en el icono ``Download ZIP``."
+
+#: ../../trainings/training5/02_github_repository.rst:61
+msgid ""
+"The download of the branches for Ecuador and Peru are approximately 7MB "
+"and 37MB each, respectively."
+msgstr ""
+"Las descargas de las ramas para Ecuador y Perú son de aproximadamente 7MB"
+" y 37MB, respectivamente."
+
+#: ../../trainings/training5/02_github_repository.rst:64
+msgid "Why the large difference in size, you might be wondering?"
+msgstr "¿Por qué la gran diferencia de tamaño, te estarás preguntando?"
+
+#: ../../trainings/training5/02_github_repository.rst:65
+msgid ""
+"Peru is larger (equals more planning units) and (more significantly) has "
+"more input feature layers."
+msgstr ""
+"Perú es más grande (lo que significa más unidades de planificación) y "
+"(más significativamente) tiene más capas de datos de entrada."
+
+#: ../../trainings/training5/02_github_repository.rst:68
+msgid "Geospatial Data"
+msgstr "Datos Geoespaciales"
+
+#: ../../trainings/training5/02_github_repository.rst:69
+#, fuzzy
+msgid ""
+"The repositories (branches) that you just downloaded are as large as they"
+" are because they already contain the preprocessed and pre-created data "
+"for the feature layers, zones, and existing protected areas and OECMs in "
+"each country. We will not be covering the install of Desktop GIS program "
+"in this training, but it is easy to explore these  geospatial data layers"
+" using a Desktop GIS platform (such as QGIS)."
+msgstr ""
+"Los repositorios (ramas) que acabas de descargar son tan grandes porque "
+"ya contienen los datos preprocesados y pre-creados para las capas de "
+"características, zonas y áreas protegidas existentes y OECMs en cada "
+"país. No cubriremos la instalación de programas de SIG de escritorio en "
+"esta capacitación, pero es fácil explorar estas capas de datos "
+"geoespaciales utilizando una plataforma SIG de escritorio (como QGIS)."
+
+#: ../../trainings/training5/02_github_repository.rst:73
+msgid ""
+"If you do not have an existing Desktop GIS installed on your computer, "
+"QGIS is one of the best, and it is also free and open-source. You can "
+"find download and installation instructions from `QGIS "
+"<https://qgis.org/download/>`_."
+msgstr ""
+"Si no tienes un SIG de escritorio instalado en tu computadora, QGIS es "
+"una de las mejores opciones, y además es gratuito y de código abierto. "
+"Puedes encontrar instrucciones de descarga e instalación en `QGIS "
+"<https://qgis.org/download/>`_."
+
+#: ../../trainings/training5/02_github_repository.rst:75
+msgid ""
+"Also note that R can be also be a very capable Desktop-ish GIS as well - "
+"the very good `Geocomputation with R <https://r.geocompx.org/>`_ provides"
+" all you might need to know."
+msgstr ""
+"También ten en cuenta que *R* puede ser un SIG de escritorio muy potente."
+" El excelente libro `Geocomputation with R <https://r.geocompx.org/>`_ "
+"proporciona toda la información que podrías necesitar."
+
+#: ../../trainings/training5/02_github_repository.rst:77
+msgid ""
+"In the next section we will explore how the data directory of the "
+"repository is structured, and where you can find and explore the "
+"geospatial data."
+msgstr ""
+"En la siguiente sección exploraremos cómo está estructurado el directorio"
+" de datos del repositorio y dónde puedes encontrar y explorar los datos "
+"geoespaciales."
+

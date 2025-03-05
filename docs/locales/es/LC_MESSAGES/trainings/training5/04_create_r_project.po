@@ -1,0 +1,82 @@
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-02-28 18:59+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../trainings/training5/04_create_r_project.rst:2
+msgid "Create a *Prioritizing Nature* *R* Project"
+msgstr "Crear un Proyecto de *Prioritizing Nature* en *R*"
+
+#: ../../trainings/training5/04_create_r_project.rst:4
+msgid ""
+"We covered the benefits of and how to create an project in R in "
+":ref:`r_projects` of :ref:`training_3`. We are now going to create one in"
+" the repository that we just downloaded end extracted."
+msgstr ""
+"Hemos cubierto los beneficios de crear un proyecto en R y cómo hacerlo en"
+" :ref:`r_projects` de :ref:`training_3`. Ahora vamos a crear uno en el "
+"repositorio que acabamos de descargar y extraer."
+
+#: ../../trainings/training5/04_create_r_project.rst:6
+msgid "Open *RStudio*."
+msgstr "Abre *RStudio*."
+
+#: ../../trainings/training5/04_create_r_project.rst:8
+msgid "In the upper right, click on the drop menu that shows: |proj1|"
+msgstr ""
+"En la parte superior derecha, haz clic en el menú desplegable que "
+"muestra: |proj1|"
+
+#: ../../trainings/training5/04_create_r_project.rst:10
+msgid "proj1"
+msgstr ""
+
+#: ../../trainings/training5/04_create_r_project.rst:12
+msgid "In the dropdown menu that opens, select: |proj2|"
+msgstr "En el menú desplegable que se abre, selecciona: |proj2|"
+
+#: ../../trainings/training5/04_create_r_project.rst:14
+msgid "proj2"
+msgstr ""
+
+#: ../../trainings/training5/04_create_r_project.rst:16
+msgid "In the window that opens, select *Existing Directory*:"
+msgstr "En la ventana que se abre, selecciona *Directorio Existente*:"
+
+#: ../../trainings/training5/04_create_r_project.rst:24
+msgid ""
+"Click on *Browse* and then navigate the location of the directory you "
+"saved the downloaded repository files:"
+msgstr ""
+"Haz clic en *Examinar* y luego navega hasta la ubicación del directorio "
+"donde guardaste los archivos del repositorio descargado:"
+
+#: ../../trainings/training5/04_create_r_project.rst:32
+msgid "Click *Choose* when you have entered the directory location."
+msgstr ""
+"Haz clic en *Elegir* cuando hayas seleccionado la ubicación del "
+"directorio."
+
+#: ../../trainings/training5/04_create_r_project.rst:34
+msgid "Finally, click on the *Create Project* button."
+msgstr "Finalmente, haz clic en el botón *Crear Proyecto*."
+
+#: ../../trainings/training5/04_create_r_project.rst:36
+msgid "This will create an ``.Rproj`` in the directory, and *RStudio* will now also show that the working directory has been set to the root of the directory. You can see this shown in the console window of *RStudio*, which should look something like the image below:"
+msgstr "Esto creará un archivo ``.Rproj`` en el directorio, y *RStudio* también mostrará que el directorio de trabajo se ha establecido en la raíz del directorio. Puedes ver esto en la ventana de la consola de *RStudio*, que debería verse como la imagen a continuación:"
+
+#: ../../trainings/training5/04_create_r_project.rst:46
+msgid "The name of the project defaults to the name of the folder you create it but as with many things in *R* and *RStudio* you can change it something you find more suitable."
+msgstr "El nombre del proyecto por defecto es el mismo que el de la carpeta en la que lo creaste, pero al igual que muchas cosas en *R* y *RStudio*, puedes cambiarlo por algo que consideres más adecuado."

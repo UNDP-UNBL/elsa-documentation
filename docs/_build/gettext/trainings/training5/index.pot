@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ELSA Online Documentation \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 12:12+1000\n"
+"POT-Creation-Date: 2025-03-05 13:34+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,93 +21,45 @@ msgid "Training 5: Running Spatial Prioritisations"
 msgstr ""
 
 #: ../../trainings/training5/index.rst:6
-msgid "This module is an online workshop followed by interactive exercises. It will provide training on how to import the spatial data from the Prioritizing Nature Project to the prioritizr, and run the prioritizr analysis in R software to generate the spatial prioritization map."
+msgid "This training module is going cover two main components:"
 msgstr ""
 
-#: ../../trainings/training5/index.rst:10
-msgid "Participants are expected to have basic knowledge of GIS, R software and language, such as running scripts in R"
+#: ../../trainings/training5/index.rst:8
+msgid "We will pick back up again from :ref:`training_3` and further set up your computers to run the *Prioritizing Nature Webtools* on your own computers, using the *Gurobi* solver; and"
+msgstr ""
+
+#: ../../trainings/training5/index.rst:9
+msgid "We will go through setting analyses on the working *Prioritizing Nature Webtools* - you will then be able to run some analyses on your computer."
+msgstr ""
+
+#: ../../trainings/training5/index.rst:11
+msgid "This is an online workshop (followed by interactive exercises) that will provide training on how to:"
+msgstr ""
+
+#: ../../trainings/training5/index.rst:13
+msgid "Connect to and access the software's online repository (on *Github* - no registration needed)"
 msgstr ""
 
 #: ../../trainings/training5/index.rst:14
-msgid "Rshiny"
+msgid "Correctly install required *R* packages needed for the tool to run;"
+msgstr ""
+
+#: ../../trainings/training5/index.rst:15
+msgid "Correctly install the *Gurobi* solver software;"
 msgstr ""
 
 #: ../../trainings/training5/index.rst:16
-msgid "The  ELSA national tools you may have seen or used on-line are built using *RShiny*, and those we will be setting up to run locally on your computer during this workshop also use *Rshiny*. *RShiny* is an *R* package that allows users to create interactive web applications directly from *R* code without the need for specialist web programming skills - meaning that in a nutshell, users can build/run functional web applications by simply opening the application in their web browser (Chrome, Firefox, Safari, etc). Some of the key features of *RShiny* are:"
+msgid "Set up usage of our paid *Gurobi* Cloud services for use during the workshop; and"
 msgstr ""
 
-#: ../../trainings/training5/index.rst:18
-msgid "It provides a web application framework for *R*, allowing for interactive app development."
+#: ../../trainings/training5/index.rst:17
+msgid "Correctly run the *Prioritizing Nature Webtools* tool locally from within *Rstudio* to generate the spatial prioritization map."
 msgstr ""
 
 #: ../../trainings/training5/index.rst:19
-msgid "Includes reactive programming, allowing for automatically updating of outputs when inputs change."
+msgid "At the end the training you should have a better understanding of the webtools, the software that they use, and greater clarity on how various changes to the tool's parameters can greatly change the outputs and identified priority areas."
 msgstr ""
 
-#: ../../trainings/training5/index.rst:20
-msgid "It integrates with other *R* libraries, working seamlessly with with the `tidyverse <https://www.tidyverse.org/>`_ (e.g., *ggplot2*, *dplyr*, *readr*, etc.) *leaflet*, *shinyWidgets*, *terra*, and other *R* libraries."
-msgstr ""
-
-#: ../../trainings/training5/index.rst:21
-msgid "Apps can be deployed on Web and hosted on `ShinyApps.io <https://www.shinyapps.io/>`_, `RStudio Connect <https://posit.co/products/enterprise/connect/>`_, or on private servers (for example, one of the tools for Peru seen below)."
-msgstr ""
-
-#: ../../trainings/training5/index.rst:30
-msgid "We run the various national ELSA web tools on private and secure UNICC infrastructure."
-msgstr ""
-
-#: ../../trainings/training5/index.rst:34
-msgid "ELSA Code Repositories (Git)"
-msgstr ""
-
-#: ../../trainings/training5/index.rst:36
-msgid "TO DO:"
-msgstr ""
-
-#: ../../trainings/training5/index.rst:38
-msgid "Git hub repo download - which branch"
-msgstr ""
-
-#: ../../trainings/training5/index.rst:40
-msgid "Data and files set up"
-msgstr ""
-
-#: ../../trainings/training5/index.rst:41
-msgid "Need to run pre-run.R"
-msgstr ""
-
-#: ../../trainings/training5/index.rst:43
-msgid "Need to set up to run locally and not via CLI"
-msgstr ""
-
-#: ../../trainings/training5/index.rst:45
-msgid "Download as zip file"
-msgstr ""
-
-#: ../../trainings/training5/index.rst:49
-msgid "GIS Data Downloads"
-msgstr ""
-
-#: ../../trainings/training5/index.rst:50
-msgid "Data stacks for this workshop have been pre-created so that we can focus less on data processing and more on working with and understanding the ELSA outputs."
-msgstr ""
-
-#: ../../trainings/training5/index.rst:52
-msgid "Download the data stack for your country of interest below:"
-msgstr ""
-
-#: ../../trainings/training5/index.rst:54
-msgid "`Peru <TBD>`_"
-msgstr ""
-
-#: ../../trainings/training5/index.rst:55
-msgid "`Ecuador <TBD>`_"
-msgstr ""
-
-#: ../../trainings/training5/index.rst:57
-msgid "Setting up an *R* project and file structure"
-msgstr ""
-
-#: ../../trainings/training5/index.rst:60
-msgid "Setting it all up"
+#: ../../trainings/training5/index.rst:23
+msgid "Participants are expected to have basic knowledge of GIS, *R* software and language, such as running scripts in *R*. The latter of these topics were covered in :ref:`training_3`."
 msgstr ""

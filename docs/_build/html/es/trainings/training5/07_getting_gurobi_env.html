@@ -1,0 +1,166 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="es" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acceso a la Nube de Gurobi &mdash; documentación de ELSA Online Documentation - </title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=d75fae25" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=e2bb6099"></script>
+      <script src="../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../../_static/copybutton.js?v=f281be69"></script>
+      <script src="../../_static/translations.js?v=f85f4cfb"></script>
+      <script src="../../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="author" title="Sobre este documento" href="../../about.html" />
+    <link rel="index" title="Índice" href="../../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../../search.html" />
+    <link rel="next" title="Verificando si la instalación de Gurobi R fue exitosa" href="08_checking_gurobi_installation.html" />
+    <link rel="prev" title="Instalación del paquete Gurobi R" href="06_installing_gurobi_r_package.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            ELSA Online Documentation
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar documentos" aria-label="Buscar documentos" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Inicio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about.html">Acerca de las Áreas Esenciales de Soporte de Vida (ELSA)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Capacitaciones</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../training1/index.html">Capacitación 1: Planificación Sistemática de la Conservación</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../training2/index.html">Capacitación 2: Uso de la herramienta web en línea para co-crear el Mapa de Priorización Espacial</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../training3/index.html">Capacitación 3: Configuración de <em>R</em> y <em>RStudio</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../training4/index.html">Capacitación 4: Datos espaciales utilizados: estructura, selección y procesamiento</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Capacitación 5: Ejecución de Priorizaciones Espaciales</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="01_rshiny_interface.html">RShiny - La Interfaz Gráfica de Usuario (GUI)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="02_github_repository.html">Repositorios de Código (git &amp; <em>GitHub</em>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03_exploring_data_structure.html">Explorando la Estructura de Datos del Repositorio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="04_create_r_project.html">Crear un Proyecto de <em>Prioritizing Nature</em> en <em>R</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="05_installing_gurobi.html">Instalación de Gurobi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="06_installing_gurobi_r_package.html">Instalación del paquete <em>Gurobi R</em></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Acceso a la Nube de <em>Gurobi</em></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#env-download">Descarga del archivo .env</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="08_checking_gurobi_installation.html">Verificando si la instalación de <em>Gurobi R</em> fue exitosa</a></li>
+<li class="toctree-l3"><a class="reference internal" href="09_installing_required_r_packages.html">Instalación de Paquetes Requeridos de <em>R</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="10_running_webtool_p1.html">Ejecutando la <em>Herramienta de Priorización de la Naturaleza</em> - Configuración de Datos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="11_running_webtool_p2.html">Ejecutando la <em>Herramienta de Priorización de la Naturaleza</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="12_exploring_webtool.html">Explorando la <em>Herramienta de Priorización de la Naturaleza</em></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../prioritizr_advanced/index.html">prioritizr (Advanced)</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ELSA Online Documentation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Capacitaciones</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Capacitación 5: Ejecución de Priorizaciones Espaciales</a></li>
+      <li class="breadcrumb-item active">Acceso a la Nube de <em>Gurobi</em></li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/trainings/training5/07_getting_gurobi_env.rst.txt" rel="nofollow"> Ver código fuente de la página</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="gurobi-cloud-access">
+<h1>Acceso a la Nube de <em>Gurobi</em><a class="headerlink" href="#gurobi-cloud-access" title="Link to this heading"></a></h1>
+<p>Para acceder a nuestros solucionadores en la Nube de <em>Gurobi</em> y ejecutar la herramienta <em>Prioritizing Nature Webtool</em> y los ejercicios de esta capacitación, necesitarás:</p>
+<ol class="arabic simple">
+<li><p>Tener <em>Gurobi</em> instalado en tu computadora; <strong>Y</strong></p></li>
+<li><p>Tener una licencia o clave válida que permita el acceso.</p></li>
+</ol>
+<div class="admonition important">
+<p class="admonition-title">Importante</p>
+<p>Consulta <a class="reference internal" href="05_installing_gurobi.html#installing-gurobi"><span class="std std-ref">Instalación de Gurobi</span></a> si <em>Gurobi</em> no está correctamente instalado.</p>
+</div>
+<p>Cuando el software <em>Gurobi</em> está correctamente instalado en tu computadora, usar el servicio en la nube de <em>Gurobi</em> es tan simple como guardar un archivo <code class="docutils literal notranslate"><span class="pre">gurobi.env</span></code> en el directorio raíz desde donde estás ejecutando la herramienta <em>Prioritizing Nature Webtool</em>. Los problemas se enviarán automáticamente al solucionador en la nube para su cálculo, en lugar de intentar resolverlos localmente (lo que fallaría, ya que no tienes una licencia completa de <em>Gurobi</em>).</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>A menos que ya tengas configurada una licencia académica gratuita.</p>
+</div>
+<section id="env-download">
+<h2>Descarga del archivo .env<a class="headerlink" href="#env-download" title="Link to this heading"></a></h2>
+<p>Todos los participantes registrados deberían haber recibido un correo electrónico con la posibilidad de descargar el archivo <cite>gurobi.env</cite> para esta capacitación. Si no has recibido ese correo o aún no has descargado el archivo .env, puedes hacerlo desde el siguiente enlace:</p>
+<blockquote>
+<div><p><a class="reference external" href="EnlaceTBC">gurobi.env</a></p>
+</div></blockquote>
+<p>Guarda este archivo en el directorio raíz del repositorio que has descargado, que también es el directorio de trabajo del <em>Proyecto de R</em> que acabas de crear.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
+        <a href="06_installing_gurobi_r_package.html" class="btn btn-neutral float-left" title="Instalación del paquete Gurobi R" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="08_checking_gurobi_installation.html" class="btn btn-neutral float-right" title="Verificando si la instalación de Gurobi R fue exitosa" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Derechos de autor 2025, UN Biodiversity Lab.</p>
+  </div>
+
+  Compilado con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

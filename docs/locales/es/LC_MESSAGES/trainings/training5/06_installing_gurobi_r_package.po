@@ -1,0 +1,179 @@
+# Copyright (C) 2025, UN Biodiversity Lab
+# This file is distributed under the same license as the ELSA Online
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Online Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-28 18:59+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst:2
+msgid "Installing the *Gurobi R* package"
+msgstr "Instalación del paquete *Gurobi R*"
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst:4
+msgid ""
+"To use *Gurobi's R* interface, you will need to install the *Gurobi* "
+"package in your *R* installation. The generalised *R* command for doing "
+"this is:"
+msgstr ""
+"Para usar la interfaz de *Gurobi* en *R*, necesitarás instalar el paquete"
+" *Gurobi* en tu instalación de *R*. El comando generalizado de *R* para "
+"hacerlo es:"
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst:10
+msgid ""
+"The *Gurobi R* package file can be found within the directory where you "
+"installed *Gurobi* on your system (see :ref:`installing_gurobi` if you "
+"have not already successfully installed *Gurobi* on your computer). The "
+"default installation directory is:"
+msgstr ""
+"El archivo del paquete *Gurobi R* se encuentra dentro del directorio "
+"donde instalaste *Gurobi* en tu sistema (consulta "
+":ref:`installing_gurobi` si aún no has instalado *Gurobi* en tu "
+"computadora). El directorio de instalación por defecto es:"
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst:12
+msgid "For **64-bit Windows**: `C:\\gurobi1201win64` , and"
+msgstr "Para **Windows de 64 bits**: `C:\\gurobi1201win64`, y"
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst:13
+msgid "For **MacOS**: `/Library/gurobi1201/macos_universal2`,"
+msgstr "Para **MacOS**: `/Library/gurobi1201/macos_universal2`,"
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst:14
+msgid "For **Linux** systems: `/opt/gurobi1201/linux64`"
+msgstr "Para sistemas **Linux**: `/opt/gurobi1201/linux64`"
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst:18
+msgid ""
+"Update the version number in the path if you have installed a different "
+"Gurobi version."
+msgstr ""
+"Actualiza el número de versión en la ruta si has instalado una versión "
+"diferente de Gurobi."
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst:21
+msgid ""
+"You will find the exact name of the file for your operating system inside"
+" the `<installdir>/R`."
+msgstr ""
+"Encontrarás el nombre exacto del archivo para tu sistema operativo dentro"
+" de `<installdir>/R`."
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst:23
+msgid "For **64-bit Windows** this is: `gurobi_12.0-1.zip` , and"
+msgstr "Para **Windows de 64 bits**, este es: `gurobi_12.0-1.zip`, y"
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst:24
+msgid "For **MacOS** this is: `gurobi_11.0-0_R_.tgz`,"
+msgstr "Para **MacOS**, este es: `gurobi_11.0-0_R_.tgz`,"
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst:25
+msgid "For **Linux** systems this is: `gurobi_12.0-1_R_.tar.gz`"
+msgstr "Para sistemas **Linux**, este es: `gurobi_12.0-1_R_.tar.gz`"
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst:27
+msgid "Operating specific instructions can be found below:"
+msgstr ""
+"Las instrucciones específicas para cada sistema operativo se encuentran a"
+" continuación:"
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst
+msgid "Windows"
+msgstr "Windows"
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst:31
+msgid ""
+"For Windows users, you will also need to install the `RTools "
+"<https://cran.r-project.org/bin/windows/Rtools/rtools44/rtools.html>`_ if"
+" you have not already done so when following the *Additional "
+"Installations* section :ref:`installing_r` in :ref:`training_3`."
+msgstr ""
+"Para los usuarios de Windows, también será necesario instalar `RTools "
+"<https://cran.r-project.org/bin/windows/Rtools/rtools44/rtools.html>`_ si"
+" aún no lo han hecho al seguir la sección *Instalaciones adicionales* "
+":ref:`installing_r` en :ref:`training_3`."
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst:34
+msgid ""
+"These compilers (Xcode, GCC, C++, Fortan, etc.) are often/typically "
+"installed on MacOS and Linux systems, so this extra installation does not"
+" apply to you if your systems runs either of these OS."
+msgstr ""
+"Estos compiladores (Xcode, GCC, C++, Fortran, etc.) suelen estar "
+"preinstalados en los sistemas MacOS y Linux, por lo que esta instalación "
+"adicional no aplica si usas uno de estos sistemas operativos."
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst:36
+msgid ""
+"To download RTools, click the `Rtools44 installer "
+"<https://cran.r-project.org/bin/windows/Rtools/rtools44/files/rtools44-6459-6401.exe>`_"
+" link, download the file, run it, and follow the installation "
+"instructions."
+msgstr ""
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst
+msgid "macOS"
+msgstr "macOS"
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst:40
+msgid "something"
+msgstr ""
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst
+msgid "Linux (x64/armlinux64)"
+msgstr "Linux (x64/armlinux64)"
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst:52
+msgid ""
+"There is likely nothing else you need to do. Pat yourself on the back for"
+" using Linux and being awesome."
+msgstr ""
+"Probablemente no necesites hacer nada más. Felicítate por usar Linux y "
+"ser increíble."
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst:56
+msgid ""
+"Depending on your local *R* environment you might need to install the R "
+"package slam. To do this, you should issue the following command in the "
+"*RStudio* console:"
+msgstr ""
+"Dependiendo de tu entorno local de *R*, es posible que necesites instalar"
+" el paquete de *R* slam. Para hacerlo, debes ejecutar el siguiente "
+"comando en la consola de *RStudio*:"
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst:63
+msgid "Test that gurobi installed correctly by running:"
+msgstr "Prueba si *Gurobi* se instaló correctamente ejecutando:"
+
+#: ../../trainings/training5/06_installing_gurobi_r_package.rst:74
+msgid ""
+"You will need to be careful to make sure that the *R* binary and the "
+"*Gurobi* package you install both use the same instruction set. For "
+"example, if you are using the 64-bit version of *R*, you’ll need to "
+"install the 64-bit version of *Gurobi*, and the 64-bit *Gurobi R* "
+"package. This is particularly important on Windows systems, where the "
+"error messages that result from instruction set mismatches can be quite "
+"cryptic."
+msgstr ""
+"Debes asegurarte de que el binario de *R* y el paquete *Gurobi* que "
+"instales utilicen el mismo conjunto de instrucciones. Por ejemplo, si "
+"estás usando la versión de *R* de 64 bits, necesitarás instalar la "
+"versión de *Gurobi* de 64 bits, así como el paquete *Gurobi R* de 64 "
+"bits. Esto es particularmente importante en sistemas Windows, donde los "
+"mensajes de error derivados de incompatibilidades en el conjunto de "
+"instrucciones pueden ser difíciles de interpretar."
+

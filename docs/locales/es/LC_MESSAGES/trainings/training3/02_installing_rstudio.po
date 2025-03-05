@@ -1,0 +1,137 @@
+# Copyright (C) 2025, UN Biodiversity Lab - UNDP
+# This file is distributed under the same license as the ELSA Online
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Online Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-13 18:05+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../trainings/t3_r_setup/installing_rstudio.rst:2
+msgid "Installing *RStudio*"
+msgstr "Instalación de *RStudio*"
+
+#: ../../trainings/t3_r_setup/installing_rstudio.rst:4
+msgid ""
+"*R* is not a program like Microsoft Word or Google Chrome that a user "
+"simply opens and starts doing some work with. Rather, *R* is a computer "
+"language, much like *C++*, *Python*, or *Java Script*, etc., whereby "
+"commands (in the *R* language in our case) are passed to the operating "
+"system, which in turn is able to interpret them (using an interpreter) "
+"and provide responses (this can be as simple as adding ``2 + 2`` or as "
+"complex as sending queries to your favourite AI chat bot asking where the"
+" nearest phở restaurant is to eat at tonight). There are various front-"
+"end coding environments (called IDEs, or Integrated Development "
+"Environments) which can be used to interact with *R*, but the most common"
+" *R* IDE is a program developed by `Posit <https://posit.co/>`_ called "
+"*RStudio* - *RStudio* will be used in all the Prioritizing Nature project"
+" training series."
+msgstr ""
+"*R* no es un programa como Microsoft Word o Google Chrome que un usuario "
+"simplemente abre y comienza a usar. Más bien, *R* es un lenguaje de programación, "
+"similar a *C++*, *Python* o *JavaScript*, en el que se ejecutan comandos (en nuestro caso, en *R*) "
+"que son interpretados por el sistema operativo y devuelven respuestas. "
+"Estas pueden ser tan simples como sumar ``2 + 2`` o tan complejas como realizar consultas "
+"a tu chatbot de IA favorito para encontrar el restaurante de phở más cercano. "
+"Existen varios entornos de desarrollo integrados (IDE) para interactuar con *R*, "
+"pero el IDE más utilizado es *RStudio*, un programa desarrollado por `Posit <https://posit.co/>`_. "
+"*RStudio* se utilizará en toda la serie de capacitaciones del proyecto Prioritizing Nature."
+
+#: ../../trainings/t3_r_setup/installing_rstudio.rst:7
+msgid "If R works via the command line, why use an IDE like RStudio instead?"
+msgstr "Si *R* funciona en la línea de comandos, ¿por qué usar un IDE como *RStudio* en su lugar?"
+
+#: ../../trainings/t3_r_setup/installing_rstudio.rst:9
+msgid ""
+"The *R* CLI (command line interface), while fully running *R*, has very "
+"limited other features."
+msgstr ""
+"La interfaz de línea de comandos (*CLI*) de *R*, aunque ejecuta *R* por completo, "
+"tiene características muy limitadas."
+
+#: ../../trainings/t3_r_setup/installing_rstudio.rst:10
+msgid ""
+"RStudio is available for free for use with Windows, macOS, and Linux "
+"operating systems - **cost is not an issue**."
+msgstr ""
+"*RStudio* está disponible de forma gratuita para Windows, macOS y Linux, "
+"por lo que **el costo no es un problema**."
+
+#: ../../trainings/t3_r_setup/installing_rstudio.rst:11
+msgid ""
+"Its interface and all-in-one place design make working with *R* easier, "
+"more productive, and more organized. This is especially true for new "
+"users."
+msgstr ""
+"Su interfaz y diseño todo en uno hacen que trabajar con *R* sea más fácil, "
+"productivo y organizado. Esto es especialmente útil para los nuevos usuarios."
+
+#: ../../trainings/t3_r_setup/installing_rstudio.rst:12
+msgid ""
+"*RStudio* is able to easily run `RShiny <https://shiny.posit.co/>`_ "
+"applications, of which the various ELSA tool are instances of."
+msgstr ""
+"*RStudio* permite ejecutar fácilmente aplicaciones de `RShiny <https://shiny.posit.co/>`_, "
+"de las cuales las herramientas ELSA son ejemplos."
+
+#: ../../trainings/t3_r_setup/installing_rstudio.rst:16
+msgid ""
+"Even if you have *RStudio* installed, you will still need to have R "
+"installed on your computer. *RStudio* helps you use the version of R that"
+" exists on your computer, but it doesn't come with an installed version "
+"of R on its own."
+msgstr ""
+"Incluso si tienes *RStudio* instalado, todavía necesitarás instalar *R* en tu computadora. "
+"*RStudio* te ayuda a utilizar la versión de *R* que tengas instalada, pero no incluye una versión de *R* por defecto."
+
+#: ../../trainings/t3_r_setup/installing_rstudio.rst:20
+msgid ""
+"You are free to use any IDE you are most comfortable using, but this "
+"workshop will be using *RStudio* and any troubleshooting assistance with "
+"other IDEs may be limited or not be possible."
+msgstr ""
+"Eres libre de usar cualquier IDE con el que te sientas más cómodo, "
+"pero en este taller utilizaremos *RStudio* y la asistencia para solucionar problemas con otros IDEs "
+"puede ser limitada o no estar disponible."
+
+#: ../../trainings/t3_r_setup/installing_rstudio.rst:22
+msgid "To install *RStudio*:"
+msgstr "Para instalar *RStudio*:"
+
+#: ../../trainings/t3_r_setup/installing_rstudio.rst:24
+msgid ""
+"Go to the `RStudio Desktop download website <https://posit.co/download"
+"/rstudio-desktop/>`_."
+msgstr ""
+"Visita el sitio web de descarga de `RStudio Desktop <https://posit.co/download"
+"/rstudio-desktop/>`_."
+
+#: ../../trainings/t3_r_setup/installing_rstudio.rst:25
+msgid "Scroll down until you see **All Installers and Tarballs**."
+msgstr "Desplázate hacia abajo hasta encontrar **Todos los instaladores y paquetes Tarball**."
+
+#: ../../trainings/t3_r_setup/installing_rstudio.rst:26
+msgid ""
+"From the list, choose and download the corresponding version based on "
+"your computer operating system."
+msgstr ""
+"De la lista, elige y descarga la versión correspondiente según el sistema operativo de tu computadora."
+
+#: ../../trainings/t3_r_setup/installing_rstudio.rst:33
+msgid ""
+"Follow the simple instructions that follow, install the program, and you "
+"are ready to use *RStudio*."
+msgstr ""
+"Sigue las instrucciones de instalación, instala el programa y estarás listo para usar *RStudio*."
