@@ -18,11 +18,26 @@ After installing the *Gurobi* software suite on your computer, you will need to 
 
 .. dropdown:: Windows
 
-   Something
+   Double-click on the Gurobi installer that you downloaded (unless you selected *Run* when downloading. in which case you've already run the installer and don't need to do it again.)
+
+   By default, the installer will place the Gurobi 12.0.* files in the directory ``c:\gurobi1201\win64``. The installer gives you the option to change the installation target, but it's easiest to accept the default settings.
+
+   The installer can also be used to repair or remove a past installation.
+
+   .. note:: 
+
+      To work with compressed files within Gurobi Optimizer, it is recommended that you install `gzip <www.gzip.org>`_ and/or `7zip <www.7-zip.org>`_.
+
 
 .. dropdown:: macOS
 
-   Something
+   Double-click on the appropriate Gurobi installer (e.g., gurobi12.0.1_macos_universal2.pkg for Gurobi 12.0.1) and follow the prompts.
+
+   By default, the installer will place the Gurobi 12.0.* files in ``/Library/gurobi1201/macos_universal2`` (note that this is the system ``/Library`` directory, not your personal ``~/Library`` directory).
+
+   .. note::
+      
+      Your <installdir>  will be ``/Library/gurobi1201/macos_universal2``.
 
 
 .. dropdown:: **Linux (x64/armlinux64)**

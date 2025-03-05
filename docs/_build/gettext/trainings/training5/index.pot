@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ELSA Online Documentation \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-28 18:59+1000\n"
+"POT-Creation-Date: 2025-03-05 13:34+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,7 @@ msgid "Correctly run the *Prioritizing Nature Webtools* tool locally from within
 msgstr ""
 
 #: ../../trainings/training5/index.rst:19
-msgid "At the end the training you should have a better understanding of the webtools, the software that they use, and a greater clarity on how various changes to the tool's parameters ca greatly change the outputs and identified priority areas."
+msgid "At the end the training you should have a better understanding of the webtools, the software that they use, and greater clarity on how various changes to the tool's parameters can greatly change the outputs and identified priority areas."
 msgstr ""
 
 #: ../../trainings/training5/index.rst:23

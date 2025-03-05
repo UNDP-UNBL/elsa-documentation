@@ -1,4 +1,3 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, UN Biodiversity Lab
 # This file is distributed under the same license as the ELSA Online
 # Documentation package.
@@ -22,17 +21,19 @@ msgstr ""
 
 #: ../../trainings/training5/11_running_webtool_p2.rst:2
 msgid "Running the *Prioritizing Nature Webtool*"
-msgstr ""
+msgstr "Ejecutando la *Herramienta de Priorización de la Naturaleza*"
 
 #: ../../trainings/training5/11_running_webtool_p2.rst:4
 msgid ""
 "If ``pre_run.R`` completed successfully, you should now be able to run "
 "the *Protecting Nature Webtool* locally on your computer."
 msgstr ""
+"Si ``pre_run.R`` se completó con éxito, ahora deberías poder ejecutar la "
+"*Herramienta de Priorización de la Naturaleza* localmente en tu computadora."
 
 #: ../../trainings/training5/11_running_webtool_p2.rst:6
 msgid "We can do so several ways:"
-msgstr ""
+msgstr "Podemos hacerlo de varias maneras:"
 
 #: ../../trainings/training5/11_running_webtool_p2.rst:8
 msgid ""
@@ -40,6 +41,9 @@ msgid ""
 "``server.R``, ``global.R``, ``ui.R``, or ``start.R`` open. In all cases "
 "this is the same as running in the console:"
 msgstr ""
+"Escribiendo **Ctrl+Alt+Enter** dentro del panel del editor con cualquiera de los archivos "
+"``server.R``, ``global.R``, ``ui.R`` o ``start.R`` abiertos. En todos los casos, esto es "
+"equivalente a ejecutarlo en la consola:"
 
 #: ../../trainings/training5/11_running_webtool_p2.rst:14
 msgid ""
@@ -47,10 +51,13 @@ msgid ""
 "editor panel with any of ``server.R``, ``global.R``, ``ui.R``, or "
 "``start.R`` open."
 msgstr ""
+"O haciendo clic en el botón |pre_run1| en la parte superior derecha del "
+"panel del editor con cualquiera de los archivos ``server.R``, ``global.R``, "
+"``ui.R`` o ``start.R`` abiertos."
 
 #: ../../trainings/training5/11_running_webtool_p2.rst:16
 msgid "pre_run1"
-msgstr ""
+msgstr "pre_run1"
 
 #: ../../trainings/training5/11_running_webtool_p2.rst:18
 msgid ""
@@ -59,4 +66,7 @@ msgid ""
 "etc.). It should look like the image below (which shows the Ecuador "
 "version of the tool in Spanish)"
 msgstr ""
-
+"Por defecto, RStudio abrirá la *Herramienta de Priorización de la Naturaleza* "
+"en *RShiny* en tu navegador web predeterminado (por ejemplo, Chrome, Firefox, Safari, etc.). "
+"Debería verse como la imagen a continuación (que muestra la versión de la herramienta "
+"para Ecuador en español)."

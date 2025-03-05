@@ -1,0 +1,250 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="es" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explorando la Estructura de Datos del Repositorio &mdash; documentación de ELSA Online Documentation - </title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=d75fae25" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=e2bb6099"></script>
+      <script src="../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../../_static/copybutton.js?v=f281be69"></script>
+      <script src="../../_static/translations.js?v=f85f4cfb"></script>
+      <script src="../../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="author" title="Sobre este documento" href="../../about.html" />
+    <link rel="index" title="Índice" href="../../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../../search.html" />
+    <link rel="next" title="Crear un Proyecto de Prioritizing Nature en R" href="04_create_r_project.html" />
+    <link rel="prev" title="Repositorios de Código (git &amp; GitHub)" href="02_github_repository.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            ELSA Online Documentation
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar documentos" aria-label="Buscar documentos" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Inicio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../about.html">Acerca de las Áreas Esenciales de Soporte de Vida (ELSA)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Capacitaciones</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../training1/index.html">Capacitación 1: Planificación Sistemática de la Conservación</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../training2/index.html">Capacitación 2: Uso de la herramienta web en línea para co-crear el Mapa de Priorización Espacial</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../training3/index.html">Capacitación 3: Configuración de <em>R</em> y <em>RStudio</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../training4/index.html">Capacitación 4: Datos espaciales utilizados: estructura, selección y procesamiento</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Capacitación 5: Ejecución de Priorizaciones Espaciales</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="01_rshiny_interface.html">RShiny - La Interfaz Gráfica de Usuario (GUI)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="02_github_repository.html">Repositorios de Código (git &amp; <em>GitHub</em>)</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Explorando la Estructura de Datos del Repositorio</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#sub-folders">Subcarpetas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#important-files-for-the-rshiny-app">Archivos importantes para la aplicación <em>RShiny</em>:</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#other-important-files">Otros archivos importantes:</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="04_create_r_project.html">Crear un Proyecto de <em>Prioritizing Nature</em> en <em>R</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="05_installing_gurobi.html">Instalación de Gurobi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="06_installing_gurobi_r_package.html">Instalación del paquete <em>Gurobi R</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="07_getting_gurobi_env.html">Acceso a la Nube de <em>Gurobi</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="08_checking_gurobi_installation.html">Verificando si la instalación de <em>Gurobi R</em> fue exitosa</a></li>
+<li class="toctree-l3"><a class="reference internal" href="09_installing_required_r_packages.html">Instalación de Paquetes Requeridos de <em>R</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="10_running_webtool_p1.html">Ejecutando la <em>Herramienta de Priorización de la Naturaleza</em> - Configuración de Datos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="11_running_webtool_p2.html">Ejecutando la <em>Herramienta de Priorización de la Naturaleza</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="12_exploring_webtool.html">Explorando la <em>Herramienta de Priorización de la Naturaleza</em></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../prioritizr_advanced/index.html">prioritizr (Advanced)</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ELSA Online Documentation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Capacitaciones</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Capacitación 5: Ejecución de Priorizaciones Espaciales</a></li>
+      <li class="breadcrumb-item active">Explorando la Estructura de Datos del Repositorio</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/trainings/training5/03_exploring_data_structure.rst.txt" rel="nofollow"> Ver código fuente de la página</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="exploring-the-repository-s-data-structure">
+<h1>Explorando la Estructura de Datos del Repositorio<a class="headerlink" href="#exploring-the-repository-s-data-structure" title="Link to this heading"></a></h1>
+<p>Antes de continuar, necesitamos extraer el archivo .zip que descargamos. Usa una herramienta de extracción disponible en tu sistema para descomprimir el archivo en una ubicación de tu computadora.</p>
+<div class="admonition important">
+<p class="admonition-title">Importante</p>
+<p>Asegúrate de extraer los datos en una ubicación fácil de encontrar y en la que tengas permisos de lectura y escritura, como tu directorio personal o el Escritorio (no en una unidad de red compartida que pueda restringir tus permisos).</p>
+</div>
+<p>El contenido extraído del archivo .zip (mostrado para la rama de Ecuador) se puede ver a continuación en formato de árbol. Aunque esto puede ser más información de la que necesitas, describiremos varios de los archivos importantes y su función más adelante. No te preocupes demasiado por esto ahora…</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>.
+├── data
+│   └── elsa_inputs
+│       ├── aprovechamiento_sustentable_galapagos_2017_ecu_bezos.tif
+│       ├── areasprioritarias_ecu_bezos.tif
+│       ├── aves_richness_ecu_bezos.tif
+│       ├── bosque_nativo_2022_ecu_bezos.tif
+│       ├── conservation_galapagos_2017_ecu_bezos.tif
+│       ├── contaminacion_hidrocarburo_ecu_bezos.tif
+│       ├── costal_ecu_bezos.tif
+│       ├── desertificacion_ecu_bezos.tif
+│       ├── drought_suscept_ecu_bezos.tif
+│       ├── flood_suscept_ecu_bezos.tif
+│       ├── forestfires_suscept_ecu_bezos.tif
+│       ├── forest_restore_priority_agreement_land_ecu_bezos.tif
+│       ├── indigenous_territories_ecu_bezos.tif
+│       ├── kba_2024_ecu_bezos.tif
+│       ├── mangrove_union_ecu_bezos.tif
+│       ├── mass_movement_suscept_ecu_bezos.tif
+│       ├── ncs_restore_ecu_bezos.tif
+│       ├── paramos_2022_ecu_bezos.tif
+│       ├── pa_restore_ecu_bezos.tif
+│       ├── potential_oecms_ecu_bezos.tif
+│       ├── production_forest2020_ecu_bezos.tif
+│       ├── protection_forest2020_ecu_bezos.tif
+│       ├── protect_zone_ecu_bezos.tif
+│       ├── restoration_actions2023_ecu_bezos.tif
+│       ├── restore_zone_ecu_bezos.tif
+│       ├── snap2023_ecu_bezos.tif
+│       ├── soc2021_ecu_bezos.tif
+│       ├── vaciosconservacionsnap_ecu_bezos.tif
+│       ├── veg_conectivity_ecu_bezos.tif
+│       ├── veg_threat_ecu_bezos.tif
+│       ├── vulnerable_agricultural_frontier_ecu_bezos.tif
+│       └── zona_intangible_galapagos_2017_ecu_bezos.tif
+├── global.R
+├── packages.R
+├── pre_run.R
+├── prioritizing-nature-database-master.xlsx
+├── R
+│   ├── calc_feature_representation.R
+│   ├── define_problem.R
+│   ├── get_coverage.R
+│   ├── get_leaflet_basemap.R
+│   ├── get_min_lockin_target.R
+│   ├── get_target.R
+│   ├── get_translation.R
+│   ├── make_elsa_categorical_raster.R
+│   ├── make_elsa_representation_plot.R
+│   ├── make_leaflet_elsa_0.R
+│   ├── make_leaflet_elsa_1.R
+│   ├── make_leaflet_input.R
+│   └── move_elsa_files.R
+├── README.md
+├── server.R
+├── shiny-server.conf
+├── start.R
+├── translation-matrix.xlsx
+├── translations.rds
+├── ui.R
+└── www
+    ├── custom.css
+    └── ELSA_reduced.jpeg
+</pre></div>
+</div>
+<section id="sub-folders">
+<h2>Subcarpetas<a class="headerlink" href="#sub-folders" title="Link to this heading"></a></h2>
+<p>Existen tres (3) subcarpetas: <code class="docutils literal notranslate"><span class="pre">data</span></code>, <code class="docutils literal notranslate"><span class="pre">R</span></code> y <code class="docutils literal notranslate"><span class="pre">www</span></code>:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">data</span></code> y <code class="docutils literal notranslate"><span class="pre">elsa_inputs</span></code> contienen todos los archivos de entrada geoespaciales necesarios para que las herramientas funcionen.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">R</span></code> contiene funciones auxiliares y utilitarias que se utilizan dentro de la aplicación <em>RShiny</em> para realizar cálculos específicos y generar mapas de salida.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">www</span></code>. Contiene archivos CSS personalizados e imágenes de fondo para la aplicación. No hay nada que debas modificar aquí.</p></li>
+</ul>
+</section>
+<section id="important-files-for-the-rshiny-app">
+<h2>Archivos importantes para la aplicación <em>RShiny</em>:<a class="headerlink" href="#important-files-for-the-rshiny-app" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ui.R</span></code> es un script obligatorio que gestiona la interfaz de usuario y el diseño de la aplicación <em>RShiny</em>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">start.R</span></code> es un script obligatorio de <em>R</em> que hace exactamente lo que su nombre indica: inicia la aplicación <em>RShiny</em>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">global.R</span></code> es un script de <em>R</em> que carga datos de entrada y otros parámetros globalmente al inicio de la aplicación <em>RShiny</em>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">packages.R</span></code> es un script que carga todos los paquetes y bibliotecas de <em>R</em> en un solo lugar.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">server.R</span></code> es un script obligatorio de <em>R</em> que incluye toda la lógica de la aplicación <em>RShiny</em> cuando se ejecuta.</p></li>
+</ul>
+</section>
+<section id="other-important-files">
+<h2>Otros archivos importantes:<a class="headerlink" href="#other-important-files" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">translation-matrix.xlsx</span></code> es una hoja de Excel con cadenas de traducción utilizadas para convertir el texto de la aplicación a un idioma distinto del inglés.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">prioritizing-nature-database-master.xlsx</span></code> es una hoja de Excel que proporciona una ubicación simplificada para que los usuarios definan los pesos predeterminados de las características, las puntuaciones de impacto de las características y la información y descripciones de las capas.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">pre_run.R</span></code> es un script de <em>R</em> que realiza un preprocesamiento de las capas de datos, lee los nombres de archivos, la información de los archivos, los pesos de las características, las puntuaciones de impacto de las características y los valores de presupuesto para la herramienta. Lee los datos desde <code class="docutils literal notranslate"><span class="pre">prioritizing-nature-database-master.xlsx</span></code> y apunta (y crea enlaces internos) a los datos geoespaciales ubicados en el directorio <code class="docutils literal notranslate"><span class="pre">data/elsa_inputs</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">gurobi.env</span></code> No verás este archivo en el repositorio descargado; es un archivo que te proporcionaremos durante el taller y que te permitirá acceder al solucionador en la nube de Gurobi. Deberás guardarlo en el directorio raíz de la herramienta <em>Prioritizing Nature Webtool</em>.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>El archivo <code class="docutils literal notranslate"><span class="pre">gurobi.env</span></code> proporcionará acceso al solucionador en la nube de <em>Gurobi</em> solo durante el taller y las capacitaciones, y será desactivado poco después de que finalice el taller.</p>
+<p>Para discutir cómo podemos apoyar el uso continuo de <em>Gurobi</em> después de las capacitaciones y talleres, por favor contáctanos en <a class="reference external" href="mailto:support&#37;&#52;&#48;unbiodiversitylab&#46;org">support<span>&#64;</span>unbiodiversitylab<span>&#46;</span>org</a>.</p>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
+        <a href="02_github_repository.html" class="btn btn-neutral float-left" title="Repositorios de Código (git &amp; GitHub)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="04_create_r_project.html" class="btn btn-neutral float-right" title="Crear un Proyecto de Prioritizing Nature en R" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Derechos de autor 2025, UN Biodiversity Lab.</p>
+  </div>
+
+  Compilado con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -28,16 +28,25 @@ Operating specific instructions can be found below:
 
 .. dropdown:: Windows
 
-    For Windows users, you will also need to install the `RTools <https://cran.r-project.org/bin/windows/Rtools/rtools44/rtools.html>`_ if you have not already done so when following the *Additional Installations* section :ref:`installing_r` in :ref:`training_3`.
+    .. code-block:: r
 
-    .. note:: 
-        These compilers (Xcode, GCC, C++, Fortan, etc.) are often/typically installed on MacOS and Linux systems, so this extra installation does not apply to you if your systems runs either of these OS.
+        > install.packages("c:\gurobi1201win64/linux64/R/gurobi_12.0-1_R_4.4.0.tar.gz", repos = NULL)
+        Installing package into ‘/home/scottca/R/x86_64-pc-linux-gnu-library/4.4’
+        (as ‘lib’ is unspecified)
+        * installing *binary* package ‘gurobi’ ...
+        * DONE (gurobi)
 
-    To download RTools, click the `Rtools44 installer <https://cran.r-project.org/bin/windows/Rtools/rtools44/files/rtools44-6459-6401.exe>`_ link, download the file, run it, and follow the installation instructions.
-
+    
 .. dropdown:: macOS
 
-    something
+    .. code-block:: r
+
+        > install.packages("/Library/gurobi1201/macos_universal2/linux64/R/gurobi_12.0-1_R_4.4.0.tar.gz", repos = NULL)
+        Installing package into ‘/home/scottca/R/x86_64-pc-linux-gnu-library/4.4’
+        (as ‘lib’ is unspecified)
+        * installing *binary* package ‘gurobi’ ...
+        * DONE (gurobi)
+
 
 .. dropdown:: Linux (x64/armlinux64)
 

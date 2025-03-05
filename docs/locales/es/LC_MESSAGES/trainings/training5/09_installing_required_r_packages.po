@@ -1,4 +1,3 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, UN Biodiversity Lab
 # This file is distributed under the same license as the ELSA Online
 # Documentation package.
@@ -22,13 +21,15 @@ msgstr ""
 
 #: ../../trainings/training5/09_installing_required_r_packages.rst:2
 msgid "Installing Required *R* Packages"
-msgstr ""
+msgstr "Instalación de Paquetes Requeridos de *R*"
 
 #: ../../trainings/training5/09_installing_required_r_packages.rst:4
 msgid ""
 "In :ref:`training_3` we briefly went over the basics of "
 ":ref:`installing_r_packages`."
 msgstr ""
+"En :ref:`training_3` repasamos brevemente los conceptos básicos de "
+":ref:`installing_r_packages`."
 
 #: ../../trainings/training5/09_installing_required_r_packages.rst:6
 msgid ""
@@ -37,12 +38,18 @@ msgid ""
 "You might recall that in R one can install one or more packages using the"
 " base *R* function"
 msgstr ""
+"En esta sección, vamos a asegurarnos de que los paquetes de *R* necesarios "
+"para ejecutar *RShiny* y las *Protecting Nature Webtools* estén instalados "
+"en tu computadora. Es posible que recuerdes que en *R* se pueden instalar "
+"uno o más paquetes utilizando la función base de *R*:"
 
 #: ../../trainings/training5/09_installing_required_r_packages.rst:13
 msgid ""
 "or we showed how we can use other libraries such as the ``pacman`` "
 "package to install one or more functions:"
 msgstr ""
+"o mostramos cómo podemos usar otras bibliotecas, como el paquete ``pacman``, "
+"para instalar una o más funciones:"
 
 #: ../../trainings/training5/09_installing_required_r_packages.rst:20
 msgid ""
@@ -50,6 +57,9 @@ msgid ""
 "is all done within the required ``start.R`` script that is needed to run "
 "the *RShiny* application itself:"
 msgstr ""
+"En el repositorio de *Protecting Nature Webtools* que descargaste, todo esto "
+"se realiza dentro del script ``start.R``, que es necesario para ejecutar la "
+"aplicación *RShiny*:"
 
 #: ../../trainings/training5/09_installing_required_r_packages.rst:74
 msgid ""
@@ -58,6 +68,10 @@ msgid ""
 "in the last line), but will also check if packages are already installed,"
 " and install them if they are not."
 msgstr ""
+"El script ``start.R`` no solo ejecutará y abrirá la aplicación en un "
+"navegador (mediante la llamada a la función ``shiny::runApp(launch.browser = TRUE)`` "
+"en la última línea), sino que también verificará si los paquetes ya están instalados "
+"e instalará los que falten."
 
 #: ../../trainings/training5/09_installing_required_r_packages.rst:78
 msgid ""
@@ -67,10 +81,15 @@ msgid ""
 "messages about not being able to find files. This is expected - they have"
 " not been created yet. We will address that shortly."
 msgstr ""
+"Cuando ejecutemos la aplicación (por ejemplo, al ejecutar ``start.R``), "
+"suponiendo que instale correctamente todos los paquetes de *R* requeridos "
+"sin problemas adicionales, la aplicación no se iniciará y cerrará con "
+"mensajes de error indicando que no se pueden encontrar algunos archivos. "
+"Esto es normal, ya que aún no han sido creados. Abordaremos esto en breve."
 
 #: ../../trainings/training5/09_installing_required_r_packages.rst:82
 msgid "Running the App"
-msgstr ""
+msgstr "Ejecutando la Aplicación"
 
 #: ../../trainings/training5/09_installing_required_r_packages.rst:83
 msgid ""
@@ -80,10 +99,15 @@ msgid ""
 "project (recently opened projects should be shown in the dropdown menu "
 "and be easy to locate)."
 msgstr ""
+"Abre *RStudio* (si aún no está abierto). De forma predeterminada, *RStudio* "
+"abrirá el último *R Project* que se usó. Si este no es el *R Project* que "
+"creamos anteriormente, haz clic en el botón |open_proj| y navega hasta el "
+"proyecto correcto (los proyectos abiertos recientemente deberían aparecer "
+"en el menú desplegable y ser fáciles de ubicar)."
 
 #: ../../trainings/training5/09_installing_required_r_packages.rst:85
 msgid "open_proj"
-msgstr ""
+msgstr "open_proj"
 
 #: ../../trainings/training5/09_installing_required_r_packages.rst:87
 msgid ""
@@ -94,38 +118,48 @@ msgid ""
 "*RStudio*, and click on the ``start.R`` file. The ``start.R`` file will "
 "open in the the editor panel."
 msgstr ""
+"Abre el script ``start.R`` escribiendo ``Shift+O`` en tu teclado **O** "
+"haciendo clic en **Archivo → Abrir archivo...**, lo que abrirá una ventana "
+"mostrando todos los archivos en tu directorio de trabajo. Selecciona "
+"``start.R``. También puedes hacer clic en el panel **Archivo** en *RStudio* "
+"y luego hacer clic en el archivo ``start.R``. El archivo se abrirá en el "
+"panel del editor."
 
 #: ../../trainings/training5/09_installing_required_r_packages.rst:95
 msgid "There are two ways to run the `start.R` script:"
-msgstr ""
+msgstr "Hay dos formas de ejecutar el script `start.R`:"
 
 #: ../../trainings/training5/09_installing_required_r_packages.rst:97
 msgid "Click on the |start_r2| button on the top-right of the editor panel, or"
-msgstr ""
+msgstr "Haz clic en el botón |start_r2| en la parte superior derecha del panel del editor, o"
 
 #: ../../trainings/training5/09_installing_required_r_packages.rst:100
 msgid "start_r2"
-msgstr ""
+msgstr "start_r2"
 
 #: ../../trainings/training5/09_installing_required_r_packages.rst:98
 msgid "Type **Ctrl+Shift+Enter** on your keyboard."
-msgstr ""
+msgstr "Escribe **Ctrl+Shift+Enter** en tu teclado."
 
 #: ../../trainings/training5/09_installing_required_r_packages.rst:102
 msgid ""
 "Everything will have worked perfectly and all the required *R* packages "
 "will have installed without a problem. Of course."
 msgstr ""
+"Todo habrá funcionado perfectamente y todos los paquetes de *R* requeridos "
+"se habrán instalado sin problema. Por supuesto."
 
 #: ../../trainings/training5/09_installing_required_r_packages.rst:105
 msgid "Errors"
-msgstr ""
+msgstr "Errores"
 
 #: ../../trainings/training5/09_installing_required_r_packages.rst:107
 msgid ""
 "Inevitably, many of you will encounter errors while packages are being "
 "installed when `start.R` runs."
 msgstr ""
+"Inevitablemente, muchos de ustedes encontrarán errores mientras se instalan "
+"los paquetes al ejecutar `start.R`."
 
 #: ../../trainings/training5/09_installing_required_r_packages.rst:109
 msgid ""
@@ -136,8 +170,12 @@ msgid ""
 "encountered occasionally on Linux systems), as are errors related to "
 "installing packages on Windows where RTools has not been installed."
 msgstr ""
+"Por eso estamos aquí en esta capacitación: para ayudarte a solucionar "
+"los posibles errores que puedas encontrar. Algunos paquetes de *R* pueden "
+"producir errores con más frecuencia que otros (por ejemplo, errores con "
+"``gdal``, ``sf`` y sus dependencias en sistemas Linux), al igual que los "
+"errores en la instalación de paquetes en Windows cuando RTools no ha sido instalado."
 
 #: ../../trainings/training5/09_installing_required_r_packages.rst:111
 msgid "We are here to help."
-msgstr ""
-
+msgstr "Estamos aquí para ayudarte."

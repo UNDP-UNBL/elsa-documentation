@@ -1,4 +1,3 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, UN Biodiversity Lab
 # This file is distributed under the same license as the ELSA Online
 # Documentation package.
@@ -22,7 +21,7 @@ msgstr ""
 
 #: ../../trainings/training5/08_checking_gurobi_installation.rst:2
 msgid "Checking if your *Gurobi R* Installation was Successful"
-msgstr ""
+msgstr "Verificando si la instalación de *Gurobi R* fue exitosa"
 
 #: ../../trainings/training5/08_checking_gurobi_installation.rst:4
 msgid ""
@@ -32,6 +31,11 @@ msgid ""
 " one of the *R* examples provided with the *Gurobi* distribution. For "
 "example, in the RStudio console window you can type:"
 msgstr ""
+"Para verificar que has instalado correctamente *Gurobi* y que está usando "
+"una licencia válida que le permite conectarse a nuestra suscripción del solucionador "
+"en la nube (o a una licencia local si cuentas con una), puedes ejecutar uno de los "
+"ejemplos de *R* incluidos en la distribución de *Gurobi*. Por ejemplo, en la consola "
+"de RStudio puedes escribir:"
 
 #: ../../trainings/training5/08_checking_gurobi_installation.rst:12
 msgid ""
@@ -39,10 +43,13 @@ msgid ""
 " directory in your *Gurobi* installation; for example, on Linux including"
 " the full path would look like:"
 msgstr ""
+"Esto debe incluir la ruta completa al archivo ``mip.R`` dentro del directorio de "
+"ejemplos en tu instalación de *Gurobi*; por ejemplo, en Linux la ruta completa "
+"se vería así:"
 
 #: ../../trainings/training5/08_checking_gurobi_installation.rst:19
 msgid ""
 "If the *Gurobi R* package was successfully installed, you should see the "
 "following output:"
 msgstr ""
-
+"Si el paquete *Gurobi R* se instaló correctamente, deberías ver la siguiente salida:"

@@ -1,4 +1,3 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, UN Biodiversity Lab
 # This file is distributed under the same license as the ELSA Online
 # Documentation package.
@@ -22,7 +21,7 @@ msgstr ""
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:2
 msgid "Running the *Prioritizing Nature Webtool* - Data Setup"
-msgstr ""
+msgstr "Ejecutando la *Herramienta de Priorización de la Naturaleza* - Configuración de Datos"
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:4
 msgid ""
@@ -30,36 +29,41 @@ msgid ""
 "script called ``pre_run.R``. The ``pre_run.R`` script has several primary"
 " functions:"
 msgstr ""
+"Antes de que la aplicación *Prioritizing Nature Webtool* pueda ejecutarse, "
+"debemos ejecutar un script llamado ``pre_run.R``. El script ``pre_run.R`` "
+"tiene varias funciones principales:"
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:6
 msgid ""
 "It reads in information from the ``prioritizing-nature-database-"
 "master.xlsx`` Excel sheet on:"
 msgstr ""
+"Lee la información de la hoja de Excel ``prioritizing-nature-database-"
+"master.xlsx`` sobre:"
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:8
 msgid "Feature names (including local translations),"
-msgstr ""
+msgstr "Nombres de características (incluidas las traducciones locales),"
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:9
 msgid "File names;"
-msgstr ""
+msgstr "Nombres de archivos;"
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:10
 msgid "Feature weights;"
-msgstr ""
+msgstr "Pesos de las características;"
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:11
 msgid "Feature impact scores; and"
-msgstr ""
+msgstr "Puntajes de impacto de las características; y"
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:12
 msgid "Budget values,"
-msgstr ""
+msgstr "Valores de presupuesto,"
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:13
 msgid "and other feature layers metadata (policy relevance, source info, etc)"
-msgstr ""
+msgstr "y otros metadatos de capas de características (relevancia política, información de fuente, etc.)"
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:15
 msgid ""
@@ -68,6 +72,10 @@ msgid ""
 "pointers to the rasters found in ``data/elsa_inputs`` so they can be used"
 " by the `terra` package."
 msgstr ""
+"Realiza cualquier trabajo geoespacial necesario para preparar las características "
+"de entrada, zonas, áreas bloqueadas y capas de datos de zonas *prioritizr*, "
+"y crea referencias a los archivos ráster en ``data/elsa_inputs`` para que "
+"puedan ser utilizados por el paquete `terra`."
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:17
 msgid ""
@@ -76,36 +84,45 @@ msgid ""
 "in quickly and efficiently when the RShiny app is run, and called in the "
 "``global.R`` function."
 msgstr ""
+"Al final del script ``pre_run.R`` se genera un archivo de datos comprimido "
+"en formato *R* llamado ``prioritizing_nature.Rdata``. Este archivo se lee "
+"rápidamente cuando se ejecuta la aplicación *RShiny* y es llamado en la función ``global.R``."
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:20
 msgid "Running `pre_run.R`"
-msgstr ""
+msgstr "Ejecutando `pre_run.R`"
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:22
 msgid ""
 "Open the ``pre_run.R`` file by typing either **Ctrl+O** or clicking on "
 "**File → Open File...** and selecting the ```pre_run.R`` file."
 msgstr ""
+"Abre el archivo ``pre_run.R`` escribiendo **Ctrl+O** o haciendo clic en "
+"**Archivo → Abrir Archivo...** y seleccionando el archivo ``pre_run.R``."
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:24
 msgid "Inspect lines 11-18 of the script:"
-msgstr ""
+msgstr "Revisa las líneas 11-18 del script:"
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:37
 msgid ""
 "Ensure that they point to the correct ``iso3`` code (i.e., ``ECU`` if you"
 " are working with Ecuador's data and ``PER`` if Peru)"
 msgstr ""
+"Asegúrate de que apunten al código ``iso3`` correcto (por ejemplo, ``ECU`` "
+"si estás trabajando con los datos de Ecuador o ``PER`` si es Perú)."
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:39
 msgid ""
 "Ensure the language is set to the language you prefer: currently options "
 "are English, Spanish, and French."
 msgstr ""
+"Asegúrate de que el idioma esté configurado en el que prefieres: actualmente, "
+"las opciones son inglés, español y francés."
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:41
 msgid "Ensure the ``input_spreadsheet`` and ``sheetname`` variables are correct."
-msgstr ""
+msgstr "Asegúrate de que las variables ``input_spreadsheet`` y ``sheetname`` sean correctas."
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:43
 msgid ""
@@ -114,32 +131,37 @@ msgid ""
 "weights or do local testing on reduced resolution data (so it runs "
 "faster)."
 msgstr ""
+"Los campos ``blm``, ``reducedres`` y ``weight_cal`` deben dejarse como están; "
+"sólo deben modificarse si necesitas volver a ejecutar la calibración previa de pesos "
+"o realizar pruebas locales con datos de resolución reducida (para que se ejecute más rápido)."
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:45
 msgid "Run the ``pre_run.R`` script by either"
-msgstr ""
+msgstr "Ejecuta el script ``pre_run.R`` de una de las siguientes formas:"
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:47
 msgid "Typing **Ctrl+Alt+Enter** (which is the same as running:"
-msgstr ""
+msgstr "Escribiendo **Ctrl+Alt+Enter** (lo que equivale a ejecutar:"
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:53
 msgid ""
 "Or clicking on the |pre_run1| button in the upper right side of the "
 "editor panel."
 msgstr ""
+"O haciendo clic en el botón |pre_run1| en la parte superior derecha del panel del editor."
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:55
 msgid "pre_run1"
-msgstr ""
+msgstr "pre_run1"
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:57
 msgid ""
 "You will see the script running in the console window - it may take "
 "several minutes depending on how powerful your computer is."
 msgstr ""
+"Verás el script ejecutándose en la ventana de la consola; puede tardar "
+"varios minutos dependiendo de la potencia de tu computadora."
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:71
 msgid "If you see any errors here, let us know."
-msgstr ""
-
+msgstr "Si ves algún error aquí, avísanos."

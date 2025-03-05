@@ -1,10 +1,8 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, UN Biodiversity Lab
 # This file is distributed under the same license as the ELSA Online
 # Documentation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: ELSA Online Documentation \n"
@@ -20,33 +18,29 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: ../../trainings/training5/01_rshiny_interface.rst:2
+#: ../../trainings/training5/01_rshiny_interface.rst:1
 msgid "RShiny - the Graphical User Interface (GUI)"
-msgstr ""
+msgstr "RShiny - La Interfaz Gráfica de Usuario (GUI)"
 
 #: ../../trainings/training5/01_rshiny_interface.rst:4
-msgid ""
-"The  ELSA national tools you may have seen or used on-line are built "
-"using *RShiny*, and those we will be setting up to run locally on your "
-"computer during this workshop also use *Rshiny*. *RShiny* is an *R* "
-"package that allows users to create interactive web applications directly"
-" from *R* code without the need for specialist web programming skills - "
-"meaning that in a nutshell, users can build/run functional web "
-"applications by simply opening the application in their web browser "
-"(Chrome, Firefox, Safari, etc). Some of the key features of *RShiny* are:"
-msgstr ""
+msgid "The  ELSA national tools you may have seen or used on-line are built using *RShiny*, and those we will be setting up to run locally on your computer during this workshop also use *RShiny*. *RShiny* is an *R* package that allows users to create interactive web applications directly from *R* code without the need for specialist web programming skills - meaning that in a nutshell, users can build/run functional web applications by simply opening the application in their web browser (Chrome, Firefox, Safari, etc). Some of the key features of *RShiny* are:"
+msgstr "Las herramientas nacionales de ELSA que quizás hayas visto o utilizado en línea están desarrolladas con *RShiny*, y las que configuraremos para ejecutarse localmente en tu computadora durante este taller también utilizan *RShiny*. *RShiny* es un paquete de *R* que permite a los usuarios crear aplicaciones web interactivas directamente desde código *R* sin necesidad de conocimientos especializados en programación web. En pocas palabras, los usuarios pueden crear y ejecutar aplicaciones web funcionales simplemente abriendo la aplicación en su navegador web (Chrome, Firefox, Safari, etc.). Algunas de las características clave de *RShiny* son:"
 
 #: ../../trainings/training5/01_rshiny_interface.rst:6
 msgid ""
 "It provides a web application framework for *R*, allowing for interactive"
 " app development."
 msgstr ""
+"Proporciona un marco de desarrollo de aplicaciones web para *R*, "
+"permitiendo el desarrollo de aplicaciones interactivas."
 
 #: ../../trainings/training5/01_rshiny_interface.rst:7
 msgid ""
 "Includes reactive programming, allowing for automatically updating of "
 "outputs when inputs change."
 msgstr ""
+"Incluye programación reactiva, lo que permite la actualización automática"
+" de los resultados cuando cambian las entradas."
 
 #: ../../trainings/training5/01_rshiny_interface.rst:8
 msgid ""
@@ -55,6 +49,10 @@ msgid ""
 "*readr*, etc.) *leaflet*, *shinyWidgets*, *terra*, and other *R* "
 "libraries."
 msgstr ""
+"Se integra con otras bibliotecas de *R*, funcionando perfectamente con "
+"`tidyverse <https://www.tidyverse.org/>`_ (por ejemplo, *ggplot2*, "
+"*dplyr*, *readr*, etc.), así como con *leaflet*, *shinyWidgets*, *terra* "
+"y otras bibliotecas de *R*."
 
 #: ../../trainings/training5/01_rshiny_interface.rst:9
 msgid ""
@@ -63,6 +61,11 @@ msgid ""
 "<https://posit.co/products/enterprise/connect/>`_, or on private servers "
 "(for example, one of the tools for Peru seen below)."
 msgstr ""
+"Las aplicaciones pueden implementarse en la web y alojarse en "
+"`ShinyApps.io <https://www.shinyapps.io/>`_, `RStudio Connect "
+"<https://posit.co/products/enterprise/connect/>`_ o en servidores "
+"privados (por ejemplo, una de las herramientas para Perú que se muestra a"
+" continuación)."
 
 #: ../../trainings/training5/01_rshiny_interface.rst:18
 msgid ""
@@ -71,4 +74,9 @@ msgid ""
 "running on servers based in `GDPR (General Data Protection Regulation) "
 "<https://gdpr-info.eu/>`_ compliant locales."
 msgstr ""
+"Ejecutamos las distintas herramientas nacionales de *ELSA*, *Prioritizing"
+" Nature Webtools*, y otras herramientas web relacionadas en "
+"infraestructura privada y segura de UNICC, en servidores ubicados en "
+"regiones conformes con la `GDPR (Reglamento General de Protección de "
+"Datos) <https://gdpr-info.eu/>`_."
 

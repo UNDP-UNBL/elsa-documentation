@@ -1,4 +1,3 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, UN Biodiversity Lab
 # This file is distributed under the same license as the ELSA Online
 # Documentation package.
@@ -9,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ELSA Online Documentation \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-28 18:59+1000\n"
+"POT-Creation-Date: 2025-03-05 13:34+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -22,11 +21,11 @@ msgstr ""
 
 #: ../../trainings/training5/index.rst:4
 msgid "Training 5: Running Spatial Prioritisations"
-msgstr ""
+msgstr "Capacitación 5: Ejecución de Priorizaciones Espaciales"
 
 #: ../../trainings/training5/index.rst:6
 msgid "This training module is going cover two main components:"
-msgstr ""
+msgstr "Este módulo de capacitación cubrirá dos componentes principales:"
 
 #: ../../trainings/training5/index.rst:8
 msgid ""
@@ -34,52 +33,70 @@ msgid ""
 " computers to run the *Prioritizing Nature Webtools* on your own "
 "computers, using the *Gurobi* solver; and"
 msgstr ""
+"Retomaremos desde :ref:`training_3` y configuraremos aún más sus "
+"computadoras para ejecutar las *Herramientas Web de Priorización de la "
+"Naturaleza* en sus propios equipos, utilizando el solver *Gurobi*; y"
 
 #: ../../trainings/training5/index.rst:9
 msgid ""
 "We will go through setting analyses on the working *Prioritizing Nature "
 "Webtools* - you will then be able to run some analyses on your computer."
 msgstr ""
+"Revisaremos la configuración de análisis en las *Herramientas Web de "
+"Priorización de la Naturaleza* en funcionamiento, para que luego puedan "
+"ejecutar algunos análisis en su computadora."
 
 #: ../../trainings/training5/index.rst:11
 msgid ""
 "This is an online workshop (followed by interactive exercises) that will "
 "provide training on how to:"
 msgstr ""
+"Este es un taller en línea (seguido de ejercicios interactivos) que "
+"proporcionará capacitación sobre cómo:"
 
 #: ../../trainings/training5/index.rst:13
 msgid ""
 "Connect to and access the software's online repository (on *Github* - no "
 "registration needed)"
 msgstr ""
+"Conectarse y acceder al repositorio en línea del software (en *GitHub* - "
+"no se requiere registro)."
 
 #: ../../trainings/training5/index.rst:14
 msgid "Correctly install required *R* packages needed for the tool to run;"
-msgstr ""
+msgstr "Instalar correctamente los paquetes de *R* necesarios para que la herramienta funcione."
 
 #: ../../trainings/training5/index.rst:15
 msgid "Correctly install the *Gurobi* solver software;"
-msgstr ""
+msgstr "Instalar correctamente el software del solver *Gurobi*."
 
 #: ../../trainings/training5/index.rst:16
 msgid ""
 "Set up usage of our paid *Gurobi* Cloud services for use during the "
 "workshop; and"
 msgstr ""
+"Configurar el uso de nuestros servicios en la nube de *Gurobi* (de pago) "
+"para su uso durante el taller; y"
 
 #: ../../trainings/training5/index.rst:17
 msgid ""
 "Correctly run the *Prioritizing Nature Webtools* tool locally from within"
 " *Rstudio* to generate the spatial prioritization map."
 msgstr ""
+"Ejecutar correctamente la herramienta *Prioritizing Nature Webtools* "
+"localmente desde *RStudio* para generar el mapa de priorización espacial."
 
 #: ../../trainings/training5/index.rst:19
 msgid ""
 "At the end the training you should have a better understanding of the "
-"webtools, the software that they use, and a greater clarity on how "
-"various changes to the tool's parameters ca greatly change the outputs "
-"and identified priority areas."
+"webtools, the software that they use, and greater clarity on how various "
+"changes to the tool's parameters can greatly change the outputs and "
+"identified priority areas."
 msgstr ""
+"Al final de la capacitación, deberás tener una mejor comprensión de las "
+"herramientas web, el software que utilizan y una mayor claridad sobre cómo "
+"los cambios en los parámetros de la herramienta pueden afectar "
+"significativamente los resultados y las áreas prioritarias identificadas."
 
 #: ../../trainings/training5/index.rst:23
 msgid ""
@@ -87,4 +104,8 @@ msgid ""
 "and language, such as running scripts in *R*. The latter of these topics "
 "were covered in :ref:`training_3`."
 msgstr ""
+"Se espera que los participantes tengan conocimientos básicos de GIS, del "
+"software y lenguaje *R*, como la ejecución de scripts en *R*. Estos temas "
+"fueron cubiertos en :ref:`training_3`."
 
+Let me know if you need further refinements! 🚀

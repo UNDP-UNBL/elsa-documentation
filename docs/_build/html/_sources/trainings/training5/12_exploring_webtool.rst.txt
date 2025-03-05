@@ -68,7 +68,7 @@ The column on the right is itself made of of four (4) tabs that each have differ
 
 Editing Weights
 ^^^^^^^^^^^^^^^
-In the first of these tabs (the left most) loads a table of the input feature data that is used in the prioritisation. Four (4) columns are shown that provide the name of the ``Data``, the data's ``Theme``, the ``Weight`` given to the feature, and a column indicating the policy the feature speaks to (either GBF or NBSAP, depending on which county tool you are looking at)
+In the first of these tabs (the left most) loads a table of the input feature data that is used in the prioritisation. Four (4) columns are shown that provide the name of the ``Data``, the data's ``Theme``, the ``Weight`` given to the feature, and a column indicating the policy the feature speaks to (either GBF or NBSAP, depending on which county tool you are looking at).
 
 .. image:: images/layout_5.png
     :align: center
@@ -140,8 +140,8 @@ It may take some time to generate the map, depending on the speed of your comput
 
 If you selected to run multiple theme prioritisations, the map in this tab will show:
 
--   The *Protecting Nature* prioritisation results map (and actions)
--   The prioritisation map for each specific data theme/
+-   The *Protecting Nature* prioritisation results map (and actions).
+-   The prioritisation map for each specific data theme.
 -   A heatmap of the summed (weighted) input feature layers.
 -   Heatmaps for each data theme.
 -   Existing protected areas.

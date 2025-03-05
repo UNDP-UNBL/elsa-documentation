@@ -1,4 +1,3 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, UN Biodiversity Lab
 # This file is distributed under the same license as the ELSA Online
 # Documentation package.
@@ -22,25 +21,28 @@ msgstr ""
 
 #: ../../trainings/training5/07_getting_gurobi_env.rst:2
 msgid "*Gurobi* Cloud Access"
-msgstr ""
+msgstr "Acceso a la Nube de *Gurobi*"
 
 #: ../../trainings/training5/07_getting_gurobi_env.rst:4
 msgid ""
 "To access our *Gurobi* Cloud Serice solvers to run the *Prioritizing "
 "Nature Webtool* and exercises in this training, you will need to:"
 msgstr ""
+"Para acceder a nuestros solucionadores en la Nube de *Gurobi* y ejecutar "
+"la herramienta *Prioritizing Nature Webtool* y los ejercicios de esta "
+"capacitación, necesitarás:"
 
 #: ../../trainings/training5/07_getting_gurobi_env.rst:6
 msgid "Have *Gurobi* installed on your computer; **AND**"
-msgstr ""
+msgstr "Tener *Gurobi* instalado en tu computadora; **Y**"
 
 #: ../../trainings/training5/07_getting_gurobi_env.rst:8
 msgid "Have a valid license or key allowing access."
-msgstr ""
+msgstr "Tener una licencia o clave válida que permita el acceso."
 
 #: ../../trainings/training5/07_getting_gurobi_env.rst:12
 msgid "See :ref:`installing_gurobi` if *Gurobi* is not correctly installed."
-msgstr ""
+msgstr "Consulta :ref:`installing_gurobi` si *Gurobi* no está correctamente instalado."
 
 #: ../../trainings/training5/07_getting_gurobi_env.rst:15
 msgid ""
@@ -51,14 +53,20 @@ msgid ""
 "sent to the cloud solver for computation, instead of trying to solve them"
 " lcoally (which would fail since you do not have a full gurobi license)"
 msgstr ""
+"Cuando el software *Gurobi* está correctamente instalado en tu computadora, "
+"usar el servicio en la nube de *Gurobi* es tan simple como guardar un archivo "
+"``gurobi.env`` en el directorio raíz desde donde estás ejecutando la herramienta "
+"*Prioritizing Nature Webtool*. Los problemas se enviarán automáticamente al "
+"solucionador en la nube para su cálculo, en lugar de intentar resolverlos localmente "
+"(lo que fallaría, ya que no tienes una licencia completa de *Gurobi*)."
 
 #: ../../trainings/training5/07_getting_gurobi_env.rst:19
 msgid "Unless you have an existing free Academic license setup."
-msgstr ""
+msgstr "A menos que ya tengas configurada una licencia académica gratuita."
 
 #: ../../trainings/training5/07_getting_gurobi_env.rst:24
 msgid ".env Download"
-msgstr ""
+msgstr "Descarga del archivo .env"
 
 #: ../../trainings/training5/07_getting_gurobi_env.rst:26
 msgid ""
@@ -67,10 +75,14 @@ msgid ""
 "training. If you have not received that email, or have not downloaded the"
 " .env file yet, you can do so from the link below:"
 msgstr ""
+"Todos los participantes registrados deberían haber recibido un correo electrónico "
+"con la posibilidad de descargar el archivo `gurobi.env` para esta capacitación. "
+"Si no has recibido ese correo o aún no has descargado el archivo .env, puedes "
+"hacerlo desde el siguiente enlace:"
 
 #: ../../trainings/training5/07_getting_gurobi_env.rst:28
 msgid "`gurobi.env <Link TBC>`_"
-msgstr ""
+msgstr "`gurobi.env <Enlace TBC>`_"
 
 #: ../../trainings/training5/07_getting_gurobi_env.rst:30
 msgid ""
@@ -78,4 +90,5 @@ msgid ""
 "downloaded, which is also the working directory of the *R Project* you "
 "just created."
 msgstr ""
-
+"Guarda este archivo en el directorio raíz del repositorio que has descargado, "
+"que también es el directorio de trabajo del *Proyecto de R* que acabas de crear."

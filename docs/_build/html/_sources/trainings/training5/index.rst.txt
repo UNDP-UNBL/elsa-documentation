@@ -16,7 +16,7 @@ This is an online workshop (followed by interactive exercises) that will provide
 -   Set up usage of our paid *Gurobi* Cloud services for use during the workshop; and
 -   Correctly run the *Prioritizing Nature Webtools* tool locally from within *Rstudio* to generate the spatial prioritization map. 
 
-At the end the training you should have a better understanding of the webtools, the software that they use, and a greater clarity on how various changes to the tool's parameters ca greatly change the outputs and identified priority areas.
+At the end the training you should have a better understanding of the webtools, the software that they use, and greater clarity on how various changes to the tool's parameters can greatly change the outputs and identified priority areas.
 
 .. important:: 
     
