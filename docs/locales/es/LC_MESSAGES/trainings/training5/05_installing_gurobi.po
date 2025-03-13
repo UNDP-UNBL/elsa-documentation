@@ -75,7 +75,7 @@ msgstr ""
 msgid ""
 "We provide a short term usage of our cloud license for the *Prioritizing Nature* Trainings, only. Academics (including students) can obtain a special free license at no cost but individuals and others that are not affiliated with a recognized educational institution may need to purchase a license."
 msgstr ""
-"Ofrecemos un uso temporal de nuestra licencia en la nube exclusivamente para las capacitaciones de *Prioritizing Nature*. Los académicos (incluidos los estudiantes) pueden obtener una licencia especial gratuita, pero las personas y otros usuarios que no estén afiliados a una institución educativa reconocida pueden necesitar comprar una licencia."
+"Ofrecemos un uso temporal de nuestra licencia en la nube exclusivamente para las capacitaciones de *Priorizando la Naturaleza*. Los académicos (incluidos los estudiantes) pueden obtener una licencia especial gratuita, pero las personas y otros usuarios que no estén afiliados a una institución educativa reconocida pueden necesitar comprar una licencia."
 
 #: ../../trainings/training5/05_installing_gurobi.rst
 msgid "Windows"

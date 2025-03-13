@@ -29,7 +29,7 @@ msgid ""
 "Nature Webtool* and exercises in this training, you will need to:"
 msgstr ""
 "Para acceder a nuestros solucionadores en la Nube de *Gurobi* y ejecutar "
-"la herramienta *Prioritizing Nature Webtool* y los ejercicios de esta "
+"la herramienta web *Priorizando la Naturaleza* y los ejercicios de esta "
 "capacitación, necesitarás:"
 
 #: ../../trainings/training5/07_getting_gurobi_env.rst:6

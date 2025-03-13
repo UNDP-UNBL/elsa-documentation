@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:2
 msgid "Running the *Prioritizing Nature Webtool* - Data Setup"
-msgstr "Ejecutando la *Herramienta de Priorización de la Naturaleza* - Configuración de Datos"
+msgstr "Ejecutando la *Herramienta web Priorizando la Naturaleza* - Configuración de Datos"
 
 #: ../../trainings/training5/10_running_webtool_p1.rst:4
 msgid ""
@@ -29,7 +29,7 @@ msgid ""
 "script called ``pre_run.R``. The ``pre_run.R`` script has several primary"
 " functions:"
 msgstr ""
-"Antes de que la aplicación *Prioritizing Nature Webtool* pueda ejecutarse, "
+"Antes de que la aplicación web *Priorizando la Naturaleza* pueda ejecutarse, "
 "debemos ejecutar un script llamado ``pre_run.R``. El script ``pre_run.R`` "
 "tiene varias funciones principales:"
 

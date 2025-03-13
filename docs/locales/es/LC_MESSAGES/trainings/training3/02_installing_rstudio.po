@@ -47,7 +47,7 @@ msgstr ""
 "a tu chatbot de IA favorito para encontrar el restaurante de phở más cercano. "
 "Existen varios entornos de desarrollo integrados (IDE) para interactuar con *R*, "
 "pero el IDE más utilizado es *RStudio*, un programa desarrollado por `Posit <https://posit.co/>`_. "
-"*RStudio* se utilizará en toda la serie de capacitaciones del proyecto Prioritizing Nature."
+"*RStudio* se utilizará en toda la serie de capacitaciones del proyecto Priorizando la Naturaleza."
 
 #: ../../trainings/t3_r_setup/installing_rstudio.rst:7
 msgid "If R works via the command line, why use an IDE like RStudio instead?"
