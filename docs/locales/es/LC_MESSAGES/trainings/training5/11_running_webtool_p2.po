@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../trainings/training5/11_running_webtool_p2.rst:2
 msgid "Running the *Prioritizing Nature Webtool*"
-msgstr "Ejecutando la *Herramienta de Priorización de la Naturaleza*"
+msgstr "Ejecutando la *Herramienta web Priorizando la Naturaleza*"
 
 #: ../../trainings/training5/11_running_webtool_p2.rst:4
 msgid ""
@@ -29,7 +29,7 @@ msgid ""
 "the *Protecting Nature Webtool* locally on your computer."
 msgstr ""
 "Si ``pre_run.R`` se completó con éxito, ahora deberías poder ejecutar la "
-"*Herramienta de Priorización de la Naturaleza* localmente en tu computadora."
+"*Herramienta web Priorizando la Naturaleza* localmente en tu computadora."
 
 #: ../../trainings/training5/11_running_webtool_p2.rst:6
 msgid "We can do so several ways:"
@@ -66,7 +66,7 @@ msgid ""
 "etc.). It should look like the image below (which shows the Ecuador "
 "version of the tool in Spanish)"
 msgstr ""
-"Por defecto, RStudio abrirá la *Herramienta de Priorización de la Naturaleza* "
+"Por defecto, RStudio abrirá la *Herramienta web Priorizando la Naturaleza* "
 "en *RShiny* en tu navegador web predeterminado (por ejemplo, Chrome, Firefox, Safari, etc.). "
 "Debería verse como la imagen a continuación (que muestra la versión de la herramienta "
 "para Ecuador en español)."

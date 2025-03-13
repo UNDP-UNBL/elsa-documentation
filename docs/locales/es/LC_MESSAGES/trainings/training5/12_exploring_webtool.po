@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../trainings/training5/12_exploring_webtool.rst:2
 msgid "Exploring the *Prioritizing Nature Webtool*"
-msgstr "Explorando la *Herramienta de Priorización de la Naturaleza*"
+msgstr "Explorando la *Herramienta web de Priorizando la Naturaleza*"
 
 #: ../../trainings/training5/12_exploring_webtool.rst:4
 msgid ""
@@ -33,7 +33,7 @@ msgid ""
 "workshops, but below we provide an overview of the layout of webtool "
 "running on front of you."
 msgstr ""
-"La *Herramienta de Priorización de la Naturaleza* que tienes ejecutándose"
+"La *Herramienta web Priorizando la Naturaleza* que tienes ejecutándose"
 " localmente en tu computadora es la misma aplicación a la que puedes "
 "acceder en línea para `Ecuador "
 "<https://elsa.unbiodiversitylab.org/Bezos_ECU/>`_ o `Perú "
@@ -343,5 +343,5 @@ msgstr "El mapa de priorización para cada tema de datos específico."
 #~ msgid "The *Protecting Nature* prioritisation results map (and actions)."
 #~ msgstr ""
 #~ "El mapa de resultados de priorización"
-#~ " de *Protecting Nature* (y acciones)."
+#~ " de *Priorizando la Naturaleza* (y acciones)."
 

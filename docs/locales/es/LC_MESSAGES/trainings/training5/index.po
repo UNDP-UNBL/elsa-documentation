@@ -34,16 +34,14 @@ msgid ""
 "computers, using the *Gurobi* solver; and"
 msgstr ""
 "Retomaremos desde :ref:`training_3` y configuraremos aún más sus "
-"computadoras para ejecutar las *Herramientas Web de Priorización de la "
-"Naturaleza* en sus propios equipos, utilizando el solver *Gurobi*; y"
+"computadoras para ejecutar las *Herramientas web Priorizando la Naturaleza* en sus propios equipos, utilizando el solver *Gurobi*; y"
 
 #: ../../trainings/training5/index.rst:9
 msgid ""
 "We will go through setting analyses on the working *Prioritizing Nature "
 "Webtools* - you will then be able to run some analyses on your computer."
 msgstr ""
-"Revisaremos la configuración de análisis en las *Herramientas Web de "
-"Priorización de la Naturaleza* en funcionamiento, para que luego puedan "
+"Revisaremos la configuración de análisis en las *Herramientas web Priorizando la Naturaleza* en funcionamiento, para que luego puedan "
 "ejecutar algunos análisis en su computadora."
 
 #: ../../trainings/training5/index.rst:11
@@ -83,7 +81,7 @@ msgid ""
 "Correctly run the *Prioritizing Nature Webtools* tool locally from within"
 " *Rstudio* to generate the spatial prioritization map."
 msgstr ""
-"Ejecutar correctamente la herramienta *Prioritizing Nature Webtools* "
+"Ejecutar correctamente la herramienta web *Priorizando la Naturaleza* "
 "localmente desde *RStudio* para generar el mapa de priorización espacial."
 
 #: ../../trainings/training5/index.rst:19
