@@ -12,7 +12,7 @@ To access our *Gurobi* Cloud Serice solvers to run the *Prioritizing Nature Webt
     See :ref:`installing_gurobi` if *Gurobi* is not correctly installed.
 
 
-When the *Gurobi* software is correctly installed  on your computer using *Gurobi* cloud service is as simple as having a ``gurobi.env`` file saved in the root directory of the location you are running the *Prioritizing Nature Webtool* from. The problems will automatically be sent to the cloud solver for computation, instead of trying to solve them lcoally (which would fail since you do not have a full gurobi license)
+When the *Gurobi* software is correctly installed  on your computer using *Gurobi* cloud service is as simple as having a ``gurobi.env`` file saved in the root directory of the location you are running the *Prioritizing Nature Webtool* from. The problems will automatically be sent to the cloud solver for computation, instead of trying to solve them locally (which would fail since you do not have a full gurobi license)
 
 .. note:: 
 
@@ -25,6 +25,6 @@ When the *Gurobi* software is correctly installed  on your computer using *Gurob
 
 All registered participants should have received an email notification granting you the ability to download the `gurobi.env` file for this training. If you have not received that email, or have not downloaded the .env file yet, you can do so from the link below:
 
-    `gurobi.env <Link TBC>`_
+    `gurobi.env <https://www.dropbox.com/t/3dOYSTt8mgR0rxfU>`_
 
 Please save this file to the root directory of the repository you have downloaded, which is also the working directory of the *R Project* you just created.
