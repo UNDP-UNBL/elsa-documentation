@@ -2,6 +2,7 @@ RShiny - the Graphical User Interface (GUI)
 ===========================================
 
 Some new text that is really important.
+*Test edit 2*
 
 The  ELSA national tools you may have seen or used on-line are built using *RShiny*, and those we will be setting up to run locally on your computer during this workshop also use *RShiny*. *RShiny* is an *R* package that allows users to create interactive web applications directly from *R* code without the need for specialist web programming skills - meaning that in a nutshell, users can build/run functional web applications by simply opening the application in their web browser (Chrome, Firefox, Safari, etc). Some of the key features of *RShiny* are:
 
