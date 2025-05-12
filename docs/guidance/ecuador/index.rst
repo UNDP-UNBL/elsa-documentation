@@ -7,7 +7,7 @@ Section 2 provides step-by-step instructions on how to use the webtool to re-run
 For more information on the scientific rationale behind the spatial prioritization process to identify priority areas to support the goals of the MMB in Ecuador, see Technical Report.
 
 
-Section Contents
+Sections
 ------------------------------------------------------------
 .. toctree::
    :maxdepth: 1
