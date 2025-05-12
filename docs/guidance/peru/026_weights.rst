@@ -1,7 +1,7 @@
 2.6 Editing the weights of planning features
 =========================================================
 
-To carry out the optimization analysis, stakeholders have to decide the comparative importance of each of the planning features that outline the priority ENDB targets for Peru. This is achieved through weighting. For example, if biological corridors that help connect protected areas and crucial wildlife habitats are considered to be of high importance, this planning feature should be given greater weight (>3).
+To carry out the optimization analysis, stakeholders have to decide the comparative importance of each of the planning features that outline the priority ENDB targets for Ecuador. This is achieved through weighting. For example, if biological corridors that help connect protected areas and crucial wildlife habitats are considered to be of high importance, this planning feature should be given greater weight (>3).
 
 .. important:: 
     The default weights found in the tool are based on the weights obtained from stakeholders composed of a diverse  group of policy makers, experts and other stakeholders in your country.
@@ -15,7 +15,7 @@ To carry out the optimization analysis, stakeholders have to decide the comparat
     - 5.0 : medium importance
     - 10 : utmost importance
   
-.. image:: images/6pesos.png
+.. image:: images/6ppesos.png
     :align: center
     :alt: Figure 6. Editing weights
 

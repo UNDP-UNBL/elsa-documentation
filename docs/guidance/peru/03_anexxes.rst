@@ -1,14 +1,14 @@
 3. Annexes
 ===========
-3.1 Key terms used in the process of mapping priority areas for the implementation of the GBF in Ecuador.
---------------------------------------------------------------------------------------------------------------
+3.1 Key terms used in the process of mapping priority areas for the implementation of the ENDB in Peru.
+----------------------------------------------------------------------------------------------------------
 .. list-table::
    :header-rows: 1
    :widths: 10 50 40
 
    * - Term
      - Definition
-     - Application in Ecuador
+     - Application in Peru
 
    * - Boundary Penalty Factor (BPF)
      - Solutions are penalized based on the total outer boundary or edge
@@ -19,9 +19,9 @@
 
        prioritization zones of priority areas for GBF implementation.
 
-     - A boundary penalty of 10 was applied to produce the second spatial
+     - A boundary penalty of 50 was applied to produce the second ELSA
 
-       prioritization map. This score was selected to create a scientifically
+       map. This score was selected to create a scientifically
 
        rigorous but actionable map that promotes protection, management,
 
@@ -33,9 +33,9 @@
        that can be assigned to an "area".
      - Protect: 30%.
 
-       Restore: 8.99%
+       Restore: 4.48%
 
-       Manage: 10%
+       Manage: 5%
 
    * - Planning feature
      - An element of biodiversity or ecosystem service selected as a focus
@@ -52,9 +52,9 @@
 
        features depending on its complexity.
 
-     - The Prioritizing Nature for Ecuador webtool contains 16 planning features
+     - The Prioritizing Nature for Peru webtool contains 40 planning features
   
-       that map the 9 biodiversity targets of the GBF.
+       that map the 13 ENDB (NBSAP) targets for Peru.
 
    * - Decision support software
      - A computer application that uses information about possible actions and
@@ -63,7 +63,7 @@
 
        achieving a stated objective.
 
-     - For the Prioritizing Nature in Ecuador project, prioritizr is used as
+     - For the Prioritizing Nature in Peru project, prioritizr is used as
   
        decision support software.
 
@@ -83,7 +83,7 @@
   
        of areas. The main constraints are that the budget (land area devoted to
 
-       each spatial prioritization action) is not exceeded and that each zone can
+       each ELSA action) is not exceeded and that each zone can
 
        only occur within specified planning units (e.g. the protection zone can only
 
@@ -101,7 +101,7 @@
        hydrological units.
      - Coordinate Reference System: Custom Mollweide
 
-       Pixel resolution or pixel size: 600x600m
+       Pixel resolution or pixel size: 1kmx1km
 
    * - Representation
      - In Systematic Conservation Planning, a representative system captures the
@@ -110,9 +110,9 @@
        
        occurring in the planning region, not just iconic species.
 
-     - In Ecuador's spatial prioritization analysis, the representation is used to
+     - In Peru's ELSA analysis, the representation is used to
        
-       measure how well the priority areas for GBF implementation capture or
+       measure how well the priority areas for the ENDB implementation capture or
        
        represent the elements of planning relative to a more targeted planning
        
@@ -134,9 +134,9 @@
        achieve conservation objectives and to do so in a way that is defensible,
       
        accountable, and transparently recognizes the needs of different resource users.
-     - The SCP is the science that allows the identification of spatial prioritization
+     - The SCP is the science that allows the identification of ELSA
       
-       areas for the implementation of the GBF in Ecuador.
+       areas for the implementation of the ENDB in Peru.
 
    * - User interface
      - The means by which people interact with a given computer application.
@@ -146,7 +146,7 @@
        using graphics, menus and icons.
      - The Prioritizing Nature webtool is a graphical user interface that gives
       
-       stakeholders the ability to run the spatial prioritization analysis themselves.
+       stakeholders the ability to run the ELSA analysis themselves.
 
    * - Weights
      - The weights allow users to set relative priorities within their priority policy
@@ -154,7 +154,7 @@
        outcomes. Values typically range from "0" (no importance) to "10"
       
        (extremely high importance).
-     - The default weightings for the Ecuador spatial prioritization analysis were
+     - The default weightings for the Peru ELSA analysis were
       
        developed collaboratively through stakeholder engagement sessions.
       
@@ -176,7 +176,7 @@
        human activity, but not totally dominated by humans (e.g., low and medium
       
        human footprint values).
-     - In Ecuador, the spatial prioritization analysis zoning maps three different
+     - In Peru, the ELSA analysis zoning maps three different
        
        actions: protect, manage and restore.
 
@@ -184,9 +184,11 @@
        
        protected areas, urban areas and agricultural areas.
 
-3.2 Data layers used in the Prioritizing Nature project in Ecuador
---------------------------------------------------------------------
 
-.. image:: images/anexx1.png
+3.2 Data layers used in the Prioritizing Nature project in Peru
+-----------------------------------------------------------------
+
+.. image:: images/annex1p.png
    :align: center
-   :alt: Figure 1. Data layers used in the Prioritizing Nature project in Ecuador
+   :alt: Figure 1. Data layers used in the Prioritizing Nature project in Peru
+  
