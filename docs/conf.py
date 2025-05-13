@@ -9,16 +9,18 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
+import os
+import sys
+import datetime
 # sys.path.insert(0, os.path.abspath('.'))
 
 
 # -- Project information -----------------------------------------------------
 
 project = "ELSA Online Documentation"
-copyright = "2025, UN Biodiversity Lab"
-author = "ELSA Team"
+current_year = datetime.datetime.now().year
+copyright = f"{current_year}, UNDP"
+author = "UNDP and the ELSA Team"
 
 
 # -- General configuration ---------------------------------------------------
