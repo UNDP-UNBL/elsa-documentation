@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ELSA Online Documentation \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-28 18:59+1000\n"
+"POT-Creation-Date: 2025-05-14 10:26+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -33,8 +33,8 @@ msgid ""
 "workshops, but below we provide an overview of the layout of webtool "
 "running on front of you."
 msgstr ""
-"La *Herramienta web Priorizando la Naturaleza* que tienes ejecutándose"
-" localmente en tu computadora es la misma aplicación a la que puedes "
+"La *Herramienta web Priorizando la Naturaleza* que tienes ejecutándose "
+"localmente en tu computadora es la misma aplicación a la que puedes "
 "acceder en línea para `Ecuador "
 "<https://elsa.unbiodiversitylab.org/Bezos_ECU/>`_ o `Perú "
 "<https://elsa.unbiodiversitylab.org/Bezos_PER/>`_. Puede que ya estés "
@@ -207,13 +207,26 @@ msgstr ""
 "La columna de la derecha está compuesta por cuatro (4) pestañas, cada una"
 " con un propósito diferente:"
 
-#: ../../trainings/training5/12_exploring_webtool.rst:69
+#: ../../trainings/training5/12_exploring_webtool.rst:70
 msgid "Editing Weights"
 msgstr "Edición de Pesos"
 
 #: ../../trainings/training5/12_exploring_webtool.rst:71
-msgid "In the first of these tabs (the left most) loads a table of the input feature data that is used in the prioritisation. Four (4) columns are shown that provide the name of the ``Data``, the data's ``Theme``, the ``Weight`` given to the feature, and a column indicating the policy the feature speaks to (either GBF or NBSAP, depending on which county tool you are looking at)."
-msgstr "En la primera de estas pestañas (la más a la izquierda) se carga una tabla con los datos de las características de entrada utilizadas en la priorización. Se muestran cuatro (4) columnas que indican el nombre de los ``Datos``, el ``Tema`` de los datos, el ``Peso`` asignado a la característica y una columna que indica la política a la que se refiere la característica (ya sea GBF o NBSAP, dependiendo de la herramienta del país que estés utilizando)."
+msgid ""
+"In the first of these tabs (the left most) loads a table of the input "
+"feature data that is used in the prioritisation. Four (4) columns are "
+"shown that provide the name of the ``Data``, the data's ``Theme``, the "
+"``Weight`` given to the feature, and a column indicating the policy the "
+"feature speaks to (either GBF or NBSAP, depending on which county tool "
+"you are looking at)."
+msgstr ""
+"En la primera de estas pestañas (la más a la izquierda) se carga una "
+"tabla con los datos de las características de entrada utilizadas en la "
+"priorización. Se muestran cuatro (4) columnas que indican el nombre de "
+"los ``Datos``, el ``Tema`` de los datos, el ``Peso`` asignado a la "
+"característica y una columna que indica la política a la que se refiere "
+"la característica (ya sea GBF o NBSAP, dependiendo de la herramienta del "
+"país que estés utilizando)."
 
 #: ../../trainings/training5/12_exploring_webtool.rst:79
 msgid "The values in the ``Weights`` column can be edited (the others cannot)."
@@ -310,7 +323,6 @@ msgstr ""
 "y se abrirá en esta pestaña mostrando:"
 
 #: ../../trainings/training5/12_exploring_webtool.rst:126
-#: ../../trainings/training5/12_exploring_webtool.rst:143
 msgid "The *Protecting Nature* prioritisation results map (and actions)"
 msgstr "El mapa de resultados de priorización de *Protecting Nature* (y acciones)."
 
@@ -336,6 +348,11 @@ msgstr ""
 "Si seleccionaste ejecutar múltiples priorizaciones por tema, el mapa en "
 "esta pestaña mostrará:"
 
+#: ../../trainings/training5/12_exploring_webtool.rst:143
+#, fuzzy
+msgid "The *Protecting Nature* prioritisation results map (and actions)."
+msgstr "El mapa de resultados de priorización de *Protecting Nature* (y acciones)."
+
 #: ../../trainings/training5/12_exploring_webtool.rst:144
 msgid "The prioritisation map for each specific data theme."
 msgstr "El mapa de priorización para cada tema de datos específico."
@@ -343,5 +360,6 @@ msgstr "El mapa de priorización para cada tema de datos específico."
 #~ msgid "The *Protecting Nature* prioritisation results map (and actions)."
 #~ msgstr ""
 #~ "El mapa de resultados de priorización"
-#~ " de *Priorizando la Naturaleza* (y acciones)."
+#~ " de *Priorizando la Naturaleza* (y "
+#~ "acciones)."
 

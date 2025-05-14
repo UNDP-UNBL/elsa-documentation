@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, UNDP
+# This file is distributed under the same license as the ELSA Online Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Online Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-14 10:26+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../guidance/peru/022_functions.rst:2
+msgid "2.2 Functions of the online webtool"
+msgstr ""
+
+#: ../../guidance/peru/022_functions.rst:4
+msgid "The Prioritizing Nature webtool for Peru is hosted by the United Nations International Computing Center (UNICC) and is available online `here <https://elsa.unbiodiversitylab.org/Bezos_PER/>`_. The Prioritizing Nature webtool has been created specifically for Peru."
+msgstr ""
+
+#: ../../guidance/peru/022_functions.rst:6
+msgid "Stakeholders in Peru can achieve the following with the Prioritizing Nature webtool:"
+msgstr ""
+
+#: ../../guidance/peru/022_functions.rst:8
+msgid "Choose whether to block *potential OECMs*, *degraded areas within Protected Areas* for restoration, *potential OECMs* and *degraded areas within Protected Areas* for restoration and/or *no blocking*."
+msgstr ""
+
+#: ../../guidance/peru/022_functions.rst:9
+msgid "Modify the percentage of the national territory that can be allocated to each nature-based action zone for protection, restoration and management objectives."
+msgstr ""
+
+#: ../../guidance/peru/022_functions.rst:10
+msgid "Edit the weights of each planning element."
+msgstr ""
+
+#: ../../guidance/peru/022_functions.rst:11
+msgid "Execute the optimization."
+msgstr ""
+
+#: ../../guidance/peru/022_functions.rst:12
+msgid "View and download the ELSA action map and summary results."
+msgstr ""
+
+#: ../../guidance/peru/022_functions.rst:15
+msgid "All of these parameters can be adjusted in real time so that a group of stakeholders can co-create a ELSA action map to identify priority areas to support the implementation of the GBF and the ENDB."
+msgstr ""
+
+#: ../../guidance/peru/022_functions.rst:17
+msgid "What stakeholders in Peru cannot achieve by using the Prioritizing Nature webtool:"
+msgstr ""
+
+#: ../../guidance/peru/022_functions.rst:19
+msgid "Customize zoning restrictions."
+msgstr ""
+
+#: ../../guidance/peru/022_functions.rst:20
+msgid "Load additional data layers for inclusion in the model, either as planning features or as zoning constraints."
+msgstr ""
+
+#: ../../guidance/peru/022_functions.rst:21
+msgid "Add additional lock-in functions."
+msgstr ""
+
+#: ../../guidance/peru/022_functions.rst:24
+msgid "All the above parameters are coded in the backend of the Prioritizing Nature webtool by the science team, based on input from the core project team. They cannot be modified by individual users at this time."
+msgstr ""
