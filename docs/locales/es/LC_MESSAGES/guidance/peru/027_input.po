@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../guidance/peru/027_input.rst:2
 msgid "2.7 View input layers"
-msgstr ""
+msgstr "2.7 Ver capas de entrada"
 
 #: ../../guidance/peru/027_input.rst:4
 msgid ""
@@ -30,24 +30,26 @@ msgid ""
 "planning features** included in the ELSA analysis to identify priority "
 "areas for ENDB implementation."
 msgstr ""
+"Al hacer clic en *«Capas de entrada»*, los usuarios pueden ver mapas de las **40 "
+"características de planificación** incluidas en el análisis ELSA para identificar áreas "
+"prioritarias para la implementación de la DEBB."
 
 #: ../../guidance/peru/027_input.rst:6
 msgid "**Steps**"
-msgstr ""
+msgstr "**Pasos**"
 
 #: ../../guidance/peru/027_input.rst:8
 msgid "Check the box for each planning feature layer you want to display."
-msgstr ""
+msgstr "Marque la casilla de cada capa de característica de planificación que desee mostrar."
 
 #: ../../guidance/peru/027_input.rst:9
 msgid "Uncheck the box to remove the planning feature layer from the view."
-msgstr ""
+msgstr "Desmarque la casilla para quitar la capa de característica de planificación de la vista."
 
 #: ../../guidance/peru/027_input.rst:11
 msgid "Figure 7. View Input layers"
-msgstr ""
+msgstr "Figura 7. Ver capas de entrada"
 
 #: ../../guidance/peru/027_input.rst:15
 msgid "Figure 7. View input layers"
-msgstr ""
-
+msgstr "Figura 7. Ver capas de entrada"

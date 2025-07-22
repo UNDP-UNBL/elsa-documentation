@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../guidance/peru/024_objectives.rst:2
 msgid "2.4 Objectives"
-msgstr ""
+msgstr "2.4 Objetivos"
 
 #: ../../guidance/peru/024_objectives.rst:4
 msgid ""
@@ -33,10 +33,17 @@ msgid ""
 "within the country. The default values in the Prioritizing Nature webtool"
 " are derived from the targets in the ENDB in Peru (see Table 1)."
 msgstr ""
+"Esta sección de la herramienta web ELSA para identificar áreas prioritarias "
+"que apoyen la implementación de la DEBB permite establecer objetivos "
+"basados en áreas para protección, restauración y gestión. Los objetivos "
+"también pueden entenderse como el porcentaje del territorio que puede "
+"asignarse a cada acción dentro del país. Los valores predeterminados en la "
+"herramienta web Prioritizing Nature se derivan de los objetivos de la DEBB "
+"en Perú (véase Tabla 1)."
 
 #: ../../guidance/peru/024_objectives.rst:6
 msgid "**Steps**"
-msgstr ""
+msgstr "**Pasos**"
 
 #: ../../guidance/peru/024_objectives.rst:8
 msgid ""
@@ -44,6 +51,9 @@ msgid ""
 "and management objectives. The sum of the value for all objectives may be"
 " less than or equal to 100%, but should not exceed 100%."
 msgstr ""
+"Introduzca cualquier valor mayor o igual a 0,001 para los objetivos de "
+"protección, restauración y gestión. La suma de los valores de todos los "
+"objetivos puede ser menor o igual al 100 %, pero no debe exceder el 100 %."
 
 #: ../../guidance/peru/024_objectives.rst:11
 #, python-format
@@ -52,27 +62,34 @@ msgid ""
 "if you select \"block potential OECM\", the protection target here should"
 " be at least 17.37%."
 msgstr ""
+"Actualmente, aproximadamente el 17,37 % de Perú cuenta con cobertura "
+"potencial de OECM. Por lo tanto, si selecciona «bloquear potenciales OECM», "
+"el objetivo de protección aquí debe ser al menos del 17,37 %."
 
-#: ../../guidance/peru/024_objectives.rst:13
-#: ../../guidance/peru/024_objectives.rst:17
+#: ../../guidance/peru/024_objectives.rst:13 ../../guidance/peru/024_objectives.rst:17
 msgid "Figure 4. Setting objectives"
-msgstr ""
+msgstr "Figura 4. Establecer objetivos"
 
 #: ../../guidance/peru/024_objectives.rst:19
 msgid ""
 "The lock-in restrictions used in Peru to spatially define where each of "
 "these actions can occur are summarized in the below table."
 msgstr ""
+"Las restricciones de bloqueo utilizadas en Perú para definir espacialmente "
+"dónde puede ocurrir cada una de estas acciones se resumen en la tabla siguiente."
 
 #: ../../guidance/peru/024_objectives.rst:21
 msgid ""
 "Table 1. Area-based actions and objectives used in the spatial "
 "prioritization analysis to support ENDB  goals."
 msgstr ""
+"Tabla 1. Acciones y objetivos basados en áreas utilizados en el análisis de "
+"priorización espacial para apoyar los objetivos de la DEBB."
 
 #: ../../guidance/peru/024_objectives.rst:25
 msgid ""
 "Table 1. Area-based actions and objectives used in the spatial "
 "prioritization analysis to support ENDB targets."
 msgstr ""
-
+"Tabla 1. Acciones y objetivos basados en áreas utilizados en el análisis de "
+"priorización espacial para apoyar las metas de la DEBB."

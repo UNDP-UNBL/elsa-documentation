@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../guidance/ecuador/index.rst:2
 msgid "Prioritizing Nature in Ecuador"
-msgstr ""
+msgstr "Prioritizing Nature en Ecuador"
 
 #: ../../guidance/ecuador/index.rst:4
 msgid ""
@@ -30,6 +30,7 @@ msgid ""
 "identify priority areas to support the Kunming-Montreal Global "
 "Biodiversity Framework (GBF) targets in Ecuador."
 msgstr ""
+"La Sección 1 describe el proceso de mapeo de priorización espacial para identificar áreas prioritarias que apoyen los objetivos del Marco Mundial de Biodiversidad de Kunming‑Montreal (MMB) en Ecuador."
 
 #: ../../guidance/ecuador/index.rst:6
 msgid ""
@@ -37,6 +38,7 @@ msgid ""
 " re-run the spatial prioritization analysis, allowing the parameters to "
 "be adjusted according to the user's needs."
 msgstr ""
+"La Sección 2 ofrece instrucciones paso a paso sobre cómo usar la herramienta web para volver a ejecutar el análisis de priorización espacial, permitiendo ajustar los parámetros según las necesidades del usuario."
 
 #: ../../guidance/ecuador/index.rst:8
 msgid ""
@@ -44,8 +46,8 @@ msgid ""
 "prioritization process to identify priority areas to support the goals of"
 " the MMB in Ecuador, see Technical Report."
 msgstr ""
+"Para más información sobre el fundamento científico del proceso de priorización espacial para identificar áreas prioritarias que apoyen los objetivos del MMB en Ecuador, consulte el Informe Técnico."
 
 #: ../../guidance/ecuador/index.rst:12
 msgid "Sections"
-msgstr ""
-
+msgstr "Secciones"

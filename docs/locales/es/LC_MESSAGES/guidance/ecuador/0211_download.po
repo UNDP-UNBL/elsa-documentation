@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../guidance/ecuador/0211_download.rst:2
 msgid "2.11 Viewing and downloading maps"
-msgstr ""
+msgstr "2.11 Visualización y descarga de mapas"
 
 #: ../../guidance/ecuador/0211_download.rst:4
 msgid ""
@@ -32,30 +32,38 @@ msgid ""
 "results of the analysis to identify priority areas for the implementation"
 " of the GBF in Ecuador."
 msgstr ""
+"Tras ejecutar la optimización, podrá visualizar y descargar 8 mapas de "
+"resultado en formato ráster: 4 corresponden a mapas de calor y 4 a mapas "
+"de priorización espacial para su país, basados en los resultados del "
+"análisis para identificar áreas prioritarias para la implementación del MMB en Ecuador."
 
 #: ../../guidance/ecuador/0211_download.rst:6
 msgid "Table 3"
-msgstr ""
+msgstr "Tabla 3"
 
 #: ../../guidance/ecuador/0211_download.rst:10
 msgid ""
 "Table 3. Spatial prioritization maps identifying priority areas for GBF "
 "implementation available for download on the Prioritizing Nature webtool."
 msgstr ""
+"Tabla 3. Mapas de priorización espacial que identifican áreas prioritarias "
+"para la implementación del MMB disponibles para descargar en la herramienta "
+"web Prioritizing Nature."
 
 #: ../../guidance/ecuador/0211_download.rst:12
 msgid "**Steps**"
-msgstr ""
+msgstr "**Pasos**"
 
 #: ../../guidance/ecuador/0211_download.rst:14
 msgid ""
 "Click on the fourth tab *\"Results Map\"* to view the ELSA spatial "
 "prioritization maps in the webtool."
 msgstr ""
+"Haga clic en la cuarta pestaña *«Mapa de resultados»* para ver los mapas de priorización espacial ELSA en la herramienta web."
 
 #: ../../guidance/ecuador/0211_download.rst:15
 msgid "Zoom in on certain areas by clicking on the \"+\" icon."
-msgstr ""
+msgstr "Acérquese en ciertas áreas haciendo clic en el icono \"+\"."
 
 #: ../../guidance/ecuador/0211_download.rst:16
 msgid ""
@@ -64,11 +72,11 @@ msgid ""
 "the satellite view, click on the basemap of your interest to enable the "
 "layer (Figure 12)."
 msgstr ""
+"Puede cambiar entre diferentes vistas de mapa base haciendo clic en el icono de capas ubicado a la izquierda. Se mostrarán tres opciones de mapa base, incluida la vista satelital; haga clic en la que desee para activar la capa (Figura 12)."
 
-#: ../../guidance/ecuador/0211_download.rst:18
-#: ../../guidance/ecuador/0211_download.rst:22
+#: ../../guidance/ecuador/0211_download.rst:18 ../../guidance/ecuador/0211_download.rst:22
 msgid "Figure 12.  Base map options"
-msgstr ""
+msgstr "Figura 12. Opciones de mapa base"
 
 #: ../../guidance/ecuador/0211_download.rst:24
 msgid ""
@@ -77,17 +85,18 @@ msgid ""
 " then on \"Download results (GIS layers)\" to download the result maps "
 "(Figure 13)."
 msgstr ""
+"Para descargar los mapas en formato ráster o GeoTIFF, que pueden verse y analizarse en software SIG, haga clic en la pestaña «Resultados + Descarga» y luego en «Descargar resultados (capas SIG)» para descargar los mapas de resultado (Figura 13)."
 
-#: ../../guidance/ecuador/0211_download.rst:26
-#: ../../guidance/ecuador/0211_download.rst:30
+#: ../../guidance/ecuador/0211_download.rst:26 ../../guidance/ecuador/0211_download.rst:30
 msgid "Figure 13.  Downloading result maps"
-msgstr ""
+msgstr "Figura 13. Descarga de mapas de resultado"
 
 #: ../../guidance/ecuador/0211_download.rst:33
 msgid ""
 "When using the spatial prioritization map in a formal report or "
 "publication, please use the following citation:"
 msgstr ""
+"Al utilizar el mapa de priorización espacial en un informe formal o publicación, utilice la siguiente cita:"
 
 #: ../../guidance/ecuador/0211_download.rst:35
 msgid ""
@@ -96,4 +105,4 @@ msgid ""
 "https://elsa.unbiodiversitylab.org/Bezos_ECU/ , on [insert date with Day "
 "Month Year].**"
 msgstr ""
-
+"**MAATE y PNUD 2025. Proyecto Prioritizing Nature. Mapa creado utilizando datos espaciales y la herramienta web Prioritizing Nature en Ecuador https://elsa.unbiodiversitylab.org/Bezos_ECU/, el [inserte fecha con Día Mes Año].**"

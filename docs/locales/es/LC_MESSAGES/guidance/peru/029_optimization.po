@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../guidance/peru/029_optimization.rst:2
 msgid "2.9 Running the optimization"
-msgstr ""
+msgstr "2.9 Ejecución de la optimización"
 
 #: ../../guidance/peru/029_optimization.rst:4
 msgid ""
@@ -31,30 +31,37 @@ msgid ""
 "optimization executed by the webtool follows three rules to create the "
 "best possible map:"
 msgstr ""
+"El mapa de acción ELSA muestra las áreas prioritarias para la implementación"
+" de la DEBB en acciones de protección, restauración y gestión. La optimización"
+" que ejecuta la herramienta web sigue tres reglas para crear el mejor mapa posible:"
 
 #: ../../guidance/peru/029_optimization.rst:6
 msgid "It should not exceed area-based targets;"
-msgstr ""
+msgstr "No debe exceder los objetivos basados en áreas;"
 
 #: ../../guidance/peru/029_optimization.rst:7
 msgid "It must include the selected locks or non-blocks;"
-msgstr ""
+msgstr "Debe incluir los bloqueos o desbloqueos seleccionados;"
 
 #: ../../guidance/peru/029_optimization.rst:8
 msgid ""
 "It should include the best combination of planning features based on the "
 "distribution and weighting of planning features (heat map)."
 msgstr ""
+"Debe incluir la mejor combinación de elementos de planificación según la distribución"
+" y ponderación de estos (mapa de calor)."
 
 #: ../../guidance/peru/029_optimization.rst:10
 msgid ""
 "Once you have customized the above parameters and reviewed the heat maps,"
 " you can run the optimization analysis."
 msgstr ""
+"Una vez que haya personalizado los parámetros anteriores y revisado los mapas de calor,"
+" puede ejecutar el análisis de optimización."
 
 #: ../../guidance/peru/029_optimization.rst:12
 msgid "**Steps**"
-msgstr ""
+msgstr "**Pasos**"
 
 #: ../../guidance/peru/029_optimization.rst:14
 msgid ""
@@ -62,35 +69,39 @@ msgid ""
 "*\"Global parameters\"* (Figure 9). By first checking this box, and then "
 "running the optimization, you will be able to view four maps:"
 msgstr ""
+"Antes de ejecutar la optimización, puede marcar la casilla en “Parámetros globales”"
+" (Figura 9). Si primero la marca y luego ejecuta la optimización, podrá ver cuatro mapas:"
 
 #: ../../guidance/peru/029_optimization.rst:16
 msgid ""
 "The final ELSA actionmap, which contains the nature-based actions that "
 "are optimized for benefits in all planning features;"
 msgstr ""
+"El mapa de acción ELSA final, que contiene las acciones basadas en la naturaleza"
+" optimizadas para obtener beneficios en todos los elementos de planificación;"
 
 #: ../../guidance/peru/029_optimization.rst:17
 msgid "One map optimized for the biodiversity planning features,"
-msgstr ""
+msgstr "Un mapa optimizado para los elementos de planificación de biodiversidad,"
 
 #: ../../guidance/peru/029_optimization.rst:18
 msgid "One map optimized for climate change,"
-msgstr ""
+msgstr "Un mapa optimizado para el cambio climático,"
 
 #: ../../guidance/peru/029_optimization.rst:19
 msgid "One mapa optimized for human well-being."
-msgstr ""
+msgstr "Un mapa optimizado para el bienestar humano."
 
 #: ../../guidance/peru/029_optimization.rst:21
 msgid ""
 "Conversely, if you only want to display the final ELSA actionmap, you "
 "should leave this box unchecked."
 msgstr ""
+"Por el contrario, si solo desea mostrar el mapa de acción ELSA final, debe dejar esta casilla desmarcada."
 
 #: ../../guidance/peru/029_optimization.rst:23
-#: ../../guidance/peru/029_optimization.rst:27
 msgid "Figure 9. Optimization and global parameters"
-msgstr ""
+msgstr "Figura 9. Optimización y parámetros globales"
 
 #: ../../guidance/peru/029_optimization.rst:29
 msgid ""
@@ -102,15 +113,15 @@ msgid ""
 "of the analysis. You should not click \"Run optimization\" again while "
 "the analysis is running."
 msgstr ""
+"Haga clic en el botón *\"Ejecutar optimización\"* (Figura 10). El análisis puede tardar entre 1 y 3 minutos. Sin embargo, si el país es grande (lo que genera más unidades de planificación), se utilizan numerosos elementos de planificación o se aplica un alto Factor de Penalización de Límite, puede tardar mucho más. Debería ver una barra de progreso que muestre el estado del análisis. No haga clic en \"Ejecutar optimización\" nuevamente mientras el análisis esté en curso."
 
 #: ../../guidance/peru/029_optimization.rst:30
 msgid ""
 "Each time you change any parameter, click again on \"run optimization\" "
 "to run the model and update the results report and the map."
 msgstr ""
+"Cada vez que cambie algún parámetro, haga clic de nuevo en \"Ejecutar optimización\" para ejecutar el modelo y actualizar el informe de resultados y el mapa."
 
 #: ../../guidance/peru/029_optimization.rst:32
-#: ../../guidance/peru/029_optimization.rst:36
 msgid "Figure 10. Optimization process"
-msgstr ""
-
+msgstr "Figura 10. Proceso de optimización"

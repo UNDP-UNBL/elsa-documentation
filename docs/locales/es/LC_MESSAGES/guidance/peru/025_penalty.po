@@ -22,47 +22,56 @@ msgstr ""
 
 #: ../../guidance/peru/025_penalty.rst:2
 msgid "2.5 Boundary penalty factor"
-msgstr ""
+msgstr "2.5 Factor de penalización de límite"
 
 #: ../../guidance/peru/025_penalty.rst:4
 msgid ""
 "The boundary penalty factor is used to promote spatial cohesion when "
-"prioritizing land use zones. The boundary penalty can be 0 or higher. The"
-" higher the value, the more connected and contiguous the prioritization "
+"prioritizing land use zones. The boundary penalty can be 0 or higher. The "
+"higher the value, the more connected and contiguous the prioritization "
 "action zones will be on the map, making it more enforceable. This "
 "adjustment is based on the idea that, for real-world planning, a more "
 "connected zone is usually easier to manage and execute actions."
 msgstr ""
+"El factor de penalización de límite se utiliza para promover la cohesión "
+"espacial al priorizar zonas de uso de suelo. El valor de penalización puede "
+"ser 0 o superior. Cuanto mayor sea el valor, más conectadas y contiguas "
+"serán las zonas de acción en el mapa, lo que facilita su aplicación. Este "
+"ajuste se basa en la idea de que, para la planificación real, una zona más "
+"conectada suele ser más fácil de gestionar y ejecutar."
 
 #: ../../guidance/peru/025_penalty.rst:7
-msgid ""
-"The global science team used a boundary penalty factor of 50 on the ELSA "
-"map for Peru."
-msgstr ""
+msgid "The global science team used a boundary penalty factor of 50 on the ELSA map for Peru."
+msgstr "El equipo científico global utilizó un factor de penalización de límite de 50 en el mapa ELSA para Perú."
 
 #: ../../guidance/peru/025_penalty.rst:9
 msgid "**Steps**"
-msgstr ""
+msgstr "**Pasos**"
 
 #: ../../guidance/peru/025_penalty.rst:11
 msgid "To set the limit penalty, start with a very small number, e.g. 0.00001."
-msgstr ""
+msgstr "Para establecer la penalización de límite, comience con un número muy pequeño, por ejemplo, 0,00001."
 
 #: ../../guidance/peru/025_penalty.rst:12
 msgid ""
-"Increase the number iteratively, i.e., rerun the optimization repeatedly,"
-" by an order of magnitude (e.g., 0.00001 -> 0.0001 -> 0.001), reducing "
-"the rate of increase as you approach solutions that lead to your desired "
-"level of clustering. Each time you change the penalty, you will have to "
-"rerun the optimization until you arrive at a map that is sufficiently "
-"contiguous to meet your needs."
+"Increase the number iteratively, i.e., rerun the optimization repeatedly, "
+"by an order of magnitude (e.g., 0.00001 -> 0.0001 -> 0.001), reducing the "
+"rate of increase as you approach solutions that lead to your desired level "
+"of clustering. Each time you change the penalty, you will have to rerun the "
+"optimization until you arrive at a map that is sufficiently contiguous to "
+"meet your needs."
 msgstr ""
+"Aumente el número de forma iterativa, es decir, vuelva a ejecutar la "
+"optimización repetidamente por órdenes de magnitud (por ejemplo, "
+"0,00001 → 0,0001 → 0,001), reduciendo la tasa de incremento a medida que "
+"se acerque a soluciones que logren el nivel de agrupamiento deseado. Cada "
+"vez que cambie la penalización, deberá volver a ejecutar la optimización "
+"hasta obtener un mapa lo suficientemente contiguo para sus necesidades."
 
 #: ../../guidance/peru/025_penalty.rst:14
 msgid "Figure 5. Adjustment of the limit penalty factor"
-msgstr ""
+msgstr "Figura 5. Ajuste del factor de penalización de límite"
 
 #: ../../guidance/peru/025_penalty.rst:19
 msgid "Figure 5. Adjustment of the boundary penalty factor"
-msgstr ""
-
+msgstr "Figura 5. Ajuste del factor de penalización de límite"

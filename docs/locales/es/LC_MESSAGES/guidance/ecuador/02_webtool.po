@@ -22,5 +22,4 @@ msgstr ""
 
 #: ../../guidance/ecuador/02_webtool.rst:2
 msgid "2. Prioritizing Nature - Ecuador webtool"
-msgstr ""
-
+msgstr "2. Prioritizing Nature – herramienta web de Ecuador"

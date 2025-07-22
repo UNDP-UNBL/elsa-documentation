@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../guidance/ecuador/027_input.rst:2
 msgid "2.7 View input layers"
-msgstr ""
+msgstr "2.7 Ver capas de entrada"
 
 #: ../../guidance/ecuador/027_input.rst:4
 msgid ""
@@ -30,24 +30,26 @@ msgid ""
 "planning features** included in the spatial prioritization analysis to "
 "identify priority areas for GBF implementation."
 msgstr ""
+"Al hacer clic en *«Capas de entrada»*, los usuarios pueden ver mapas de las **26 "
+"características de planificación** incluidas en el análisis de priorización espacial para "
+"identificar áreas prioritarias para la implementación del MMB."
 
 #: ../../guidance/ecuador/027_input.rst:6
 msgid "**Steps**"
-msgstr ""
+msgstr "**Pasos**"
 
 #: ../../guidance/ecuador/027_input.rst:8
 msgid "Check the box for each planning feature layer you want to display."
-msgstr ""
+msgstr "Marque la casilla de cada capa de característica de planificación que desee mostrar."
 
 #: ../../guidance/ecuador/027_input.rst:9
 msgid "Uncheck the box to remove the planning feature layer from the view."
-msgstr ""
+msgstr "Desmarque la casilla para quitar la capa de característica de planificación de la vista."
 
 #: ../../guidance/ecuador/027_input.rst:11
 msgid "Figure 7. View Input layers"
-msgstr ""
+msgstr "Figura 7. Ver capas de entrada"
 
 #: ../../guidance/ecuador/027_input.rst:15
 msgid "Figure 7. ViewInput layers"
-msgstr ""
-
+msgstr "Figura 7. Ver capas de entrada"

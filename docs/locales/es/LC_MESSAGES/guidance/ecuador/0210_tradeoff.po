@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../guidance/ecuador/0210_tradeoff.rst:2
 msgid "2.10 Analyzing synergies and trade-offs"
-msgstr ""
+msgstr "2.10 Análisis de sinergias y compensaciones"
 
 #: ../../guidance/ecuador/0210_tradeoff.rst:4
 msgid ""
@@ -33,12 +33,20 @@ msgid ""
 "the three themes (biodiversity, climate change and human well-being) "
 "creates trade-offs."
 msgstr ""
+"El objetivo del análisis *Prioritizing Nature* es identificar sinergias "
+"entre acciones para la biodiversidad, el cambio climático y el desarrollo "
+"sostenible. El análisis mide el resultado de cada elemento de planificación "
+"mediante una puntuación de representación para mostrar dónde la planificación "
+"de los tres temas (biodiversidad, cambio climático y bienestar humano) "
+"genera compensaciones."
 
 #: ../../guidance/ecuador/0210_tradeoff.rst:6
 msgid ""
 "Where: Trade-off score = Representation in prioritization map / Maximum "
 "representation in thematic maps."
 msgstr ""
+"Donde: Puntuación de compensación = Representación en el mapa de priorización / "
+"Representación máxima en los mapas temáticos."
 
 #: ../../guidance/ecuador/0210_tradeoff.rst:9
 msgid ""
@@ -46,6 +54,9 @@ msgid ""
 "evaluate whether the parameters you selected led to an acceptable "
 "representation for each of the planning features."
 msgstr ""
+"Tras ejecutar una iteración del análisis, puede ver los resultados y evaluar "
+"si los parámetros seleccionados condujeron a una representación aceptable "
+"para cada uno de los elementos de planificación."
 
 #: ../../guidance/ecuador/0210_tradeoff.rst:11
 msgid ""
@@ -54,10 +65,14 @@ msgid ""
 "click on \"Download Summary (Excel)\". This will download an Excel file "
 "with the results. 2.      Review the results."
 msgstr ""
+"Pasos: 1. Vaya a la pestaña «Resultados + Descarga», desplácese hasta la sección "
+"de descarga de resultados y parámetros del modelo (tabla resumen), y haga clic "
+"en «Descargar resumen (Excel)». Esto descargará un archivo de Excel con los resultados. "
+"2. Revise los resultados."
 
 #: ../../guidance/ecuador/0210_tradeoff.rst:15
 msgid "Column 1 indicates the name of the planning feature."
-msgstr ""
+msgstr "La columna 1 indica el nombre del elemento de planificación."
 
 #: ../../guidance/ecuador/0210_tradeoff.rst:16
 msgid ""
@@ -65,26 +80,31 @@ msgid ""
 "three separate planning topic scenarios and in the combined action item "
 "scenario, for example:"
 msgstr ""
+"Las columnas 2 a 5 indican la representación de los elementos de planificación "
+"en los tres escenarios temáticos separados y en el escenario combinado de "
+"elementos de acción, por ejemplo:"
 
 #: ../../guidance/ecuador/0210_tradeoff.rst:18
 msgid "Column 2 of combined topics, which includes all planning features;"
-msgstr ""
+msgstr "Columna 2 de temas combinados, que incluye todos los elementos de planificación;"
 
 #: ../../guidance/ecuador/0210_tradeoff.rst:19
 msgid "Biodiversity column 3, which includes only biodiversity planning features;"
-msgstr ""
+msgstr "Columna 3 de biodiversidad, que incluye únicamente elementos de planificación de biodiversidad;"
 
 #: ../../guidance/ecuador/0210_tradeoff.rst:20
 msgid ""
 "Climate change column 4, which includes only climate change planning "
 "features;"
 msgstr ""
+"Columna 4 de cambio climático, que incluye únicamente elementos de planificación de cambio climático;"
 
 #: ../../guidance/ecuador/0210_tradeoff.rst:21
 msgid ""
 "Human wellbeing column 5, which includes only the human welfare planning "
 "features."
 msgstr ""
+"Columna 5 de bienestar humano, que incluye únicamente elementos de planificación de bienestar humano."
 
 #: ../../guidance/ecuador/0210_tradeoff.rst:23
 msgid ""
@@ -92,6 +112,9 @@ msgid ""
 "prioritization scenario (in percent) compared to the largest "
 "representation among the independent planning scenarios."
 msgstr ""
+"La columna 6 muestra la representación de la compensación en porcentaje "
+"del escenario de priorización comparada con la representación máxima entre "
+"los escenarios de planificación independientes."
 
 #: ../../guidance/ecuador/0210_tradeoff.rst:26
 msgid ""
@@ -102,9 +125,13 @@ msgid ""
 " low values, in order to increase their representation in the "
 "prioritization map."
 msgstr ""
+"En el análisis de Prioritizing Nature, normalmente usamos un umbral del 80 % "
+"para definir si la compensación es aceptable. Para las capas con valores "
+"inferiores al 80 %, el usuario puede volver a la herramienta web y aumentar "
+"el peso de los elementos de planificación correspondientes a valores bajos, "
+"con el fin de incrementar su representación en el mapa de priorización."
 
 #: ../../guidance/ecuador/0210_tradeoff.rst:28
 #: ../../guidance/ecuador/0210_tradeoff.rst:32
 msgid "Figure 11. Download summary table"
-msgstr ""
-
+msgstr "Figura 11. Descargar tabla resumen"

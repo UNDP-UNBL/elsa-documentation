@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../guidance/peru/01_intro.rst:2
 msgid "1.      Introduction to the Prioritizing Nature in Peru"
-msgstr ""
+msgstr "1.      Introducción a Prioritizing Nature en Perú"
 
 #: ../../guidance/peru/01_intro.rst:5
 msgid "Background"
-msgstr ""
+msgstr "Antecedentes"
 
 #: ../../guidance/peru/01_intro.rst:7
 msgid ""
@@ -38,6 +38,14 @@ msgid ""
 "(CBD) with the adoption, in December 2022, of the `Kunming-Montreal "
 "Global Biodiversity Framework <https://www.cbd.int/gbf>`_."
 msgstr ""
+"La humanidad depende de la naturaleza de maneras fundamentales: para sus "
+"medios de vida, economías, bienestar y capacidad de mitigar y adaptarse "
+"al cambio climático. Por ello, situar la naturaleza en el centro de todas "
+"las actividades es esencial para garantizar sociedades sostenibles. La "
+"importancia de la naturaleza ha sido reconocida por las Partes en la "
+"Convención sobre la Diversidad Biológica (CDB) con la adopción, en "
+"diciembre de 2022, del `Marco Mundial de Biodiversidad de Kunming-"
+"Montreal <https://www.cbd.int/gbf>`_."
 
 #: ../../guidance/peru/01_intro.rst:9
 #, python-format
@@ -61,10 +69,30 @@ msgid ""
 "identifying conservation areas, as well as for monitoring and reporting "
 "on the impacts of various types of conservation schemes."
 msgstr ""
+"Los datos espaciales son esenciales para la implementación de varios "
+"objetivos del MMB, y también serán fundamentales para que los países "
+"monitoreen e informen sobre el progreso hacia estos objetivos, donde "
+"`el 41 % de los indicadores principales y el 34 % de los indicadores "
+"componente cuentan con una metodología que fomenta el uso de datos "
+"espaciales <https://unbiodiversitylab.org/wp-"
+"content/uploads/2024/05/SP_Guidance-Using-Spatial-Data-to-Support-"
+"GBF.pdf>`_. En este sentido, el `Objetivo 3 del MMB "
+"<https://www.cbd.int/gbf/targets/3>`_, también conocido como la meta 30x30, "
+"apunta a conservar el 30 % de las áreas terrestres, aguas continentales y "
+"mares para 2030. Además de este objetivo cuantitativo de alto nivel, la "
+"meta incluye elementos cualitativos, como sistemas “ecológicamente "
+"representativos, bien conectados y equitativamente gobernados”. La meta "
+"también menciona diversos enfoques de conservación, incluidos las áreas "
+"protegidas y otras medidas de conservación basadas en áreas efectivas "
+"(OECM), así como el reconocimiento y respeto de los derechos de los pueblos "
+"indígenas y las comunidades locales. Para este objetivo, el uso de datos "
+"geoespaciales es extremadamente relevante tanto para identificar áreas de "
+"conservación como para monitorear e informar sobre los impactos de "
+"diferentes esquemas de conservación."
 
 #: ../../guidance/peru/01_intro.rst:12
 msgid "ELSA mapping in support of the GBF and ENDB targets"
-msgstr ""
+msgstr "Mapeo ELSA en apoyo de los objetivos del MMB y DEBB"
 
 #: ../../guidance/peru/01_intro.rst:14
 msgid ""
@@ -80,6 +108,18 @@ msgid ""
 "contribute to the achievement of various national priority policy "
 "objectives in biodiversity, climate and sustainable development."
 msgstr ""
+"El PNUD, mediante una asociación con Perú y el Centro Mundial de Monitoreo "
+"de la Conservación del Programa de las Naciones Unidas para el Medio "
+"Ambiente (PNUMA-ONU), implementó el proyecto Prioritizing Nature para "
+"apoyar el uso nacional de datos espaciales con el fin de alcanzar el "
+"Objetivo 3 del MMB y su equivalente a nivel nacional. El proyecto se "
+"basó en colaboraciones previas utilizando herramientas innovadoras como "
+"el `UN Biodiversity Lab <https://unbiodiversitylab.org/>`_ (UNBL) y "
+"metodologías eficaces como los `Mapas de la Esperanza "
+"<http://www.mapsofhope.org/>`_, en los que los países identifican "
+"ELSA donde las medidas de protección, gestión y restauración de la "
+"naturaleza pueden contribuir mejor al logro de diversos objetivos "
+"prioritarios nacionales en biodiversidad, clima y desarrollo sostenible."
 
 #: ../../guidance/peru/01_intro.rst:16
 msgid ""
@@ -93,6 +133,15 @@ msgid ""
 "socioeconomic priorities; this led to supporting the government to "
 "propose forms of protection to meet the 30x30 Target in Peru."
 msgstr ""
+"El proyecto movilizó a los principales actores nacionales y expertos para "
+"llevar a cabo una serie de actividades científicas destinadas a desarrollar "
+"un mapa ELSA que apoye los objetivos del MMB y DEBB. En Perú, se trabajó "
+"con socios nacionales, en particular el Ministerio del Ambiente (MINAM), "
+"para ayudar al país a identificar y evaluar áreas de conservación "
+"potenciales basándose en la gobernanza y gestión del territorio existentes, "
+"mejorar la conectividad de la red y apoyar el logro de las prioridades "
+"ambientales y socioeconómicas nacionales; esto permitió al gobierno proponer "
+"formas de protección para cumplir la meta 30x30 en Perú."
 
 #: ../../guidance/peru/01_intro.rst:18
 msgid ""
@@ -109,34 +158,39 @@ msgid ""
 " from GBF Targets 4-12, which cover threatened species, climate change "
 "and a range of ecosystem services."
 msgstr ""
+"Para desarrollar el mapa ELSA se utilizó la Planificación Sistemática de la "
+"Conservación (PSC) para analizar zonas de uso del suelo y resultados. La PSC "
+"se emplea para optimizar acciones de conservación espacialmente explícitas que "
+"promuevan la persistencia de la biodiversidad y otras características "
+"naturales in situ. La PSC implica un proceso transparente y objetivo de "
+"definición de metas y objetivos claros, y luego la planificación de acciones "
+"de conservación que los cumplan. El proceso de mapeo ELSA se desarrolló para "
+"apoyar directamente los elementos espaciales de los objetivos del MMB y DEBB. "
+"Esto incluye los Objetivos 1-3, que establecen metas en torno a la planificación "
+"espacial, la gestión sostenible, la restauración de ecosistemas y la protección "
+"a través de áreas protegidas y OECM. Otros elementos espaciales se extrajeron "
+"de los Objetivos 4-12 del MMB, que abarcan especies amenazadas, cambio climático "
+"y una gama de servicios ecosistémicos."
 
 #: ../../guidance/peru/01_intro.rst:20
 msgid "The project has helped Peru to:"
-msgstr ""
+msgstr "El proyecto ha ayudado a Perú a:"
 
 #: ../../guidance/peru/01_intro.rst:22
-msgid ""
-"Jointly develop an ELSA action map that demonstrates a pathway to achieve"
-" GBF Target 3, while supporting the other targets of the GBF and Peru's "
-"NBSAP;"
-msgstr ""
+msgid "Jointly develop an ELSA action map that demonstrates a pathway to achieve GBF Target 3, while supporting the other targets of the GBF and Peru's NBSAP;"
+msgstr "Desarrollar conjuntamente un mapa de acción ELSA que demuestre una ruta para alcanzar el Objetivo 3 del MMB, al mismo tiempo que apoya los demás objetivos del MMB y el ENP de Perú;"
 
 #: ../../guidance/peru/01_intro.rst:23
-msgid ""
-"Assess potential OECMs to support the government in identifying priority "
-"areas for site-level assessments; and"
-msgstr ""
+msgid "Assess potential OECMs to support the government in identifying priority areas for site-level assessments; and"
+msgstr "Evaluar posibles OECM para ayudar al gobierno a identificar áreas prioritarias para evaluaciones a nivel de sitio; y"
 
 #: ../../guidance/peru/01_intro.rst:24
 msgid "Assess the condition within existing protected areas and OECMs."
-msgstr ""
+msgstr "Evaluar el estado dentro de las áreas protegidas y OECM existentes."
 
 #: ../../guidance/peru/01_intro.rst:27
-msgid ""
-"For more details on the methodology and science applied in the ELSA "
-"process in Peru to identify priority areas to support the implementation "
-"of the GBF, please refer to the Technical Report."
-msgstr ""
+msgid "For more details on the methodology and science applied in the ELSA process in Peru to identify priority areas to support the implementation of the GBF, please refer to the Technical Report."
+msgstr "Para más detalles sobre la metodología y la ciencia aplicada en el proceso ELSA en Perú para identificar áreas prioritarias que apoyen la implementación del MMB, consulte el Informe Técnico."
 
 #: ../../guidance/peru/01_intro.rst:28
 msgid ""
@@ -148,10 +202,11 @@ msgid ""
 "contactpatricia.huerta@undp.org , with a copy to "
 "support@unbiodiversitylab.org ."
 msgstr ""
+"Los resultados del proyecto también están disponibles en el espacio de trabajo seguro de Perú en el `UN Biodiversity Lab <https://unbiodiversitylab.org/>`_, una plataforma apoyada por la ONU que brinda a los países acceso a los mejores datos espaciales globales y nacionales sobre biodiversidad, servicios ecosistémicos y desarrollo sostenible. Para solicitar acceso al espacio de trabajo de Perú, escriba a patrícia.huerta@undp.org con copia a support@unbiodiversitylab.org."
 
 #: ../../guidance/peru/01_intro.rst:31
 msgid "The Association"
-msgstr ""
+msgstr "La Asociación"
 
 #: ../../guidance/peru/01_intro.rst:33
 msgid ""
@@ -163,6 +218,7 @@ msgid ""
 "Prioritizing Nature project to support the national use of spatial data "
 "to achieve GBF Target 3 and the equivalent target at the national level."
 msgstr ""
+"En colaboración con Perú, este proyecto reúne una poderosa coalición de gobiernos, ONG, institutos de investigación y organizaciones intergubernamentales. El PNUD, mediante una asociación con Perú y el Centro Mundial de Monitoreo de la Conservación del Programa de las Naciones Unidas para el Medio Ambiente (PNUMA-ONU), con financiamiento del Bezos Earth Fund, implementó el proyecto Prioritizing Nature para apoyar el uso nacional de datos espaciales con el fin de alcanzar el Objetivo 3 del MMB y su equivalente a nivel nacional."
 
 #: ../../guidance/peru/01_intro.rst:36
 msgid ""
@@ -173,10 +229,11 @@ msgid ""
 "Environment (INAFOR), National Institute of Agricultural Research (INIA),"
 " TNC, WCS, Jica, among others."
 msgstr ""
+"Las instituciones participantes incluyen: Ministerio del Ambiente (MINAM), Servicio Nacional Forestal y de Fauna Silvestre (SERFOR), Organismo de Supervisión de los Recursos Forestales y de Fauna Silvestre (OSINFOR), Servicio Nacional de Áreas Naturales Protegidas (SERNANP), Instituto Nacional de Protección del Ambiente (INAFOR), Instituto Nacional de Innovación Agraria (INIA), TNC, WCS, JICA, entre otros."
 
 #: ../../guidance/peru/01_intro.rst:40
 msgid "Resources"
-msgstr ""
+msgstr "Recursos"
 
 #: ../../guidance/peru/01_intro.rst:42
 msgid ""
@@ -186,10 +243,11 @@ msgid ""
 "background, scope, vision, objectives, expected results and other "
 "relevant information about the Prioritizing Nature in Peru project."
 msgstr ""
+"`Informe de Alcance <https://www.dropbox.com/scl/fi/cdje955z5no3trdtsnznw/Prioritizing-Nature-in-Peru-Scoping-Report-v080524-Final-clean.pdf?rlkey=zvfyr1jcl13h8i5u21cih741q&dl=0>`_: Informe que detalla los antecedentes, alcance, visión, objetivos, resultados esperados y otra información relevante sobre el proyecto Prioritizing Nature en Perú."
 
 #: ../../guidance/peru/01_intro.rst:43
 msgid "Inception workshop:"
-msgstr ""
+msgstr "Taller de inicio:"
 
 #: ../../guidance/peru/01_intro.rst:44
 msgid ""
@@ -197,6 +255,7 @@ msgid ""
 "<https://www.youtube.com/watch?v=JAh0s2rQBmU>`_  |  `Spanish "
 "<https://www.youtube.com/watch?v=DntPA_O1-ss>`_"
 msgstr ""
+"Grabación del taller de inicio: `Inglés <https://www.youtube.com/watch?v=JAh0s2rQBmU>`_  |  `Español <https://www.youtube.com/watch?v=DntPA_O1-ss>`_"
 
 #: ../../guidance/peru/01_intro.rst:45
 msgid ""
@@ -206,12 +265,12 @@ msgid ""
 "/wp-content/uploads/2025/04/Prioritizing-Nature-in-Peru-Inception-"
 "Workshop-Report-SP.pdf>`_"
 msgstr ""
+"Informe del taller de inicio: `Inglés <https://www.learningfornature.org/wp-content/uploads/2025/04/Prioritizing-Nature-in-Peru-Inception-Workshop-Report-EN.pdf>`_ | `Español <https://www.learningfornature.org/wp-content/uploads/2025/04/Prioritizing-Nature-in-Peru-Inception-Workshop-Report-SP.pdf>`_"
 
 #: ../../guidance/peru/01_intro.rst:46
 msgid ""
 "`Capacity building sessions <https://www.learningfornature.org/en/courses"
-"/prioritizing-nature-in-peru-trainings-scp-and-spatial-planning-"
-"methodology-and-applications/>`_: This series of 6 training courses "
+"/prioritizing-nature-in-peru-trainings-scp-and-spatial-planning-methodology-and-applications/>`_: This series of 6 training courses "
 "provides capacity building support for the full transfer of the spatial "
 "data and planning tools produced in the Prioritizing Nature Project. It "
 "consists of a combination of self-paced courses, live training and "
@@ -219,6 +278,7 @@ msgid ""
 " used to develop a ELSA map for Target 3 of the Kunming-Montreal Global "
 "Biodiversity Framework."
 msgstr ""
+"`Sesiones de fortalecimiento de capacidades <https://www.learningfornature.org/en/courses/prioritizing-nature-in-peru-trainings-scp-and-spatial-planning-methodology-and-applications/>`_: Esta serie de 6 cursos de formación ofrece apoyo para la transferencia completa de los datos espaciales y las herramientas de planificación producidas en el proyecto Prioritizing Nature. Consta de una combinación de cursos autodirigidos, formación en vivo y ejercicios interactivos que guían a través de los elementos clave del flujo de trabajo utilizado para desarrollar un mapa ELSA para el Objetivo 3 del Marco Mundial de Biodiversidad de Kunming-Montreal."
 
 #: ../../guidance/peru/01_intro.rst:47
 msgid ""
@@ -230,4 +290,4 @@ msgid ""
 "are available in the web tool for mapping priority areas for GBF and ENDB"
 " implementation in Peru."
 msgstr ""
-
+"`Datos incluidos en el análisis ELSA para la implementación del MMB en Perú <https://www.dropbox.com/scl/fi/fzior277pw1lfjgq2jjxw/W2-Peru-Data-and-weighting-Leticia-Cardozo-SP.pdf?rlkey=bwtrxjo4r1inscmrlwtmg5tko&st=e5mqc9du&dl=0>`_: Esta presentación describe los conjuntos de datos incluidos en el análisis ELSA que están disponibles en la herramienta web para mapear áreas prioritarias para la implementación del MMB y DEBB en Perú."

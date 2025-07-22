@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../guidance/ecuador/024_objectives.rst:2
 msgid "2.4 Objectives"
-msgstr ""
+msgstr "2.4 Objetivos"
 
 #: ../../guidance/ecuador/024_objectives.rst:4
 msgid ""
@@ -34,10 +34,16 @@ msgid ""
 " Nature webtool are derived from the targets in the GBF in Ecuador (see "
 "Table 1)."
 msgstr ""
+"Esta sección de la herramienta web de priorización espacial para identificar "
+"áreas prioritarias que apoyen la implementación del MMB le permite establecer "
+"objetivos basados en áreas para protección, restauración y gestión. Los objetivos "
+"también pueden entenderse como el porcentaje del territorio que puede asignarse "
+"a cada acción dentro del país. Los valores predeterminados en la herramienta "
+"web Prioritizing Nature se derivan de los objetivos del MMB en Ecuador (véase Tabla 1)."
 
 #: ../../guidance/ecuador/024_objectives.rst:6
 msgid "**Steps**"
-msgstr ""
+msgstr "**Pasos**"
 
 #: ../../guidance/ecuador/024_objectives.rst:8
 msgid ""
@@ -45,6 +51,9 @@ msgid ""
 "and management objectives. The sum of the value for all objectives may be"
 " less than or equal to 100%, but should not exceed 100%."
 msgstr ""
+"Introduzca cualquier valor mayor o igual a 0,001 para los objetivos de protección, "
+"restauración y gestión. La suma de los valores de todos los objetivos puede ser "
+"menor o igual al 100 %, pero no debe exceder el 100 %."
 
 #: ../../guidance/ecuador/024_objectives.rst:11
 #, python-format
@@ -53,22 +62,26 @@ msgid ""
 "Therefore, if you select \"block-in potential OECM\", the protection "
 "target here should be at least 63.07%."
 msgstr ""
+"Actualmente, aproximadamente el 63,07 % de Ecuador cuenta con cobertura potencial de OECM. "
+"Por lo tanto, si selecciona «bloquear potenciales OECM», el objetivo de protección aquí "
+"deberá ser al menos del 63,07 %."
 
-#: ../../guidance/ecuador/024_objectives.rst:13
-#: ../../guidance/ecuador/024_objectives.rst:17
+#: ../../guidance/ecuador/024_objectives.rst:13 ../../guidance/ecuador/024_objectives.rst:17
 msgid "Figure 4. Setting objectives"
-msgstr ""
+msgstr "Figura 4. Establecer objetivos"
 
 #: ../../guidance/ecuador/024_objectives.rst:19
 msgid ""
 "The lock-in restrictions used in Ecuador to spatially define where each "
 "of these actions can occur are summarized in the below table."
 msgstr ""
+"Las restricciones de bloqueo utilizadas en Ecuador para definir espacialmente "
+"dónde puede ocurrir cada una de estas acciones se resumen en la tabla siguiente."
 
-#: ../../guidance/ecuador/024_objectives.rst:21
-#: ../../guidance/ecuador/024_objectives.rst:25
+#: ../../guidance/ecuador/024_objectives.rst:21 ../../guidance/ecuador/024_objectives.rst:25
 msgid ""
 "Table 1. Area-based actions and objectives used in the spatial "
 "prioritization analysis to support GBF goals."
 msgstr ""
-
+"Tabla 1. Acciones basadas en áreas y objetivos utilizados en el análisis de "
+"priorización espacial para apoyar los objetivos del MMB."

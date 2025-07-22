@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../guidance/peru/index.rst:2
 msgid "Prioritizing Nature in Peru"
-msgstr ""
+msgstr "Prioritizing Nature en Perú"
 
 #: ../../guidance/peru/index.rst:4
 msgid ""
@@ -30,6 +30,9 @@ msgid ""
 "to support the Kunming-Montreal Global Biodiversity Framework (GBF) "
 "targets in Peru."
 msgstr ""
+"La Sección 1 describe el proceso de mapeo ELSA para identificar áreas prioritarias "
+"que apoyen los objetivos del Marco Mundial de Biodiversidad de Kunming-Montreal (MMB) "
+"en Perú."
 
 #: ../../guidance/peru/index.rst:6
 msgid ""
@@ -37,6 +40,9 @@ msgid ""
 "process to identify priority areas to support the goals of the National "
 "Biodiversity Strategy (ENDB) in Peru within the framework of the GBF."
 msgstr ""
+"El Capítulo 1 describe el proceso de mapeo de las Áreas Esenciales de Soporte Vital (ELSA) "
+"para identificar áreas prioritarias que apoyen los objetivos de la Estrategia Nacional de Biodiversidad (ENDB) "
+"en Perú dentro del marco del MMB."
 
 #: ../../guidance/peru/index.rst:8
 msgid ""
@@ -44,8 +50,9 @@ msgid ""
 "to identify priority areas to support the goals of the MMB in Peru, see "
 "Technical Report."
 msgstr ""
+"Para más información sobre el fundamento científico del proceso ELSA "
+"para identificar áreas prioritarias que apoyen los objetivos del MMB en Perú, consulte el Informe Técnico."
 
 #: ../../guidance/peru/index.rst:12
 msgid "Sections"
-msgstr ""
-
+msgstr "Secciones"

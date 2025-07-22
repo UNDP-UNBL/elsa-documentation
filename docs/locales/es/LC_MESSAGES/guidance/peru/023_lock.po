@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../guidance/peru/023_lock.rst:2
 msgid "2.3 Lock-in functions"
-msgstr ""
+msgstr "2.3 Funciones de bloqueo"
 
 #: ../../guidance/peru/023_lock.rst:4
 msgid ""
@@ -31,10 +31,14 @@ msgid ""
 "their inclusion in the ELSA areas to identify priority areas to support "
 "the implementation of the ENDB during optimization."
 msgstr ""
+"Las funcionalidades de bloqueo se aplican a los potenciales OECM y a las áreas degradadas"
+" dentro de las Áreas Protegidas para su restauración. Bloquear estas áreas garantiza"
+" su inclusión en las áreas ELSA para identificar áreas prioritarias que apoyen"
+" la implementación de la DEBB durante la optimización."
 
 #: ../../guidance/peru/023_lock.rst:6
 msgid "Lock-in of OECM potentials:"
-msgstr ""
+msgstr "Bloqueo de potenciales OECM:"
 
 #: ../../guidance/peru/023_lock.rst:8
 msgid ""
@@ -43,6 +47,10 @@ msgid ""
 "addition to showing the areas of potential OECMs, the resulting map will "
 "also show where new OECMs should be placed."
 msgstr ""
+"Seleccione «Bloqueo de potenciales OECM» si desea forzar al análisis a"
+" incluir las áreas potenciales de OECM dentro de la acción de «protección»."
+" Además de mostrar las áreas de OECM potenciales, el mapa resultante también"
+" mostrará dónde deberían ubicarse nuevos OECM."
 
 #: ../../guidance/peru/023_lock.rst:9
 msgid ""
@@ -50,21 +58,24 @@ msgid ""
 "optimal location of OECMs in your country based on the ELSA analysis to "
 "identify priority areas to support the implementation of the ENDB ."
 msgstr ""
+"Seleccione «No se bloquea nada» si desea evaluar de forma independiente"
+" la ubicación óptima de los OECM en su país, basándose en el análisis ELSA"
+" para identificar áreas prioritarias que apoyen la implementación de la DEBB."
 
 #: ../../guidance/peru/023_lock.rst:12 ../../guidance/peru/023_lock.rst:16
 msgid "Figure 3. Lock-in functions"
-msgstr ""
+msgstr "Figura 3. Funciones de bloqueo"
 
 #: ../../guidance/peru/023_lock.rst:19
-#, python-format
 msgid "**Currently for Peru, potential OECMs cover 17.37% of the country.**"
-msgstr ""
+msgstr "**Actualmente, en Perú los potenciales OECM cubren el 17,37 % del territorio.**"
 
 #: ../../guidance/peru/023_lock.rst:21
-#, python-format
 msgid ""
 "Therefore, the selection of \"Potential OECM Lock-in\" requires that at "
 "least 17.37% of the national territory be assigned under the \"Protection"
 " Objective\"."
 msgstr ""
-
+"Por lo tanto, la selección de «Bloqueo de potenciales OECM» requiere que"
+" al menos el 17,37 % del territorio nacional se asigne bajo el «Objetivo de"
+" Protección»."

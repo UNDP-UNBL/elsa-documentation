@@ -22,5 +22,4 @@ msgstr ""
 
 #: ../../guidance/peru/02_webtool.rst:2
 msgid "2. Prioritizing Nature - Peru webtool"
-msgstr ""
-
+msgstr "2. Prioritizing Nature – herramienta web de Perú"

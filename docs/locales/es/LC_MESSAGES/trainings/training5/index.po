@@ -105,5 +105,3 @@ msgstr ""
 "Se espera que los participantes tengan conocimientos básicos de GIS, del "
 "software y lenguaje *R*, como la ejecución de scripts en *R*. Estos temas "
 "fueron cubiertos en :ref:`training_3`."
-
-Let me know if you need further refinements! 🚀

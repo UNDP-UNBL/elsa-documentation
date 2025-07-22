@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../guidance/ecuador/01_intro.rst:2
 msgid "1.      Introduction to the Prioritizing Nature in Ecuador"
-msgstr ""
+msgstr "1.      Introducción a Prioritizing Nature en Ecuador"
 
 #: ../../guidance/ecuador/01_intro.rst:5
 msgid "Background"
-msgstr ""
+msgstr "Antecedentes"
 
 #: ../../guidance/ecuador/01_intro.rst:7
 msgid ""
@@ -38,6 +38,12 @@ msgid ""
 "(CBD) with the adoption, in December 2022, of the `Kunming-Montreal "
 "Global Biodiversity Framework <https://www.cbd.int/gbf>`_."
 msgstr ""
+"La humanidad depende de la naturaleza de manera fundamental: de sus medios de vida, "
+"economías, bienestar y capacidad para mitigar y adaptarse al cambio climático. "
+"Situar la naturaleza en el centro de todas las actividades es esencial para garantizar "
+"sociedades sostenibles. La importancia de la naturaleza fue reconocida por las Partes "
+"en la Convención sobre la Diversidad Biológica (CDB) con la adopción, en diciembre de 2022, "
+"del `Marco Mundial de Biodiversidad de Kunming-Montreal <https://www.cbd.int/gbf>`_."
 
 #: ../../guidance/ecuador/01_intro.rst:9
 #, python-format
@@ -61,10 +67,25 @@ msgid ""
 "identifying conservation areas, as well as for monitoring and reporting "
 "on the impacts of various types of conservation schemes."
 msgstr ""
+"Los datos espaciales son esenciales para implementar varios objetivos del MMB "
+"y también serán fundamentales para que los países monitoreen e informen sobre "
+"el progreso hacia estos objetivos, donde `el 41 % de los indicadores principales "
+"y el 34 % de los indicadores componentes cuentan con una metodología que fomenta "
+"el uso de datos espaciales <https://unbiodiversitylab.org/wp-"
+"content/uploads/2024/05/SP_Guidance-Using-Spatial-Data-to-Support-"
+"GBF.pdf>`_. En este sentido, el `Objetivo 3 del MMB <https://www.cbd.int/gbf/targets/3>`_, "
+"también conocido como la meta 30x30, apunta a conservar el 30 % de las áreas terrestres, "
+"aguas continentales y mares para 2030. Además de este objetivo cuantitativo de alto nivel, "
+"la meta incluye elementos cualitativos, como sistemas “ecológicamente representativos, bien "
+"conectados y gobernados de manera equitativa”. La meta también menciona enfoques de conservación "
+"diversos, incluidas las áreas protegidas y otras medidas de conservación basadas en áreas efectivas "
+"(OECM), así como el reconocimiento y respeto de los derechos de los pueblos indígenas y las comunidades locales. "
+"Para esta meta, el uso de datos geoespaciales es extremadamente relevante tanto para identificar áreas de "
+"conservación como para monitorear e informar sobre los impactos de distintos esquemas de conservación."
 
 #: ../../guidance/ecuador/01_intro.rst:12
 msgid "Spatial prioritization mapping in support of the GBF goals"
-msgstr ""
+msgstr "Mapeo de priorización espacial en apoyo a los objetivos del MMB"
 
 #: ../../guidance/ecuador/01_intro.rst:14
 msgid ""
@@ -81,6 +102,15 @@ msgid ""
 "national priority policy objectives in biodiversity, climate and "
 "sustainable development."
 msgstr ""
+"El PNUD, mediante una asociación con Ecuador y el Centro Mundial de Monitoreo de la "
+"Conservación del Programa de las Naciones Unidas para el Medio Ambiente (PNUMA-ONU), "
+"implementó el proyecto Prioritizing Nature para apoyar el uso nacional de datos espaciales "
+"con el fin de alcanzar el Objetivo 3 del MMB y su equivalente a nivel nacional. El proyecto "
+"se basó en colaboraciones previas que utilizaron herramientas innovadoras como el `UN Biodiversity Lab "
+"<https://unbiodiversitylab.org/>`_ (UNBL) y metodologías eficaces como los `Mapas de la Esperanza "
+"<http://www.mapsofhope.org/>`_, en los que los países identifican ELSA donde las medidas de "
+"protección, gestión y restauración de la naturaleza pueden contribuir mejor al logro de diversos "
+"objetivos nacionales prioritarios en biodiversidad, clima y desarrollo sostenible."
 
 #: ../../guidance/ecuador/01_intro.rst:16
 msgid ""
@@ -95,6 +125,14 @@ msgid ""
 "supporting the government to propose ways of protection to meet the 30x30"
 " Target in Ecuador."
 msgstr ""
+"El proyecto movilizó a los principales actores nacionales y expertos para realizar "
+"una serie de actividades científicas destinadas a desarrollar un mapa de priorización "
+"espacial que apoye los objetivos del MMB. En Ecuador, se trabajó con socios nacionales, "
+"en particular el Ministerio de Ambiente, Agua y Transición Ecológica (MAATE), para ayudar "
+"al país a identificar y evaluar áreas potenciales de conservación basadas en la gobernanza "
+"y gestión del territorio existentes, mejorar la conectividad de la red y apoyar el logro "
+"de las prioridades ambientales y socioeconómicas nacionales; esto permitió al gobierno proponer "
+"formas de protección para cumplir la meta 30x30 en Ecuador."
 
 #: ../../guidance/ecuador/01_intro.rst:18
 msgid ""
@@ -112,24 +150,39 @@ msgid ""
 "threatened species, climate change and a range of ecosystem services. The"
 " project has helped Ecuador to:"
 msgstr ""
+"Para desarrollar el mapa de priorización espacial, se utilizó la Planificación "
+"Sistemática de la Conservación (PSC) para analizar zonas de uso del suelo y sus resultados. "
+"La PSC se emplea para optimizar acciones de conservación espacialmente explícitas que promuevan "
+"la persistencia de la biodiversidad y otras características naturales in situ. La PSC implica "
+"un proceso transparente y objetivo de establecimiento de metas claras y posterior planificación "
+"de acciones de conservación que las cumplan. El proceso de mapeo de priorización espacial se "
+"desarrolló para apoyar directamente los elementos espaciales de los objetivos del MMB. Esto incluye "
+"los Objetivos 1-3, que establecen metas sobre planificación espacial, gestión sostenible, restauración "
+"de ecosistemas y protección mediante áreas protegidas y OECM. Otros elementos espaciales se extrajeron "
+"de los Objetivos 4-12 del MMB, que abarcan especies amenazadas, cambio climático y una variedad de "
+"servicios ecosistémicos. El proyecto ha ayudado a Ecuador a:"
 
 #: ../../guidance/ecuador/01_intro.rst:21
 msgid ""
 "Jointly develop a spatial prioritization map that demonstrates a pathway "
 "to achieve GBF Target 3, while supporting the other targets of the GBF;"
 msgstr ""
+"Desarrollar conjuntamente un mapa de priorización espacial que demuestre una ruta para alcanzar el "
+"Objetivo 3 del MMB, al mismo tiempo que apoya los demás objetivos del MMB;"
 
 #: ../../guidance/ecuador/01_intro.rst:22
 msgid ""
 "Assess potential OECMs to support the government in identifying priority "
 "areas for site-level assessments; and"
 msgstr ""
+"Evaluar posibles OECM para ayudar al gobierno a identificar áreas prioritarias para evaluaciones a nivel de sitio; y"
 
 #: ../../guidance/ecuador/01_intro.rst:23
 msgid ""
 "Assess the condition within existing protected areas, OECMs and "
 "ecological corridors."
 msgstr ""
+"Evaluar el estado dentro de las áreas protegidas existentes, OECM y corredores ecológicos."
 
 #: ../../guidance/ecuador/01_intro.rst:26
 msgid ""
@@ -137,6 +190,8 @@ msgid ""
 "prioritization process in Ecuador to identify priority areas to support "
 "the implementation of the GBF, please refer to the Technical Report."
 msgstr ""
+"Para más detalles sobre la metodología y la ciencia aplicadas en el proceso de priorización espacial "
+"en Ecuador para identificar áreas prioritarias que apoyen la implementación del MMB, consulte el Informe Técnico."
 
 #: ../../guidance/ecuador/01_intro.rst:27
 msgid ""
@@ -148,10 +203,15 @@ msgid ""
 "daniel.borja@ambiente.gob.ec , with a copy to "
 "support@unbiodiversitylab.org"
 msgstr ""
+"Los resultados del proyecto también están disponibles en el espacio de trabajo seguro de Ecuador en el "
+"`UN Biodiversity Lab <https://unbiodiversitylab.org/>`_, una plataforma respaldada por la ONU que brinda "
+"a los países acceso a los mejores datos espaciales globales y nacionales sobre biodiversidad, servicios "
+"ecosistémicos y desarrollo sostenible. Para solicitar acceso al espacio de trabajo de Ecuador, contacte a "
+"daniel.borja@ambiente.gob.ec con copia a support@unbiodiversitylab.org."
 
 #: ../../guidance/ecuador/01_intro.rst:30
 msgid "The Association"
-msgstr ""
+msgstr "La Asociación"
 
 #: ../../guidance/ecuador/01_intro.rst:32
 msgid ""
@@ -163,6 +223,7 @@ msgid ""
 "Prioritizing Nature project to support the national use of spatial data "
 "to achieve GBF Target 3 and the equivalent target at the national level."
 msgstr ""
+"En colaboración con Ecuador, este proyecto reúne una poderosa coalición de gobiernos, ONG, institutos de investigación y organizaciones intergubernamentales. El PNUD, mediante una asociación con Ecuador y el Centro Mundial de Monitoreo de la Conservación del Programa de las Naciones Unidas para el Medio Ambiente (PNUMA-ONU), con financiamiento del Bezos Earth Fund, implementó el proyecto Prioritizing Nature para apoyar el uso nacional de datos espaciales con el fin de alcanzar el Objetivo 3 del MMB y su equivalente a nivel nacional."
 
 #: ../../guidance/ecuador/01_intro.rst:35
 msgid ""
@@ -176,10 +237,11 @@ msgid ""
 "Indigenous Nationalities of the Ecuadorian Amazon (CONFENIAE), among "
 "others."
 msgstr ""
+"Las instituciones participantes incluyen: Ministerio de Ambiente, Agua y Transición Ecológica (MAATE), incluyendo las direcciones de Áreas Protegidas y OECM, Biodiversidad, Bosques y Cooperación Internacional; Instituto Nacional de Biodiversidad (INABIO), Wildlife Conservation Society (WCS-Ecuador), WWF-Ecuador, Re:Wild, GIZ Ecuador, The Nature Conservancy (TNC), Nature and Culture International (NCI), y los pueblos indígenas y comunidades locales representados por la Confederación de Nacionalidades Indígenas de la Amazonía Ecuatoriana (CONFENIAE), entre otros."
 
 #: ../../guidance/ecuador/01_intro.rst:38
 msgid "Resources"
-msgstr ""
+msgstr "Recursos"
 
 #: ../../guidance/ecuador/01_intro.rst:40
 msgid ""
@@ -189,10 +251,11 @@ msgid ""
 "background, scope, vision, objectives, expected results and other "
 "relevant information about the Prioritizing Nature in Ecuador project."
 msgstr ""
+"`Informe de Alcance <https://www.dropbox.com/scl/fi/pvdd4zj00es7oo5hm10tk/Prioritizing-Nature-in-Ecuador-Scoping-Report-v090524-Final-Clean.pdf?rlkey=dl35vjrfu8n4huankmbxwqp91&dl=0>`_: Informe que detalla los antecedentes, alcance, visión, objetivos, resultados esperados y otra información relevante sobre el proyecto Prioritizing Nature en Ecuador."
 
 #: ../../guidance/ecuador/01_intro.rst:41
 msgid "Inception workshop:"
-msgstr ""
+msgstr "Taller de inicio:"
 
 #: ../../guidance/ecuador/01_intro.rst:42
 msgid ""
@@ -200,10 +263,11 @@ msgid ""
 "<https://www.youtube.com/watch?v=CxFCDkLsZWU>`_ |  `Spanish "
 "<https://www.youtube.com/watch?v=-kx6VR6d5Dk>`_"
 msgstr ""
+"Grabación del taller de inicio: `Inglés <https://www.youtube.com/watch?v=CxFCDkLsZWU>`_ | `Español <https://www.youtube.com/watch?v=-kx6VR6d5Dk>`_"
 
 #: ../../guidance/ecuador/01_intro.rst:43
 msgid "Inception workshop report: English | Spanish"
-msgstr ""
+msgstr "Informe del taller de inicio: Inglés | Español"
 
 #: ../../guidance/ecuador/01_intro.rst:44
 msgid ""
@@ -217,6 +281,7 @@ msgid ""
 " used to develop a spatial prioritization map for Target 3 of the "
 "Kunming-Montreal Global Biodiversity Framework."
 msgstr ""
+"`Sesiones de fortalecimiento de capacidades <https://www.learningfornature.org/es/courses/prioritizing-nature-in-ecuador-trainings-scp-and-spatial-planning-methodology-and-applications/>`_: Esta serie de 6 cursos de formación ofrece apoyo para la transferencia completa de los datos espaciales y las herramientas de planificación producidas en el proyecto Prioritizing Nature. Consta de una combinación de cursos autodirigidos, formación en vivo y ejercicios interactivos que guían a través de los elementos clave del flujo de trabajo utilizado para desarrollar un mapa de priorización espacial para el Objetivo 3 del Marco Mundial de Biodiversidad de Kunming-Montreal."
 
 #: ../../guidance/ecuador/01_intro.rst:45
 msgid ""
@@ -229,4 +294,4 @@ msgid ""
 "prioritization analysis that are available in the web tool for mapping "
 "priority areas for GBF implementation in Ecuador."
 msgstr ""
-
+"`Datos incluidos en el análisis de priorización espacial para la implementación del MMB en Ecuador <https://www.dropbox.com/scl/fi/4qjsbxjqaludh6vse1q8o/D-a-1-Taller-2-Ecuador-Datos-Di-Zhang.pdf?rlkey=95mkfr6gb81dn4yugstsr5ff7&st=3seojgtg&dl=0>`_: Esta presentación describe los conjuntos de datos incluidos en el análisis de priorización espacial que están disponibles en la herramienta web para mapear áreas prioritarias para la implementación del MMB en Ecuador."

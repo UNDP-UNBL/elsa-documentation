@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../guidance/peru/028_heatmap.rst:2
 msgid "2.8 Viewing heatmaps or opportunity maps"
-msgstr ""
+msgstr "2.8 Ver mapas de calor o mapas de oportunidades"
 
 #: ../../guidance/peru/028_heatmap.rst:4
 msgid ""
@@ -35,6 +35,15 @@ msgid ""
 " as hotspots for biodiversity, climate change mitigation and adaptation, "
 "human well-being or all of them combined."
 msgstr ""
+"Antes de ejecutar la optimización, al hacer clic en \"Mapa de resultados\" "
+"en el panel derecho se crearán cuatro capas de mapa de calor (MC). "
+"Estos mapas de calor identifican ubicaciones importantes para los trece "
+"objetivos de la DEBB en Perú. Son el resultado de la intersección de los "
+"elementos de planificación y sus respectivas ponderaciones. Cuanto mayor "
+"sea el valor, en una escala de cero a uno, más elementos con ponderaciones "
+"altas se superponen. Por lo tanto, pueden identificarse como puntos "
+"críticos para la biodiversidad, la mitigación y adaptación al cambio "
+"climático, el bienestar humano o la combinación de todos ellos."
 
 #: ../../guidance/peru/028_heatmap.rst:6
 msgid ""
@@ -46,6 +55,14 @@ msgid ""
 "of colors from green to yellow, with those in yellow being the most "
 "important."
 msgstr ""
+"Los mapas de calor pueden activarse o desactivarse para ver el mapa de "
+"calor de las áreas prioritarias para la implementación de la DEBB, que "
+"muestra todos los elementos de planificación juntos (mapa de calor espacial), "
+"o los mapas de calor que muestran únicamente los elementos de planificación "
+"dentro de temas específicos (biodiversidad, mitigación y adaptación al cambio "
+"climático, bienestar humano). Las áreas importantes se muestran en una gama "
+"de colores que va del verde al amarillo, siendo las amarillas las de mayor "
+"relevancia."
 
 #: ../../guidance/peru/028_heatmap.rst:9
 msgid ""
@@ -54,6 +71,10 @@ msgid ""
 "the patterns match their expectations and personal knowledge of the "
 "region."
 msgstr ""
+"Al observar los mapas de calor antes de los mapas de priorización, los "
+"expertos en datos pueden ver la información combinada de los elementos de "
+"planificación y determinar si los patrones coinciden con sus expectativas "
+"y con su conocimiento personal de la región."
 
 #: ../../guidance/peru/028_heatmap.rst:11
 msgid ""
@@ -62,32 +83,35 @@ msgid ""
 "maps on the landscape. There are five types of heat maps in the Peru "
 "webtool (Table 2)."
 msgstr ""
+"Para ayudar en este proceso, los usuarios pueden alternar entre los mapas "
+"de calor y las imágenes satelitales y mapas de carreteras subyacentes, lo "
+"que facilita orientar los mapas de calor en el territorio. En la herramienta "
+"web de Perú hay cinco tipos de mapas de calor (Tabla 2)."
 
-#: ../../guidance/peru/028_heatmap.rst:13
-#: ../../guidance/peru/028_heatmap.rst:17
+#: ../../guidance/peru/028_heatmap.rst:13 ../../guidance/peru/028_heatmap.rst:17
 msgid "Table 2. Types of heatmaps in the Peru webtool."
-msgstr ""
+msgstr "Tabla 2. Tipos de mapas de calor en la herramienta web de Perú."
 
 #: ../../guidance/peru/028_heatmap.rst:19
 msgid "**Steps**"
-msgstr ""
+msgstr "**Pasos**"
 
 #: ../../guidance/peru/028_heatmap.rst:21
 msgid "Click on the \"Results Map\" tab in the right pane."
-msgstr ""
+msgstr "Haga clic en la pestaña \"Mapa de resultados\" en el panel derecho."
 
 #: ../../guidance/peru/028_heatmap.rst:22
 msgid ""
 "Toggle between the four heat maps to review the information before "
 "running the optimization."
 msgstr ""
+"Cambie entre los cuatro mapas de calor para revisar la información antes "
+"de ejecutar la optimización."
 
 #: ../../guidance/peru/028_heatmap.rst:23
 msgid "Experiment with changing the view to the \"Satellite\" view."
-msgstr ""
+msgstr "Pruebe cambiar la vista a \"Satélite\"."
 
-#: ../../guidance/peru/028_heatmap.rst:25
-#: ../../guidance/peru/028_heatmap.rst:29
+#: ../../guidance/peru/028_heatmap.rst:25 ../../guidance/peru/028_heatmap.rst:29
 msgid "Figure 8. Heatmap of all planning features"
-msgstr ""
-
+msgstr "Figura 8. Mapa de calor de todos los elementos de planificación"
