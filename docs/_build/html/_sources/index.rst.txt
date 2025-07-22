@@ -20,3 +20,4 @@ Contents
    Home <self>
    about
    trainings/index
+   guidance/index

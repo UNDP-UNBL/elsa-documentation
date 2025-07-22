@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, UNDP
+# This file is distributed under the same license as the ELSA Online
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Online Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-14 10:26+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../guidance/ecuador/023_lock.rst:2
+msgid "2.3 Lock-in functions"
+msgstr "2.3 Funciones de bloqueo"
+
+#: ../../guidance/ecuador/023_lock.rst:4
+msgid ""
+"Lock-in functionalities are applied to potential OECMs and degraded areas"
+" within Protected Areas for restoration.  Lock-in these areas ensures "
+"their inclusion in the spatial prioritization areas to identify priority "
+"areas to support the implementation of the GBF during optimization."
+msgstr ""
+"Las funcionalidades de bloqueo se aplican a los potenciales OECM y a las áreas degradadas"
+" dentro de las Áreas Protegidas para su restauración. Bloquear estas áreas garantiza"
+" su inclusión en las áreas de priorización espacial para identificar áreas prioritarias"
+" que apoyen la implementación del MMB durante la optimización."
+
+#: ../../guidance/ecuador/023_lock.rst:6
+msgid "Lock-in of OECM potentials:"
+msgstr "Bloqueo de potenciales OECM:"
+
+#: ../../guidance/ecuador/023_lock.rst:8
+msgid ""
+"Select \"Potential OECM lock-in\" if you want to force the analysis to "
+"include potential OECM areas within the \"protection\" action. In "
+"addition to showing the areas of potential OECMs, the resulting map will "
+"also show where new OECMs should be placed."
+msgstr ""
+"Seleccione «Bloqueo de potenciales OECM» si desea forzar al análisis a"
+" incluir las áreas potenciales de OECM dentro de la acción de «protección»."
+" Además de mostrar las áreas de OECM potenciales, el mapa resultante también"
+" indicará dónde deberían ubicarse nuevos OECM."
+
+#: ../../guidance/ecuador/023_lock.rst:9
+msgid ""
+"Select \"Nothing is locked\" if you wish to independently assess the "
+"optimal location of OECMs in your country based on the spatial "
+"prioritization analysis to identify priority areas to support the "
+"implementation of the GBF."
+msgstr ""
+"Seleccione «No se bloquea nada» si desea evaluar de forma independiente"
+" la ubicación óptima de los OECM en su país, basándose en el análisis de"
+" priorización espacial para identificar áreas prioritarias que apoyen la"
+" implementación del MMB."
+
+#: ../../guidance/ecuador/023_lock.rst:12 ../../guidance/ecuador/023_lock.rst:16
+msgid "Figure 3. Lock-in functions"
+msgstr "Figura 3. Funciones de bloqueo"
+
+#: ../../guidance/ecuador/023_lock.rst:19
+msgid "**Currently for Ecuador, potential OECM covers 63.07% of the country.**"
+msgstr "**Actualmente, en Ecuador los potenciales OECM cubren el 63,07 % del territorio.**"
+
+#: ../../guidance/ecuador/023_lock.rst:21
+msgid ""
+"Therefore, the selection of \"Potential OECM lock-in\" requires that at "
+"least 63.07% of the national territory be assigned under the *Protection "
+"objective*."
+msgstr ""
+"Por lo tanto, la selección de «Bloqueo de potenciales OECM» requiere que"
+" al menos el 63,07 % del territorio nacional se asigne bajo el *Objetivo"
+" de Protección*."

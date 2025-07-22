@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, UNDP
+# This file is distributed under the same license as the ELSA Online
+# Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Online Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-14 10:26+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../guidance/peru/021_what.rst:2
+msgid "2.1 What is the Prioritizing Nature webtool for?"
+msgstr "¿Para qué sirve la herramienta web Prioritizing Nature?"
+
+#: ../../guidance/peru/021_what.rst:4
+msgid ""
+"The Prioritizing Nature webtool is an interactive webtool created with "
+"*R-shiny* and connected to *prioritzr* in the backend. This tool can be "
+"used by interested Parties without the need for coding or modeling "
+"knowledge, with the same it achieves the automation of steps 5, 6 and 7 "
+"of the ELSA mapping process presented in Figure 1."
+msgstr ""
+"La herramienta web Prioritizing Nature es una aplicación interactiva creada "
+"con *R-shiny* y conectada a *prioritzr* en el backend. Esta herramienta puede "
+"ser utilizada por las partes interesadas sin necesidad de conocimientos de "
+"programación o modelado, y permite automatizar los pasos 5, 6 y 7 del proceso de "
+"mapeo ELSA presentado en la Figura 1."
+
+#: ../../guidance/peru/021_what.rst:6 ../../guidance/peru/021_what.rst:31
+msgid "Workflow for the ELSA mapping in the Prioritizing Nature project."
+msgstr "Flujo de trabajo del mapeo ELSA en el proyecto Prioritizing Nature."
+
+#: ../../guidance/peru/021_what.rst:10
+msgid ""
+"Figure 1. Workflow for the ELSA mapping in the Prioritizing Nature "
+"project."
+msgstr ""
+"Figura 1. Flujo de trabajo del mapeo ELSA en el proyecto Prioritizing Nature."
+
+#: ../../guidance/peru/021_what.rst:16
+msgid "The Prioritizing Nature webtool applications"
+msgstr "Aplicaciones de la herramienta web Prioritizing Nature"
+
+#: ../../guidance/peru/021_what.rst:18
+msgid "Display the input layers or planning element;"
+msgstr "Mostrar las capas de entrada o elemento de planificación;"
+
+#: ../../guidance/peru/021_what.rst:19
+msgid "View and download the resulting maps;"
+msgstr "Ver y descargar los mapas resultantes;"
+
+#: ../../guidance/peru/021_what.rst:20
+msgid "Create ELSA action maps;"
+msgstr "Crear mapas de acción ELSA;"
+
+#: ../../guidance/peru/021_what.rst:21
+msgid ""
+"Download the result maps in raster format, which can be used for further "
+"analysis according to the needs of the interested parties in software "
+"from Geographic Information Systems (GIS)."
+msgstr ""
+"Descargar los mapas resultantes en formato ráster, que pueden utilizarse "
+"para análisis posteriores según las necesidades de las partes interesadas "
+"en software de Sistemas de Información Geográfica (SIG)."
+
+#: ../../guidance/peru/021_what.rst:22
+msgid ""
+"Download results and parameters of the model applied in the analysis as a"
+" summary table, which are downloaded in .xlsx and .csv formats, which can"
+" be used in Excel or other tools."
+msgstr ""
+"Descargar los resultados y los parámetros del modelo aplicado en el análisis "
+"como una tabla resumen en formatos .xlsx y .csv, que pueden usarse en Excel "
+"u otras herramientas."
+
+#: ../../guidance/peru/021_what.rst:23
+msgid ""
+"Create different ELSA action, by modifying the parameters related to the "
+"percentage (%) of the national territory allocated to protection, "
+"restoration and management target actions. These configurations can be "
+"adapted to the country's political objectives in terms of conservation, "
+"restoration, protection, among others."
+msgstr ""
+"Crear diferentes acciones ELSA modificando los parámetros relacionados con el "
+"porcentaje (%) del territorio nacional asignado a las acciones de protección, "
+"restauración y gestión. Estas configuraciones pueden adaptarse a los objetivos "
+"políticos del país en términos de conservación, restauración, protección, entre otros."
+
+#: ../../guidance/peru/021_what.rst:24
+msgid "Edit the penalty limit factor parameter according to the analysis needs;"
+msgstr "Editar el parámetro de factor de límite de penalización según las necesidades del análisis;"
+
+#: ../../guidance/peru/021_what.rst:25
+msgid "Edit the weights of each of the input layers or planning elements;"
+msgstr "Editar los pesos de cada una de las capas de entrada o elementos de planificación;"
+
+#: ../../guidance/peru/021_what.rst:26
+msgid "Create prioritization maps with a new stakeholder group;"
+msgstr "Crear mapas de priorización con un nuevo grupo de partes interesadas;"
+
+#: ../../guidance/peru/021_what.rst:27
+msgid "Re-run ELSA analysis with updated input layers."
+msgstr "Volver a ejecutar el análisis ELSA con capas de entrada actualizadas."
+
+#: ../../guidance/peru/021_what.rst:29
+msgid ""
+"The web-based tool executes optimizations quickly (typically within 5-10 "
+"minutes). It can therefore be used to generate and refine conservation "
+"plans in real time during stakeholder meetings, and contribute to a more "
+"transparent, inclusive and participatory decision-making process."
+msgstr ""
+"La herramienta web ejecuta optimizaciones rápidamente (normalmente en 5-10 minutos). "
+"Por lo tanto, puede usarse para generar y perfeccionar planes de conservación "
+"en tiempo real durante las reuniones con las partes interesadas, y contribuir "
+"a un proceso de toma de decisiones más transparente, inclusivo y participativo."
+
+#: ../../guidance/peru/021_what.rst:35
+msgid "Figure 2. Interface of the Prioritizing Nature Peru webtool."
+msgstr "Figura 2. Interfaz de la herramienta web Prioritizing Nature Perú."
+
+#: ../../guidance/peru/021_what.rst:38
+msgid ""
+"Access the Prioritizing Nature Peru webtool `here "
+"<https://elsa.unbiodiversitylab.org/Bezos_PER/>`_"
+msgstr ""
+"Accede a la herramienta web Prioritizing Nature Perú `aquí <https://elsa.unbiodiversitylab.org/Bezos_PER/>`_"
