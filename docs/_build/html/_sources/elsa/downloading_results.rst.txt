@@ -1,0 +1,315 @@
+Downloading and Exporting ELSA Results
+======================================
+
+After completing and evaluating your ELSA analysis, you can download maps, data, and summary information for use in external applications, reports, and further analysis.
+
+Available Download Options
+--------------------------
+
+The ELSA tool provides several export formats to meet different use cases:
+
+**Spatial Data Downloads:**
+* **ELSA Action Maps** - Final priority area maps in raster format
+* **Heatmaps** - Planning feature importance maps for protection and restoration
+* **Individual layers** - Component planning features and input data
+
+**Tabular Data Downloads:**
+* **CSV format** - Feature representations and analysis parameters
+* **JSON format** - Machine-readable analysis results and metadata
+* **Excel summary** - Comprehensive report with descriptions and metadata
+
+Downloading Spatial Maps
+------------------------
+
+Accessing Download Options
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. **Locate your completed analysis** in the 'ANALYSIS RUNS' list
+2. **Click the three vertical dots** next to your analysis entry
+3. **Select download option** from the dropdown menu
+
+.. figure:: images/download-options.png
+   :alt: Download options menu
+   :align: center
+   
+   Dropdown menu showing available download options for completed analysis
+
+**Available Spatial Downloads:**
+
+Download ELSA Action
+   Final priority area map showing protection, restoration, management, and urban greening zones
+
+Download Heatmap - Protect  
+   Importance heatmap specifically for protection priorities
+
+Download Heatmap - Restore
+   Importance heatmap specifically for restoration priorities
+
+Using Downloaded Raster Files
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**File Format:** Raster files (typically GeoTIFF format)
+
+**Compatible Software:**
+* **GIS Applications**: ArcGIS, QGIS, MapInfo
+* **Remote Sensing Software**: ERDAS IMAGINE, ENVI
+* **Web Mapping**: ArcGIS Online, Google Earth Engine
+* **Statistical Software**: R (raster package), Python (GDAL/rasterio)
+
+**Typical Use Cases:**
+* Detailed spatial analysis in GIS software
+* Integration with other spatial datasets
+* Creation of high-quality maps for publications
+* Further modeling and scenario development
+* Field planning and implementation mapping
+
+Downloading Tabular Data
+-----------------------
+
+CSV and JSON Downloads
+~~~~~~~~~~~~~~~~~~~~~
+
+**Download CSV**
+   Comma-separated values file containing:
+   * Feature representation scores
+   * Analysis parameters
+   * Area allocations by action type
+   * Planning feature weights
+
+**Download JSON**
+   JavaScript Object Notation file with:
+   * Complete analysis configuration
+   * Detailed results metadata
+   * Machine-readable parameter specifications
+   * API-compatible data structure
+
+**Excel Summary Download**
+   Comprehensive spreadsheet including:
+   * Analysis results and representation scores
+   * Planning feature descriptions and metadata
+   * KMGBF target mappings
+   * Data source information
+   * ELSA analysis resource links
+
+Using Tabular Data
+~~~~~~~~~~~~~~~~~~
+
+**CSV Files - Ideal for:**
+* Statistical analysis in R, Python, or SPSS
+* Creating charts and graphs
+* Comparative analysis across scenarios
+* Database integration
+
+**JSON Files - Ideal for:**
+* Web application development
+* API integration
+* Automated processing workflows
+* Configuration backup and sharing
+
+**Excel Files - Ideal for:**
+* Stakeholder reporting
+* Comprehensive documentation
+* Executive summaries
+* Training and education materials
+
+.. figure:: images/excel-summary-example.png
+   :alt: Example Excel summary download
+   :align: center
+   
+   Example of comprehensive Excel summary with analysis results and metadata
+
+Viewing Feature Representation Summary
+--------------------------------------
+
+Before downloading, you can review feature representations directly in the interface:
+
+**Accessing the Summary:**
+
+1. **Click the 'i' icon** in the layer legend of your analysis
+2. **Review the information window** showing:
+   * Action area allocations
+   * Feature representation table
+   * Weight and representation scores
+
+**Summary Information Includes:**
+
+**Action Area Allocation Table:**
+* Budget percentages for each action type
+* Actual area allocated in square kilometers
+* Comparison between target and achieved allocations
+
+**Feature Representations Table:**
+* **Layer name** and theme classification
+* **User-assigned weights** for each planning feature
+* **Overall representation** across all action areas
+* **Action-specific representation** (Protect, Restore, etc.)
+* **Performance indicators** highlighting important impacts
+
+.. note::
+   This summary information is included in all tabular downloads, allowing you to maintain a complete record of your analysis configuration and results.
+
+Best Practices for Data Management
+----------------------------------
+
+File Organization
+~~~~~~~~~~~~~~~~
+
+**Recommended Folder Structure:**
+```
+ELSA_Analysis_[Country]_[Date]/
+├── Maps/
+│   ├── ELSA_Action_[scenario_name].tif
+│   ├── Heatmap_Protect_[scenario_name].tif
+│   └── Heatmap_Restore_[scenario_name].tif
+├── Data/
+│   ├── Results_[scenario_name].csv
+│   ├── Analysis_[scenario_name].json
+│   └── Summary_[scenario_name].xlsx
+└── Documentation/
+    ├── Analysis_Notes.txt
+    └── Parameter_Log.txt
+```
+
+**Naming Conventions:**
+* Include analysis date and scenario identifier
+* Use consistent abbreviations (e.g., BPF for Boundary Penalty Factor)
+* Document parameter combinations in file names
+* Maintain version control for iterative analyses
+
+Metadata Documentation
+~~~~~~~~~~~~~~~~~~~~~
+
+**Essential Metadata to Record:**
+* Analysis run date and time
+* Key parameter settings (budgets, weights, BPF)
+* Stakeholder input and rationale
+* Known data limitations or caveats
+* Intended use and application context
+
+**Version Control:**
+* Track parameter changes between iterations
+* Document rationale for modifications
+* Maintain links between related scenarios
+* Note feedback incorporation from stakeholders
+
+Quality Assurance
+~~~~~~~~~~~~~~~~~
+
+**Before Final Download:**
+* ☐ Verify results meet quality standards
+* ☐ Confirm all required formats are downloaded
+* ☐ Test file compatibility with intended software
+* ☐ Validate spatial projection and coordinate systems
+* ☐ Check data completeness and accuracy
+
+Integration with External Tools
+-------------------------------
+
+GIS Integration
+~~~~~~~~~~~~~~
+
+**Loading in QGIS:**
+1. Open QGIS and create new project
+2. Add raster layer → select downloaded .tif file
+3. Style according to action categories
+4. Overlay with other relevant spatial data
+
+**Loading in ArcGIS:**
+1. Add data to ArcMap/ArcGIS Pro
+2. Symbolize using unique values for action categories  
+3. Create professional cartographic outputs
+4. Perform spatial analysis and modeling
+
+**Coordinate Reference System:**
+* Downloaded rasters use standard geographic projections
+* Verify CRS compatibility with other datasets
+* Reproject as needed for local coordinate systems
+
+Statistical Analysis
+~~~~~~~~~~~~~~~~~~~
+
+**R Integration Example:**
+```r
+# Load analysis results
+results <- read.csv("ELSA_Results.csv")
+
+# Analyze feature representations
+library(ggplot2)
+ggplot(results, aes(x=Feature, y=Overall_Representation)) +
+  geom_bar(stat="identity") +
+  theme(axis.text.x = element_text(angle=45, hjust=1))
+```
+
+**Python Integration Example:**
+```python
+import pandas as pd
+import geopandas as gpd
+
+# Load tabular results
+results = pd.read_csv("ELSA_Results.csv")
+
+# Load spatial results
+import rasterio
+with rasterio.open("ELSA_Action.tif") as src:
+    elsa_data = src.read(1)
+```
+
+Citation and Attribution
+------------------------
+
+**Required Citation:**
+When using ELSA tool outputs in formal reports or publications, use:
+
+    UNDP & UNEP-WCMC 2025. Integrated Spatial Planning for the KMGBF. Map created using spatial data and the UN Biodiversity Lab Essential Life Support Area Tool (https://map.unbiodiversitylab.org/earth), on [insert date with Day Month Year].
+
+**Additional Attribution:**
+* Acknowledge specific data sources from Annex 2
+* Credit stakeholders who provided input
+* Reference relevant policy frameworks (KMGBF, NBSAP)
+* Include analysis parameter documentation
+
+Troubleshooting Download Issues
+------------------------------
+
+**Common Problems and Solutions:**
+
+**Download Fails or Times Out:**
+* Check internet connection stability
+* Try downloading during off-peak hours
+* Contact support if file size exceeds browser limits
+
+**File Format Issues:**
+* Verify software compatibility before downloading
+* Use alternative formats if primary choice doesn't work
+* Check file extensions match expected format
+
+**Data Appears Corrupted:**
+* Re-download files to rule out transmission errors
+* Verify file sizes match expected values
+* Test with different software applications
+
+**Missing Information:**
+* Ensure analysis completed successfully before downloading
+* Check that all required parameters were configured
+* Verify access permissions to workspace
+
+**Getting Support:**
+If you encounter persistent download issues, contact support@unbiodiversitylab.org with:
+* Description of the problem
+* Analysis run details
+* Browser and operating system information
+* Error messages (if any)
+
+Next Steps
+----------
+
+With your ELSA analysis results downloaded and properly documented, you can:
+
+1. **Share with stakeholders** for review and feedback
+2. **Integrate with national planning processes** and policy frameworks
+3. **Conduct further spatial analysis** using specialized GIS tools
+4. **Develop implementation plans** based on priority area identification
+5. **Create presentations and reports** for decision-makers
+6. **Archive results** for future reference and comparison
+
+For additional assistance with using your results, see :doc:`support` for contact information and additional resources.

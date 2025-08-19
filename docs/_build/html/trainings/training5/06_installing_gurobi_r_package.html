@@ -1,90 +1,96 @@
 
 
 <!DOCTYPE html>
-<html class="writer-html5" lang="es" data-content_root="../../">
+<html class="writer-html5" lang="en" data-content_root="../../">
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Instalación del paquete Gurobi R &mdash; documentación de ELSA Online Documentation - </title>
-      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=d75fae25" />
+  <title>Installing the Gurobi R package &mdash; ELSA Integrated Spatial Planning Tool - User&#39;s Guide</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=e59714d7" />
-      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
-      <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/elsa-custom.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
 
   
       <script src="../../_static/jquery.js?v=5d32c60e"></script>
       <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="../../_static/documentation_options.js?v=e2bb6099"></script>
+      <script src="../../_static/documentation_options.js?v=f2a433a1"></script>
       <script src="../../_static/doctools.js?v=9bcbadda"></script>
       <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
-      <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
-      <script src="../../_static/copybutton.js?v=f281be69"></script>
-      <script src="../../_static/translations.js?v=f85f4cfb"></script>
-      <script src="../../_static/design-tabs.js?v=f930bc37"></script>
     <script src="../../_static/js/theme.js"></script>
-    <link rel="author" title="Sobre este documento" href="../../about.html" />
-    <link rel="index" title="Índice" href="../../genindex.html" />
-    <link rel="search" title="Búsqueda" href="../../search.html" />
-    <link rel="next" title="Acceso a la Nube de Gurobi" href="07_getting_gurobi_env.html" />
-    <link rel="prev" title="Instalación de Gurobi" href="05_installing_gurobi.html" /> 
+    <link rel="search" type="application/opensearchdescription+xml"
+          title="Search within ELSA Integrated Spatial Planning Tool - User&#39;s Guide"
+          href="../../_static/opensearch.xml"/>
+    <link rel="author" title="About these documents" href="../../about.html" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Gurobi Cloud Access" href="07_getting_gurobi_env.html" />
+    <link rel="prev" title="Installing Gurobi" href="05_installing_gurobi.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
   <div class="wy-grid-for-nav">
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search" >
+        <div class="wy-side-nav-search"  style="background: #2980B9" >
 
           
           
           <a href="../../index.html" class="icon icon-home">
-            ELSA Online Documentation
+            ELSA Integrated Spatial Planning Tool
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Buscar documentos" aria-label="Buscar documentos" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../index.html">Inicio</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../about.html">Acerca de las Áreas Esenciales de Soporte de Vida (ELSA)</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Capacitaciones</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../training1/index.html">Capacitación 1: Planificación Sistemática de la Conservación</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../training2/index.html">Capacitación 2: Uso de la herramienta web en línea para co-crear el Mapa de Priorización Espacial</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../training3/index.html">Capacitación 3: Configuración de <em>R</em> y <em>RStudio</em></a></li>
-<li class="toctree-l2"><a class="reference internal" href="../training4/index.html">Capacitación 4: Datos espaciales utilizados: estructura, selección y procesamiento</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Capacitación 5: Ejecución de Priorizaciones Espaciales</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="01_rshiny_interface.html">RShiny - La Interfaz Gráfica de Usuario (GUI)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="02_github_repository.html">Repositorios de Código (git &amp; <em>GitHub</em>)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="03_exploring_data_structure.html">Explorando la Estructura de Datos del Repositorio</a></li>
-<li class="toctree-l3"><a class="reference internal" href="04_create_r_project.html">Crear un Proyecto de <em>Prioritizing Nature</em> en <em>R</em></a></li>
-<li class="toctree-l3"><a class="reference internal" href="05_installing_gurobi.html">Instalación de Gurobi</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Instalación del paquete <em>Gurobi R</em></a></li>
-<li class="toctree-l3"><a class="reference internal" href="07_getting_gurobi_env.html">Acceso a la Nube de <em>Gurobi</em></a></li>
-<li class="toctree-l3"><a class="reference internal" href="08_checking_gurobi_installation.html">Verificando si la instalación de <em>Gurobi R</em> fue exitosa</a></li>
-<li class="toctree-l3"><a class="reference internal" href="09_installing_required_r_packages.html">Instalación de Paquetes Requeridos de <em>R</em></a></li>
-<li class="toctree-l3"><a class="reference internal" href="10_running_webtool_p1.html">Ejecutando la <em>Herramienta web Priorizando la Naturaleza</em> - Configuración de Datos</a></li>
-<li class="toctree-l3"><a class="reference internal" href="11_running_webtool_p2.html">Ejecutando la <em>Herramienta web Priorizando la Naturaleza</em></a></li>
-<li class="toctree-l3"><a class="reference internal" href="12_exploring_webtool.html">Explorando la <em>Herramienta web de Priorizando la Naturaleza</em></a></li>
+              <p class="caption" role="heading"><span class="caption-text">ELSA Tool Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/01_overview.html">Overview of the ELSA Integrated Spatial Planning Tool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/02_tool_purpose.html">What is the ELSA tool for?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/03_registration.html">Registering on UNBL and Requesting Access to a Workspace with an ELSA Tool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/04_creating_analysis.html">Creating new ELSA analysis runs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/05_editing_analysis.html">Editing an ELSA analysis run</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/06_running_optimization.html">Running the ELSA Optimization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/downloading_results.html">Downloading and Exporting ELSA Results</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Trainings</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../training1/index.html">Training 1: Systematic Conservation Planning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../training2/index.html">Training 2: Using the online webtool to co-create the Spatial Prioritization Map</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../training3/index.html">Training 3: <em>R</em> and <em>RStudio</em> Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../training4/index.html">Training 4: Spatial data used: structure, selection and processing</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Training 5: Running Spatial Prioritisations</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="01_rshiny_interface.html">RShiny - the Graphical User Interface (GUI)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="02_github_repository.html">Code Repositories (git &amp; <em>GitHub</em>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03_exploring_data_structure.html">Exploring the Repository’s Data Structure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="04_create_r_project.html">Create a <em>Prioritizing Nature</em> <em>R</em> Project</a></li>
+<li class="toctree-l3"><a class="reference internal" href="05_installing_gurobi.html">Installing Gurobi</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Installing the <em>Gurobi R</em> package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="07_getting_gurobi_env.html"><em>Gurobi</em> Cloud Access</a></li>
+<li class="toctree-l3"><a class="reference internal" href="08_checking_gurobi_installation.html">Checking if your <em>Gurobi R</em> Installation was Successful</a></li>
+<li class="toctree-l3"><a class="reference internal" href="09_installing_required_r_packages.html">Installing Required <em>R</em> Packages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="10_running_webtool_p1.html">Running the <em>Prioritizing Nature Webtool</em> - Data Setup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="11_running_webtool_p2.html">Running the <em>Prioritizing Nature Webtool</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="12_exploring_webtool.html">Exploring the <em>Prioritizing Nature Webtool</em></a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../prioritizr_advanced/index.html">prioritizr (Advanced)</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../guidance/index.html">Manual de usuario de la herramienta web Prioritizing Nature</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../guidance/index.html">User manual for the Prioritizing Nature webtool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/annexes.html">Annexes: Reference Materials and Data</a></li>
 </ul>
 
         </div>
       </div>
     </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #2980B9" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../../index.html">ELSA Online Documentation</a>
+          <a href="../../index.html">ELSA Integrated Spatial Planning Tool</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -92,11 +98,11 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
-          <li class="breadcrumb-item"><a href="../index.html">Capacitaciones</a></li>
-          <li class="breadcrumb-item"><a href="index.html">Capacitación 5: Ejecución de Priorizaciones Espaciales</a></li>
-      <li class="breadcrumb-item active">Instalación del paquete <em>Gurobi R</em></li>
+          <li class="breadcrumb-item"><a href="../index.html">Trainings</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Training 5: Running Spatial Prioritisations</a></li>
+      <li class="breadcrumb-item active">Installing the <em>Gurobi R</em> package</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../../_sources/trainings/training5/06_installing_gurobi_r_package.rst.txt" rel="nofollow"> Ver código fuente de la página</a>
+              <a href="https://github.com/your-organization/elsa-user-guide/blob/main/docs/trainings/training5/06_installing_gurobi_r_package.rst" class="fa fa-github"> Edit on GitHub</a>
       </li>
   </ul>
   <hr/>
@@ -105,70 +111,36 @@
            <div itemprop="articleBody">
              
   <section id="installing-the-gurobi-r-package">
-<h1>Instalación del paquete <em>Gurobi R</em><a class="headerlink" href="#installing-the-gurobi-r-package" title="Link to this heading"></a></h1>
-<p>Para usar la interfaz de <em>Gurobi</em> en <em>R</em>, necesitarás instalar el paquete <em>Gurobi</em> en tu instalación de <em>R</em>. El comando generalizado de <em>R</em> para hacerlo es:</p>
+<h1>Installing the <em>Gurobi R</em> package<a class="headerlink" href="#installing-the-gurobi-r-package" title="Link to this heading"></a></h1>
+<p>To use <em>Gurobi’s R</em> interface, you will need to install the <em>Gurobi</em> package in your <em>R</em> installation. The generalised <em>R</em> command for doing this is:</p>
 <div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="nf">install.packages</span><span class="p">(</span><span class="s">&#39;&lt;R-package-file&gt;&#39;</span><span class="p">,</span><span class="w"> </span><span class="n">repos</span><span class="o">=</span><span class="kc">NULL</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>El archivo del paquete <em>Gurobi R</em> se encuentra dentro del directorio donde instalaste <em>Gurobi</em> en tu sistema (consulta <a class="reference internal" href="05_installing_gurobi.html#installing-gurobi"><span class="std std-ref">Instalación de Gurobi</span></a> si aún no has instalado <em>Gurobi</em> en tu computadora). El directorio de instalación por defecto es:</p>
+<p>The <em>Gurobi R</em> package file can be found within the directory where you installed <em>Gurobi</em> on your system (see <a class="reference internal" href="05_installing_gurobi.html#installing-gurobi"><span class="std std-ref">Installing Gurobi</span></a> if you have not already successfully installed <em>Gurobi</em> on your computer). The default installation directory is:</p>
 <ul class="simple">
-<li><p>Para <strong>Windows de 64 bits</strong>: <cite>C:gurobi1201win64</cite>, y</p></li>
-<li><p>Para <strong>MacOS</strong>: <cite>/Library/gurobi1201/macos_universal2</cite>,</p></li>
-<li><p>Para sistemas <strong>Linux</strong>: <cite>/opt/gurobi1201/linux64</cite></p></li>
+<li><p>For <strong>64-bit Windows</strong>: <cite>C:gurobi1201win64</cite> , and</p></li>
+<li><p>For <strong>MacOS</strong>: <cite>/Library/gurobi1201/macos_universal2</cite>,</p></li>
+<li><p>For <strong>Linux</strong> systems: <cite>/opt/gurobi1201/linux64</cite></p></li>
 </ul>
 <div class="admonition note">
-<p class="admonition-title">Nota</p>
-<p>Actualiza el número de versión en la ruta si has instalado una versión diferente de Gurobi.</p>
+<p class="admonition-title">Note</p>
+<p>Update the version number in the path if you have installed a different Gurobi version.</p>
 </div>
-<p>Encontrarás el nombre exacto del archivo para tu sistema operativo dentro de <cite>&lt;installdir&gt;/R</cite>.</p>
+<p>You will find the exact name of the file for your operating system inside the <cite>&lt;installdir&gt;/R</cite>.</p>
 <ul class="simple">
-<li><p>Para <strong>Windows de 64 bits</strong>, este es: <cite>gurobi_12.0-1.zip</cite>, y</p></li>
-<li><p>Para <strong>MacOS</strong>, este es: <cite>gurobi_11.0-0_R_.tgz</cite>,</p></li>
-<li><p>Para sistemas <strong>Linux</strong>, este es: <cite>gurobi_12.0-1_R_.tar.gz</cite></p></li>
+<li><p>For <strong>64-bit Windows</strong> this is: <cite>gurobi_12.0-1.zip</cite> , and</p></li>
+<li><p>For <strong>MacOS</strong> this is: <cite>gurobi_11.0-0_R_.tgz</cite>,</p></li>
+<li><p>For <strong>Linux</strong> systems this is: <cite>gurobi_12.0-1_R_.tar.gz</cite></p></li>
 </ul>
-<p>Las instrucciones específicas para cada sistema operativo se encuentran a continuación:</p>
-<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
-<summary class="sd-summary-title sd-card-header">
-<span class="sd-summary-text">Windows</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
-<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span><span class="w"> </span><span class="nf">install.packages</span><span class="p">(</span><span class="s">&quot;c:\gurobi1201win64/linux64/R/gurobi_12.0-1_R_4.4.0.tar.gz&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">repos</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">NULL</span><span class="p">)</span>
-<span class="n">Installing</span><span class="w"> </span><span class="n">package</span><span class="w"> </span><span class="n">into</span><span class="w"> </span>‘<span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">scottca</span><span class="o">/</span><span class="n">R</span><span class="o">/</span><span class="n">x86_64</span><span class="o">-</span><span class="n">pc</span><span class="o">-</span><span class="n">linux</span><span class="o">-</span><span class="n">gnu</span><span class="o">-</span><span class="n">library</span><span class="o">/</span><span class="m">4.4</span>’
-<span class="p">(</span><span class="n">as</span><span class="w"> </span>‘<span class="n">lib</span>’<span class="w"> </span><span class="n">is</span><span class="w"> </span><span class="n">unspecified</span><span class="p">)</span>
-<span class="o">*</span><span class="w"> </span><span class="n">installing</span><span class="w"> </span><span class="o">*</span><span class="n">binary</span><span class="o">*</span><span class="w"> </span><span class="n">package</span><span class="w"> </span>‘<span class="n">gurobi</span>’<span class="w"> </span><span class="kc">...</span>
-<span class="o">*</span><span class="w"> </span><span class="nf">DONE </span><span class="p">(</span><span class="n">gurobi</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
-<summary class="sd-summary-title sd-card-header">
-<span class="sd-summary-text">macOS</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
-<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span><span class="w"> </span><span class="nf">install.packages</span><span class="p">(</span><span class="s">&quot;/Library/gurobi1201/macos_universal2/linux64/R/gurobi_12.0-1_R_4.4.0.tar.gz&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">repos</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">NULL</span><span class="p">)</span>
-<span class="n">Installing</span><span class="w"> </span><span class="n">package</span><span class="w"> </span><span class="n">into</span><span class="w"> </span>‘<span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">scottca</span><span class="o">/</span><span class="n">R</span><span class="o">/</span><span class="n">x86_64</span><span class="o">-</span><span class="n">pc</span><span class="o">-</span><span class="n">linux</span><span class="o">-</span><span class="n">gnu</span><span class="o">-</span><span class="n">library</span><span class="o">/</span><span class="m">4.4</span>’
-<span class="p">(</span><span class="n">as</span><span class="w"> </span>‘<span class="n">lib</span>’<span class="w"> </span><span class="n">is</span><span class="w"> </span><span class="n">unspecified</span><span class="p">)</span>
-<span class="o">*</span><span class="w"> </span><span class="n">installing</span><span class="w"> </span><span class="o">*</span><span class="n">binary</span><span class="o">*</span><span class="w"> </span><span class="n">package</span><span class="w"> </span>‘<span class="n">gurobi</span>’<span class="w"> </span><span class="kc">...</span>
-<span class="o">*</span><span class="w"> </span><span class="nf">DONE </span><span class="p">(</span><span class="n">gurobi</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
-<summary class="sd-summary-title sd-card-header">
-<span class="sd-summary-text">Linux (x64/armlinux64)</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
-<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span><span class="w"> </span><span class="nf">install.packages</span><span class="p">(</span><span class="s">&quot;/opt/gurobi1201/linux64/R/gurobi_12.0-1_R_4.4.0.tar.gz&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">repos</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">NULL</span><span class="p">)</span>
-<span class="n">Installing</span><span class="w"> </span><span class="n">package</span><span class="w"> </span><span class="n">into</span><span class="w"> </span>‘<span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">scottca</span><span class="o">/</span><span class="n">R</span><span class="o">/</span><span class="n">x86_64</span><span class="o">-</span><span class="n">pc</span><span class="o">-</span><span class="n">linux</span><span class="o">-</span><span class="n">gnu</span><span class="o">-</span><span class="n">library</span><span class="o">/</span><span class="m">4.4</span>’
-<span class="p">(</span><span class="n">as</span><span class="w"> </span>‘<span class="n">lib</span>’<span class="w"> </span><span class="n">is</span><span class="w"> </span><span class="n">unspecified</span><span class="p">)</span>
-<span class="o">*</span><span class="w"> </span><span class="n">installing</span><span class="w"> </span><span class="o">*</span><span class="n">binary</span><span class="o">*</span><span class="w"> </span><span class="n">package</span><span class="w"> </span>‘<span class="n">gurobi</span>’<span class="w"> </span><span class="kc">...</span>
-<span class="o">*</span><span class="w"> </span><span class="nf">DONE </span><span class="p">(</span><span class="n">gurobi</span><span class="p">)</span>
-</pre></div>
-</div>
-<p class="sd-card-text">Probablemente no necesites hacer nada más. Felicítate por usar Linux y ser increíble.</p>
-</div>
-</details><div class="line-block">
+<p>Operating specific instructions can be found below:</p>
+<div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p>Dependiendo de tu entorno local de <em>R</em>, es posible que necesites instalar el paquete de <em>R</em> slam. Para hacerlo, debes ejecutar el siguiente comando en la consola de <em>RStudio</em>:</p>
+<p>Depending on your local <em>R</em> environment you might need to install the R package slam. To do this, you should issue the following command in the <em>RStudio</em> console:</p>
 <div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="nf">install.packages</span><span class="p">(</span><span class="s">&#39;slam&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>Prueba si <em>Gurobi</em> se instaló correctamente ejecutando:</p>
+<p>Test that gurobi installed correctly by running:</p>
 <div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span><span class="w"> </span><span class="nf">library</span><span class="p">(</span><span class="n">gurobi</span><span class="p">)</span>
 <span class="n">Loading</span><span class="w"> </span><span class="n">required</span><span class="w"> </span><span class="n">package</span><span class="o">:</span><span class="w"> </span><span class="n">slam</span>
 </pre></div>
@@ -177,28 +149,28 @@
 <div class="line"><br /></div>
 </div>
 <div class="admonition important">
-<p class="admonition-title">Importante</p>
-<p>Debes asegurarte de que el binario de <em>R</em> y el paquete <em>Gurobi</em> que instales utilicen el mismo conjunto de instrucciones. Por ejemplo, si estás usando la versión de <em>R</em> de 64 bits, necesitarás instalar la versión de <em>Gurobi</em> de 64 bits, así como el paquete <em>Gurobi R</em> de 64 bits. Esto es particularmente importante en sistemas Windows, donde los mensajes de error derivados de incompatibilidades en el conjunto de instrucciones pueden ser difíciles de interpretar.</p>
+<p class="admonition-title">Important</p>
+<p>You will need to be careful to make sure that the <em>R</em> binary and the <em>Gurobi</em> package you install both use the same instruction set. For example, if you are using the 64-bit version of <em>R</em>, you’ll need to install the 64-bit version of <em>Gurobi</em>, and the 64-bit <em>Gurobi R</em> package. This is particularly important on Windows systems, where the error messages that result from instruction set mismatches can be quite cryptic.</p>
 </div>
 </section>
 
 
            </div>
           </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
-        <a href="05_installing_gurobi.html" class="btn btn-neutral float-left" title="Instalación de Gurobi" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
-        <a href="07_getting_gurobi_env.html" class="btn btn-neutral float-right" title="Acceso a la Nube de Gurobi" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="05_installing_gurobi.html" class="btn btn-neutral float-left" title="Installing Gurobi" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="07_getting_gurobi_env.html" class="btn btn-neutral float-right" title="Gurobi Cloud Access" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Derechos de autor 2025, UNDP.</p>
+    <p>&#169; Copyright 2025, UNDP &amp; UNEP-WCMC.</p>
   </div>
 
-  Compilado con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
-    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
-    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>.
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
    
 
 </footer>

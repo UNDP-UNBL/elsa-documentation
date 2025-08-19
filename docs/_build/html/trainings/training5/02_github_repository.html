@@ -1,93 +1,99 @@
 
 
 <!DOCTYPE html>
-<html class="writer-html5" lang="es" data-content_root="../../">
+<html class="writer-html5" lang="en" data-content_root="../../">
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Repositorios de Código (git &amp; GitHub) &mdash; documentación de ELSA Online Documentation - </title>
-      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=d75fae25" />
+  <title>Code Repositories (git &amp; GitHub) &mdash; ELSA Integrated Spatial Planning Tool - User&#39;s Guide</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=e59714d7" />
-      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
-      <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/elsa-custom.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
 
   
       <script src="../../_static/jquery.js?v=5d32c60e"></script>
       <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="../../_static/documentation_options.js?v=e2bb6099"></script>
+      <script src="../../_static/documentation_options.js?v=f2a433a1"></script>
       <script src="../../_static/doctools.js?v=9bcbadda"></script>
       <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
-      <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
-      <script src="../../_static/copybutton.js?v=f281be69"></script>
-      <script src="../../_static/translations.js?v=f85f4cfb"></script>
-      <script src="../../_static/design-tabs.js?v=f930bc37"></script>
     <script src="../../_static/js/theme.js"></script>
-    <link rel="author" title="Sobre este documento" href="../../about.html" />
-    <link rel="index" title="Índice" href="../../genindex.html" />
-    <link rel="search" title="Búsqueda" href="../../search.html" />
-    <link rel="next" title="Explorando la Estructura de Datos del Repositorio" href="03_exploring_data_structure.html" />
-    <link rel="prev" title="RShiny - La Interfaz Gráfica de Usuario (GUI)" href="01_rshiny_interface.html" /> 
+    <link rel="search" type="application/opensearchdescription+xml"
+          title="Search within ELSA Integrated Spatial Planning Tool - User&#39;s Guide"
+          href="../../_static/opensearch.xml"/>
+    <link rel="author" title="About these documents" href="../../about.html" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Exploring the Repository’s Data Structure" href="03_exploring_data_structure.html" />
+    <link rel="prev" title="RShiny - the Graphical User Interface (GUI)" href="01_rshiny_interface.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
   <div class="wy-grid-for-nav">
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search" >
+        <div class="wy-side-nav-search"  style="background: #2980B9" >
 
           
           
           <a href="../../index.html" class="icon icon-home">
-            ELSA Online Documentation
+            ELSA Integrated Spatial Planning Tool
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Buscar documentos" aria-label="Buscar documentos" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../index.html">Inicio</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../about.html">Acerca de las Áreas Esenciales de Soporte de Vida (ELSA)</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Capacitaciones</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../training1/index.html">Capacitación 1: Planificación Sistemática de la Conservación</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../training2/index.html">Capacitación 2: Uso de la herramienta web en línea para co-crear el Mapa de Priorización Espacial</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../training3/index.html">Capacitación 3: Configuración de <em>R</em> y <em>RStudio</em></a></li>
-<li class="toctree-l2"><a class="reference internal" href="../training4/index.html">Capacitación 4: Datos espaciales utilizados: estructura, selección y procesamiento</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Capacitación 5: Ejecución de Priorizaciones Espaciales</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="01_rshiny_interface.html">RShiny - La Interfaz Gráfica de Usuario (GUI)</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Repositorios de Código (git &amp; <em>GitHub</em>)</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#geospatial-data">Datos Geoespaciales</a></li>
+              <p class="caption" role="heading"><span class="caption-text">ELSA Tool Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/01_overview.html">Overview of the ELSA Integrated Spatial Planning Tool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/02_tool_purpose.html">What is the ELSA tool for?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/03_registration.html">Registering on UNBL and Requesting Access to a Workspace with an ELSA Tool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/04_creating_analysis.html">Creating new ELSA analysis runs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/05_editing_analysis.html">Editing an ELSA analysis run</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/06_running_optimization.html">Running the ELSA Optimization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/downloading_results.html">Downloading and Exporting ELSA Results</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Trainings</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../training1/index.html">Training 1: Systematic Conservation Planning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../training2/index.html">Training 2: Using the online webtool to co-create the Spatial Prioritization Map</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../training3/index.html">Training 3: <em>R</em> and <em>RStudio</em> Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../training4/index.html">Training 4: Spatial data used: structure, selection and processing</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Training 5: Running Spatial Prioritisations</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="01_rshiny_interface.html">RShiny - the Graphical User Interface (GUI)</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Code Repositories (git &amp; <em>GitHub</em>)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#geospatial-data">Geospatial Data</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="03_exploring_data_structure.html">Explorando la Estructura de Datos del Repositorio</a></li>
-<li class="toctree-l3"><a class="reference internal" href="04_create_r_project.html">Crear un Proyecto de <em>Prioritizing Nature</em> en <em>R</em></a></li>
-<li class="toctree-l3"><a class="reference internal" href="05_installing_gurobi.html">Instalación de Gurobi</a></li>
-<li class="toctree-l3"><a class="reference internal" href="06_installing_gurobi_r_package.html">Instalación del paquete <em>Gurobi R</em></a></li>
-<li class="toctree-l3"><a class="reference internal" href="07_getting_gurobi_env.html">Acceso a la Nube de <em>Gurobi</em></a></li>
-<li class="toctree-l3"><a class="reference internal" href="08_checking_gurobi_installation.html">Verificando si la instalación de <em>Gurobi R</em> fue exitosa</a></li>
-<li class="toctree-l3"><a class="reference internal" href="09_installing_required_r_packages.html">Instalación de Paquetes Requeridos de <em>R</em></a></li>
-<li class="toctree-l3"><a class="reference internal" href="10_running_webtool_p1.html">Ejecutando la <em>Herramienta web Priorizando la Naturaleza</em> - Configuración de Datos</a></li>
-<li class="toctree-l3"><a class="reference internal" href="11_running_webtool_p2.html">Ejecutando la <em>Herramienta web Priorizando la Naturaleza</em></a></li>
-<li class="toctree-l3"><a class="reference internal" href="12_exploring_webtool.html">Explorando la <em>Herramienta web de Priorizando la Naturaleza</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="03_exploring_data_structure.html">Exploring the Repository’s Data Structure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="04_create_r_project.html">Create a <em>Prioritizing Nature</em> <em>R</em> Project</a></li>
+<li class="toctree-l3"><a class="reference internal" href="05_installing_gurobi.html">Installing Gurobi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="06_installing_gurobi_r_package.html">Installing the <em>Gurobi R</em> package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="07_getting_gurobi_env.html"><em>Gurobi</em> Cloud Access</a></li>
+<li class="toctree-l3"><a class="reference internal" href="08_checking_gurobi_installation.html">Checking if your <em>Gurobi R</em> Installation was Successful</a></li>
+<li class="toctree-l3"><a class="reference internal" href="09_installing_required_r_packages.html">Installing Required <em>R</em> Packages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="10_running_webtool_p1.html">Running the <em>Prioritizing Nature Webtool</em> - Data Setup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="11_running_webtool_p2.html">Running the <em>Prioritizing Nature Webtool</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="12_exploring_webtool.html">Exploring the <em>Prioritizing Nature Webtool</em></a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../prioritizr_advanced/index.html">prioritizr (Advanced)</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../guidance/index.html">Manual de usuario de la herramienta web Prioritizing Nature</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../guidance/index.html">User manual for the Prioritizing Nature webtool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/annexes.html">Annexes: Reference Materials and Data</a></li>
 </ul>
 
         </div>
       </div>
     </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #2980B9" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../../index.html">ELSA Online Documentation</a>
+          <a href="../../index.html">ELSA Integrated Spatial Planning Tool</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -95,11 +101,11 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
-          <li class="breadcrumb-item"><a href="../index.html">Capacitaciones</a></li>
-          <li class="breadcrumb-item"><a href="index.html">Capacitación 5: Ejecución de Priorizaciones Espaciales</a></li>
-      <li class="breadcrumb-item active">Repositorios de Código (git &amp; <em>GitHub</em>)</li>
+          <li class="breadcrumb-item"><a href="../index.html">Trainings</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Training 5: Running Spatial Prioritisations</a></li>
+      <li class="breadcrumb-item active">Code Repositories (git &amp; <em>GitHub</em>)</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../../_sources/trainings/training5/02_github_repository.rst.txt" rel="nofollow"> Ver código fuente de la página</a>
+              <a href="https://github.com/your-organization/elsa-user-guide/blob/main/docs/trainings/training5/02_github_repository.rst" class="fa fa-github"> Edit on GitHub</a>
       </li>
   </ul>
   <hr/>
@@ -108,48 +114,48 @@
            <div itemprop="articleBody">
              
   <section id="code-repositories-git-github">
-<h1>Repositorios de Código (git &amp; <em>GitHub</em>)<a class="headerlink" href="#code-repositories-git-github" title="Link to this heading"></a></h1>
-<p>Las múltiples variaciones de las herramientas web <em>ELSA</em>, <em>Priorizando la Naturaleza</em> y otras relacionadas se gestionan como ramas separadas (piensa en las ramas como derivaciones sutiles de un proyecto principal, donde hay elementos comunes pero también diferencias más pequeñas y específicas) dentro de un único repositorio de código con control de versiones alojado en <a class="reference external" href="https://github.com/">GitHub</a>. Puede que estés familiarizado o no con <em>git</em> (u otro software de control de versiones), pero, como su nombre indica, <em>git</em> es un sistema de control que rastrea cambios en el código, documentos, etc., y permite que varias personas colaboren, añadan nuevas funcionalidades, combinen cambios y reviertan modificaciones de manera eficiente, manteniendo siempre un historial de cambios que evita conflictos y permite volver a versiones anteriores cuando sea necesario. Esta configuración permite una gestión simplificada y el desarrollo de funcionalidades compartidas entre herramientas, al mismo tiempo que posibilita el desarrollo personalizado de herramientas específicas para cada proyecto y país, adaptándose a diferencias en el idioma, las traducciones y las especificaciones de los datos de entrada.</p>
-<p>El repositorio público de las herramientas web <em>Priorizando la Naturaleza</em>, utilizado en estos talleres, está disponible en:</p>
-<p><a class="reference external" href="https://github.com/ELSA-UNDP/prioritizing-nature-workshops/tree/prioritizing_nature_main">Descargar - Repositorio de GitHub de las herramientas web Priorizando la Naturaleza</a></p>
+<h1>Code Repositories (git &amp; <em>GitHub</em>)<a class="headerlink" href="#code-repositories-git-github" title="Link to this heading"></a></h1>
+<p>The multiple permutations of the <em>ELSA</em>, <em>Protecting Nature</em>, and related webtools are manged as separate branches (think of branches as subtle offshoots of a main project, where there are main commonalities but subtle and smaller differences) of a single version controlled git repository hosted on <a class="reference external" href="https://github.com/">GitHub</a>. You may or may not be familiar with git (or other version control software) but, as the term implies, git is a control system thats tracks changes in code, documents, etc., and allows multiple people to collaborate, add new functionality, merge, and revert changes efficiently, all while maintaining a history of modifications that prevents conflicts and enables rollback to previous states if needed. This setup allows for a simplified management and development of shared functionality between tools, but still allow for bespoke development of tools specific to a project and country’s individual needs (ranging from tailored language/translations differences to data input specifications).</p>
+<p>The publicly accessible repository for the <em>Protecting Nature Webtools</em> being used in these workshops can be accessed at:</p>
+<p><a class="reference external" href="https://github.com/ELSA-UNDP/prioritizing-nature-workshops/tree/prioritizing_nature_main">Download - Protecting Nature Webtools GitHub Repository</a></p>
 <div class="admonition note">
-<p class="admonition-title">Nota</p>
-<p>No necesitas estar registrado en <em>GitHub</em> ni estar familiarizado con <em>GitHub</em> para acceder a este repositorio.</p>
+<p class="admonition-title">Note</p>
+<p>You do not need to be registered on <em>GitHub</em>, nor be familiar with <em>GitHub</em> to access this repository.</p>
 </div>
-<p>Si accedes a la URL anterior, deberías ver lo siguiente (o algo similar):</p>
+<p>If you navigate to the URL above you should find yourself seeing the following (or similar):</p>
 <a class="reference internal image-reference" href="../../_images/github_repo1.png"><img alt="../../_images/github_repo1.png" class="align-center" src="../../_images/github_repo1.png" style="width: 80%;" />
 </a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <div class="admonition important">
-<p class="admonition-title">Importante</p>
-<p>Para el resto de este entrenamiento, asumiremos que no tienes experiencia usando <em>git</em> o <em>GitHub</em>, y te mostraremos cómo descargar el código del repositorio sin necesidad de usar <em>git</em>.</p>
-<p>Para los usuarios que están familiarizados con <em>git</em> y <em>GitHub</em>, siéntanse libres de clonar el repositorio en su computadora.</p>
+<p class="admonition-title">Important</p>
+<p>For the rest of this training we will assume that you do not have any experience using git or GitHub and will show you how to download the repository code without using git.</p>
+<p>For users who are familiar with git and <em>GitHub</em> please feel free to clone the repository to you computer.</p>
 </div>
-<p>En el repositorio existen tres (3) ramas de las herramientas web <em>Priorizando la Naturaleza</em>:</p>
+<p>In the repository there exists three (3) branches of the <em>Protecting Nature Webtools</em>:</p>
 <ul class="simple">
-<li><p><strong>prioritizing_nature_main</strong> (rama principal de desarrollo)</p></li>
+<li><p><strong>prioritizing_nature_main</strong> (the main development branch)</p></li>
 <li><p><strong>prioritizing_nature_per</strong> (the branch for the Peru specific tool)</p></li>
 <li><p><strong>prioritizing_nature_ecu</strong> (the branch for the Ecuador specific tool)</p></li>
 </ul>
-<p>En cualquier momento estarás trabajando con la herramienta para Perú o la herramienta para Ecuador (dependiendo de tu preferencia, por supuesto). Para hacerlo, primero debes descargar la rama del repositorio correspondiente a tu país de preferencia en formato ZIP. Para seleccionar la rama de tu elección:</p>
+<p>At any one time you will be working with either the tool for Peru or the tool for Ecuador (depending on your preference of course). To do so, you will first download the branch of the repository corresponding to your country of preference, in a zip format. To select the branch of your choice:</p>
 <ul class="simple">
-<li><p>Haz clic en el menú desplegable que (por defecto) muestra <code class="docutils literal notranslate"><span class="pre">prioritizing_nature_main</span></code>.</p></li>
-<li><p>Selecciona la rama <code class="docutils literal notranslate"><span class="pre">prioritizing_nature_ecu</span></code> o <code class="docutils literal notranslate"><span class="pre">prioritizing_nature_per</span></code>.</p></li>
+<li><p>Click on the dropdown menu that (by default) shows <code class="docutils literal notranslate"><span class="pre">prioritizing_nature_main</span></code>.</p></li>
+<li><p>Select either the <code class="docutils literal notranslate"><span class="pre">prioritizing_nature_ecu</span></code> or <code class="docutils literal notranslate"><span class="pre">prioritizing_nature_per</span></code> branch.</p></li>
 </ul>
 <a class="reference internal image-reference" href="../../_images/github_repo2.png"><img alt="../../_images/github_repo2.png" class="align-center" src="../../_images/github_repo2.png" style="width: 70%;" />
 </a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p>Una vez que hayas seleccionado la rama deseada:</p>
+<p>Once you have selected your desired branch:</p>
 <ul class="simple">
-<li><p>Haz clic en la caja a la derecha que muestra <code class="docutils literal notranslate"><span class="pre">&lt;&gt;</span> <span class="pre">Code</span></code> (visible en verde en la imagen a continuación).</p></li>
+<li><p>Click on the box on the right that shows <code class="docutils literal notranslate"><span class="pre">&lt;&gt;</span> <span class="pre">Code</span></code> (seen in Green in the image below).</p></li>
 </ul>
 <div class="admonition note">
-<p class="admonition-title">Nota</p>
-<p>El botón <code class="docutils literal notranslate"><span class="pre">&lt;&gt;</span> <span class="pre">Code</span></code> puede tener otro color si usas un tema diferente en tu navegador.</p>
+<p class="admonition-title">Note</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">&lt;&gt;</span> <span class="pre">Code</span></code> button may be another colour if you use another theme in your browser.</p>
 </div>
 <a class="reference internal image-reference" href="../../_images/github_repo3.png"><img alt="../../_images/github_repo3.png" class="align-center" src="../../_images/github_repo3.png" style="width: 70%;" />
 </a>
@@ -157,45 +163,45 @@
 <div class="line"><br /></div>
 </div>
 <ul class="simple">
-<li><p>Haz clic en el icono <code class="docutils literal notranslate"><span class="pre">Download</span> <span class="pre">ZIP</span></code>.</p></li>
+<li><p>Click on the <code class="docutils literal notranslate"><span class="pre">Download</span> <span class="pre">ZIP</span></code> icon.</p></li>
 </ul>
-<p>Las descargas de las ramas para Ecuador y Perú son de aproximadamente 7MB y 37MB, respectivamente.</p>
+<p>The download of the branches for Ecuador and Peru are approximately 7MB and 37MB each, respectively.</p>
 <div class="admonition important">
-<p class="admonition-title">Importante</p>
+<p class="admonition-title">Important</p>
 <dl class="simple">
-<dt>¿Por qué la gran diferencia de tamaño, te estarás preguntando?</dt><dd><p>Perú es más grande (lo que significa más unidades de planificación) y (más significativamente) tiene más capas de datos de entrada.</p>
+<dt>Why the large difference in size, you might be wondering?</dt><dd><p>Peru is larger (equals more planning units) and (more significantly) has more input feature layers.</p>
 </dd>
 </dl>
 </div>
 <section id="geospatial-data">
-<h2>Datos Geoespaciales<a class="headerlink" href="#geospatial-data" title="Link to this heading"></a></h2>
+<h2>Geospatial Data<a class="headerlink" href="#geospatial-data" title="Link to this heading"></a></h2>
 <p>The repositories (branches) that you just downloaded are as large as they are because they already contain the preprocessed and pre-created data for the feature layers, zones, and existing protected areas and OECMs in each country. We will not be covering the install of Desktop GIS program in this training, but it is easy to explore these  geospatial data layers using a Desktop GIS platform (such as QGIS).</p>
 <div class="admonition important">
-<p class="admonition-title">Importante</p>
-<p>Si no tienes un SIG de escritorio instalado en tu computadora, QGIS es una de las mejores opciones, y además es gratuito y de código abierto. Puedes encontrar instrucciones de descarga e instalación en <a class="reference external" href="https://qgis.org/download/">QGIS</a>.</p>
-<p>También ten en cuenta que <em>R</em> puede ser un SIG de escritorio muy potente. El excelente libro <a class="reference external" href="https://r.geocompx.org/">Geocomputation with R</a> proporciona toda la información que podrías necesitar.</p>
+<p class="admonition-title">Important</p>
+<p>If you do not have an existing Desktop GIS installed on your computer, QGIS is one of the best, and it is also free and open-source. You can find download and installation instructions from <a class="reference external" href="https://qgis.org/download/">QGIS</a>.</p>
+<p>Also note that R can be also be a very capable Desktop-ish GIS as well - the very good <a class="reference external" href="https://r.geocompx.org/">Geocomputation with R</a> provides all you might need to know.</p>
 </div>
-<p>En la siguiente sección exploraremos cómo está estructurado el directorio de datos del repositorio y dónde puedes encontrar y explorar los datos geoespaciales.</p>
+<p>In the next section we will explore how the data directory of the repository is structured, and where you can find and explore the geospatial data.</p>
 </section>
 </section>
 
 
            </div>
           </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
-        <a href="01_rshiny_interface.html" class="btn btn-neutral float-left" title="RShiny - La Interfaz Gráfica de Usuario (GUI)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
-        <a href="03_exploring_data_structure.html" class="btn btn-neutral float-right" title="Explorando la Estructura de Datos del Repositorio" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="01_rshiny_interface.html" class="btn btn-neutral float-left" title="RShiny - the Graphical User Interface (GUI)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="03_exploring_data_structure.html" class="btn btn-neutral float-right" title="Exploring the Repository’s Data Structure" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Derechos de autor 2025, UNDP.</p>
+    <p>&#169; Copyright 2025, UNDP &amp; UNEP-WCMC.</p>
   </div>
 
-  Compilado con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
-    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
-    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>.
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
    
 
 </footer>
