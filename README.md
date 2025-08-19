@@ -176,14 +176,30 @@ ELSA-specific CSS is in `_static/elsa-custom.css`:
     border: 1px solid #2980B9;
 }
 ```
+## Translation and Localization
+
+### Multi-language Support
+
+The ELSA Tool documentation needs to be translated into multiple languages to support global KMGBF implementation:
+
+**Target Languages:**
+- English (primary/source)
+- Spanish 
+- French
+- Russian
+- Portuguese
+
+### Translation Workflow
+
+**Step 1: Prepare source files**
+```bash
+# Extract translatable strings
+sphinx-build -b gettext . _build/gettext
+
+# Create .pot files for translators
+sphinx-intl update -p _build/gettext -l es -l fr -l ru -l pt
 
 ## Content Organization
-
-### Target Audience
-
-- **Primary**: National biodiversity planning authorities
-- **Secondary**: Conservation organizations, spatial planners, researchers
-- **Skill Level**: No GIS or programming experience required
 
 ### Document Hierarchy
 
@@ -220,10 +236,8 @@ Internal links use Sphinx references:
 ### Content Updates
 
 **Regular updates needed for:**
-- New data layers and sources (Annex 2)
 - Feature additions and interface changes
 - Updated contact information and links
-- New case studies and examples
 
 **Update frequency:**
 - **Major updates**: With each ELSA tool release

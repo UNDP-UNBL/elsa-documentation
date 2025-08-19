@@ -24,6 +24,8 @@ if is_standalone:
         'sphinx.ext.napoleon',
         'sphinx.ext.intersphinx',
         'sphinx_rtd_theme',
+        'sphinx_design',
+        'sphinx_copybutton'
     ]
     
     templates_path = ['_templates']
@@ -31,7 +33,6 @@ if is_standalone:
     
     # -- HTML output options for standalone --
     html_theme = 'sphinx_rtd_theme'
-    html_static_path = ['_static']
     
     # Theme options
     html_theme_options = {
@@ -111,9 +112,21 @@ if is_standalone:
 
 # -- Search and accessibility --
 
-# Language-specific settings
-language = 'en'
+# Internationalization
+language = 'en'  # Default language
 html_search_language = 'en'
+
+locale_dirs = ['locale/']
+gettext_compact = False
+
+# Language-specific settings
+locale_docs = {
+    'es': 'Spanish',
+    'fr': 'French', 
+    'ru': 'Russian',
+    'pt': 'Portuguese'
+}
+
 
 # Accessibility improvements
 html_use_opensearch = 'https://docs.unbiodiversitylab.org'
@@ -189,142 +202,3 @@ else:
 #
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
-
-# -- Project information -----------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
-
-project = 'ELSA Integrated Spatial Planning Tool'
-copyright = '2025, UNDP & UNEP-WCMC'
-author = 'UN Biodiversity Lab Team'
-release = '1.0'
-
-# -- General configuration ---------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
-
-extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx.ext.viewcode',
-    'sphinx.ext.napoleon',
-    'sphinx.ext.intersphinx',
-    'sphinx_rtd_theme',
-]
-
-templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-
-# -- Options for HTML output -------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-
-html_theme = 'sphinx_rtd_theme'
-html_static_path = ['_static']
-
-# Theme options
-html_theme_options = {
-    'logo_only': False,
-    'display_version': True,
-    'prev_next_buttons_location': 'bottom',
-    'style_external_links': False,
-    'vcs_pageview_mode': '',
-    'style_nav_header_background': '#2980B9',
-    # Toc options
-    'collapse_navigation': True,
-    'sticky_navigation': True,
-    'navigation_depth': 4,
-    'includehidden': True,
-    'titles_only': False
-}
-
-# Custom CSS (optional)
-html_css_files = [
-    'custom.css',
-]
-
-# Logo (optional - add if you have UNBL logo)
-# html_logo = '_static/unbl_logo.png'
-
-# Favicon (optional)
-# html_favicon = '_static/favicon.ico'
-
-# -- Options for LaTeX output -----------------------------------------------
-
-latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
-    'papersize': 'letterpaper',
-    
-    # The font size ('10pt', '11pt' or '12pt').
-    'pointsize': '10pt',
-    
-    # Additional stuff for the LaTeX preamble.
-    'preamble': r'''
-        \usepackage{charter}
-        \usepackage[defaultsans]{lato}
-        \usepackage{inconsolata}
-    ''',
-}
-
-# Grouping the document tree into LaTeX files. List of tuples
-# (source start file, target name, title, author, documentclass [howto, manual, or own class]).
-latex_documents = [
-    ('index', 'ELSA-UserGuide.tex', 'ELSA Integrated Spatial Planning Tool User\'s Guide',
-     'UN Biodiversity Lab Team', 'manual'),
-]
-
-# -- Options for EPUB output ------------------------------------------------
-
-# Bibliographic Dublin Core info.
-epub_title = project
-epub_author = author
-epub_publisher = author
-epub_copyright = copyright
-
-# -- Extension configuration -------------------------------------------------
-
-# Intersphinx mapping
-intersphinx_mapping = {
-    'python': ('https://docs.python.org/3/', None),
-    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
-}
-
-# Napoleon settings (for Google/NumPy style docstrings)
-napoleon_google_docstring = True
-napoleon_numpy_docstring = True
-napoleon_include_init_with_doc = False
-napoleon_include_private_with_doc = False
-napoleon_include_special_with_doc = True
-napoleon_use_admonition_for_examples = False
-napoleon_use_admonition_for_notes = False
-napoleon_use_admonition_for_references = False
-napoleon_use_ivar = False
-napoleon_use_param = True
-napoleon_use_rtype = True
-
-# -- Custom settings ---------------------------------------------------------
-
-# Number figures, tables and code-blocks automatically
-numfig = True
-numfig_format = {
-    'figure': 'Figure %s',
-    'table': 'Table %s',
-    'code-block': 'Listing %s',
-    'section': 'Section %s',
-}
-
-# Show "Edit on GitHub" links (customize as needed)
-html_context = {
-    "display_github": True,
-    "github_user": "your-organization",
-    "github_repo": "elsa-user-guide",
-    "github_version": "main",
-    "conf_py_path": "/docs/",
-}
-
-# -- Search and index options -----------------------------------------------
-
-# Language for search index
-html_search_language = 'en'
-
-# Minimum word length for search
-html_search_options = {'type': 'default'}
-
-# # Enable search highlighting
-# html_search_scorer = '_static/searchtools.js'

@@ -13,6 +13,7 @@ dependencies:
   - sphinx-copybutton>=0.5.0
   - sphinx-tabs>=3.4.0
   - myst-parser>=0.18.0
+  - sphinx-design 
   
   # For PDF generation (optional)
   - pip:
@@ -24,20 +25,3 @@ dependencies:
   
   # Python base
   - python>=3.8 
-  
-  # Sphinx documentation requirements
-  - sphinx>=5.0.0
-  - sphinx-rtd-theme>=1.0.0
-  - sphinx-autodoc-typehints>=1.12.0
-
-  # Optional extensions for enhanced functionality
-  - sphinx-copybutton>=0.5.0
-  - sphinx-tabs>=3.4.0
-  - myst-parser>=0.18.0
-
-  # For PDF generation (optional)
-  - rinohtype>=0.5.4
-
-  # For development and testing (optional)
-  - doc8>=0.11.0
-  - sphinx-autobuild>=2021.3.14
