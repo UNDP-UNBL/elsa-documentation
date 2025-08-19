@@ -1,6 +1,17 @@
 Editing an ELSA analysis run
 ============================
 
+.. admonition:: Key Concepts
+   :class: important
+   
+   * :term:`Action Zones`
+   * :term:`Lock-in Features`
+   * :term:`Area-based Budget`
+   * :term:`Boundary Penalty Factor (BPF)`
+   * :term:`Planning Features`
+   * :term:`Planning Units`
+
+
 Naming ELSA analysis run 
 ------------------------
 
@@ -11,9 +22,12 @@ This section provides detailed instructions for configuring all aspects of your 
 Selecting lock-in functions
 ---------------------------
 
-Lock-in functionalities are applied to the protect zone. The lock-in layer consists of existing Protected Areas (PAs) within the country. Users can choose to lock-in or lock-out existing PAs for the Protect Zone (additionally the Restore Zone, if applicable). Locking in PAs ensures their inclusion in the analysis to identify priority areas where actions to protect nature should be undertaken. The percentage national land area covered by PAs is shown in the lock-in functionality to allow users to make an informed lock-in decision. 
+Users can lock certain features into a solution. Conceptually this is most easily understood as locking in existing planning areas to the protect action in a solution – in essence replicating on ground realities. This forces these areas to be allocated to the protect action in the solution, and these areas are forced to contribute to meeting the areal budget for protection. The national protected area coverage (%) is shown in parentheses.  Tool configurations are not only limited to locking in existing protected areas to the protect action (for example, it might be desirable to lock-in existing restoration project areas to the restore action); however, by default the tools are currently only configured to allow lock-in of protected areas.   
 
-Lock-in of PAs (:numref:`fig-lockin-options`):  
+.. important:: 
+   Protected Areas are locked-in **BY DEFAULT**
+
+Lock-in of PAs (:numref:`fig-lockin-options`):
 
 * Select "Lock-in Existing Protected Areas" if you want to force the analysis to include existing PAs within the "protection" action. 
 * Select "Lock-in nothing" if you wish to independently assess the optimal location of new PAs in your country based on the resulting “Protect” Areas in the resulting ELSA Action map.
@@ -27,6 +41,18 @@ Lock-in of PAs (:numref:`fig-lockin-options`):
    Lock-in functionalities
 
 As seen in :numref:`fig-lockin-options` for Kazakhstan, the existing protected area estate already covers 12.5% of the country. Therefore, when *Lock-in Existing Protected Areas* is selected a minimum *Protection* budget of at least 12.5% of the national territory is required for the optimisation model to be feasible.
+
+Alternative Zones
+-----------------
+
+.. _fig-alt-lockin-options:
+
+.. figure:: images/create-analysis.png
+   :alt: Alternative zone options (if available)
+   :align: center
+   
+   Alternative zone options (if available)
+
 
 Specifying objectives  
 ---------------------

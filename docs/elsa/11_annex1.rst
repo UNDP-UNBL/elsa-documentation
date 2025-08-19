@@ -5,7 +5,7 @@ Annex 1: Key terms used in the process of mapping priority areas for the impleme
 
 .. glossary::
 
-   Area-based budget
+   Area-based Budget
       The maximum area (expressed as a percentage of the total area of the country) that can be assigned to a specific action zone (protection, restoration, management, or urban greening).
 
    Boundary Penalty Factor (BPF)
@@ -17,10 +17,10 @@ Annex 1: Key terms used in the process of mapping priority areas for the impleme
    Geographic Information System (GIS)
       Computer system consisting of hardware and software necessary for the capture, storage, management, analysis and presentation of geographic (spatial) data.
 
-   Planning feature
+   Planning Features
       An element of biodiversity, climate change adaptation and/or mitigation and human ecosystem service for human well-being selected as a focus for conservation planning or action. It may include ecological classifications, habitat types, species, physical objects, processes, or any element that can be measured in a planning unit. In the process of spatial prioritization of priority areas for GBF implementation, each priority commitment for a country may correspond to one or more planning features depending on its complexity.
 
-   Planning units
+   Planning Units
       Planning units are the basic elements of a reserve system. A study area is divided into planning units that are smaller geographic parcels of regular or irregular shapes. Examples are squares, hexagons, cadastral parcels and hydrological units.
 
    Representation
@@ -38,5 +38,8 @@ Annex 1: Key terms used in the process of mapping priority areas for the impleme
    Weights
       The weights allow users to set relative priorities within their priority policy outcomes. Values typically range from "0" (no importance) to "10" (extremely high importance).
 
-   Zones/Shares
-      A land use zone, equivalent to a nature-based action, which serves to enhance specific planning objects. Zones are determined by restrictions that define where an action may or may not absolutely occur. For example, these hard restrictions limit protection to intact areas (e.g., low human footprint values) and protection/restoration to areas that are moderately impacted by human activity, but not totally dominated by humans (e.g., low and medium human footprint values).
+   Action Zones 
+      A land use zone, equivalent to a nature-based action, which serves to enhance specific planning objects. Zones are determined by restrictions that define where an action may or may not absolutely occur. For example, these hard constraints limit protection to intact areas (e.g., low human footprint values) and protection/restoration to areas that are moderately impacted by human activity, but not totally dominated by humans (e.g., low and medium human footprint values).
+
+   Lock-in Features
+      Specific features or areas that are locked-in to a solution. Typically, this would refer to existing protected areas, that are by default locked into an SCP problem creation.

@@ -56,6 +56,7 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Editing an ELSA analysis run</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#naming-elsa-analysis-run">Naming ELSA analysis run</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#selecting-lock-in-functions">Selecting lock-in functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#alternative-zones">Alternative Zones</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#specifying-objectives">Specifying objectives</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#specifying-the-boundary-penalty-factor">Specifying the boundary penalty factor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#editing-the-weights-of-planning-features">Editing the weights of planning features</a></li>
@@ -100,6 +101,17 @@
              
   <section id="editing-an-elsa-analysis-run">
 <h1>Editing an ELSA analysis run<a class="headerlink" href="#editing-an-elsa-analysis-run" title="Link to this heading"></a></h1>
+<div class="important admonition">
+<p class="admonition-title">Key Concepts</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="11_annex1.html#term-Action-Zones"><span class="xref std std-term">Action Zones</span></a></p></li>
+<li><p><a class="reference internal" href="11_annex1.html#term-Lock-in-Features"><span class="xref std std-term">Lock-in Features</span></a></p></li>
+<li><p><a class="reference internal" href="11_annex1.html#term-Area-based-Budget"><span class="xref std std-term">Area-based Budget</span></a></p></li>
+<li><p><a class="reference internal" href="11_annex1.html#term-Boundary-Penalty-Factor-BPF"><span class="xref std std-term">Boundary Penalty Factor (BPF)</span></a></p></li>
+<li><p><a class="reference internal" href="11_annex1.html#term-Planning-Features"><span class="xref std std-term">Planning Features</span></a></p></li>
+<li><p><a class="reference internal" href="11_annex1.html#term-Planning-Units"><span class="xref std std-term">Planning Units</span></a></p></li>
+</ul>
+</div>
 <section id="naming-elsa-analysis-run">
 <h2>Naming ELSA analysis run<a class="headerlink" href="#naming-elsa-analysis-run" title="Link to this heading"></a></h2>
 <p>Upon clicking <em>NEW ANALYSIS RUN</em> (see <a class="reference internal" href="04_creating_analysis.html#fig-create-run"><span class="std std-numref">Figure 5</span></a>), users will be able to view and edit a tentative analysis. Firstly, users must provide a new, unique name for their analysis run. While there are no restrictions on the name given to each run, we suggest that run names should include meaningful descriptions, ideally referencing the parameters used (e.g, include information like, BPF 10, or Protect 38%).</p>
@@ -107,7 +119,11 @@
 </section>
 <section id="selecting-lock-in-functions">
 <h2>Selecting lock-in functions<a class="headerlink" href="#selecting-lock-in-functions" title="Link to this heading"></a></h2>
-<p>Lock-in functionalities are applied to the protect zone. The lock-in layer consists of existing Protected Areas (PAs) within the country. Users can choose to lock-in or lock-out existing PAs for the Protect Zone (additionally the Restore Zone, if applicable). Locking in PAs ensures their inclusion in the analysis to identify priority areas where actions to protect nature should be undertaken. The percentage national land area covered by PAs is shown in the lock-in functionality to allow users to make an informed lock-in decision.</p>
+<p>Users can lock certain features into a solution. Conceptually this is most easily understood as locking in existing planning areas to the protect action in a solution – in essence replicating on ground realities. This forces these areas to be allocated to the protect action in the solution, and these areas are forced to contribute to meeting the areal budget for protection. The national protected area coverage (%) is shown in parentheses.  Tool configurations are not only limited to locking in existing protected areas to the protect action (for example, it might be desirable to lock-in existing restoration project areas to the restore action); however, by default the tools are currently only configured to allow lock-in of protected areas.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Protected Areas are locked-in <strong>BY DEFAULT</strong></p>
+</div>
 <p>Lock-in of PAs (<a class="reference internal" href="#fig-lockin-options"><span class="std std-numref">Figure 6</span></a>):</p>
 <ul class="simple">
 <li><p>Select “Lock-in Existing Protected Areas” if you want to force the analysis to include existing PAs within the “protection” action.</p></li>
@@ -121,15 +137,24 @@
 </figure>
 <p>As seen in <a class="reference internal" href="#fig-lockin-options"><span class="std std-numref">Figure 6</span></a> for Kazakhstan, the existing protected area estate already covers 12.5% of the country. Therefore, when <em>Lock-in Existing Protected Areas</em> is selected a minimum <em>Protection</em> budget of at least 12.5% of the national territory is required for the optimisation model to be feasible.</p>
 </section>
+<section id="alternative-zones">
+<h2>Alternative Zones<a class="headerlink" href="#alternative-zones" title="Link to this heading"></a></h2>
+<figure class="align-center" id="id2">
+<span id="fig-alt-lockin-options"></span><img alt="Alternative zone options (if available)" src="elsa/images/create-analysis.png" />
+<figcaption>
+<p><span class="caption-number">Figure 7 </span><span class="caption-text">Alternative zone options (if available)</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
 <section id="specifying-objectives">
 <h2>Specifying objectives<a class="headerlink" href="#specifying-objectives" title="Link to this heading"></a></h2>
 <p>This part of the tool allows users to set area-based budgets (targets) for protection, restoration, management and/or urban greening. Budgets can also be understood as the percentage of land area that can be allocated to each action within the country. The default values in any given ELSA tool are derived from land-based targets in the KMGBF, unless further customized for your country by the UNBL team based on the NBSAP or other national policy documents.</p>
 <p>Users can set any value greater than or equal to 0.001 for protection, restoration, management and/or urban greening objectives. The sum of the value for all objectives may be less than or equal to 100% but should not exceed 100%.</p>
 <p>Users should consider that if they want to lock-in existing PAs, the overall protection budget must be equal to or greater than the land area covered by existing PAs. For example, the land area covered by existing PAs in Kazakhstan is 12.5%. Therefore, the protect budget should be equal to or greater than 12.5%.</p>
-<figure class="align-center" id="id2">
+<figure class="align-center" id="id3">
 <img alt="Setting objectives" src="elsa/images/setting-objectives.png" />
 <figcaption>
-<p><span class="caption-number">Figure 7 </span><span class="caption-text">Setting objectives</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+<p><span class="caption-number">Figure 8 </span><span class="caption-text">Setting objectives</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 </section>
@@ -145,10 +170,10 @@
 <p class="admonition-title">Note</p>
 <p>Note: Increasing the boundary penalty factor from 0 will result in longer solve times; in some cases these can be much longer.</p>
 </div>
-<figure class="align-center" id="id3">
+<figure class="align-center" id="id4">
 <img alt="Adjustment of the boundary penalty factor" src="elsa/images/setting-bpf.png" />
 <figcaption>
-<p><span class="caption-number">Figure 8 </span><span class="caption-text">Adjustment of the boundary penalty factor</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+<p><span class="caption-number">Figure 9 </span><span class="caption-text">Adjustment of the boundary penalty factor</span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 </section>
@@ -163,12 +188,12 @@
 <li><p>10 - utmost importance</p></li>
 </ul>
 <p>To allow users to make the most informed decision possible, the theme (biodiversity/climate change/human well-being), impacted actions and proxy KMGBF policy target (or other relevant NBSAP/national policy target) are listed for each planning feature. Users can evaluate the priority level of each planning feature and assign an informed weight by deciding on the relative importance of each of the planning features used to map KMGBF targets (or other relevant NBSAP/national policy targets otherwise defined by their country) in their country.</p>
-<p>For example, if KMGBF Target 1 is of especially high importance for the user, then planning features such as intact ecosystems, high integrity forests, biodiversity habitat index and biodiversity intactness index should be given greater weight (&gt; 3).Alternatively, if the user believes threatened ecosystems in their country are particularly degraded and should be considered for identifying priority areas for restoration for KMGBF Target 2, then they can give a higher weight to the threatened ecosystems for restoration planning feature which specifically maps these areas (<a class="reference internal" href="#fig-edit-weights"><span class="std std-numref">Figure 9</span></a>).</p>
+<p>For example, if KMGBF Target 1 is of especially high importance for the user, then planning features such as intact ecosystems, high integrity forests, biodiversity habitat index and biodiversity intactness index should be given greater weight (&gt; 3).Alternatively, if the user believes threatened ecosystems in their country are particularly degraded and should be considered for identifying priority areas for restoration for KMGBF Target 2, then they can give a higher weight to the threatened ecosystems for restoration planning feature which specifically maps these areas (<a class="reference internal" href="#fig-edit-weights"><span class="std std-numref">Figure 10</span></a>).</p>
 <p>For a full list of input data, as well as which KMGBF targets they are used to map, please see <a class="reference internal" href="12_annex2.html#annex-2"><span class="std std-ref">Annex 2</span></a>.</p>
-<figure class="align-center" id="id4">
+<figure class="align-center" id="id5">
 <span id="fig-edit-weights"></span><img alt="Editing weights" src="elsa/images/create-analysis.png" />
 <figcaption>
-<p><span class="caption-number">Figure 9 </span><span class="caption-text">Editing weights</span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
+<p><span class="caption-number">Figure 10 </span><span class="caption-text">Editing weights</span><a class="headerlink" href="#id5" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 </section>
@@ -176,10 +201,10 @@
 <h2>View input layers<a class="headerlink" href="#view-input-layers" title="Link to this heading"></a></h2>
 <p>Users should consider that if they want to view input layers before setting weights, they will have to exit the initial analysis run pop-up window by clicking <em>SAVE FOR LATER</em> in the bottom-right corner. They can then come back to their saved draft analysis run after viewing the desired input features.</p>
 <p>To view original input layers into the data stack for the tool, users can click on the <em>INPUT LAYERS</em> option next to the <em>ANALYSIS RUNS</em> option in the left tool tab. Users can then toggle specific input layers to view them on UNBL.</p>
-<figure class="align-center" id="id5">
+<figure class="align-center" id="id6">
 <img alt="Viewing action zones and planning features on UNBL" src="elsa/images/create-analysis.png" />
 <figcaption>
-<p><span class="caption-number">Figure 10 </span><span class="caption-text">Viewing action zones and planning features on UNBL</span><a class="headerlink" href="#id5" title="Link to this image"></a></p>
+<p><span class="caption-number">Figure 11 </span><span class="caption-text">Viewing action zones and planning features on UNBL</span><a class="headerlink" href="#id6" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 <p>By clicking on the INPUT LAYERS tab, users can view each individual input planning feature layer included in the ELSA analysis; these inputs are specifically tailored to help identify priority areas for KMGBF implementation, as well as NBSAP/other national policy implementation, if specifically requested by the user’s country. Users can additionally view (optional) lock-in features (namely, existing protected areas) in their country, as well as action zones.</p>
@@ -189,10 +214,10 @@
 <li><p>Click the toggle button again to remove the selected layer from the view.</p></li>
 <li><p>Users have the option to view additional information (description of the layer, original input layers, source) for currently toggled layers by clicking on the round ‘i’ icon either in the individual layer’s legend or next to the toggle button for each layer.</p></li>
 </ul>
-<figure class="align-center" id="id6">
+<figure class="align-center" id="id7">
 <img alt="Viewing metadata" src="elsa/images/create-analysis.png" />
 <figcaption>
-<p><span class="caption-number">Figure 11 </span><span class="caption-text">Viewing metadata</span><a class="headerlink" href="#id6" title="Link to this image"></a></p>
+<p><span class="caption-number">Figure 12 </span><span class="caption-text">Viewing metadata</span><a class="headerlink" href="#id7" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 </section>

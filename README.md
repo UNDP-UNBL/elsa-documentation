@@ -1,10 +1,9 @@
-ELSA Tool Documentation
-=======================
+# ELSA Tool Documentation
 
 This directory contains the complete documentation for the ELSA (Essential Life Support Area) Integrated Spatial Planning Tool, formatted for Sphinx/ReadTheDocs integration.
 
-Directory Structure
-----------------------
+## Directory Structure
+
 ```
 elsa/
 ├── README.md                 # This file
