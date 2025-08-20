@@ -1,0 +1,148 @@
+Running the ELSA Optimization
+==============================
+
+Once you have configured all analysis parameters, you can execute the optimization to generate your ELSA Action map showing priority areas for conservation and restoration actions.
+
+Optimization Rules
+------------------
+
+The ELSA optimization follows three hard-coded rules to ensure feasible and effective solutions:
+
+**Constraint Rules:**
+
+1. **Budget Compliance**: Must not exceed selected area-based budgets
+2. **Lock-in Compliance**: Must include or exclude areas according to lock-in settings  
+3. **Feature Optimization**: Must include the best combination of planning features based on their distribution and weighting
+
+These rules ensure that your results are both scientifically sound and practically implementable within your specified constraints.
+
+Executing the Analysis
+----------------------
+
+**Prerequisites Check:**
+Before running, ensure you have completed:
+
+* ✓ Named your analysis run
+* ✓ Set area-based budgets for desired actions
+* ✓ Configured lock-in functionalities  
+* ✓ Set boundary penalty factor
+* ✓ Edited planning feature weights
+
+**Running the Analysis:**
+
+1. **Click 'RUN ANALYSIS'**: The blue button in the bottom-right corner of the analysis configuration window
+2. **Button availability**: This button only becomes clickable once all required parameters are filled in
+3. **Confirm settings**: Double-check your configuration before proceeding
+
+.. figure:: images/run-analysis-button.png
+   :alt: Run analysis button
+   :align: center
+   
+   The RUN ANALYSIS button becomes available after completing configuration
+
+Monitoring Progress
+-------------------
+
+Processing Time Expectations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Typical Duration**: 1-5 minutes for most analyses
+
+**Factors Affecting Runtime:**
+
+* **Country size**: Larger countries have more planning units, requiring longer processing
+* **Number of planning features**: More features increase computational complexity
+* **Boundary penalty factor**: Higher values significantly increase solve time
+* **System load**: Processing time may vary based on server availability
+
+**Progress Tracking:**
+
+* A progress bar displays the analysis status
+* Percentage completion is shown in real-time
+* Do not close the browser window during processing
+
+.. figure:: images/analysis-progress.png
+   :alt: Analysis progress bar
+   :align: center
+   
+   Real-time progress tracking during optimization
+
+.. warning::
+   **Important**: Avoid running multiple ELSA analyses simultaneously, as this can cause conflicts and extended processing times.
+
+Analysis Completion
+-------------------
+
+**Completion Indicators:**
+
+* Progress bar reaches 100%
+* Analysis status changes to "COMPLETE"
+* New entry appears in 'ANALYSIS RUNS' list
+* Results become available for viewing
+
+**Post-Completion Actions:**
+
+Once your analysis completes, you can:
+
+* View and evaluate results
+* Download maps and data
+* Create additional scenarios by duplicating and modifying parameters
+* Compare results across different analysis runs
+
+.. figure:: images/completed-analysis.png
+   :alt: Completed analysis in runs list
+   :align: center
+   
+   Completed analysis showing in the ANALYSIS RUNS list
+
+Troubleshooting Common Issues
+-----------------------------
+
+**Analysis Fails to Start:**
+* Verify all required parameters are filled
+* Check that budget totals don't exceed 100%
+* Ensure protection budget meets lock-in requirements
+
+**Extended Processing Time:**
+* Large boundary penalty factors can significantly increase runtime
+* Consider reducing boundary penalty if time is a constraint
+* Contact support if analysis runs longer than 30 minutes
+
+**Analysis Errors:**
+* Check browser console for error messages
+* Refresh the page and try again
+* Contact support@unbiodiversitylab.org if issues persist
+
+Managing Multiple Analysis Runs
+-------------------------------
+
+**Version Control Strategy:**
+
+* Use descriptive names that reflect parameter changes
+* Keep a log of key parameters for each run
+* Save important configurations before making major changes
+
+**Comparative Analysis:**
+
+* Run multiple scenarios with different parameter combinations
+* Compare results to understand parameter sensitivity
+* Use consistent naming to track scenario variations
+
+**Best Practices:**
+
+* Start with default parameters for baseline scenario
+* Make incremental changes to understand parameter effects  
+* Document rationale for parameter choices
+* Share results with stakeholders for feedback
+
+Next Steps
+----------
+
+After your analysis completes successfully, you can proceed to:
+
+1. :doc:`viewing-results` - Learn how to interpret heatmaps and action maps
+2. Analyze trade-offs and synergies in your results
+3. :doc:`downloading-results` - Export maps and data for external use
+4. Create additional scenarios with modified parameters
+
+The following sections will guide you through interpreting and using your ELSA analysis results effectively.

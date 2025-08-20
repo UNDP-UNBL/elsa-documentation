@@ -1,0 +1,387 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Viewing and Interpreting ELSA Results &mdash; ELSA Integrated Spatial Planning Tool - User&#39;s Guide</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../_static/elsa-custom.css" />
+      <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=f2a433a1"></script>
+      <script src="../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="search" type="application/opensearchdescription+xml"
+          title="Search within ELSA Integrated Spatial Planning Tool - User&#39;s Guide"
+          href="../_static/opensearch.xml"/>
+    <link rel="author" title="About these documents" href="../about.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Downloading and Exporting ELSA Results" href="downloading_results.html" />
+    <link rel="prev" title="Running the ELSA Optimization" href="06_running_optimization.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #2980B9" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            ELSA Integrated Spatial Planning Tool
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">ELSA Tool Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01_overview.html">Overview of the ELSA Integrated Spatial Planning Tool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02_tool_purpose.html">What is the ELSA tool for?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03_registration.html">Registering on UNBL and Requesting Access to a Workspace with an ELSA Tool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04_creating_analysis.html">Creating new ELSA analysis runs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05_editing_analysis.html">Editing an ELSA analysis run</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06_running_optimization.html">Running the ELSA Optimization</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Viewing and Interpreting ELSA Results</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#accessing-analysis-results">Accessing Analysis Results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#understanding-heatmaps">Understanding Heatmaps</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#what-are-heatmaps">What Are Heatmaps?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#analyzing-heatmap-patterns">Analyzing Heatmap Patterns</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#viewing-elsa-action-maps">Viewing ELSA Action Maps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#analyzing-feature-representations">Analyzing Feature Representations</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#accessing-representation-data">Accessing Representation Data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#understanding-representation-scores">Understanding Representation Scores</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#evaluating-analysis-quality">Evaluating Analysis Quality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#iterative-improvement-process">Iterative Improvement Process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#analyzing-synergies-and-trade-offs">Analyzing Synergies and Trade-offs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#advanced-visualization-techniques">Advanced Visualization Techniques</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#quality-assurance-checklist">Quality Assurance Checklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#next-steps">Next Steps</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="downloading_results.html">Downloading and Exporting ELSA Results</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../trainings/index.html">Trainings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guidance/index.html">User manual for the Prioritizing Nature webtool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="annexes.html">Annexes: Reference Materials and Data</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #2980B9" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ELSA Integrated Spatial Planning Tool</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Viewing and Interpreting ELSA Results</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/your-organization/elsa-user-guide/blob/main/docs/elsa/viewing_results.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="viewing-and-interpreting-elsa-results">
+<h1>Viewing and Interpreting ELSA Results<a class="headerlink" href="#viewing-and-interpreting-elsa-results" title="Link to this heading"></a></h1>
+<p>After your ELSA analysis completes, you can view and interpret the results through heatmaps, action maps, and detailed analytics. This section guides you through understanding and evaluating your analysis outcomes.</p>
+<section id="accessing-analysis-results">
+<h2>Accessing Analysis Results<a class="headerlink" href="#accessing-analysis-results" title="Link to this heading"></a></h2>
+<p><strong>To view your results:</strong></p>
+<ol class="arabic simple">
+<li><p><strong>Locate your completed analysis</strong> in the ‘ANALYSIS RUNS’ list</p></li>
+<li><p><strong>Click the three vertical dots</strong> next to your analysis entry</p></li>
+<li><p><strong>Select ‘View’</strong> from the dropdown menu</p></li>
+<li><p><strong>Choose visualization type</strong> from the legend dropdown</p></li>
+</ol>
+<figure class="align-center" id="id1">
+<img alt="Accessing analysis results" src="elsa/images/accessing-results.png" />
+<figcaption>
+<p><span class="caption-number">Figure 10 </span><span class="caption-text">Dropdown menu for viewing completed analysis results</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="understanding-heatmaps">
+<h2>Understanding Heatmaps<a class="headerlink" href="#understanding-heatmaps" title="Link to this heading"></a></h2>
+<p><strong>Start with heatmaps</strong> - it’s recommended to view heatmap layers before examining final action maps.</p>
+<section id="what-are-heatmaps">
+<h3>What Are Heatmaps?<a class="headerlink" href="#what-are-heatmaps" title="Link to this heading"></a></h3>
+<p>Heatmaps identify important locations for achieving KMGBF targets by showing the normalized sum of planning features’ values in each planning unit, accounting for user-assigned weights.</p>
+<p><strong>Heatmap Interpretation:</strong></p>
+<ul class="simple">
+<li><p><strong>Color coding</strong>: Green to yellow gradient indicates importance levels</p></li>
+<li><p><strong>Bright yellow</strong>: Most important areas (highest planning feature concentration)</p></li>
+<li><p><strong>Green</strong>: Moderately important areas</p></li>
+<li><p><strong>Grey/No color</strong>: Lower importance areas</p></li>
+</ul>
+<p><strong>Using Heatmaps:</strong></p>
+<ul class="simple">
+<li><p>Identify areas with greatest overall contribution to KMGBF targets</p></li>
+<li><p>Validate patterns against local knowledge and expectations</p></li>
+<li><p>Understand spatial distribution of priority features</p></li>
+<li><p>Guide interpretation of final action maps</p></li>
+</ul>
+<figure class="align-center" id="id2">
+<img alt="Heatmap visualization" src="elsa/images/heatmap-display.png" />
+<figcaption>
+<p><span class="caption-number">Figure 11 </span><span class="caption-text">Example heatmap showing priority areas for KMGBF target achievement</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="analyzing-heatmap-patterns">
+<h3>Analyzing Heatmap Patterns<a class="headerlink" href="#analyzing-heatmap-patterns" title="Link to this heading"></a></h3>
+<p><strong>Validation Approach:</strong></p>
+<ol class="arabic simple">
+<li><p><strong>Compare with expectations</strong>: Do patterns match your understanding of the region?</p></li>
+<li><p><strong>Overlay satellite imagery</strong>: Toggle base maps to understand landscape context</p></li>
+<li><p><strong>Examine individual features</strong>: View specific planning layers that contribute to high-value areas</p></li>
+<li><p><strong>Cross-reference local knowledge</strong>: Validate patterns with ground-truth information</p></li>
+</ol>
+<p><strong>Map Controls:</strong></p>
+<ul class="simple">
+<li><p><strong>Toggle satellite imagery</strong>: Click ‘MAP CONTROLS’ → eye icon to show/hide satellite base</p></li>
+<li><p><strong>Adjust opacity</strong>: Use opacity slider to blend heatmap with satellite imagery</p></li>
+<li><p><strong>Switch base maps</strong>: Choose between satellite, roads, or terrain views</p></li>
+</ul>
+<figure class="align-center" id="id3">
+<img alt="Evaluating heatmaps with satellite overlay" src="elsa/images/heatmap-evaluation.png" />
+<figcaption>
+<p><span class="caption-number">Figure 12 </span><span class="caption-text">Heatmap overlaid on satellite imagery for spatial context</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="viewing-elsa-action-maps">
+<h2>Viewing ELSA Action Maps<a class="headerlink" href="#viewing-elsa-action-maps" title="Link to this heading"></a></h2>
+<p>The ELSA Action map shows the final priority areas for different nature-based actions based on your optimization parameters.</p>
+<p><strong>Action Map Components:</strong></p>
+<ul class="simple">
+<li><p><strong>Protection zones</strong> (typically green): Areas prioritized for biodiversity conservation</p></li>
+<li><p><strong>Restoration zones</strong> (typically yellow): Areas identified for ecological restoration</p></li>
+<li><p><strong>Management zones</strong>: Areas for sustainable use and management</p></li>
+<li><p><strong>Urban greening</strong>: Urban areas for nature-based solutions</p></li>
+</ul>
+<figure class="align-center" id="id4">
+<img alt="ELSA Action map showing protection and restoration areas" src="elsa/images/elsa-action-map.png" />
+<figcaption>
+<p><span class="caption-number">Figure 13 </span><span class="caption-text">ELSA Action map displaying priority areas around Astana, Kazakhstan</span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p><strong>Interpreting Action Maps:</strong></p>
+<ul class="simple">
+<li><p><strong>Spatial distribution</strong>: How are different actions distributed across your landscape?</p></li>
+<li><p><strong>Connectivity</strong>: Are priority areas well-connected or fragmented?</p></li>
+<li><p><strong>Accessibility</strong>: Are priority areas accessible for implementation?</p></li>
+<li><p><strong>Land use compatibility</strong>: Do suggestions align with current land use patterns?</p></li>
+</ul>
+</section>
+<section id="analyzing-feature-representations">
+<h2>Analyzing Feature Representations<a class="headerlink" href="#analyzing-feature-representations" title="Link to this heading"></a></h2>
+<p>Understanding how well each planning feature is represented in your final solution is crucial for evaluating trade-offs and synergies.</p>
+<section id="accessing-representation-data">
+<h3>Accessing Representation Data<a class="headerlink" href="#accessing-representation-data" title="Link to this heading"></a></h3>
+<p><strong>Method 1: Information Box</strong></p>
+<ol class="arabic simple">
+<li><p><strong>Click the ‘i’ icon</strong> in the layer legend of your toggled analysis run</p></li>
+<li><p><strong>View summary table</strong> showing representation scores for each feature</p></li>
+<li><p><strong>Examine area allocations</strong> for each action type</p></li>
+</ol>
+<figure class="align-center" id="id5">
+<img alt="Feature representations information box" src="elsa/images/feature-representations.png" />
+<figcaption>
+<p><span class="caption-number">Figure 14 </span><span class="caption-text">Information box showing feature representation scores and area allocations</span><a class="headerlink" href="#id5" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p><strong>Information Displayed:</strong></p>
+<ul class="simple">
+<li><p><strong>Action Area Allocation</strong>: Total area allocated to each action type</p></li>
+<li><p><strong>Feature Representations Table</strong>:
+* <strong>Weight</strong>: User-assigned importance weight
+* <strong>Overall</strong>: Overall representation score across all actions
+* <strong>Protect/Restore</strong>: Action-specific representation scores</p></li>
+</ul>
+</section>
+<section id="understanding-representation-scores">
+<h3>Understanding Representation Scores<a class="headerlink" href="#understanding-representation-scores" title="Link to this heading"></a></h3>
+<p><strong>Representation Score Calculation:</strong>
+<code class="docutils literal notranslate"><span class="pre">Representation</span> <span class="pre">Score</span> <span class="pre">=</span> <span class="pre">Representation</span> <span class="pre">in</span> <span class="pre">prioritization</span> <span class="pre">map</span> <span class="pre">/</span> <span class="pre">Maximum</span> <span class="pre">representation</span> <span class="pre">in</span> <span class="pre">thematic</span> <span class="pre">maps</span></code></p>
+<p><strong>Score Interpretation:</strong></p>
+<ul class="simple">
+<li><p><strong>0-30%</strong>: Low representation - feature may be under-represented</p></li>
+<li><p><strong>30-70%</strong>: Moderate representation - balanced inclusion</p></li>
+<li><p><strong>70-100%</strong>: High representation - feature is well-captured</p></li>
+</ul>
+<p><strong>Trade-off Analysis:</strong></p>
+<ul class="simple">
+<li><p><strong>High representation</strong> in one theme may mean <strong>lower representation</strong> in others</p></li>
+<li><p><strong>Balanced scores</strong> across themes indicate good synergies</p></li>
+<li><p><strong>Highlighted cells</strong> indicate actions that each feature layer will impact</p></li>
+</ul>
+</section>
+</section>
+<section id="evaluating-analysis-quality">
+<h2>Evaluating Analysis Quality<a class="headerlink" href="#evaluating-analysis-quality" title="Link to this heading"></a></h2>
+<p>Use these criteria to assess whether your analysis meets your objectives:</p>
+<p><strong>Spatial Coherence:</strong>
+* Are priority areas spatially clustered and connected?
+* Do results align with known biodiversity/climate patterns?
+* Are there logical connections between protection and restoration areas?</p>
+<p><strong>Feature Balance:</strong>
+* Are all important features adequately represented?
+* Do any critical features have unexpectedly low representation?
+* Are there acceptable trade-offs between different themes?</p>
+<p><strong>Implementation Feasibility:</strong>
+* Are priority areas accessible and manageable?
+* Do results align with existing conservation initiatives?
+* Are there potential conflicts with current land use?</p>
+<p><strong>Target Achievement:</strong>
+* Does the analysis meet your area-based budget targets?
+* Are KMGBF target contributions balanced appropriately?
+* Do results support your national conservation priorities?</p>
+</section>
+<section id="iterative-improvement-process">
+<h2>Iterative Improvement Process<a class="headerlink" href="#iterative-improvement-process" title="Link to this heading"></a></h2>
+<p>Based on your results evaluation, you may want to adjust parameters and rerun analyses:</p>
+<p><strong>Common Adjustments:</strong></p>
+<p><strong>If feature representation is too low:</strong>
+* Increase weights for under-represented features
+* Adjust area budgets to allow more inclusion
+* Consider relaxing spatial constraints</p>
+<p><strong>If spatial clustering is insufficient:</strong>
+* Increase boundary penalty factor
+* Review lock-in settings
+* Adjust action zone budgets</p>
+<p><strong>If results don’t match expectations:</strong>
+* Review and adjust feature weights
+* Examine individual input layers for data quality
+* Consult with local experts on parameter settings</p>
+<p><strong>Creating New Scenarios:</strong></p>
+<ol class="arabic simple">
+<li><p><strong>Duplicate existing analysis</strong>: Use the ‘Duplicate’ option from the three-dot menu</p></li>
+<li><p><strong>Modify specific parameters</strong>: Make targeted adjustments based on evaluation</p></li>
+<li><p><strong>Use descriptive naming</strong>: Clearly indicate what changes were made</p></li>
+<li><p><strong>Compare results</strong>: Evaluate multiple scenarios side-by-side</p></li>
+</ol>
+</section>
+<section id="analyzing-synergies-and-trade-offs">
+<h2>Analyzing Synergies and Trade-offs<a class="headerlink" href="#analyzing-synergies-and-trade-offs" title="Link to this heading"></a></h2>
+<p>One key outcome of ELSA analysis is identifying synergies between actions for biodiversity, climate change, and sustainable development.</p>
+<p><strong>Trade-off Score Calculation:</strong>
+<code class="docutils literal notranslate"><span class="pre">Trade-off</span> <span class="pre">Score</span> <span class="pre">=</span> <span class="pre">Representation</span> <span class="pre">in</span> <span class="pre">prioritization</span> <span class="pre">map</span> <span class="pre">/</span> <span class="pre">Maximum</span> <span class="pre">representation</span> <span class="pre">in</span> <span class="pre">thematic</span> <span class="pre">maps</span></code></p>
+<p><strong>Interpreting Synergies:</strong>
+* <strong>High representation across multiple themes</strong>: Indicates strong synergies
+* <strong>Concentrated representation in one theme</strong>: May indicate trade-offs
+* <strong>Balanced moderate representation</strong>: Suggests good compromise solutions</p>
+<p><strong>Using Trade-off Analysis:</strong>
+* Identify win-win areas for multiple objectives
+* Understand where compromises are necessary
+* Inform stakeholder discussions about priority setting
+* Guide adaptive management strategies</p>
+</section>
+<section id="advanced-visualization-techniques">
+<h2>Advanced Visualization Techniques<a class="headerlink" href="#advanced-visualization-techniques" title="Link to this heading"></a></h2>
+<p><strong>Combining Multiple Layers:</strong>
+* Toggle between heatmaps and action maps
+* Overlay input layers to understand driver patterns
+* Use satellite imagery for landscape context
+* Compare different analysis scenarios</p>
+<p><strong>Zooming and Navigation:</strong>
+* Use UNBL zoom controls for detailed examination
+* Focus on specific regions of interest
+* Examine boundary transitions between action zones
+* Identify connectivity corridors</p>
+<p><strong>Export for External Analysis:</strong>
+* Screenshot high-resolution images for presentations
+* Note specific coordinates for field verification
+* Document interesting patterns for further investigation</p>
+</section>
+<section id="quality-assurance-checklist">
+<h2>Quality Assurance Checklist<a class="headerlink" href="#quality-assurance-checklist" title="Link to this heading"></a></h2>
+<p>Before finalizing your analysis, verify:</p>
+<p><strong>Technical Validation:</strong>
+* ☐ All target budgets are met within tolerance
+* ☐ Lock-in constraints are properly applied
+* ☐ No obvious spatial anomalies or errors
+* ☐ Processing completed without errors</p>
+<p><strong>Scientific Validation:</strong>
+* ☐ Results align with known ecological patterns
+* ☐ Feature representations are within acceptable ranges
+* ☐ Trade-offs are reasonable and documented
+* ☐ Spatial patterns make biological/ecological sense</p>
+<p><strong>Stakeholder Validation:</strong>
+* ☐ Results support stated policy objectives
+* ☐ Priority areas are feasible for implementation
+* ☐ Local knowledge and expertise are incorporated
+* ☐ Results can be clearly communicated to decision-makers</p>
+</section>
+<section id="next-steps">
+<h2>Next Steps<a class="headerlink" href="#next-steps" title="Link to this heading"></a></h2>
+<p>After thoroughly evaluating your results, you can:</p>
+<ol class="arabic simple">
+<li><p><strong>Document findings</strong>: Record key insights and decisions</p></li>
+<li><p><strong>Share with stakeholders</strong>: Present results for feedback and validation</p></li>
+<li><p><strong>Refine parameters</strong>: Make adjustments based on evaluation</p></li>
+<li><p><strong>Proceed to download</strong>: Export final maps and data using <span class="xref std std-doc">downloading-results</span></p></li>
+<li><p><strong>Plan implementation</strong>: Use results to guide conservation planning and action</p></li>
+</ol>
+<p>The next section will cover how to download and export your analysis results for use in external applications and reporting.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="06_running_optimization.html" class="btn btn-neutral float-left" title="Running the ELSA Optimization" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="downloading_results.html" class="btn btn-neutral float-right" title="Downloading and Exporting ELSA Results" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, UNDP &amp; UNEP-WCMC.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
