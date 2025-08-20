@@ -45,7 +45,7 @@ As seen in :numref:`fig-lockin-options` for Kazakhstan, the existing protected a
 Alternative Zones
 -----------------
 
-.. _fig-alt-lockin-options:
+.. _fig-alt-zone-options:
 
 .. figure:: images/create-analysis.png
    :alt: Alternative zone options (if available)

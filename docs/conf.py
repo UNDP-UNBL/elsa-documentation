@@ -1,95 +1,148 @@
-# ELSA Tool Documentation Configuration
-# This configuration is designed for integration into existing Sphinx documentation
-
-# Only define ELSA-specific settings if this is a standalone build
-# When integrated, the parent conf.py will handle most configuration
+# Configuration file for the Sphinx documentation builder.
+# ELSA Integrated Spatial Planning Tool Documentation
+# https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 import os
 import sys
 
-# Check if this is being built as part of a larger documentation project
-is_standalone = not hasattr(sys.modules.get('__main__', None), '_sphinx_project_name')
+# =============================================================================
+# PROJECT INFORMATION
+# =============================================================================
 
-if is_standalone:
-    # -- Standalone Project Information --
-    project = 'ELSA Integrated Spatial Planning Tool'
-    copyright = '2025, UNDP & UNEP-WCMC'
-    author = 'UN Biodiversity Lab Team'
-    release = '1.0'
-    
-    # -- General configuration for standalone --
-    extensions = [
-        'sphinx.ext.autodoc',
-        'sphinx.ext.viewcode',
-        'sphinx.ext.napoleon',
-        'sphinx.ext.intersphinx',
-        'sphinx_rtd_theme',
-        'sphinx_design',
-        'sphinx_copybutton'
-    ]
-    
-    templates_path = ['_templates']
-    exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-    
-    # -- HTML output options for standalone --
-    html_theme = 'sphinx_rtd_theme'
-    
-    # Theme options
-    html_theme_options = {
-        'logo_only': False,
-        'display_version': True,
-        'prev_next_buttons_location': 'bottom',
-        'style_external_links': False,
-        'style_nav_header_background': '#2980B9',
-        'collapse_navigation': True,
-        'sticky_navigation': True,
-        'navigation_depth': 4,
-        'includehidden': True,
-        'titles_only': False
-    }
+project = 'ELSA Integrated Spatial Planning Tool'
+copyright = '2025, UNDP & UNEP-WCMC'
+author = 'UN Biodiversity Lab Team'
+version = '1.0'
+release = '1.0.1'
 
-# -- ELSA-specific configuration (always applied) --
+# =============================================================================
+# GENERAL CONFIGURATION
+# =============================================================================
 
-# Custom roles and directives for ELSA documentation
-def setup(app):
-    """Custom setup for ELSA documentation."""
-    
-    # Add custom CSS for ELSA content
-    app.add_css_file('elsa-custom.css')
-    
-    # Add custom directives if needed
-    # app.add_directive('elsa-example', ELSAExampleDirective)
-    
-    return {
-        'version': '1.0',
-        'parallel_read_safe': True,
-        'parallel_write_safe': True,
-    }
+# Add any Sphinx extension module names here
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.intersphinx',
+    'sphinx_rtd_theme',
+    'sphinx_design',           # For dropdowns and advanced layouts
+    'sphinx_copybutton',       # Copy button for code blocks
+]
 
-# -- ELSA-specific settings --
+# Add any paths that contain templates here, relative to this directory
+templates_path = ['_templates']
 
-# Figure numbering for ELSA figures
+# List of patterns, relative to source directory, that match files and
+# directories to ignore when looking for source files
+exclude_patterns = [
+    '_build',
+    'Thumbs.db', 
+    '.DS_Store',
+    '**.ipynb_checkpoints',
+    'README.md'
+]
+
+# The master toctree document
+master_doc = 'index'
+
+# Source file suffixes
+source_suffix = {
+    '.rst': None,
+    '.md': 'myst-parser',
+}
+
+# Build information
+today_fmt = '%B %d, %Y'
+
+# =============================================================================
+# INTERNATIONALIZATION
+# =============================================================================
+
+language = 'en'
+locale_dirs = ['locale/']
+gettext_compact = False
+
+# Language-specific settings for multi-language support
+locale_docs = {
+    'es': 'Spanish',
+    'fr': 'French', 
+    'ru': 'Russian',
+    'pt': 'Portuguese'
+}
+
+# =============================================================================
+# HTML OUTPUT OPTIONS
+# =============================================================================
+
+# The theme to use for HTML and HTML Help pages
+html_theme = 'sphinx_rtd_theme'
+
+# Theme options are theme-specific and customize the look and feel
+html_theme_options = {
+    'logo_only': False,
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': False,
+    'style_nav_header_background': '#2980B9',
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False
+}
+
+# Add any paths that contain custom static files (such as style sheets)
+html_static_path = ['_static']
+
+# Custom CSS files
+html_css_files = [
+    'elsa-custom.css',
+]
+
+# Page titles
+html_title = "ELSA Integrated Spatial Planning Tool - User's Guide"
+html_short_title = "ELSA User Guide"
+
+# Logo and favicon (uncomment and customize as needed)
+# html_logo = '_static/unbl_logo.png'
+# html_favicon = '_static/favicon.ico'
+
+# Search configuration
+html_search_language = 'en'
+html_search_options = {'type': 'default'}
+
+# External search integration
+html_use_opensearch = 'https://docs.unbiodiversitylab.org'
+
+# Version control links
+html_context = {
+    "display_github": True,
+    "github_user": "UNDP-UNBL",
+    "github_repo": "elsa-documentation",
+    "github_version": "main",
+    "conf_py_path": "/docs/",
+}
+
+# =============================================================================
+# FIGURE AND TABLE NUMBERING
+# =============================================================================
+
+# Automatically number figures, tables and code-blocks
+numfig = True
 numfig_secnum_depth = 2
 numfig_format = {
     'figure': 'Figure %s',
     'table': 'Table %s',
     'code-block': 'Listing %s',
+    'section': 'Section %s',
 }
 
-# ELSA-specific intersphinx mappings
-elsa_intersphinx_mapping = {
-    'unbl': ('https://www.unbiodiversitylab.org/docs/', None),
-    'prioritizr': ('https://prioritizr.net/', None),
-}
+# =============================================================================
+# LATEX/PDF OUTPUT OPTIONS
+# =============================================================================
 
-# Merge with existing intersphinx mapping if present
-if 'intersphinx_mapping' in globals():
-    intersphinx_mapping.update(elsa_intersphinx_mapping)
-else:
-    intersphinx_mapping = elsa_intersphinx_mapping
-
-# -- LaTeX output options (for PDF generation) --
-elsa_latex_elements = {
+latex_elements = {
     'papersize': 'letterpaper',
     'pointsize': '10pt',
     'preamble': r'''
@@ -99,41 +152,56 @@ elsa_latex_elements = {
     ''',
 }
 
-elsa_latex_documents = [
-    ('elsa/index', 'ELSA-UserGuide.tex', 
+# Grouping the document tree into LaTeX files
+latex_documents = [
+    ('index', 'ELSA-UserGuide.tex', 
      'ELSA Integrated Spatial Planning Tool User\'s Guide',
      'UN Biodiversity Lab Team', 'manual'),
 ]
 
-# Apply LaTeX settings if this is standalone
-if is_standalone:
-    latex_elements = elsa_latex_elements
-    latex_documents = elsa_latex_documents
+# =============================================================================
+# EPUB OUTPUT OPTIONS
+# =============================================================================
 
-# -- Search and accessibility --
+epub_title = project
+epub_author = author
+epub_publisher = 'UN Biodiversity Lab'
+epub_copyright = copyright
 
-# Internationalization
-language = 'en'  # Default language
-html_search_language = 'en'
+# =============================================================================
+# EXTENSION CONFIGURATION
+# =============================================================================
 
-locale_dirs = ['locale/']
-gettext_compact = False
-
-# Language-specific settings
-locale_docs = {
-    'es': 'Spanish',
-    'fr': 'French', 
-    'ru': 'Russian',
-    'pt': 'Portuguese'
+# Intersphinx mapping for cross-documentation links
+intersphinx_mapping = {
+    'python': ('https://docs.python.org/3/', None),
+    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
+    'unbl': ('https://www.unbiodiversitylab.org/docs/', None),
+    'prioritizr': ('https://prioritizr.net/', None),
 }
 
+# Napoleon settings for Google/NumPy style docstrings
+napoleon_google_docstring = True
+napoleon_numpy_docstring = True
+napoleon_include_init_with_doc = False
+napoleon_include_private_with_doc = False
+napoleon_include_special_with_doc = True
+napoleon_use_admonition_for_examples = False
+napoleon_use_admonition_for_notes = False
+napoleon_use_admonition_for_references = False
+napoleon_use_ivar = False
+napoleon_use_param = True
+napoleon_use_rtype = True
 
-# Accessibility improvements
-html_use_opensearch = 'https://docs.unbiodiversitylab.org'
+# Copy button configuration
+copybutton_prompt_text = r">>> |\.\.\. |\$ |In \[\d*\]: | {2,5}\.\.\.: | {5,8}: "
+copybutton_prompt_is_regexp = True
 
-# -- External links and references --
+# =============================================================================
+# COMMON EXTERNAL LINKS
+# =============================================================================
 
-# Common external links used in ELSA documentation
+# Define common links used throughout the documentation
 rst_epilog = """
 .. _UN Biodiversity Lab: https://www.unbiodiversitylab.org
 .. _KMGBF: https://www.cbd.int/conferences/2021-2022/cop-15/documents
@@ -142,63 +210,21 @@ rst_epilog = """
 .. _UNDP: https://www.undp.org/
 """
 
-# -- Version and build information --
-# These can be overridden by the parent configuration
+# =============================================================================
+# CUSTOM SETUP FUNCTION
+# =============================================================================
 
-version = '1.0'
-release = '1.0.0'
-
-# Build information
-today_fmt = '%B %d, %Y'
-
-# -- File patterns --
-exclude_patterns = [
-    '_build',
-    'Thumbs.db', 
-    '.DS_Store',
-    '**.ipynb_checkpoints',
-    'README.md'
-]
-
-# Source file suffixes
-source_suffix = {
-    '.rst': None,
-    '.md': 'myst-parser',
-}
-
-# Master document
-master_doc = 'index'
-
-# -- Custom CSS for integration --
-html_css_files = [
-    'elsa-custom.css',
-]
-
-# -- Conditional configuration based on build context --
-def configure_for_integration():
-    """Apply settings when integrated into larger documentation."""
-    global html_title, html_short_title
+def setup(app):
+    """Custom setup for ELSA documentation."""
     
-    # Use section-specific titles when integrated
-    html_title = "ELSA Tool Documentation"
-    html_short_title = "ELSA Tool"
-
-def configure_for_standalone():
-    """Apply settings when built as standalone documentation."""
-    global html_title, html_short_title, html_logo
+    # Add custom CSS for ELSA content
+    app.add_css_file('elsa-custom.css')
     
-    # Use full project title for standalone
-    html_title = "ELSA Integrated Spatial Planning Tool - User's Guide"
-    html_short_title = "ELSA User Guide"
+    # Add custom directives if needed in the future
+    # app.add_directive('elsa-example', ELSAExampleDirective)
     
-    # Add logo if available
-    # html_logo = '_static/unbl_logo.png'
-
-# Apply appropriate configuration
-if is_standalone:
-    configure_for_standalone()
-else:
-    configure_for_integration()# Configuration file for the Sphinx documentation builder.
-#
-# For the full list of built-in configuration values, see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
+    return {
+        'version': version,
+        'parallel_read_safe': True,
+        'parallel_write_safe': True,
+    }
