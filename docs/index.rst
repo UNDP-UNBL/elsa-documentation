@@ -13,11 +13,11 @@ Bienvenido | Welcome | Добро пожаловать | مرحبًا | Bienvenu
 Summary
 -------
 
-This user's guide aims to provide a clear and concise overview on the use of the UN Biodiversity Lab (UNBL) Essential Life Support Area (ELSA) tool, developed to support countries stakeholders taking part in the SPACES Kazakhstan project to deliver on national nature-based priorities through a UNBL-backed Systematic Conservation Planning (SCP) approach. 
+This user's guide aims to provide a clear and concise overview on the use of the UN Biodiversity Lab (UNBL) Essential Life Support Area (ELSA) Integrated Spatial Planning Tool. This tool has been developed to support countries to use integrated spatial planning to support implementation of the Kunming-Montreal Global Biodiversity Framework through a UNBL-backed Systematic Conservation Planning (SCP) approach. 
 
-* :doc:`Section 1 </elsa/01_overview>` provides an overview of and key supplementary resources on the ELSA mapping process.
-* :doc:`Section 2 </elsa/02_tool_purpose>` outlines the key functionalities and applications of the ELSA tool. 
-* :doc:`Sections 3 </elsa/03_registration>` - 12 provide step-by-step instructions on how to use the ELSA tool on UNBL to view results of a national ELSA spatial prioritization analysis, as well as how to rerun further ELSA spatial prioritization analyses, allowing various parameters to be adjusted according to user’s needs. 
+* :doc:`Chapter 1 </elsa/01_overview>` provides an overview of and key supplementary resources on the ELSA mapping process.
+* :doc:`Chapter 2 </elsa/02_tool_purpose>` outlines the key functionalities and applications of the ELSA tool. 
+* :doc:`Chapters 3 </elsa/03_registration>` - 11 provide step-by-step instructions on how to use the ELSA Tool on UNBL. 
 
 .. toctree::
    :maxdepth: 1
@@ -31,11 +31,12 @@ This user's guide aims to provide a clear and concise overview on the use of the
    elsa/05_editing_analysis
    elsa/06_running_optimization
    elsa/07_viewing_heatmaps
-   elsa/08_analyse_synergies
-   elsa/09_downloading_results
-   elsa/10_support
-   elsa/11_annex1
-   elsa/12_annex2
+   elsa/08_downloading_results
+   elsa/09_analyse_synergies
+   elsa/10_citing_maps
+   elsa/11_support
+   elsa/12_annex1
+   elsa/13_annex2
    trainings/index
    guidance/index
 
