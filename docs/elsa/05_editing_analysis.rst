@@ -74,7 +74,7 @@ You can set any value greater than or equal to 0.001 for protection, restoration
 
 You should also consider that if you want to lock-in existing Protected Areas (the default), the overall protection area constraint must be equal to or greater than the land area covered by existing Protected Areas. For example, the land area covered by existing Protected Areas in Cuba is 17.08%. Therefore, the protect area constraint should be equal to or greater than 17.08%.
 
-.. figure:: images/009.png
+.. figure:: images/image009.png
    :alt: Figure 8. Setting objectives
    :align: center
    

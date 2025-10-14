@@ -60,7 +60,7 @@ today_fmt = '%B %d, %Y'
 # =============================================================================
 
 language = 'en'
-locale_dirs = ['locale/']
+locale_dirs = ['locales/']
 gettext_compact = False
 
 # Language-specific settings for multi-language support
@@ -176,8 +176,6 @@ epub_copyright = copyright
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
-    'unbl': ('https://www.unbiodiversitylab.org/docs/', None),
-    'prioritizr': ('https://prioritizr.net/', None),
 }
 
 # Napoleon settings for Google/NumPy style docstrings
