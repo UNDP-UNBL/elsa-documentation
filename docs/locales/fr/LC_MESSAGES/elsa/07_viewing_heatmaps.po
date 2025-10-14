@@ -1,21 +1,23 @@
 # French translations for ELSA Integrated Spatial Planning Tool package.
 # Copyright (C) 2025, UNDP & UNEP-WCMC
-# This file is distributed under the same license as the ELSA Integrated Spatial Planning Tool package.
+# This file is distributed under the same license as the ELSA Integrated
+# Spatial Planning Tool package.
 # Automatically generated, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ELSA Integrated Spatial Planning Tool 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-14 16:14+1000\n"
+"POT-Creation-Date: 2025-10-14 13:53+0200\n"
 "PO-Revision-Date: 2025-10-14 16:14+1000\n"
 "Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
+"Language-Team: none\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: ../../elsa/07_viewing_heatmaps.rst:2
 msgid "Viewing heatmaps"
@@ -24,53 +26,65 @@ msgstr ""
 #: ../../elsa/07_viewing_heatmaps.rst:4
 msgid ""
 "Upon executing an ELSA analysis, you will be able to view results by "
-"clicking on the vertical three dots next to the analysis entry in the left "
-"tab and clicking on the ‘View’ button. In the drop-down menu of the legend "
-"that appears on the map, you can choose between viewing the final action map "
-"or heatmap layers. We suggest that you view the heatmaps first."
+"clicking on the vertical three dots next to the analysis entry in the "
+"left tab and clicking on the ‘View’ button. In the drop-down menu of the "
+"legend that appears on the map, you can choose between viewing the final "
+"action map or heatmap layers. We suggest that you view the heatmaps "
+"first."
 msgstr ""
 
 #: ../../elsa/07_viewing_heatmaps.rst:6 ../../elsa/07_viewing_heatmaps.rst:10
-msgid "Figure 15. Viewing heatmap layers"
+msgid "Viewing heatmap layers"
 msgstr ""
 
 #: ../../elsa/07_viewing_heatmaps.rst:12
 msgid ""
-"Heatmaps identify important locations for achieving KMGBF Targets 1-12, or "
-"other policy targets specified by your country. They are the normalised sum "
-"of planning features’ values in each planning unit, accounting for the user "
-"weights given to each planning feature. Important areas (where more planning "
-"features occur, adjusted for weighting) are shown in a range of colours from "
-"green to yellow, with those in bright yellow being the most important. "
-"Heatmaps can be used to identify areas where the overall contribution of "
-"planning features to KMGBF Targets 1-12 is greatest."
+"Heatmaps identify important locations for achieving KMGBF Targets 1-12, "
+"or other policy targets specified by your country. They are the "
+"normalised sum of planning features’ values in each planning unit, "
+"accounting for the user weights given to each planning feature. Important"
+" areas (where more planning features occur, adjusted for weighting) are "
+"shown in a range of colours from green to yellow, with those in bright "
+"yellow being the most important. Heatmaps can be used to identify areas "
+"where the overall contribution of planning features to KMGBF Targets 1-12"
+" is greatest."
 msgstr ""
 
 #: ../../elsa/07_viewing_heatmaps.rst:14
 msgid ""
-"By evaluating heatmaps, data experts can view the aggregated user-weighted "
-"planning feature data to determine if the patterns match their expectations "
-"and personal knowledge of the region. To assist in this process, users can "
-"toggle between the heatmaps and underlying satellite imagery/road maps/"
-"planning feature maps, which helps orient the heatmaps on the landscape and "
-"identify which planning features are specifically contributing to areas of "
-"high importance for the KMGBF targets."
+"By evaluating heatmaps, data experts can view the aggregated user-"
+"weighted planning feature data to determine if the patterns match their "
+"expectations and personal knowledge of the region. To assist in this "
+"process, users can toggle between the heatmaps and underlying satellite "
+"imagery/road maps/planning feature maps, which helps orient the heatmaps "
+"on the landscape and identify which planning features are specifically "
+"contributing to areas of high importance for the KMGBF targets."
 msgstr ""
 
 #: ../../elsa/07_viewing_heatmaps.rst:17
 msgid ""
 "To toggle satellite imagery and roads, users should click on the ‘MAP "
-"CONTROLS’ button on the bottom-right of the UNBL data app. Users can then "
-"click on the eye icon in the legend box to hide the heatmap and view "
+"CONTROLS’ button on the bottom-right of the UNBL data app. Users can then"
+" click on the eye icon in the legend box to hide the heatmap and view "
 "satellite imagery, or the opacity button to the left of the eye icon to "
-"reduce the opacity of the heatmap and see underlying satellite imagery and "
-"the heatmap at the same time."
+"reduce the opacity of the heatmap and see underlying satellite imagery "
+"and the heatmap at the same time."
 msgstr ""
 
 #: ../../elsa/07_viewing_heatmaps.rst:19
-msgid "Figure 16. Evaluating heatmaps."
+msgid "Evaluating heatmaps."
 msgstr ""
 
 #: ../../elsa/07_viewing_heatmaps.rst:23
-msgid "Figure 16. Evaluating heatmaps"
+msgid "Evaluating heatmaps"
 msgstr ""
+
+#~ msgid "Figure 15. Viewing heatmap layers"
+#~ msgstr ""
+
+#~ msgid "Figure 16. Evaluating heatmaps."
+#~ msgstr ""
+
+#~ msgid "Figure 16. Evaluating heatmaps"
+#~ msgstr ""
+

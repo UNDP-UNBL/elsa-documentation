@@ -1,0 +1,385 @@
+# Translations template for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-10-14 14:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../elsa/05_editing_analysis.rst:2
+msgid "Editing an ELSA analysis run"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:4
+msgid "Key Concepts"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:7
+msgid ":term:`Action Zones`"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:8
+msgid ":term:`Lock-in Features`"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:9
+msgid ":term:`Area-based constraint`"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:10
+msgid ":term:`Boundary Penalty Factor (BPF)`"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:11
+msgid ":term:`Planning feature`"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:12
+msgid ":term:`Planning units`"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:13
+msgid ":term:`Decision support software`"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:14
+msgid ":term:`Geographic Information System (GIS)`"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:15
+msgid ":term:`Restrictions`"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:16
+msgid ":term:`Representation`"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:17
+msgid ":term:`Systematic Conservation Planning (SCP)`"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:18
+msgid ":term:`User interface`"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:19
+msgid ":term:`Weights`"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:24
+msgid "Naming ELSA analysis run"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:26
+msgid ""
+"Upon clicking ‘NEW ANALYSIS RUN’ (:numref:`fig-new-analysis`), you will "
+"be able to view and edit a tentative analysis. First, you must provide a "
+"new, unique name for your analysis run. While there are no restrictions "
+"on the name given to each run, we suggest that run names should include "
+"meaningful descriptions, ideally referencing the parameters used (e.g., "
+"include information like, BPF 10, or Protect 38%)."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:29
+msgid "Selecting lock-in functions"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:31
+msgid ""
+"You can ensure certain areas are included in your action map. "
+"Conceptually this is most easily understood as locking in existing "
+"planning areas to the protect action in a map – in essence replicating on"
+" the ground realities. This forces these areas to be selected within the "
+"protect action in the map, and these areas are forced to contribute to "
+"meeting the area constraint for protection. The national protected area "
+"coverage (%) is shown in parentheses. Tool configurations are not only "
+"limited to locking in existing protected areas to the protect action (for"
+" example, it might be desirable to lock-in existing restoration project "
+"areas to the restore action); however, by default tool configurations are"
+" currently only configured to allow lock-in of protected areas."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:34
+msgid "Protected Areas are locked-in **BY DEFAULT**"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:36
+msgid "Lock-in of Protected Areas (:numref:`fig-lockin-options`):"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:38
+msgid ""
+"Select ‘Lock-in Existing Protected Areas’ if you want to force the "
+"analysis to include existing Protected Areas within the ‘Protection’ "
+"action in the solution."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:39
+msgid ""
+"Select ‘Lock-in nothing’ if you wish to independently assess the optimal "
+"location of existing and new Protected Areas in your country based on the"
+" ‘Protect’ areas selected in the resulting action map."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:43 ../../elsa/05_editing_analysis.rst:47
+msgid "Lock-in functionalities"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:49
+#, python-format
+msgid ""
+"As seen in :numref:`fig-lockin-options` for Cuba, existing Protected "
+"Areas cover 17.08% of the country. Therefore, the selection of ‘Lock-in "
+"Existing Protected Areas’ requires that at least 17.08% of the national "
+"territory be assigned under the ‘Protect’ area constraint."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:52
+msgid "Alternative Zones"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:54
+msgid ""
+"Users cannot define zones themselves, but for some actions, there may be "
+"both a default zone and an alternative zone that can be selected. For "
+"example, some tools may have an option to consider \"Agricultural areas "
+"only\" for the manage action, or “Forested areas only” for the restore "
+"action, based on the individual needs and priorities of users and "
+"countries."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:58 ../../elsa/05_editing_analysis.rst:62
+msgid "Alternative zones for narrowing down nature-based activity areas"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:66
+msgid "Setting area-based constraints for actions"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:68
+msgid ""
+"This part of the tool allows you to set area-based constraints (targets) "
+"for protection, restoration, management and/or urban greening. Area "
+"constraints can also be understood as the percentage of land area that "
+"should be given to each action in the resulting action map. The default "
+"values in any given ELSA Tool are derived from terrestrial targets in the"
+" KMGBF, unless further customized for your country by the UNBL team based"
+" on your National Biodiversity Strategy and Action Plan (NBSAP) or other "
+"national policy documents."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:70
+#, python-format
+msgid ""
+"You can set any value greater than or equal to 0.001 for protection, "
+"restoration, management, and/or urban greening objectives. The sum of the"
+" value for all objectives may be less than or equal to 100% but should "
+"not exceed 100%. Additionally, the maximum value for any single area "
+"constraint cannot exceed the total area of that action zone. For example,"
+" if 80% of a country is covered by a protect zone, then the maximum value"
+" that can be assigned for the area-based constraint for protection cannot"
+" exceed 80%. If you enter a number that is too high, you will receive an "
+"error specifying the maximum amount that can be allocated."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:73
+msgid ""
+"The location and total area of each action zone defines where it is "
+"possible for each action to take place. It is determined based on "
+"ecosystem type and level of development in a country (e.g., protection "
+"cannot take place in areas with a high human industrial index)."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:75
+msgid ""
+"You should also consider that if you want to lock-in existing Protected "
+"Areas (the default), the overall protection area constraint must be equal"
+" to or greater than the land area covered by existing Protected Areas. "
+"For example, the land area covered by existing Protected Areas in Cuba is"
+" 17.08%. Therefore, the protect area constraint should be equal to or "
+"greater than 17.08%."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:77 ../../elsa/05_editing_analysis.rst:81
+msgid "Setting objectives"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:84
+msgid "Specifying the boundary penalty factor"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:86
+msgid ""
+"The boundary penalty factor is used to promote spatial cohesion when "
+"prioritizing land use zones. The boundary penalty can be 0 or higher. The"
+" higher the value, the more connected and contiguous the action zones "
+"will be on the map. This adjustment is based on the idea that, for real-"
+"world planning, a more connected zone is usually easier to manage and "
+"execute actions."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:88 ../../elsa/05_editing_analysis.rst:143
+msgid "Steps:"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:90
+msgid "To set the limit penalty, start with a small number, e.g. 10."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:91
+msgid ""
+"Increase the number iteratively, i.e., rerun the analysis repeatedly, by "
+"an order of magnitude (e.g., 10 -> 100-> 1000), reducing the rate of "
+"increase as you approach solutions that lead to your desired level of "
+"clustering. Each time you change the penalty, you will have to rerun the "
+"optimization until you arrive at a map that is sufficiently contiguous to"
+" meet your needs."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:94
+msgid ""
+"Increasing the boundary penalty factor from 0 will result in longer solve"
+" times; in some cases these can be much longer."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:97 ../../elsa/05_editing_analysis.rst:101
+msgid "Adjustment of the boundary penalty factor"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:104
+msgid "Editing the weights of planning features"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:106
+msgid ""
+"To edit planning feature weights, click on the ‘SET FEATURE WEIGHTS’ "
+"button near the top-right corner of the analysis run pop-up window."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:108
+msgid ""
+"You should enter a weight for each planning feature in the input data "
+"list. We recommend a scale of 0 to 10 as follows, based on the priority "
+"level of each planning feature and your confidence in the accuracy of the"
+" dataset for your country:"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:110
+msgid "0 - not important / excluded from the analysis"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:111
+msgid "1.0 - low importance / lower importance than average"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:112
+msgid "5.0 - medium importance"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:113
+msgid "10 - utmost importance"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:115
+msgid ""
+"To allow users to make the most informed decision possible, the theme "
+"(biodiversity/climate change/human well-being), relevant actions, and "
+"proxy KMGBF policy target (or other relevant NBSAP/national policy "
+"target) are listed for each planning feature. You can evaluate the "
+"priority level of each planning feature and assign an informed weight by "
+"deciding on the relative importance of each of the planning features used"
+" to map KMGBF targets (or other relevant NBSAP/national policy targets "
+"otherwise defined by their country) in your country. For example, if "
+"KMGBF Target 1 is of especially high importance for your country, then "
+"planning features such as intact ecosystems, high integrity forests, "
+"biodiversity habitat index and biodiversity intactness index should be "
+"given greater weight (> 3). Alternatively, if you believe threatened "
+"ecosystems in your country are particularly degraded and should be "
+"considered for identifying priority areas for restoration for KMGBF "
+"Target 2, then you can give a higher weight to the ‘Threatened Ecosystems"
+" for Restoration’ planning feature which specifically maps these areas "
+"(:numref:`fig-edit-weights`)."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:117
+msgid ""
+"For a full list of input data, as well as which KMGBF targets they are "
+"used to map, please see :ref:`Annex 2 <annex-2>`."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:121
+#: ../../elsa/05_editing_analysis.rst:125
+msgid "Editing weights"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:129
+msgid "View input layers"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:131
+msgid ""
+"If you want to view planning features before setting weights, you will "
+"have to exit the pop-up window by clicking ‘SAVE FOR LATER’ in the "
+"bottom-right corner. You can then come back to your saved draft analysis "
+"run after viewing the desired planning features."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:133
+msgid ""
+"To view planning features, click on the ‘INPUT LAYERS’ option next to the"
+" ‘ANALYSIS RUNS’ option in the left tool tab. You can then toggle "
+"specific input layers to view them on UNBL."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:135
+#: ../../elsa/05_editing_analysis.rst:139
+msgid "Viewing action zones and planning features on UNBL"
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:141
+msgid ""
+"By clicking on the ‘INPUT LAYERS’ tab, you can view each individual input"
+" planning feature layer included in the ELSA analysis; these inputs are "
+"specifically tailored to help identify priority areas for KMGBF "
+"implementation, as well as NBSAP/other national policy implementation, if"
+" specifically requested by your country. You can additionally view "
+"(optional) lock-in features (namely, existing protected areas) in your "
+"country. Finally, you can view the layer for each action zone that "
+"defines where it is possible for each action to take place in your "
+"country for the analysis."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:145
+msgid ""
+"Click the toggle button for each action zone/lock-in zone/input planning "
+"feature layer you want to display."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:146
+msgid "Click the toggle button again to remove the selected layer from the view."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:147
+msgid ""
+"You have the option to view additional information (description of the "
+"layer, original input layers, source) for currently toggled layers by "
+"clicking on the round ‘**i**’ icon either in the individual layer’s "
+"legend or next to the toggle button for each layer."
+msgstr ""
+
+#: ../../elsa/05_editing_analysis.rst:150
+#: ../../elsa/05_editing_analysis.rst:154
+msgid "Figure 12. Viewing metadata"
+msgstr ""
+

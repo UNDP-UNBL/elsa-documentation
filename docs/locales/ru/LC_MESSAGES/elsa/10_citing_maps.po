@@ -1,22 +1,24 @@
 # Russian translations for ELSA Integrated Spatial Planning Tool package.
 # Copyright (C) 2025, UNDP & UNEP-WCMC
-# This file is distributed under the same license as the ELSA Integrated Spatial Planning Tool package.
+# This file is distributed under the same license as the ELSA Integrated
+# Spatial Planning Tool package.
 # Automatically generated, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ELSA Integrated Spatial Planning Tool 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-14 16:36+1000\n"
+"POT-Creation-Date: 2025-10-14 14:13+0200\n"
 "PO-Revision-Date: 2025-10-14 16:36+1000\n"
 "Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ru\n"
+"Language-Team: none\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: ../../elsa/10_citing_maps.rst:2
 msgid "Citing maps"
@@ -24,6 +26,22 @@ msgstr ""
 
 #: ../../elsa/10_citing_maps.rst:4
 msgid ""
-"If you wish to use final maps derived from the tool in a formal report or "
-"publication, please use the following citation::"
+"If you wish to use final maps derived from the tool in a formal report or"
+" publication, please use the following citation:"
 msgstr ""
+
+#: ../../elsa/10_citing_maps.rst:6
+msgid ""
+"UNDP & UNEP-WCMC 2025. *Integrated Spatial Planning for the KMGBF.* Map "
+"created using spatial data and the UN Biodiversity Lab Essential Life "
+"Support Area Tool (https://map.unbiodiversitylab.org/earth), on [insert "
+"date with Day Month Year]."
+msgstr ""
+
+#~ msgid ""
+#~ "If you wish to use final maps "
+#~ "derived from the tool in a formal"
+#~ " report or publication, please use "
+#~ "the following citation::"
+#~ msgstr ""
+

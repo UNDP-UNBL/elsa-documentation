@@ -1,21 +1,23 @@
 # French translations for ELSA Integrated Spatial Planning Tool package.
 # Copyright (C) 2025, UNDP & UNEP-WCMC
-# This file is distributed under the same license as the ELSA Integrated Spatial Planning Tool package.
+# This file is distributed under the same license as the ELSA Integrated
+# Spatial Planning Tool package.
 # Automatically generated, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ELSA Integrated Spatial Planning Tool 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-14 16:14+1000\n"
+"POT-Creation-Date: 2025-10-14 13:53+0200\n"
 "PO-Revision-Date: 2025-10-14 16:14+1000\n"
 "Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
+"Language-Team: none\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: ../../elsa/08_downloading_results.rst:2
 msgid "Viewing and downloading ELSA Action maps"
@@ -23,31 +25,42 @@ msgstr ""
 
 #: ../../elsa/08_downloading_results.rst:4
 msgid ""
-"After running an ELSA analysis, you can view the final action map associated "
-"with that version of the analysis by toggling the analysis run in the left "
-"tab. The resulting ‘ELSA Action’ layer that shows up on the map by default "
-"is the final action map which shows priority areas for protection, "
-"restoration, management and/or urban greening actions in your country that "
-"can best contribute to outcomes for KMGBF Targets 1-12. Similar to the "
-"heatmaps, users can zoom in to specific areas using the UNBL interface and "
-"toggle satellite imagery as well as other layers available in the workspace/"
-"UNBL public platform to evaluate the final results."
+"After running an ELSA analysis, you can view the final action map "
+"associated with that version of the analysis by toggling the analysis run"
+" in the left tab. The resulting ‘ELSA Action’ layer that shows up on the "
+"map by default is the final action map which shows priority areas for "
+"protection, restoration, management and/or urban greening actions in your"
+" country that can best contribute to outcomes for KMGBF Targets 1-12. "
+"Similar to the heatmaps, users can zoom in to specific areas using the "
+"UNBL interface and toggle satellite imagery as well as other layers "
+"available in the workspace/UNBL public platform to evaluate the final "
+"results."
 msgstr ""
 
 #: ../../elsa/08_downloading_results.rst:6
 #: ../../elsa/08_downloading_results.rst:10
 msgid ""
-"Figure 17. Action map showing priority areas for protection and restoration "
-"around Havana"
+"Action map showing priority areas for protection and restoration around "
+"Havana"
 msgstr ""
 
 #: ../../elsa/08_downloading_results.rst:12
 msgid ""
-"Users can also download resulting action maps and heatmaps in raster format "
-"for external use in desktop GIS software."
+"Users can also download resulting action maps and heatmaps in raster "
+"format for external use in desktop GIS software."
 msgstr ""
 
 #: ../../elsa/08_downloading_results.rst:14
 #: ../../elsa/08_downloading_results.rst:18
-msgid "Figure 18. Download resulting analysis maps."
+msgid "Download resulting analysis maps."
 msgstr ""
+
+#~ msgid ""
+#~ "Figure 17. Action map showing priority"
+#~ " areas for protection and restoration "
+#~ "around Havana"
+#~ msgstr ""
+
+#~ msgid "Figure 18. Download resulting analysis maps."
+#~ msgstr ""
+
