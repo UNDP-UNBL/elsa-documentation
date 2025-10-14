@@ -6,22 +6,22 @@ To register on UNBL and request access to a workspace and ELSA Tool, please unde
 1. Click the ‘Launch map’ button on the UN Biodiversity Lab website to access the data app.
 
 .. figure:: images/image002.png
-   :alt: Figure 2. UNBL home page
+   :alt: UNBL home page
    :align: center
 
-   Figure 2. UNBL home page
+   UNBL home page
 
 2. Once this has loaded, select the account icon in the top right-hand corner and choose ‘sign up’. Enter your email, name, country, and institution (optional), and set your password to sign up. 
 
 .. figure:: images/image003.png
-   :alt: Figure 3. Sign up window 
+   :alt: Sign up window 
    :align: center
    
 .. figure:: images/image004.png
-   :alt: Figure 3. Sign up window 
+   :alt: Sign up window 
    :align: center
    
-   Figure 3. Sign up window 
+   Sign up window 
 
 3. You will receive an email within a few minutes. Follow the instructions in this email to then follow the email to verify your account.  
 4. Once your account is verified, you can log-in using your email address and password each time you access the platform. 
@@ -30,7 +30,7 @@ To register on UNBL and request access to a workspace and ELSA Tool, please unde
 7. If you have one or more tool configurations in a single workspace, or have access to multiple workspaces with tool configurations, then a list of the available tool configurations will appear in the tab after you click on ‘ANALYSES’. Click on the downward arrow of the tool configuration you wish to use to select that tool configuration. If you only have access to one tool configuration or only have one workspace with one tool configuration toggled, then that tool configuration will automatically be selected. 
 
 .. figure:: images/image005.png
-   :alt: Figure 4. Accessing the ELSA Tool configuration for Moore – Ghana 
+   :alt: Accessing the ELSA Tool configuration for Moore – Ghana 
    :align: center
    
-   Figure 4. Accessing the ELSA Tool configuration for Moore – Ghana 
+   Accessing the ELSA Tool configuration for Moore – Ghana 

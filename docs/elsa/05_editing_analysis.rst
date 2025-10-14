@@ -23,7 +23,7 @@ Editing an ELSA analysis run
 Naming ELSA analysis run 
 ------------------------
 
-Upon clicking ‘NEW ANALYSIS RUN’ (Figure 5), you will be able to view and edit a tentative analysis. First, you must provide a new, unique name for your analysis run. While there are no restrictions on the name given to each run, we suggest that run names should include meaningful descriptions, ideally referencing the parameters used (e.g., include information like, BPF 10, or Protect 38%). 
+Upon clicking ‘NEW ANALYSIS RUN’ (:numref:`fig-new-analysis`), you will be able to view and edit a tentative analysis. First, you must provide a new, unique name for your analysis run. While there are no restrictions on the name given to each run, we suggest that run names should include meaningful descriptions, ideally referencing the parameters used (e.g., include information like, BPF 10, or Protect 38%). 
 
 Selecting lock-in functions
 ---------------------------
@@ -41,10 +41,10 @@ Lock-in of Protected Areas (:numref:`fig-lockin-options`):
 .. _fig-lockin-options:
 
 .. figure:: images/image007.png
-   :alt: Figure 6. Lock-in functionalities
+   :alt: Lock-in functionalities
    :align: center
    
-   Figure 6. Lock-in functionalities
+   Lock-in functionalities
 
 As seen in :numref:`fig-lockin-options` for Cuba, existing Protected Areas cover 17.08% of the country. Therefore, the selection of ‘Lock-in Existing Protected Areas’ requires that at least 17.08% of the national territory be assigned under the ‘Protect’ area constraint. 
 
@@ -56,10 +56,10 @@ Users cannot define zones themselves, but for some actions, there may be both a 
 .. _fig-alt-zone-options:
 
 .. figure:: images/image008.png
-   :alt: Figure 7. Alternative zones for narrowing down nature-based activity areas 
+   :alt: Alternative zones for narrowing down nature-based activity areas 
    :align: center
    
-   Figure 7. Alternative zones for narrowing down nature-based activity areas 
+   Alternative zones for narrowing down nature-based activity areas 
 
 
 Setting area-based constraints for actions  
@@ -70,15 +70,15 @@ This part of the tool allows you to set area-based constraints (targets) for pro
 You can set any value greater than or equal to 0.001 for protection, restoration, management, and/or urban greening objectives. The sum of the value for all objectives may be less than or equal to 100% but should not exceed 100%. Additionally, the maximum value for any single area constraint cannot exceed the total area of that action zone. For example, if 80% of a country is covered by a protect zone, then the maximum value that can be assigned for the area-based constraint for protection cannot exceed 80%. If you enter a number that is too high, you will receive an error specifying the maximum amount that can be allocated.  
 
 .. note::
-   Note: The location and total area of each action zone defines where it is possible for each action to take place. It is determined based on ecosystem type and level of development in a country (e.g., protection cannot take place in areas with a high human industrial index).  
+   The location and total area of each action zone defines where it is possible for each action to take place. It is determined based on ecosystem type and level of development in a country (e.g., protection cannot take place in areas with a high human industrial index).  
 
 You should also consider that if you want to lock-in existing Protected Areas (the default), the overall protection area constraint must be equal to or greater than the land area covered by existing Protected Areas. For example, the land area covered by existing Protected Areas in Cuba is 17.08%. Therefore, the protect area constraint should be equal to or greater than 17.08%.
 
 .. figure:: images/image009.png
-   :alt: Figure 8. Setting objectives
+   :alt: Setting objectives
    :align: center
    
-   Figure 8. Setting objectives
+   Setting objectives
 
 Specifying the boundary penalty factor 
 --------------------------------------
@@ -91,14 +91,14 @@ Steps:
 2. Increase the number iteratively, i.e., rerun the analysis repeatedly, by an order of magnitude (e.g., 10 -> 100-> 1000), reducing the rate of increase as you approach solutions that lead to your desired level of clustering. Each time you change the penalty, you will have to rerun the optimization until you arrive at a map that is sufficiently contiguous to meet your needs. 
 
 .. note:: 
-   Note: Increasing the boundary penalty factor from 0 will result in longer solve times; in some cases these can be much longer. 
+   Increasing the boundary penalty factor from 0 will result in longer solve times; in some cases these can be much longer. 
 
 
 .. figure:: images/image010.png
-   :alt: Figure 9. Adjustment of the boundary penalty factor 
+   :alt: Adjustment of the boundary penalty factor 
    :align: center
    
-   Figure 9. Adjustment of the boundary penalty factor 
+   Adjustment of the boundary penalty factor 
 
 Editing the weights of planning features 
 ----------------------------------------
@@ -119,10 +119,10 @@ For a full list of input data, as well as which KMGBF targets they are used to m
 .. _fig-edit-weights:
 
 .. figure:: images/image011.png
-   :alt: Figure 10. Editing weights
+   :alt: Editing weights
    :align: center
    
-   Figure 10. Editing weights
+   Editing weights
 
 
 View input layers  
@@ -133,10 +133,10 @@ If you want to view planning features before setting weights, you will have to e
 To view planning features, click on the ‘INPUT LAYERS’ option next to the ‘ANALYSIS RUNS’ option in the left tool tab. You can then toggle specific input layers to view them on UNBL. 
 
 .. figure:: images/image012.png
-   :alt: Figure 11. Viewing action zones and planning features on UNBL
+   :alt: Viewing action zones and planning features on UNBL
    :align: center
    
-   Figure 11. Viewing action zones and planning features on UNBL
+   Viewing action zones and planning features on UNBL
 
 By clicking on the ‘INPUT LAYERS’ tab, you can view each individual input planning feature layer included in the ELSA analysis; these inputs are specifically tailored to help identify priority areas for KMGBF implementation, as well as NBSAP/other national policy implementation, if specifically requested by your country. You can additionally view (optional) lock-in features (namely, existing protected areas) in your country. Finally, you can view the layer for each action zone that defines where it is possible for each action to take place in your country for the analysis.
 
