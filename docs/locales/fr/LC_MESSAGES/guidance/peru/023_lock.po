@@ -1,0 +1,45 @@
+#: ../../guidance/peru/023_lock.rst:2
+msgid "2.3 Lock-in functions"
+msgstr ""
+
+#: ../../guidance/peru/023_lock.rst:4
+msgid ""
+"Lock-in functionalities are applied to potential OECMs and degraded areas "
+"within Protected Areas for restoration.  Lock-in these areas ensures their "
+"inclusion in the ELSA areas to identify priority areas to support the "
+"implementation of the ENDB during optimization."
+msgstr ""
+
+#: ../../guidance/peru/023_lock.rst:6
+msgid "Lock-in of OECM potentials:"
+msgstr ""
+
+#: ../../guidance/peru/023_lock.rst:8
+msgid ""
+"Select \"Potential OECM lock-in\" if you want to force the analysis to "
+"include potential OECM areas within the \"protection\" action. In addition "
+"to showing the areas of potential OECMs, the resulting map will also show "
+"where new OECMs should be placed."
+msgstr ""
+
+#: ../../guidance/peru/023_lock.rst:9
+msgid ""
+"Select \"Nothing is locked\" if you wish to independently assess the optimal "
+"location of OECMs in your country based on the ELSA analysis to identify "
+"priority areas to support the implementation of the ENDB ."
+msgstr ""
+
+#: ../../guidance/peru/023_lock.rst:12 ../../guidance/peru/023_lock.rst:16
+msgid "Figure 3. Lock-in functions"
+msgstr ""
+
+#: ../../guidance/peru/023_lock.rst:19
+msgid "**Currently for Peru, potential OECMs cover 17.37% of the country.**"
+msgstr ""
+
+#: ../../guidance/peru/023_lock.rst:21
+msgid ""
+"Therefore, the selection of \"Potential OECM Lock-in\" requires that at "
+"least 17.37% of the national territory be assigned under the \"Protection "
+"Objective\"."
+msgstr ""

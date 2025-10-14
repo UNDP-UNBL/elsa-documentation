@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, UNDP & UNEP-WCMC
+# This file is distributed under the same license as the ELSA Integrated
+# Spatial Planning Tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Integrated Spatial Planning Tool 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-14 15:55+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: pt <LL@li.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../guidance/ecuador/0210_tradeoff.rst:2
+msgid "2.10 Analyzing synergies and trade-offs"
+msgstr ""
+
+#: ../../guidance/ecuador/0210_tradeoff.rst:4
+msgid ""
+"The objective of the *Prioritizing Nature* analysis is to identify synergies "
+"between actions for biodiversity, climate change and sustainable "
+"development. The analysis measures the outcome of each planning feature with "
+"a representation score to show where planning for the three themes "
+"(biodiversity, climate change and human well-being) creates trade-offs."
+msgstr ""
+
+#: ../../guidance/ecuador/0210_tradeoff.rst:6
+msgid ""
+"Where: Trade-off score = Representation in prioritization map / Maximum "
+"representation in thematic maps."
+msgstr ""
+
+#: ../../guidance/ecuador/0210_tradeoff.rst:9
+msgid ""
+"After running an iteration of the analysis, you can view the results and "
+"evaluate whether the parameters you selected led to an acceptable "
+"representation for each of the planning features."
+msgstr ""
+
+#: ../../guidance/ecuador/0210_tradeoff.rst:11
+msgid ""
+"Steps 1.      Go to the \"Results + Download\" tab, scroll down to the "
+"download section of results and model parameters (summary table), there "
+"click on \"Download Summary (Excel)\". This will download an Excel file with "
+"the results. 2.      Review the results."
+msgstr ""
+
+#: ../../guidance/ecuador/0210_tradeoff.rst:15
+msgid "Column 1 indicates the name of the planning feature."
+msgstr ""
+
+#: ../../guidance/ecuador/0210_tradeoff.rst:16
+msgid ""
+"Columns 2-5 indicate the representation of the planning features in the "
+"three separate planning topic scenarios and in the combined action item "
+"scenario, for example:"
+msgstr ""
+
+#: ../../guidance/ecuador/0210_tradeoff.rst:18
+msgid "Column 2 of combined topics, which includes all planning features;"
+msgstr ""
+
+#: ../../guidance/ecuador/0210_tradeoff.rst:19
+msgid ""
+"Biodiversity column 3, which includes only biodiversity planning features;"
+msgstr ""
+
+#: ../../guidance/ecuador/0210_tradeoff.rst:20
+msgid ""
+"Climate change column 4, which includes only climate change planning "
+"features;"
+msgstr ""
+
+#: ../../guidance/ecuador/0210_tradeoff.rst:21
+msgid ""
+"Human wellbeing column 5, which includes only the human welfare planning "
+"features."
+msgstr ""
+
+#: ../../guidance/ecuador/0210_tradeoff.rst:23
+msgid ""
+"Column 6 shows the representation of the trade-off in percentage of the "
+"prioritization scenario (in percent) compared to the largest representation "
+"among the independent planning scenarios."
+msgstr ""
+
+#: ../../guidance/ecuador/0210_tradeoff.rst:26
+msgid ""
+"In the analysis of prioritizing nature, we normally use a threshold of 80% "
+"to define whether the trade-off is acceptable or not, for layers that have "
+"values lower than 80%, the user can optionally go back to the webtool and "
+"increase the weight of the corresponding planning features to low values, in "
+"order to increase their representation in the prioritization map."
+msgstr ""
+
+#: ../../guidance/ecuador/0210_tradeoff.rst:28
+#: ../../guidance/ecuador/0210_tradeoff.rst:32
+msgid "Figure 11. Download summary table"
+msgstr ""

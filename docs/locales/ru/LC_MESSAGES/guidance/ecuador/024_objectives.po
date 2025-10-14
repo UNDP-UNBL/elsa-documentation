@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, UNDP & UNEP-WCMC
+# This file is distributed under the same license as the ELSA Integrated
+# Spatial Planning Tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Integrated Spatial Planning Tool 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-14 15:55+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ru <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../guidance/ecuador/024_objectives.rst:2
+msgid "2.4 Objectives"
+msgstr ""
+
+#: ../../guidance/ecuador/024_objectives.rst:4
+msgid ""
+"This part of the spatial prioritization webtool to identify priority areas "
+"to support the implementation of the GBF allows you to set area-based "
+"targets for protection, restoration, and management. Targets can also be "
+"understood as the percentage of land area that can be allocated to each "
+"action within the country. The default values in the Prioritizing Nature "
+"webtool are derived from the targets in the GBF in Ecuador (see Table 1)."
+msgstr ""
+
+#: ../../guidance/ecuador/024_objectives.rst:6
+msgid "**Steps**"
+msgstr ""
+
+#: ../../guidance/ecuador/024_objectives.rst:8
+msgid ""
+"Set any value greater than or equal to 0.001 for protection, restoration and "
+"management objectives. The sum of the value for all objectives may be less "
+"than or equal to 100%, but should not exceed 100%."
+msgstr ""
+
+#: ../../guidance/ecuador/024_objectives.rst:11
+msgid ""
+"Currently, about 63.07% of Ecuador has potential OECM coverage. Therefore, "
+"if you select \"block-in potential OECM\", the protection target here should "
+"be at least 63.07%."
+msgstr ""
+
+#: ../../guidance/ecuador/024_objectives.rst:13
+#: ../../guidance/ecuador/024_objectives.rst:17
+msgid "Figure 4. Setting objectives"
+msgstr ""
+
+#: ../../guidance/ecuador/024_objectives.rst:19
+msgid ""
+"The lock-in restrictions used in Ecuador to spatially define where each of "
+"these actions can occur are summarized in the below table."
+msgstr ""
+
+#: ../../guidance/ecuador/024_objectives.rst:21
+#: ../../guidance/ecuador/024_objectives.rst:25
+msgid ""
+"Table 1. Area-based actions and objectives used in the spatial "
+"prioritization analysis to support GBF goals."
+msgstr ""

@@ -1,0 +1,88 @@
+# Russian translations for ELSA Integrated Spatial Planning Tool package.
+# Copyright (C) 2025, UNDP & UNEP-WCMC
+# This file is distributed under the same license as the ELSA Integrated Spatial Planning Tool package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Integrated Spatial Planning Tool 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-14 16:14+1000\n"
+"PO-Revision-Date: 2025-10-14 16:14+1000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../../elsa/06_running_optimization.rst:2
+msgid "Running the optimization"
+msgstr ""
+
+#: ../../elsa/06_running_optimization.rst:4
+msgid ""
+"To create an ELSA action map showing priority areas for the implementation "
+"of KMGBF Targets 1-12, the optimization executed by the tool follows three "
+"hard-coded rules:"
+msgstr ""
+
+#: ../../elsa/06_running_optimization.rst:6
+msgid "It should not exceed selected area-based constraints;"
+msgstr ""
+
+#: ../../elsa/06_running_optimization.rst:7
+msgid "It must include selected lock-in areas; and"
+msgstr ""
+
+#: ../../elsa/06_running_optimization.rst:8
+msgid ""
+"It should include areas that best represent planning features based on their "
+"spatial distribution and weighting."
+msgstr ""
+
+#: ../../elsa/06_running_optimization.rst:10
+msgid ""
+"Once you have named your analysis run, set area-based constraints, lock-in "
+"functionalities, a boundary penalty factor, and edited planning feature "
+"weights, the analysis run is ready to be executed. This can be done by "
+"clicking on the blue ‘RUN ANALYSIS’ button in the bottom-right corner of the "
+"analysis run pop-up window. Note that this button will only become available "
+"to click and execute once all relevant parameters have been filled in."
+msgstr ""
+
+#: ../../elsa/06_running_optimization.rst:12
+#: ../../elsa/06_running_optimization.rst:16
+msgid "Figure 13. Run analysis"
+msgstr ""
+
+#: ../../elsa/06_running_optimization.rst:18
+msgid ""
+"The analysis may take between one and five minutes to run. However, if the "
+"country is large, there are many planning features being used, or a high "
+"boundary penalty factor is applied, it may take much longer. You will see a "
+"progress bar documenting the status of the analysis. We advise against "
+"running a second ELSA analysis while before the first analysis has "
+"completed. Once the progress bar has reached 100% and the analysis has been "
+"executed, you can view the result of your analysis as the most recent entry "
+"in the left tab under ‘ANALYSIS RUNS’."
+msgstr ""
+
+#: ../../elsa/06_running_optimization.rst:22
+msgid "Next Steps"
+msgstr ""
+
+#: ../../elsa/06_running_optimization.rst:24
+msgid ""
+"The following chapters detail how you can view, evaluate, and analyse the "
+"results of your ELSA analysis. If you wish to change the parameters of your "
+"analysis and execute a new run after evaluating the results, you can "
+"duplicate a previous run, edit it, and create a new version."
+msgstr ""
+
+#: ../../elsa/06_running_optimization.rst:26
+#: ../../elsa/06_running_optimization.rst:30
+msgid "Figure 14. ELSA analysis run in real-time"
+msgstr ""

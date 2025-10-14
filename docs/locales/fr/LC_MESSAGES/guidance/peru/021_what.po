@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, UNDP & UNEP-WCMC
+# This file is distributed under the same license as the ELSA Integrated
+# Spatial Planning Tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Integrated Spatial Planning Tool 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-14 15:55+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: fr <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../guidance/peru/021_what.rst:2
+msgid "2.1 What is the Prioritizing Nature webtool for?"
+msgstr ""
+
+#: ../../guidance/peru/021_what.rst:4
+msgid ""
+"The Prioritizing Nature webtool is an interactive webtool created with *R-"
+"shiny* and connected to *prioritzr* in the backend. This tool can be used by "
+"interested Parties without the need for coding or modeling knowledge, with "
+"the same it achieves the automation of steps 5, 6 and 7 of the ELSA mapping "
+"process presented in Figure 1."
+msgstr ""
+
+#: ../../guidance/peru/021_what.rst:6 ../../guidance/peru/021_what.rst:31
+msgid "Workflow for the ELSA mapping in the Prioritizing Nature project."
+msgstr ""
+
+#: ../../guidance/peru/021_what.rst:10
+msgid ""
+"Figure 1. Workflow for the ELSA mapping in the Prioritizing Nature project."
+msgstr ""
+
+#: ../../guidance/peru/021_what.rst:16
+msgid "The Prioritizing Nature webtool applications"
+msgstr ""
+
+#: ../../guidance/peru/021_what.rst:18
+msgid "Display the input layers or planning element;"
+msgstr ""
+
+#: ../../guidance/peru/021_what.rst:19
+msgid "View and download the resulting maps;"
+msgstr ""
+
+#: ../../guidance/peru/021_what.rst:20
+msgid "Create ELSA action maps;"
+msgstr ""
+
+#: ../../guidance/peru/021_what.rst:21
+msgid ""
+"Download the result maps in raster format, which can be used for further "
+"analysis according to the needs of the interested parties in software from "
+"Geographic Information Systems (GIS)."
+msgstr ""
+
+#: ../../guidance/peru/021_what.rst:22
+msgid ""
+"Download results and parameters of the model applied in the analysis as a "
+"summary table, which are downloaded in .xlsx and .csv formats, which can be "
+"used in Excel or other tools."
+msgstr ""
+
+#: ../../guidance/peru/021_what.rst:23
+msgid ""
+"Create different ELSA action, by modifying the parameters related to the "
+"percentage (%) of the national territory allocated to protection, "
+"restoration and management target actions. These configurations can be "
+"adapted to the country's political objectives in terms of conservation, "
+"restoration, protection, among others."
+msgstr ""
+
+#: ../../guidance/peru/021_what.rst:24
+msgid ""
+"Edit the penalty limit factor parameter according to the analysis needs;"
+msgstr ""
+
+#: ../../guidance/peru/021_what.rst:25
+msgid "Edit the weights of each of the input layers or planning elements;"
+msgstr ""
+
+#: ../../guidance/peru/021_what.rst:26
+msgid "Create prioritization maps with a new stakeholder group;"
+msgstr ""
+
+#: ../../guidance/peru/021_what.rst:27
+msgid "Re-run ELSA analysis with updated input layers."
+msgstr ""
+
+#: ../../guidance/peru/021_what.rst:29
+msgid ""
+"The web-based tool executes optimizations quickly (typically within 5-10 "
+"minutes). It can therefore be used to generate and refine conservation plans "
+"in real time during stakeholder meetings, and contribute to a more "
+"transparent, inclusive and participatory decision-making process."
+msgstr ""
+
+#: ../../guidance/peru/021_what.rst:35
+msgid "Figure 2. Interface of the Prioritizing Nature Peru webtool."
+msgstr ""
+
+#: ../../guidance/peru/021_what.rst:38
+msgid ""
+"Access the Prioritizing Nature Peru webtool `here <https://elsa."
+"unbiodiversitylab.org/Bezos_PER/>`_"
+msgstr ""

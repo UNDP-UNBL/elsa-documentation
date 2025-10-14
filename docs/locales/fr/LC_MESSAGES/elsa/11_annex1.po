@@ -1,0 +1,187 @@
+# French translations for ELSA Integrated Spatial Planning Tool package.
+# Copyright (C) 2025, UNDP & UNEP-WCMC
+# This file is distributed under the same license as the ELSA Integrated Spatial Planning Tool package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Integrated Spatial Planning Tool 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-14 15:55+1000\n"
+"PO-Revision-Date: 2025-10-14 15:55+1000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../elsa/11_annex1.rst:4
+msgid ""
+"Annex 1: Key terms used in the process of mapping priority areas for the "
+"implementation of the KMGBF."
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:7
+msgid "Area-based Budget"
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:9
+msgid ""
+"The maximum area (expressed as a percentage of the total area of the "
+"country) that can be assigned to a specific action zone (protection, "
+"restoration, management, or urban greening)."
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:10
+msgid "Boundary Penalty Factor (BPF)"
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:12
+msgid ""
+"A parameter that penalizes solutions based on the total outer boundary or "
+"edge of the zones. By penalizing solutions with large edge length, this BPF "
+"promotes spatial cohesion or clustering in the spatial prioritization zones "
+"of priority areas for GBF implementation."
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:13
+msgid "Decision support software"
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:15
+msgid ""
+"A computer application that uses information about possible actions and the "
+"limitations of those actions to assist the decision-making process in "
+"achieving a stated objective."
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:16
+msgid "Geographic Information System (GIS)"
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:18
+msgid ""
+"Computer system consisting of hardware and software necessary for the "
+"capture, storage, management, analysis and presentation of geographic "
+"(spatial) data."
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:19
+msgid "Planning Features"
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:21
+msgid ""
+"An element of biodiversity, climate change adaptation and/or mitigation and "
+"human ecosystem service for human well-being selected as a focus for "
+"conservation planning or action. It may include ecological classifications, "
+"habitat types, species, physical objects, processes, or any element that can "
+"be measured in a planning unit. In the process of spatial prioritization of "
+"priority areas for GBF implementation, each priority commitment for a "
+"country may correspond to one or more planning features depending on its "
+"complexity."
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:22
+msgid "Planning Units"
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:24
+msgid ""
+"Planning units are the basic elements of a reserve system. A study area is "
+"divided into planning units that are smaller geographic parcels of regular "
+"or irregular shapes. Examples are squares, hexagons, cadastral parcels and "
+"hydrological units."
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:25
+msgid "Representation"
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:27
+msgid ""
+"In Systematic Conservation Planning, a representative system captures the "
+"full range of planning features (species, ecosystems, and ecosystem "
+"services) occurring in the planning region, not just iconic species."
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:28
+msgid "Restrictions"
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:30
+msgid ""
+"A constraint that must be met during optimization, as it creates a network "
+"of areas. The main constraints are that the budget (land area devoted to "
+"each spatial prioritization action) is not exceeded and that each zone can "
+"only occur within specified planning units (e.g. the protection zone can "
+"only be possible in planning units that are not agricultural or urban "
+"coverage)."
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:31
+msgid "Systematic Conservation Planning (SCP)"
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:33
+msgid ""
+"A formal method for identifying potential areas for conservation management "
+"that will most efficiently achieve a specific set of objectives, commonly "
+"some minimum representation of biodiversity. The process involves a clear "
+"and structured approach to priority setting, and is now the norm for both "
+"terrestrial and marine conservation. The effectiveness of systematic "
+"conservation planning lies in its ability to make the best use of limited "
+"fiscal resources to achieve conservation objectives and to do so in a way "
+"that is defensible, accountable, and transparently recognizes the needs of "
+"different resource users."
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:34
+msgid "User interface"
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:36
+msgid ""
+"The means by which people interact with a given computer application. A "
+"Graphical User Interface (GUI) presents information in a simple way using "
+"graphics, menus and icons."
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:37
+msgid "Weights"
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:39
+msgid ""
+"The weights allow users to set relative priorities within their priority "
+"policy outcomes. Values typically range from \"0\" (no importance) to "
+"\"10\" (extremely high importance)."
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:40
+msgid "Action Zones"
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:42
+msgid ""
+"A land use zone, equivalent to a nature-based action, which serves to "
+"enhance specific planning objects. Zones are determined by restrictions that "
+"define where an action may or may not absolutely occur. For example, these "
+"hard constraints limit protection to intact areas (e.g., low human footprint "
+"values) and protection/restoration to areas that are moderately impacted by "
+"human activity, but not totally dominated by humans (e.g., low and medium "
+"human footprint values)."
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:43
+msgid "Lock-in Features"
+msgstr ""
+
+#: ../../elsa/11_annex1.rst:45
+msgid ""
+"Specific features or areas that are locked-in to a solution. Typically, this "
+"would refer to existing protected areas, that are by default locked into an "
+"SCP problem creation."
+msgstr ""

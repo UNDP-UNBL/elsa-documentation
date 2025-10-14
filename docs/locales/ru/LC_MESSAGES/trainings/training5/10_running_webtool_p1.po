@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, UNDP & UNEP-WCMC
+# This file is distributed under the same license as the ELSA Integrated
+# Spatial Planning Tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Integrated Spatial Planning Tool 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-14 15:55+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ru <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:2
+msgid "Running the *Prioritizing Nature Webtool* - Data Setup"
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:4
+msgid ""
+"Before the *Prioritizing Nature Webtool* app can run we needs to run a "
+"script called ``pre_run.R``. The ``pre_run.R`` script has several primary "
+"functions:"
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:6
+msgid ""
+"It reads in information from the ``prioritizing-nature-database-master."
+"xlsx`` Excel sheet on:"
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:8
+msgid "Feature names (including local translations),"
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:9
+msgid "File names;"
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:10
+msgid "Feature weights;"
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:11
+msgid "Feature impact scores; and"
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:12
+msgid "Budget values,"
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:13
+msgid "and other feature layers metadata (policy relevance, source info, etc)"
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:15
+msgid ""
+"It does any geospatial work needed to prepare input feature, zone, locked in "
+"area, and *prioritizr* zone data and layers, and creates file pointers to "
+"the rasters found in ``data/elsa_inputs`` so they can be used by the `terra` "
+"package."
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:17
+msgid ""
+"An compressed *R* data format file called ``prioritizing_nature.Rdata`` is "
+"created at the end of the the ``pre_run.R`` - this is read back back in "
+"quickly and efficiently when the RShiny app is run, and called in the "
+"``global.R`` function."
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:20
+msgid "Running `pre_run.R`"
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:22
+msgid ""
+"Open the ``pre_run.R`` file by typing either **Ctrl+O** or clicking on "
+"**File → Open File...** and selecting the ```pre_run.R`` file."
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:24
+msgid "Inspect lines 11-18 of the script:"
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:37
+msgid ""
+"Ensure that they point to the correct ``iso3`` code (i.e., ``ECU`` if you "
+"are working with Ecuador's data and ``PER`` if Peru)"
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:39
+msgid ""
+"Ensure the language is set to the language you prefer: currently options are "
+"English, Spanish, and French."
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:41
+msgid ""
+"Ensure the ``input_spreadsheet`` and ``sheetname`` variables are correct."
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:43
+msgid ""
+"The ``blm``, ``reducedres``, and ``weight_cal`` fields should be left as is "
+"- they should only be changed if you need to rerun pre-calibration weights "
+"or do local testing on reduced resolution data (so it runs faster)."
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:45
+msgid "Run the ``pre_run.R`` script by either"
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:47
+msgid "Typing **Ctrl+Alt+Enter** (which is the same as running:"
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:53
+msgid ""
+"Or clicking on the |pre_run1| button in the upper right side of the editor "
+"panel."
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:55
+msgid "pre_run1"
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:57
+msgid ""
+"You will see the script running in the console window - it may take several "
+"minutes depending on how powerful your computer is."
+msgstr ""
+
+#: ../../trainings/training5/10_running_webtool_p1.rst:71
+msgid "If you see any errors here, let us know."
+msgstr ""

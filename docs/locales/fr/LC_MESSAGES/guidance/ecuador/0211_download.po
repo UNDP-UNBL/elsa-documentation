@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, UNDP & UNEP-WCMC
+# This file is distributed under the same license as the ELSA Integrated
+# Spatial Planning Tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Integrated Spatial Planning Tool 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-14 15:55+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: fr <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../guidance/ecuador/0211_download.rst:2
+msgid "2.11 Viewing and downloading maps"
+msgstr ""
+
+#: ../../guidance/ecuador/0211_download.rst:4
+msgid ""
+"After running the optimization, you will be able to view and download 8 "
+"result maps in raster format, of which 4 correspond to heatmaps and 4 "
+"correspond to spatial prioritization maps for your country based on the "
+"results of the analysis to identify priority areas for the implementation of "
+"the GBF in Ecuador."
+msgstr ""
+
+#: ../../guidance/ecuador/0211_download.rst:6
+msgid "Table 3"
+msgstr ""
+
+#: ../../guidance/ecuador/0211_download.rst:10
+msgid ""
+"Table 3. Spatial prioritization maps identifying priority areas for GBF "
+"implementation available for download on the Prioritizing Nature webtool."
+msgstr ""
+
+#: ../../guidance/ecuador/0211_download.rst:12
+msgid "**Steps**"
+msgstr ""
+
+#: ../../guidance/ecuador/0211_download.rst:14
+msgid ""
+"Click on the fourth tab *\"Results Map\"* to view the ELSA spatial "
+"prioritization maps in the webtool."
+msgstr ""
+
+#: ../../guidance/ecuador/0211_download.rst:15
+msgid "Zoom in on certain areas by clicking on the \"+\" icon."
+msgstr ""
+
+#: ../../guidance/ecuador/0211_download.rst:16
+msgid ""
+"You can switch to different basemap views by clicking on the layers icon "
+"located on the left, three basemap options will be displayed including the "
+"satellite view, click on the basemap of your interest to enable the layer "
+"(Figure 12)."
+msgstr ""
+
+#: ../../guidance/ecuador/0211_download.rst:18
+#: ../../guidance/ecuador/0211_download.rst:22
+msgid "Figure 12.  Base map options"
+msgstr ""
+
+#: ../../guidance/ecuador/0211_download.rst:24
+msgid ""
+"To download the maps in raster or GeoTIFFs format, which can be viewed and "
+"analyzed in GIS software. Click on the \"Results + Download\" tab and then "
+"on \"Download results (GIS layers)\" to download the result maps (Figure 13)."
+msgstr ""
+
+#: ../../guidance/ecuador/0211_download.rst:26
+#: ../../guidance/ecuador/0211_download.rst:30
+msgid "Figure 13.  Downloading result maps"
+msgstr ""
+
+#: ../../guidance/ecuador/0211_download.rst:33
+msgid ""
+"When using the spatial prioritization map in a formal report or publication, "
+"please use the following citation:"
+msgstr ""
+
+#: ../../guidance/ecuador/0211_download.rst:35
+msgid ""
+"**MAATE and UNDP 2025. Prioritizing Nature Project. Map created using "
+"spatial data and the Prioritizing Nature in Ecuador webtool https://elsa."
+"unbiodiversitylab.org/Bezos_ECU/ , on [insert date with Day Month Year].**"
+msgstr ""

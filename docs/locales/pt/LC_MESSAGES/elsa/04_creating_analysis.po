@@ -1,0 +1,43 @@
+# Portuguese translations for ELSA Integrated Spatial Planning Tool package.
+# Copyright (C) 2025, UNDP & UNEP-WCMC
+# This file is distributed under the same license as the ELSA Integrated Spatial Planning Tool package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Integrated Spatial Planning Tool 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-14 16:14+1000\n"
+"PO-Revision-Date: 2025-10-14 16:14+1000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../elsa/04_creating_analysis.rst:2
+msgid "Creating new ELSA analysis runs"
+msgstr ""
+
+#: ../../elsa/04_creating_analysis.rst:4
+msgid ""
+"Once you have selected a specific ELSA Tool from the drop-down in Figure 4, "
+"you can create a new analysis run. To do this, click on the ‘NEW ANALYSIS "
+"RUN’ button. A pop-up window will appear with the standard ELSA optimization "
+"structure and all relevant ELSA parameters ready for editing (see Figure 5)."
+msgstr ""
+
+#: ../../elsa/04_creating_analysis.rst:8
+msgid ""
+"Users cannot create or edit ELSA Tool configurations. They can only create "
+"or edit analysis runs within an ELSA Tool configuration. To request an ELSA "
+"Tool configuration for a specific country, please contact "
+"support@unbiodiversitylab.org."
+msgstr ""
+
+#: ../../elsa/04_creating_analysis.rst:10
+#: ../../elsa/04_creating_analysis.rst:14
+msgid "Figure 5. Creating a new analysis run"
+msgstr ""
