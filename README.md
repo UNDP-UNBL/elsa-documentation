@@ -113,13 +113,18 @@ conda install -c conda-forge sphinx-copybutton sphinx-tabs myst-parser
 
 ## Building Documentation
 
+**Important:** All build commands must be run from the `docs/` directory.
+
 ### Standalone Build
 
 ```bash
+# Navigate to docs directory
+cd docs
+
 # Build HTML documentation
 make html
 
-# Build with live reload for development
+# Build with live reload for development (requires sphinx-autobuild)
 make livehtml
 
 # Clean build directory
@@ -191,13 +196,45 @@ The ELSA Tool documentation needs to be translated into multiple languages to su
 
 ### Translation Workflow
 
+**Important:** All translation commands must be run from the `docs/` directory.
+
 **Step 1: Prepare source files**
 ```bash
+# Navigate to docs directory
+cd docs
+
 # Extract translatable strings
 sphinx-build -b gettext . _build/gettext
 
-# Create .pot files for translators
-sphinx-intl update -p _build/gettext -l es -l fr -l ru -l pt
+# Create/update .pot files for translators
+sphinx-intl update -p _build/gettext -d locales -l es -l fr -l ru -l pt
+```
+
+**Step 2: Translate content**
+- Translation files (.po files) are located in `docs/locales/{language}/LC_MESSAGES/`
+- Translators edit these files, filling in the `msgstr` fields with translations
+- Spanish translations are in `locales/es/`, French in `locales/fr/`, etc.
+
+**Step 3: Build translated documentation**
+```bash
+# Still in docs/ directory
+
+# Build Spanish version
+sphinx-build -b html -D language=es . _build/html/es
+
+# Build all languages
+for lang in es fr ru pt; do
+  sphinx-build -b html -D language=$lang . _build/html/$lang
+done
+```
+
+**Step 4: View translated documentation**
+```bash
+# Open Spanish docs
+xdg-open _build/html/es/index.html
+
+# Or use your browser
+firefox _build/html/es/index.html
 
 ## Content Organization
 
