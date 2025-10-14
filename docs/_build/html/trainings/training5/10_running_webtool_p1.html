@@ -1,93 +1,108 @@
 
 
 <!DOCTYPE html>
-<html class="writer-html5" lang="es" data-content_root="../../">
+<html class="writer-html5" lang="en" data-content_root="../../">
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ejecutando la Herramienta web Priorizando la Naturaleza - Configuración de Datos &mdash; documentación de ELSA Online Documentation - </title>
-      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=d75fae25" />
+  <title>Running the Prioritizing Nature Webtool - Data Setup &mdash; ELSA Integrated Spatial Planning Tool - User&#39;s Guide</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../../_static/elsa-custom.css" />
       <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/elsa-custom.css" />
 
   
       <script src="../../_static/jquery.js?v=5d32c60e"></script>
       <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="../../_static/documentation_options.js?v=e2bb6099"></script>
+      <script src="../../_static/documentation_options.js?v=292eb321"></script>
       <script src="../../_static/doctools.js?v=9bcbadda"></script>
       <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
       <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
-      <script src="../../_static/copybutton.js?v=f281be69"></script>
-      <script src="../../_static/translations.js?v=f85f4cfb"></script>
+      <script src="../../_static/copybutton.js?v=30646c52"></script>
       <script src="../../_static/design-tabs.js?v=f930bc37"></script>
     <script src="../../_static/js/theme.js"></script>
-    <link rel="author" title="Sobre este documento" href="../../about.html" />
-    <link rel="index" title="Índice" href="../../genindex.html" />
-    <link rel="search" title="Búsqueda" href="../../search.html" />
-    <link rel="next" title="Ejecutando la Herramienta web Priorizando la Naturaleza" href="11_running_webtool_p2.html" />
-    <link rel="prev" title="Instalación de Paquetes Requeridos de R" href="09_installing_required_r_packages.html" /> 
+    <link rel="search" type="application/opensearchdescription+xml"
+          title="Search within ELSA Integrated Spatial Planning Tool - User&#39;s Guide"
+          href="../../_static/opensearch.xml"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Running the Prioritizing Nature Webtool" href="11_running_webtool_p2.html" />
+    <link rel="prev" title="Installing Required R Packages" href="09_installing_required_r_packages.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
   <div class="wy-grid-for-nav">
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search" >
+        <div class="wy-side-nav-search"  style="background: #2980B9" >
 
           
           
           <a href="../../index.html" class="icon icon-home">
-            ELSA Online Documentation
+            ELSA Integrated Spatial Planning Tool
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Buscar documentos" aria-label="Buscar documentos" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../index.html">Inicio</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../about.html">Acerca de las Áreas Esenciales de Soporte de Vida (ELSA)</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Capacitaciones</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../training1/index.html">Capacitación 1: Planificación Sistemática de la Conservación</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../training2/index.html">Capacitación 2: Uso de la herramienta web en línea para co-crear el Mapa de Priorización Espacial</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../training3/index.html">Capacitación 3: Configuración de <em>R</em> y <em>RStudio</em></a></li>
-<li class="toctree-l2"><a class="reference internal" href="../training4/index.html">Capacitación 4: Datos espaciales utilizados: estructura, selección y procesamiento</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Capacitación 5: Ejecución de Priorizaciones Espaciales</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="01_rshiny_interface.html">RShiny - La Interfaz Gráfica de Usuario (GUI)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="02_github_repository.html">Repositorios de Código (git &amp; <em>GitHub</em>)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="03_exploring_data_structure.html">Explorando la Estructura de Datos del Repositorio</a></li>
-<li class="toctree-l3"><a class="reference internal" href="04_create_r_project.html">Crear un Proyecto de <em>Prioritizing Nature</em> en <em>R</em></a></li>
-<li class="toctree-l3"><a class="reference internal" href="05_installing_gurobi.html">Instalación de Gurobi</a></li>
-<li class="toctree-l3"><a class="reference internal" href="06_installing_gurobi_r_package.html">Instalación del paquete <em>Gurobi R</em></a></li>
-<li class="toctree-l3"><a class="reference internal" href="07_getting_gurobi_env.html">Acceso a la Nube de <em>Gurobi</em></a></li>
-<li class="toctree-l3"><a class="reference internal" href="08_checking_gurobi_installation.html">Verificando si la instalación de <em>Gurobi R</em> fue exitosa</a></li>
-<li class="toctree-l3"><a class="reference internal" href="09_installing_required_r_packages.html">Instalación de Paquetes Requeridos de <em>R</em></a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Ejecutando la <em>Herramienta web Priorizando la Naturaleza</em> - Configuración de Datos</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#running-pre-run-r">Ejecutando <cite>pre_run.R</cite></a></li>
+              <p class="caption" role="heading"><span class="caption-text">ELSA Tool Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/01_overview.html">Overview of the ELSA Integrated Spatial Planning Tool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/02_tool_purpose.html">What is the ELSA tool for?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/03_registration.html">Registering on UNBL and Requesting Access to a Workspace with an ELSA Tool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/04_creating_analysis.html">Creating new ELSA analysis runs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/05_editing_analysis.html">Editing an ELSA analysis run</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/06_running_optimization.html">Running the optimization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/06_running_optimization.html#next-steps">Next Steps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/07_viewing_heatmaps.html">Viewing heatmaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/08_analyse_synergies.html">Analysing synergies and trade-offs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/09_downloading_results.html">Viewing and downloading ELSA Action maps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/10_support.html">Additional Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/11_annex1.html">Annex 1: Key terms used in the process of mapping priority areas for the implementation of the KMGBF.</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../elsa/12_annex2.html">Annex 2: Key terms used in the process of mapping priority areas for the implementation of the KMGBF.</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Trainings</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../training1/index.html">Training 1: Systematic Conservation Planning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../training2/index.html">Training 2: Using the online webtool to co-create the Spatial Prioritization Map</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../training3/index.html">Training 3: <em>R</em> and <em>RStudio</em> Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../training4/index.html">Training 4: Spatial data used: structure, selection and processing</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Training 5: Running Spatial Prioritisations</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="01_rshiny_interface.html">RShiny - the Graphical User Interface (GUI)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="02_github_repository.html">Code Repositories (git &amp; <em>GitHub</em>)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03_exploring_data_structure.html">Exploring the Repository’s Data Structure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="04_create_r_project.html">Create a <em>Prioritizing Nature</em> <em>R</em> Project</a></li>
+<li class="toctree-l3"><a class="reference internal" href="05_installing_gurobi.html">Installing Gurobi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="06_installing_gurobi_r_package.html">Installing the <em>Gurobi R</em> package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="07_getting_gurobi_env.html"><em>Gurobi</em> Cloud Access</a></li>
+<li class="toctree-l3"><a class="reference internal" href="08_checking_gurobi_installation.html">Checking if your <em>Gurobi R</em> Installation was Successful</a></li>
+<li class="toctree-l3"><a class="reference internal" href="09_installing_required_r_packages.html">Installing Required <em>R</em> Packages</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Running the <em>Prioritizing Nature Webtool</em> - Data Setup</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#running-pre-run-r">Running <cite>pre_run.R</cite></a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="11_running_webtool_p2.html">Ejecutando la <em>Herramienta web Priorizando la Naturaleza</em></a></li>
-<li class="toctree-l3"><a class="reference internal" href="12_exploring_webtool.html">Explorando la <em>Herramienta web de Priorizando la Naturaleza</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="11_running_webtool_p2.html">Running the <em>Prioritizing Nature Webtool</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="12_exploring_webtool.html">Exploring the <em>Prioritizing Nature Webtool</em></a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../prioritizr_advanced/index.html">prioritizr (Advanced)</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../guidance/index.html">Manual de usuario de la herramienta web Prioritizing Nature</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../guidance/index.html">User manual for the Prioritizing Nature webtool</a></li>
 </ul>
 
         </div>
       </div>
     </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #2980B9" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../../index.html">ELSA Online Documentation</a>
+          <a href="../../index.html">ELSA Integrated Spatial Planning Tool</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -95,11 +110,11 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
-          <li class="breadcrumb-item"><a href="../index.html">Capacitaciones</a></li>
-          <li class="breadcrumb-item"><a href="index.html">Capacitación 5: Ejecución de Priorizaciones Espaciales</a></li>
-      <li class="breadcrumb-item active">Ejecutando la <em>Herramienta web Priorizando la Naturaleza</em> - Configuración de Datos</li>
+          <li class="breadcrumb-item"><a href="../index.html">Trainings</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Training 5: Running Spatial Prioritisations</a></li>
+      <li class="breadcrumb-item active">Running the <em>Prioritizing Nature Webtool</em> - Data Setup</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../../_sources/trainings/training5/10_running_webtool_p1.rst.txt" rel="nofollow"> Ver código fuente de la página</a>
+              <a href="https://github.com/UNDP-UNBL/elsa-documentation/blob/main/docs/trainings/training5/10_running_webtool_p1.rst" class="fa fa-github"> Edit on GitHub</a>
       </li>
   </ul>
   <hr/>
@@ -108,29 +123,29 @@
            <div itemprop="articleBody">
              
   <section id="running-the-prioritizing-nature-webtool-data-setup">
-<h1>Ejecutando la <em>Herramienta web Priorizando la Naturaleza</em> - Configuración de Datos<a class="headerlink" href="#running-the-prioritizing-nature-webtool-data-setup" title="Link to this heading"></a></h1>
-<p>Antes de que la aplicación web <em>Priorizando la Naturaleza</em> pueda ejecutarse, debemos ejecutar un script llamado <code class="docutils literal notranslate"><span class="pre">pre_run.R</span></code>. El script <code class="docutils literal notranslate"><span class="pre">pre_run.R</span></code> tiene varias funciones principales:</p>
+<h1>Running the <em>Prioritizing Nature Webtool</em> - Data Setup<a class="headerlink" href="#running-the-prioritizing-nature-webtool-data-setup" title="Link to this heading"></a></h1>
+<p>Before the <em>Prioritizing Nature Webtool</em> app can run we needs to run a script called <code class="docutils literal notranslate"><span class="pre">pre_run.R</span></code>. The <code class="docutils literal notranslate"><span class="pre">pre_run.R</span></code> script has several primary functions:</p>
 <ol class="arabic">
-<li><p>Lee la información de la hoja de Excel <code class="docutils literal notranslate"><span class="pre">prioritizing-nature-database-master.xlsx</span></code> sobre:</p>
+<li><p>It reads in information from the <code class="docutils literal notranslate"><span class="pre">prioritizing-nature-database-master.xlsx</span></code> Excel sheet on:</p>
 <blockquote>
 <div><ul class="simple">
-<li><p>Nombres de características (incluidas las traducciones locales),</p></li>
-<li><p>Nombres de archivos;</p></li>
-<li><p>Pesos de las características;</p></li>
-<li><p>Puntajes de impacto de las características; y</p></li>
-<li><p>Valores de presupuesto,</p></li>
-<li><p>y otros metadatos de capas de características (relevancia política, información de fuente, etc.)</p></li>
+<li><p>Feature names (including local translations),</p></li>
+<li><p>File names;</p></li>
+<li><p>Feature weights;</p></li>
+<li><p>Feature impact scores; and</p></li>
+<li><p>Budget values,</p></li>
+<li><p>and other feature layers metadata (policy relevance, source info, etc)</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p>Realiza cualquier trabajo geoespacial necesario para preparar las características de entrada, zonas, áreas bloqueadas y capas de datos de zonas <em>prioritizr</em>, y crea referencias a los archivos ráster en <code class="docutils literal notranslate"><span class="pre">data/elsa_inputs</span></code> para que puedan ser utilizados por el paquete <cite>terra</cite>.</p></li>
+<li><p>It does any geospatial work needed to prepare input feature, zone, locked in area, and <em>prioritizr</em> zone data and layers, and creates file pointers to the rasters found in <code class="docutils literal notranslate"><span class="pre">data/elsa_inputs</span></code> so they can be used by the <cite>terra</cite> package.</p></li>
 </ol>
-<p>Al final del script <code class="docutils literal notranslate"><span class="pre">pre_run.R</span></code> se genera un archivo de datos comprimido en formato <em>R</em> llamado <code class="docutils literal notranslate"><span class="pre">prioritizing_nature.Rdata</span></code>. Este archivo se lee rápidamente cuando se ejecuta la aplicación <em>RShiny</em> y es llamado en la función <code class="docutils literal notranslate"><span class="pre">global.R</span></code>.</p>
+<p>An compressed <em>R</em> data format file called <code class="docutils literal notranslate"><span class="pre">prioritizing_nature.Rdata</span></code> is created at the end of the the <code class="docutils literal notranslate"><span class="pre">pre_run.R</span></code> - this is read back back in quickly and efficiently when the RShiny app is run, and called in the <code class="docutils literal notranslate"><span class="pre">global.R</span></code> function.</p>
 <section id="running-pre-run-r">
-<h2>Ejecutando <cite>pre_run.R</cite><a class="headerlink" href="#running-pre-run-r" title="Link to this heading"></a></h2>
+<h2>Running <cite>pre_run.R</cite><a class="headerlink" href="#running-pre-run-r" title="Link to this heading"></a></h2>
 <ol class="arabic simple">
-<li><p>Abre el archivo <code class="docutils literal notranslate"><span class="pre">pre_run.R</span></code> escribiendo <strong>Ctrl+O</strong> o haciendo clic en <strong>Archivo → Abrir Archivo…</strong> y seleccionando el archivo <code class="docutils literal notranslate"><span class="pre">pre_run.R</span></code>.</p></li>
-<li><p>Revisa las líneas 11-18 del script:</p></li>
+<li><p>Open the <code class="docutils literal notranslate"><span class="pre">pre_run.R</span></code> file by typing either <strong>Ctrl+O</strong> or clicking on <strong>File → Open File…</strong> and selecting the <code class="docutils literal notranslate"><span class="pre">`pre_run.R</span></code> file.</p></li>
+<li><p>Inspect lines 11-18 of the script:</p></li>
 </ol>
 <div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="n">iso3</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="s">&quot;ECU&quot;</span><span class="w"> </span><span class="c1"># not used - local testing only</span>
 <span class="n">country</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="s">&quot;Ecuador&quot;</span>
@@ -143,30 +158,30 @@
 </pre></div>
 </div>
 <ol class="arabic simple" start="3">
-<li><p>Asegúrate de que apunten al código <code class="docutils literal notranslate"><span class="pre">iso3</span></code> correcto (por ejemplo, <code class="docutils literal notranslate"><span class="pre">ECU</span></code> si estás trabajando con los datos de Ecuador o <code class="docutils literal notranslate"><span class="pre">PER</span></code> si es Perú).</p></li>
-<li><p>Asegúrate de que el idioma esté configurado en el que prefieres: actualmente, las opciones son inglés, español y francés.</p></li>
+<li><p>Ensure that they point to the correct <code class="docutils literal notranslate"><span class="pre">iso3</span></code> code (i.e., <code class="docutils literal notranslate"><span class="pre">ECU</span></code> if you are working with Ecuador’s data and <code class="docutils literal notranslate"><span class="pre">PER</span></code> if Peru)</p></li>
+<li><p>Ensure the language is set to the language you prefer: currently options are English, Spanish, and French.</p></li>
 </ol>
 <ol class="arabic simple" start="4">
-<li><p>Asegúrate de que las variables <code class="docutils literal notranslate"><span class="pre">input_spreadsheet</span></code> y <code class="docutils literal notranslate"><span class="pre">sheetname</span></code> sean correctas.</p></li>
+<li><p>Ensure the <code class="docutils literal notranslate"><span class="pre">input_spreadsheet</span></code> and <code class="docutils literal notranslate"><span class="pre">sheetname</span></code> variables are correct.</p></li>
 </ol>
-<p>Los campos <code class="docutils literal notranslate"><span class="pre">blm</span></code>, <code class="docutils literal notranslate"><span class="pre">reducedres</span></code> y <code class="docutils literal notranslate"><span class="pre">weight_cal</span></code> deben dejarse como están; sólo deben modificarse si necesitas volver a ejecutar la calibración previa de pesos o realizar pruebas locales con datos de resolución reducida (para que se ejecute más rápido).</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">blm</span></code>, <code class="docutils literal notranslate"><span class="pre">reducedres</span></code>, and <code class="docutils literal notranslate"><span class="pre">weight_cal</span></code> fields should be left as is - they should only be changed if you need to rerun pre-calibration weights or do local testing on reduced resolution data (so it runs faster).</p>
 <ol class="arabic" start="5">
-<li><p>Ejecuta el script <code class="docutils literal notranslate"><span class="pre">pre_run.R</span></code> de una de las siguientes formas:</p>
+<li><p>Run the <code class="docutils literal notranslate"><span class="pre">pre_run.R</span></code> script by either</p>
 <blockquote>
 <div><ol class="arabic simple">
-<li><p>Escribiendo <strong>Ctrl+Alt+Enter</strong> (lo que equivale a ejecutar:</p></li>
+<li><p>Typing <strong>Ctrl+Alt+Enter</strong> (which is the same as running:</p></li>
 </ol>
 <div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="nf">source</span><span class="p">(</span><span class="s">&#39;pre_run.R&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 <ol class="arabic simple" start="2">
-<li><p>O haciendo clic en el botón <img alt="pre_run1" src="../../_images/pre_run1.png" /> en la parte superior derecha del panel del editor.</p></li>
+<li><p>Or clicking on the <img alt="pre_run1" src="../../_images/pre_run1.png" /> button in the upper right side of the editor panel.</p></li>
 </ol>
 </div></blockquote>
 </li>
 </ol>
 <ol class="arabic simple" start="6">
-<li><p>Verás el script ejecutándose en la ventana de la consola; puede tardar varios minutos dependiendo de la potencia de tu computadora.</p></li>
+<li><p>You will see the script running in the console window - it may take several minutes depending on how powerful your computer is.</p></li>
 </ol>
 <div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span><span class="w"> </span><span class="c1">#!/usr/bin/env Rscript</span>
 <span class="o">&gt;</span><span class="w"> </span><span class="nf">source</span><span class="p">(</span><span class="s">&quot;packages.R&quot;</span><span class="p">)</span>
@@ -179,27 +194,27 @@
 <span class="o">&gt;</span><span class="w"> </span><span class="c1"># terra::tmpFiles(remove = TRUE)</span>
 </pre></div>
 </div>
-<p>Si ves algún error aquí, avísanos.</p>
+<p>If you see any errors here, let us know.</p>
 </section>
 </section>
 
 
            </div>
           </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
-        <a href="09_installing_required_r_packages.html" class="btn btn-neutral float-left" title="Instalación de Paquetes Requeridos de R" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
-        <a href="11_running_webtool_p2.html" class="btn btn-neutral float-right" title="Ejecutando la Herramienta web Priorizando la Naturaleza" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="09_installing_required_r_packages.html" class="btn btn-neutral float-left" title="Installing Required R Packages" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="11_running_webtool_p2.html" class="btn btn-neutral float-right" title="Running the Prioritizing Nature Webtool" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Derechos de autor 2025, UNDP.</p>
+    <p>&#169; Copyright 2025, UNDP &amp; UNEP-WCMC.</p>
   </div>
 
-  Compilado con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
-    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
-    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>.
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
    
 
 </footer>

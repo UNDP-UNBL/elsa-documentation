@@ -2,7 +2,7 @@ Trainings
 =========
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 1
 
    training1/index
    training2/index

@@ -1,6 +1,6 @@
 const themeFlyoutDisplay = "hidden";
-const themeVersionSelector = "False";
-const themeLanguageSelector = "False";
+const themeVersionSelector = "True";
+const themeLanguageSelector = "True";
 
 if (themeFlyoutDisplay === "attached") {
   function renderLanguages(config) {
@@ -31,7 +31,7 @@ if (themeFlyoutDisplay === "attached") {
     }
     const versionsHTML = `
       <dl>
-        <dt>Versiones</dt>
+        <dt>Versions</dt>
         ${config.versions.active
           .map(
             (version) => `
@@ -58,7 +58,7 @@ if (themeFlyoutDisplay === "attached") {
 
     const downloadsHTML = `
       <dl>
-        <dt>Descargas</dt>
+        <dt>Downloads</dt>
         ${Object.entries(config.versions.current.downloads)
           .map(
             ([name, url]) => `
@@ -89,27 +89,27 @@ if (themeFlyoutDisplay === "attached") {
             ${renderVersions(config)}
             ${renderDownloads(config)}
             <dl>
-              <dt>En Read the Docs</dt>
+              <dt>On Read the Docs</dt>
               <dd>
-                <a href="${config.projects.current.urls.home}">Página de Proyecto</a>
+                <a href="${config.projects.current.urls.home}">Project Home</a>
               </dd>
               <dd>
-                <a href="${config.projects.current.urls.builds}">Compilaciones</a>
+                <a href="${config.projects.current.urls.builds}">Builds</a>
               </dd>
               <dd>
-                <a href="${config.projects.current.urls.downloads}">Descargas</a>
+                <a href="${config.projects.current.urls.downloads}">Downloads</a>
               </dd>
             </dl>
             <dl>
-              <dt>Búsqueda</dt>
+              <dt>Search</dt>
               <dd>
                 <form id="flyout-search-form">
                   <input
                     class="wy-form"
                     type="text"
                     name="q"
-                    aria-label="Buscar documentos"
-                    placeholder="Buscar documentos"
+                    aria-label="Search docs"
+                    placeholder="Search docs"
                     />
                 </form>
               </dd>

@@ -1,0 +1,241 @@
+Annexes: Reference Materials and Data
+====================================
+
+This section provides comprehensive reference materials, including key terminology definitions and complete data specifications for the ELSA Integrated Spatial Planning Tool.
+
+.. _annex-1:
+
+Annex 1: Key Terms and Definitions
+----------------------------------
+
+This glossary defines key terms used in the ELSA mapping process for implementing the Kunming-Montreal Global Biodiversity Framework (KMGBF).
+
+.. glossary::
+
+   Area-based budget
+      The maximum area (expressed as a percentage of the total area of the country) that can be assigned to a specific action zone (protection, restoration, management, or urban greening).
+
+   Boundary Penalty Factor (BPF)
+      A parameter that penalizes solutions based on the total outer boundary or edge of the zones. By penalizing solutions with large edge length, this BPF promotes spatial cohesion or clustering in the spatial prioritization zones of priority areas for GBF implementation.
+
+   Decision support software
+      A computer application that uses information about possible actions and the limitations of those actions to assist the decision-making process in achieving a stated objective.
+
+   Geographic Information System (GIS)
+      Computer system consisting of hardware and software necessary for the capture, storage, management, analysis and presentation of geographic (spatial) data.
+
+   Planning feature
+      An element of biodiversity, climate change adaptation and/or mitigation and human ecosystem service for human well-being selected as a focus for conservation planning or action. It may include ecological classifications, habitat types, species, physical objects, processes, or any element that can be measured in a planning unit. In the process of spatial prioritization of priority areas for GBF implementation, each priority commitment for a country may correspond to one or more planning features depending on its complexity.
+
+   Planning units
+      Planning units are the basic elements of a reserve system. A study area is divided into planning units that are smaller geographic parcels of regular or irregular shapes. Examples are squares, hexagons, cadastral parcels and hydrological units.
+
+   Representation
+      In Systematic Conservation Planning, a representative system captures the full range of planning features (species, ecosystems, and ecosystem services) occurring in the planning region, not just iconic species.
+
+   Restrictions
+      A constraint that must be met during optimization, as it creates a network of areas. The main constraints are that the budget (land area devoted to each spatial prioritization action) is not exceeded and that each zone can only occur within specified planning units (e.g. the protection zone can only be possible in planning units that are not agricultural or urban coverage).
+
+   Systematic Conservation Planning (SCP)
+      A formal method for identifying potential areas for conservation management that will most efficiently achieve a specific set of objectives, commonly some minimum representation of biodiversity. The process involves a clear and structured approach to priority setting, and is now the norm for both terrestrial and marine conservation. The effectiveness of systematic conservation planning lies in its ability to make the best use of limited fiscal resources to achieve conservation objectives and to do so in a way that is defensible, accountable, and transparently recognizes the needs of different resource users.
+
+   User interface
+      The means by which people interact with a given computer application. A Graphical User Interface (GUI) presents information in a simple way using graphics, menus and icons.
+
+   Weights
+      The weights allow users to set relative priorities within their priority policy outcomes. Values typically range from "0" (no importance) to "10" (extremely high importance).
+
+   Zones/Shares
+      A land use zone, equivalent to a nature-based action, which serves to enhance specific planning objects. Zones are determined by restrictions that define where an action may or may not absolutely occur. For example, these hard restrictions limit protection to intact areas (e.g., low human footprint values) and protection/restoration to areas that are moderately impacted by human activity, but not totally dominated by humans (e.g., low and medium human footprint values).
+
+.. _annex-2:
+
+Annex 2: Data Layers and Sources
+--------------------------------
+
+This section provides comprehensive information about the data layers used in the Integrated Spatial Planning project to support implementation of the KMGBF.
+
+.. note::
+   The input data layer list may differ between countries depending on the input data's native resolution relative to country and planning unit size, as well as priority policy targets.
+
+Planning Features
+~~~~~~~~~~~~~~~~~
+
+The following table details all planning features used in ELSA analysis, organized by theme and KMGBF target:
+
+Biodiversity Planning Features
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table:: Biodiversity Features
+   :header-rows: 1
+   :widths: 30 15 55
+
+   * - Layer Name
+     - KMGBF Target  
+     - Source
+   * - Intact Ecosystems
+     - GBFTarget1
+     - Beyer et al., 2020
+   * - High Integrity Forests
+     - GBFTarget1
+     - Hansen et al., 2019; Grantham et al., 2020
+   * - Biodiversity Habitat Index
+     - GBFTarget1
+     - Harwood et al., 2022
+   * - Biodiversity Intactness Index
+     - GBFTarget1
+     - Tim Newbold et al., 2016
+   * - Critical Connectivity Corridors
+     - GBFTarget2
+     - Strassburg et al., 2020
+   * - Biodiversity Restoration Potential
+     - GBFTarget2
+     - Newbold et al., 2016; UNEP-WCMC, 2020
+   * - Agricultural Areas of Global Significance for Restoration
+     - GBFTarget2
+     - Bernardo et al., 2020
+   * - Threatened Ecosystems for Restoration
+     - GBFTarget2
+     - Beyer et al., 2020; Keith et al., 2022
+   * - Underrepresented Ecosystems
+     - GBFTarget3
+     - Beyer et al., 2020; Keith et al., 2022; UNEP-WCMC & IUCN, 2022
+   * - Threatened Ecosystems for Protection
+     - GBFTarget3
+     - Beyer et al., 2020; Keith et al., 2022
+   * - Key Biodiversity Areas
+     - GBFTarget3
+     - Birdlife International, 2021
+   * - Alliance for Zero Extinction Sites
+     - GBFTarget4
+     - Birdlife International, 2021
+   * - Threatened Species Richness
+     - GBFTarget4
+     - UNEP-WCMC, 2020
+   * - Rarity Weighted Richness
+     - GBFTarget4
+     - UNEP-WCMC, 2020
+   * - Pesticide Risk
+     - GBFTarget7
+     - Tang et al., 2021
+
+Climate Planning Features
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table:: Climate Features
+   :header-rows: 1
+   :widths: 30 15 55
+
+   * - Layer Name
+     - KMGBF Target
+     - Source
+   * - Climate Refugia - Bioclimatic Ecosystem Resilience Index
+     - GBFTarget8
+     - Harwood et al., 2022
+   * - Biomass Carbon Density
+     - GBFTarget8
+     - García-Rangel, S. et al. In prep.
+   * - Irrecoverable Carbon
+     - GBFTarget8
+     - Noon et al., 2022
+   * - Vulnerable Soil Organic Carbon Density
+     - GBFTarget8
+     - García-Rangel, S. et al. In prep.
+   * - Potential Increase in SOC on Croplands
+     - GBFTarget8
+     - Zomer et al., 2017
+   * - Drought Abatement Opportunities
+     - GBFTarget11
+     - Carrão et al., 2016
+   * - Flood Abatement Opportunities
+     - GBFTarget11
+     - Tellman et al., 2021; Didan & Kamel, 2015; Linke et al., 2019
+
+Human Well-being Planning Features
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table:: Human Well-being Features
+   :header-rows: 1
+   :widths: 30 15 55
+
+   * - Layer Name
+     - KMGBF Target
+     - Source
+   * - Realized Clean Water Supply Areas
+     - GBFTarget7
+     - Mulligan, 2019
+   * - Agricultural Yield Gap
+     - GBFTarget10
+     - Mueller et al., 2012
+   * - Agricultural Climate Stress
+     - GBFTarget10
+     - Zabel et al., 2014
+   * - Productive Managed Forests
+     - GBFTarget10
+     - Lesiv et al., 2020; Running et al., 2019
+   * - Wetlands and RAMSAR Sites
+     - GBFTarget11
+     - Gumbricht et al., 2017; Wetlands International/Ramsar, 2022
+   * - Mangroves
+     - GBFTarget11
+     - Bunting et al., 2018
+   * - Potential Clean Water Provision
+     - GBFTarget11
+     - Mulligan, 2019
+   * - Urban Greening Opportunities
+     - GBFTarget12
+     - Karra K et al., 2021; Didan & Kamel, 2015; Tuholske et al., 2021
+
+Lock-in and Zoning Layers
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Lock-in Restrictions
+^^^^^^^^^^^^^^^^^^^^
+
+.. list-table:: Lock-in Options
+   :header-rows: 1
+   :widths: 30 15 55
+
+   * - Layer Name
+     - Purpose
+     - Source
+   * - Existing Protected Areas
+     - Lock-in for protection zones
+     - UNEP-WCMC & IUCN, 2025
+
+Zoning Constraints
+^^^^^^^^^^^^^^^^^^
+
+.. list-table:: Zone Restriction Layers
+   :header-rows: 1
+   :widths: 30 15 55
+
+   * - Layer Name
+     - Purpose
+     - Source
+   * - Human Footprint
+     - Determine action zone eligibility
+     - Williams et al., 2020
+   * - Managed Forests
+     - Define management zone boundaries
+     - Lesiv et al., 2020; Running et al., 2024
+   * - Agriculture areas
+     - Exclude from protection zones
+     - Esri, 2024
+   * - Pasturelands
+     - Define eligible areas for restoration
+     - Parente et al., 2024
+   * - Urban areas
+     - Define urban greening opportunities
+     - Esri, 2024
+
+Data Quality and Limitations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Spatial Resolution:** Data layers are processed to consistent spatial resolution appropriate for national-level planning (typically 1km or finer).
+
+**Temporal Coverage:** Most data layers represent recent conditions (2015-2020) unless otherwise specified.
+
+**Global Coverage:** All layers provide global coverage but may have variable quality and resolution across different regions.
+
+**Update

@@ -1,0 +1,183 @@
+# Portuguese translations for ELSA Integrated Spatial Planning Tool package.
+# Copyright (C) 2025, UNDP & UNEP-WCMC
+# This file is distributed under the same license as the ELSA Integrated Spatial Planning Tool package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Integrated Spatial Planning Tool 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-14 16:14+1000\n"
+"PO-Revision-Date: 2025-10-14 16:14+1000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../elsa/12_annex1.rst:4
+msgid ""
+"Annex 1: Key terms used in the process of mapping priority areas for the "
+"implementation of the KMGBF."
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:7
+msgid "Action Zones"
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:9
+msgid ""
+"A land use zone, equivalent to a nature-based action, which serves to "
+"enhance specific planning objects. Zones are determined by restrictions that "
+"define where an action may or may not absolutely occur. For example, these "
+"hard restrictions limit protection to intact areas (e.g., low human "
+"footprint values) and protection/restoration to areas that are moderately "
+"impacted by human activity, but not totally dominated by humans (e.g., low "
+"and medium human footprint values)."
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:10
+msgid "Area-based constraint"
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:12
+msgid ""
+"The maximum area (expressed as a percentage of the total area of the "
+"country) that can be assigned to a specific action zone (protection, "
+"restoration, management, or urban greening)."
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:13
+msgid "Boundary Penalty Factor (BPF)"
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:15
+msgid ""
+"Solutions are penalized based on the total outer boundary or edge of the "
+"zones. By penalizing solutions with large edge length, this BPF can be used "
+"to promote spatial cohesion or clustering in the spatial prioritization "
+"zones of priority areas for KMGBF implementation."
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:16
+msgid "Decision support software"
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:18
+msgid ""
+"A computer application that uses information about possible actions and the "
+"limitations of those actions to assist the decision-making process in "
+"achieving a stated objective."
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:19
+msgid "Geographic Information System (GIS)"
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:21
+msgid ""
+"Computer system consisting of hardware and software necessary for the "
+"capture, storage, management, analysis and presentation of geographic "
+"(spatial) data."
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:22
+msgid "Lock-in Features"
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:24
+msgid ""
+"Specific features or areas that are locked-in to a solution. Typically, this "
+"would refer to existing protected areas, that are by default locked into an "
+"SCP problem creation."
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:25
+msgid "Planning feature"
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:27
+msgid ""
+"A spatial dataset used to map spatial elements of KMGBF Targets 1-12. Each "
+"KMGBF target may be mapped by one or more planning features depending on its "
+"complexity. Planning features may include ecological classifications, "
+"habitat types, species, physical objects, processes, or any element that can "
+"be measured in a planning unit."
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:28
+msgid "Planning units"
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:30
+msgid ""
+"Planning units are the basic elements of prioritization analysis. A study "
+"area is divided into planning units that are smaller geographic parcels of "
+"regular or irregular shapes. Examples are squares, hexagons, cadastral "
+"parcels and hydrological units."
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:31
+msgid "Representation"
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:33
+msgid ""
+"In Systematic Conservation Planning, a representative system captures the "
+"full range of planning features (species, ecosystems, and ecosystem "
+"services) occurring in the planning region, not just iconic species."
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:34
+msgid "Restrictions"
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:36
+msgid ""
+"A constraint that must be met during optimization. The main constraints are "
+"that the area-based constraint (land area devoted to each action) is not "
+"exceeded and that each zone can only occur within specified planning units "
+"(e.g. the protection zone can only be possible in planning units that are "
+"not agricultural or urban coverage)."
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:37
+msgid "Systematic Conservation Planning (SCP)"
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:39
+msgid ""
+"A formal method for identifying potential areas for conservation management "
+"that will most efficiently achieve a specific set of objectives, commonly "
+"some minimum representation of biodiversity. The process involves a clear "
+"and structured approach to priority setting, and is now the norm for both "
+"terrestrial and marine conservation. The effectiveness of systematic "
+"conservation planning lies in its ability to make the best use of limited "
+"fiscal resources to achieve conservation objectives and to do so in a way "
+"that is defensible, accountable, and transparently recognizes the needs of "
+"different resource users."
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:40
+msgid "User interface"
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:42
+msgid ""
+"The means by which people interact with a given computer application. A "
+"Graphical User Interface (GUI) presents information in a simple way using "
+"graphics, menus and icons."
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:43
+msgid "Weights"
+msgstr ""
+
+#: ../../elsa/12_annex1.rst:45
+msgid ""
+"The weights allow users to set relative priorities across planning features. "
+"Values typically range from \"0\" (no importance) to \"10\" (extremely high "
+"importance)."
+msgstr ""

@@ -1,0 +1,29 @@
+Editing an ELSA analysis run
+============================
+
+Naming ELSA analysis run 
+------------------------
+
+Upon clicking *NEW ANALYSIS RUN* (see :numref:`fig-create-run`), users will be able to view and edit a tentative analysis. Firstly, users must provide a new, unique name for their analysis run. While there are no restrictions on the name given to each run, we suggest that run names should include meaningful descriptions, ideally referencing the parameters used (e.g, include information like, BPF 10, or Protect 38%). 
+
+This section provides detailed instructions for configuring all aspects of your ELSA analysis run, from naming conventions to feature weighting.
+
+Selecting lock-in functions
+---------------------------
+
+Lock-in functionalities are applied to the protect zone. The lock-in layer consists of existing Protected Areas (PAs) within the country. Users can choose to lock-in or lock-out existing PAs for the Protect Zone (additionally the Restore Zone, if applicable). Locking in PAs ensures their inclusion in the analysis to identify priority areas where actions to protect nature should be undertaken. The percentage national land area covered by PAs is shown in the lock-in functionality to allow users to make an informed lock-in decision. 
+
+Lock-in of PAs (:numref:`fig-lockin-options`):  
+
+* Select "Lock-in Existing Protected Areas" if you want to force the analysis to include existing PAs within the "protection" action. 
+* Select "Lock-in nothing" if you wish to independently assess the optimal location of new PAs in your country based on the resulting “Protect” Areas in the resulting ELSA Action map.
+
+.. _fig-lockin-options:
+
+.. figure:: images/create-analysis.png
+   :alt: Lock-in functionalities
+   :align: center
+   
+   Lock-in functionalities
+
+As seen in :numref:`fig-lockin-options` for Kazakhstan, the existing protected area estate already covers 12.5% of the country. Therefore, when *Lock-in Existing Protected Areas* is selected a minimum *Protection* budget of at least 12.5% of the national territory is required for the optimisation model to be feasible.

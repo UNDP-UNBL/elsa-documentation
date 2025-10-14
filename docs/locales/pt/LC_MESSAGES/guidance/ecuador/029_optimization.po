@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, UNDP & UNEP-WCMC
+# This file is distributed under the same license as the ELSA Integrated
+# Spatial Planning Tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Integrated Spatial Planning Tool 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-14 15:55+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: pt <LL@li.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../guidance/ecuador/029_optimization.rst:2
+msgid "2.9 Running the optimization"
+msgstr ""
+
+#: ../../guidance/ecuador/029_optimization.rst:4
+msgid ""
+"The spatial prioritization map shows the priority areas for the "
+"implementation of the GBF for protection, restoration and management "
+"actions. The optimization executed by the webtool follows three rules to "
+"create the best possible map:"
+msgstr ""
+
+#: ../../guidance/ecuador/029_optimization.rst:6
+msgid "It should not exceed area-based targets;"
+msgstr ""
+
+#: ../../guidance/ecuador/029_optimization.rst:7
+msgid "It must include the selected locks or non-blocks;"
+msgstr ""
+
+#: ../../guidance/ecuador/029_optimization.rst:8
+msgid ""
+"It should include the best combination of planning features based on the "
+"distribution and weighting of planning features (heat map)."
+msgstr ""
+
+#: ../../guidance/ecuador/029_optimization.rst:10
+msgid ""
+"Once you have customized the above parameters and reviewed the heat maps, "
+"you can run the optimization analysis."
+msgstr ""
+
+#: ../../guidance/ecuador/029_optimization.rst:12
+msgid "**Steps**"
+msgstr ""
+
+#: ../../guidance/ecuador/029_optimization.rst:14
+msgid ""
+"Prior to running the optimization, you can choose to check the box under "
+"*\"Global parameters\"* (Figure 9). By first checking this box, and then "
+"running the optimization, you will be able to view four maps:"
+msgstr ""
+
+#: ../../guidance/ecuador/029_optimization.rst:16
+msgid ""
+"The final spatial prioritization map, which contains the nature-based "
+"actions that are optimized for benefits in all planning features;"
+msgstr ""
+
+#: ../../guidance/ecuador/029_optimization.rst:17
+msgid "One map optimized for the biodiversity planning features,"
+msgstr ""
+
+#: ../../guidance/ecuador/029_optimization.rst:18
+msgid "One map optimized for climate change,"
+msgstr ""
+
+#: ../../guidance/ecuador/029_optimization.rst:19
+msgid "One mapa optimized for human well-being."
+msgstr ""
+
+#: ../../guidance/ecuador/029_optimization.rst:21
+msgid ""
+"Conversely, if you only want to display the final spatial prioritization "
+"map, you should leave this box unchecked."
+msgstr ""
+
+#: ../../guidance/ecuador/029_optimization.rst:23
+#: ../../guidance/ecuador/029_optimization.rst:27
+msgid "Figure 9. Optimization and global parameters"
+msgstr ""
+
+#: ../../guidance/ecuador/029_optimization.rst:29
+msgid ""
+"Click on the *\"Run optimization\"* button (Figure 10). The analysis may "
+"take between 1 and 3 minutes to run. However, if the country is large "
+"(resulting in more planning units), there are a large number of planning "
+"features being used, or a high Boundary Penalty Factor is applied, it may "
+"take much longer. You should see a progress bar documenting the status of "
+"the analysis. You should not click \"Run optimization\" again while the "
+"analysis is running."
+msgstr ""
+
+#: ../../guidance/ecuador/029_optimization.rst:30
+msgid ""
+"Each time you change any parameter, click again on \"run optimization\" to "
+"run the model and update the results report and the map."
+msgstr ""
+
+#: ../../guidance/ecuador/029_optimization.rst:32
+#: ../../guidance/ecuador/029_optimization.rst:36
+msgid "Figure 10. Optimization process"
+msgstr ""

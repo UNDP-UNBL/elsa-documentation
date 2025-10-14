@@ -1,0 +1,30 @@
+#: ../../guidance/peru/027_input.rst:2
+msgid "2.7 View input layers"
+msgstr ""
+
+#: ../../guidance/peru/027_input.rst:4
+msgid ""
+"By clicking on *\"Input Layers\"*, users can view maps of the **40 planning "
+"features** included in the ELSA analysis to identify priority areas for ENDB "
+"implementation."
+msgstr ""
+
+#: ../../guidance/peru/027_input.rst:6
+msgid "**Steps**"
+msgstr ""
+
+#: ../../guidance/peru/027_input.rst:8
+msgid "Check the box for each planning feature layer you want to display."
+msgstr ""
+
+#: ../../guidance/peru/027_input.rst:9
+msgid "Uncheck the box to remove the planning feature layer from the view."
+msgstr ""
+
+#: ../../guidance/peru/027_input.rst:11
+msgid "Figure 7. View Input layers"
+msgstr ""
+
+#: ../../guidance/peru/027_input.rst:15
+msgid "Figure 7. View input layers"
+msgstr ""

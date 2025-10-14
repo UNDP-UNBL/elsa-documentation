@@ -1,0 +1,272 @@
+Viewing and Interpreting ELSA Results
+====================================
+
+After your ELSA analysis completes, you can view and interpret the results through heatmaps, action maps, and detailed analytics. This section guides you through understanding and evaluating your analysis outcomes.
+
+Accessing Analysis Results
+--------------------------
+
+**To view your results:**
+
+1. **Locate your completed analysis** in the 'ANALYSIS RUNS' list
+2. **Click the three vertical dots** next to your analysis entry  
+3. **Select 'View'** from the dropdown menu
+4. **Choose visualization type** from the legend dropdown
+
+.. figure:: images/accessing-results.png
+   :alt: Accessing analysis results
+   :align: center
+   
+   Dropdown menu for viewing completed analysis results
+
+Understanding Heatmaps
+----------------------
+
+**Start with heatmaps** - it's recommended to view heatmap layers before examining final action maps.
+
+What Are Heatmaps?
+~~~~~~~~~~~~~~~~~~
+
+Heatmaps identify important locations for achieving KMGBF targets by showing the normalized sum of planning features' values in each planning unit, accounting for user-assigned weights.
+
+**Heatmap Interpretation:**
+
+* **Color coding**: Green to yellow gradient indicates importance levels
+* **Bright yellow**: Most important areas (highest planning feature concentration)
+* **Green**: Moderately important areas  
+* **Grey/No color**: Lower importance areas
+
+**Using Heatmaps:**
+
+* Identify areas with greatest overall contribution to KMGBF targets
+* Validate patterns against local knowledge and expectations
+* Understand spatial distribution of priority features
+* Guide interpretation of final action maps
+
+.. figure:: images/heatmap-display.png
+   :alt: Heatmap visualization
+   :align: center
+   
+   Example heatmap showing priority areas for KMGBF target achievement
+
+Analyzing Heatmap Patterns
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Validation Approach:**
+
+1. **Compare with expectations**: Do patterns match your understanding of the region?
+2. **Overlay satellite imagery**: Toggle base maps to understand landscape context
+3. **Examine individual features**: View specific planning layers that contribute to high-value areas
+4. **Cross-reference local knowledge**: Validate patterns with ground-truth information
+
+**Map Controls:**
+
+* **Toggle satellite imagery**: Click 'MAP CONTROLS' → eye icon to show/hide satellite base
+* **Adjust opacity**: Use opacity slider to blend heatmap with satellite imagery
+* **Switch base maps**: Choose between satellite, roads, or terrain views
+
+.. figure:: images/heatmap-evaluation.png
+   :alt: Evaluating heatmaps with satellite overlay
+   :align: center
+   
+   Heatmap overlaid on satellite imagery for spatial context
+
+Viewing ELSA Action Maps
+------------------------
+
+The ELSA Action map shows the final priority areas for different nature-based actions based on your optimization parameters.
+
+**Action Map Components:**
+
+* **Protection zones** (typically green): Areas prioritized for biodiversity conservation
+* **Restoration zones** (typically yellow): Areas identified for ecological restoration
+* **Management zones**: Areas for sustainable use and management
+* **Urban greening**: Urban areas for nature-based solutions
+
+.. figure:: images/elsa-action-map.png
+   :alt: ELSA Action map showing protection and restoration areas
+   :align: center
+   
+   ELSA Action map displaying priority areas around Astana, Kazakhstan
+
+**Interpreting Action Maps:**
+
+* **Spatial distribution**: How are different actions distributed across your landscape?
+* **Connectivity**: Are priority areas well-connected or fragmented?  
+* **Accessibility**: Are priority areas accessible for implementation?
+* **Land use compatibility**: Do suggestions align with current land use patterns?
+
+Analyzing Feature Representations
+---------------------------------
+
+Understanding how well each planning feature is represented in your final solution is crucial for evaluating trade-offs and synergies.
+
+Accessing Representation Data
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Method 1: Information Box**
+
+1. **Click the 'i' icon** in the layer legend of your toggled analysis run
+2. **View summary table** showing representation scores for each feature
+3. **Examine area allocations** for each action type
+
+.. figure:: images/feature-representations.png
+   :alt: Feature representations information box
+   :align: center
+   
+   Information box showing feature representation scores and area allocations
+
+**Information Displayed:**
+
+* **Action Area Allocation**: Total area allocated to each action type
+* **Feature Representations Table**: 
+  * **Weight**: User-assigned importance weight
+  * **Overall**: Overall representation score across all actions
+  * **Protect/Restore**: Action-specific representation scores
+
+Understanding Representation Scores
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Representation Score Calculation:**
+``Representation Score = Representation in prioritization map / Maximum representation in thematic maps``
+
+**Score Interpretation:**
+
+* **0-30%**: Low representation - feature may be under-represented
+* **30-70%**: Moderate representation - balanced inclusion
+* **70-100%**: High representation - feature is well-captured
+
+**Trade-off Analysis:**
+
+* **High representation** in one theme may mean **lower representation** in others
+* **Balanced scores** across themes indicate good synergies
+* **Highlighted cells** indicate actions that each feature layer will impact
+
+Evaluating Analysis Quality
+---------------------------
+
+Use these criteria to assess whether your analysis meets your objectives:
+
+**Spatial Coherence:**
+* Are priority areas spatially clustered and connected?
+* Do results align with known biodiversity/climate patterns?
+* Are there logical connections between protection and restoration areas?
+
+**Feature Balance:**
+* Are all important features adequately represented?
+* Do any critical features have unexpectedly low representation?
+* Are there acceptable trade-offs between different themes?
+
+**Implementation Feasibility:**
+* Are priority areas accessible and manageable?
+* Do results align with existing conservation initiatives?
+* Are there potential conflicts with current land use?
+
+**Target Achievement:**
+* Does the analysis meet your area-based budget targets?
+* Are KMGBF target contributions balanced appropriately?
+* Do results support your national conservation priorities?
+
+Iterative Improvement Process
+----------------------------
+
+Based on your results evaluation, you may want to adjust parameters and rerun analyses:
+
+**Common Adjustments:**
+
+**If feature representation is too low:**
+* Increase weights for under-represented features
+* Adjust area budgets to allow more inclusion
+* Consider relaxing spatial constraints
+
+**If spatial clustering is insufficient:**
+* Increase boundary penalty factor
+* Review lock-in settings
+* Adjust action zone budgets
+
+**If results don't match expectations:**
+* Review and adjust feature weights
+* Examine individual input layers for data quality
+* Consult with local experts on parameter settings
+
+**Creating New Scenarios:**
+
+1. **Duplicate existing analysis**: Use the 'Duplicate' option from the three-dot menu
+2. **Modify specific parameters**: Make targeted adjustments based on evaluation
+3. **Use descriptive naming**: Clearly indicate what changes were made
+4. **Compare results**: Evaluate multiple scenarios side-by-side
+
+Analyzing Synergies and Trade-offs
+---------------------------------
+
+One key outcome of ELSA analysis is identifying synergies between actions for biodiversity, climate change, and sustainable development.
+
+**Trade-off Score Calculation:**
+``Trade-off Score = Representation in prioritization map / Maximum representation in thematic maps``
+
+**Interpreting Synergies:**
+* **High representation across multiple themes**: Indicates strong synergies
+* **Concentrated representation in one theme**: May indicate trade-offs
+* **Balanced moderate representation**: Suggests good compromise solutions
+
+**Using Trade-off Analysis:**
+* Identify win-win areas for multiple objectives
+* Understand where compromises are necessary
+* Inform stakeholder discussions about priority setting
+* Guide adaptive management strategies
+
+Advanced Visualization Techniques
+---------------------------------
+
+**Combining Multiple Layers:**
+* Toggle between heatmaps and action maps
+* Overlay input layers to understand driver patterns
+* Use satellite imagery for landscape context
+* Compare different analysis scenarios
+
+**Zooming and Navigation:**
+* Use UNBL zoom controls for detailed examination
+* Focus on specific regions of interest
+* Examine boundary transitions between action zones
+* Identify connectivity corridors
+
+**Export for External Analysis:**
+* Screenshot high-resolution images for presentations
+* Note specific coordinates for field verification
+* Document interesting patterns for further investigation
+
+Quality Assurance Checklist
+---------------------------
+
+Before finalizing your analysis, verify:
+
+**Technical Validation:**
+* ☐ All target budgets are met within tolerance
+* ☐ Lock-in constraints are properly applied
+* ☐ No obvious spatial anomalies or errors
+* ☐ Processing completed without errors
+
+**Scientific Validation:**
+* ☐ Results align with known ecological patterns
+* ☐ Feature representations are within acceptable ranges
+* ☐ Trade-offs are reasonable and documented
+* ☐ Spatial patterns make biological/ecological sense
+
+**Stakeholder Validation:**
+* ☐ Results support stated policy objectives
+* ☐ Priority areas are feasible for implementation
+* ☐ Local knowledge and expertise are incorporated
+* ☐ Results can be clearly communicated to decision-makers
+
+Next Steps
+----------
+
+After thoroughly evaluating your results, you can:
+
+1. **Document findings**: Record key insights and decisions
+2. **Share with stakeholders**: Present results for feedback and validation
+3. **Refine parameters**: Make adjustments based on evaluation
+4. **Proceed to download**: Export final maps and data using :doc:`downloading-results`
+5. **Plan implementation**: Use results to guide conservation planning and action
+
+The next section will cover how to download and export your analysis results for use in external applications and reporting.

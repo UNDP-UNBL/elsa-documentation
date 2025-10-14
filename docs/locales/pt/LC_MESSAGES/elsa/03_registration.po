@@ -1,0 +1,97 @@
+# Portuguese translations for ELSA Integrated Spatial Planning Tool package.
+# Copyright (C) 2025, UNDP & UNEP-WCMC
+# This file is distributed under the same license as the ELSA Integrated Spatial Planning Tool package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Integrated Spatial Planning Tool 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-14 16:14+1000\n"
+"PO-Revision-Date: 2025-10-14 16:14+1000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../elsa/03_registration.rst:2
+msgid ""
+"Registering on UNBL and Requesting Access to a Workspace with an ELSA Tool "
+"Configuration"
+msgstr ""
+
+#: ../../elsa/03_registration.rst:4
+msgid ""
+"To register on UNBL and request access to a workspace and ELSA Tool, please "
+"undertake the following steps."
+msgstr ""
+
+#: ../../elsa/03_registration.rst:6
+msgid ""
+"Click the ‘Launch map’ button on the UN Biodiversity Lab website to access "
+"the data app."
+msgstr ""
+
+#: ../../elsa/03_registration.rst:8 ../../elsa/03_registration.rst:12
+msgid "Figure 2. UNBL home page"
+msgstr ""
+
+#: ../../elsa/03_registration.rst:14
+msgid ""
+"Once this has loaded, select the account icon in the top right-hand corner "
+"and choose ‘sign up’. Enter your email, name, country, and institution "
+"(optional), and set your password to sign up."
+msgstr ""
+
+#: ../../elsa/03_registration.rst:16 ../../elsa/03_registration.rst:20
+#: ../../elsa/03_registration.rst:24
+msgid "Figure 3. Sign up window"
+msgstr ""
+
+#: ../../elsa/03_registration.rst:26
+msgid ""
+"You will receive an email within a few minutes. Follow the instructions in "
+"this email to then follow the email to verify your account."
+msgstr ""
+
+#: ../../elsa/03_registration.rst:27
+msgid ""
+"Once your account is verified, you can log-in using your email address and "
+"password each time you access the platform."
+msgstr ""
+
+#: ../../elsa/03_registration.rst:28
+msgid ""
+"To use the ELSA Tool for your country, simply `request a workspace on UN "
+"Biodiversity Lab <https://unbiodiversitylab.org/en/unbl-workspaces/>`_ using "
+"our form and indicate that you would like access to the ELSA Tool. Feel free "
+"to reach out to us at support@unbiodiversitylab.org for further questions."
+msgstr ""
+
+#: ../../elsa/03_registration.rst:29
+msgid ""
+"Once the workspace has been created, you will receive email confirmation. "
+"You will be able to access it by navigating to the UNBL map app, toggling "
+"the workspace in the tab that appears after clicking on the ‘WORKSPACES’ tab "
+"in the top-left, and clicking on ‘ANALYSES’ once you have chosen your "
+"workspace to view the ELSA Tool. ELSA Tool configurations can be created for "
+"one or multiple countries within your workspace."
+msgstr ""
+
+#: ../../elsa/03_registration.rst:30
+msgid ""
+"If you have one or more tool configurations in a single workspace, or have "
+"access to multiple workspaces with tool configurations, then a list of the "
+"available tool configurations will appear in the tab after you click on "
+"‘ANALYSES’. Click on the downward arrow of the tool configuration you wish "
+"to use to select that tool configuration. If you only have access to one "
+"tool configuration or only have one workspace with one tool configuration "
+"toggled, then that tool configuration will automatically be selected."
+msgstr ""
+
+#: ../../elsa/03_registration.rst:32 ../../elsa/03_registration.rst:36
+msgid "Figure 4. Accessing the ELSA Tool configuration for Moore – Ghana"
+msgstr ""

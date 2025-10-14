@@ -1,76 +1,228 @@
 # Configuration file for the Sphinx documentation builder.
-#
-# See full documentation:
+# ELSA Integrated Spatial Planning Tool Documentation
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-# -- Path setup --------------------------------------------------------------
-
-# If extensions (or modules to document with autodoc) are in another directory,
-# add these directories to sys.path here. If the directory is relative to the
-# documentation root, use os.path.abspath to make it absolute, like shown here.
-#
 import os
 import sys
-import datetime
-# sys.path.insert(0, os.path.abspath('.'))
 
+# =============================================================================
+# PROJECT INFORMATION
+# =============================================================================
 
-# -- Project information -----------------------------------------------------
+project = 'ELSA Integrated Spatial Planning Tool'
+copyright = '2025, UNDP & UNEP-WCMC'
+author = 'UN Biodiversity Lab Team'
+version = '1.0'
+release = '1.0.1'
 
-project = "ELSA Online Documentation"
-current_year = datetime.datetime.now().year
-copyright = f"{current_year}, UNDP"
-author = "UNDP and the ELSA Team"
+# =============================================================================
+# GENERAL CONFIGURATION
+# =============================================================================
 
-
-# -- General configuration ---------------------------------------------------
-
-language = 'en'  # Default language is English
-
-# Define locale directory where translations will be stored
-locale_dirs = ['locales/']
-gettext_compact = False  # Ensures separate .po files per source file
-
+# Add any Sphinx extension module names here
 extensions = [
-    "sphinx.ext.duration",
-    "sphinx.ext.doctest",
-    "sphinx.ext.autodoc",
-    "sphinx.ext.autosummary",
-    "sphinx.ext.intersphinx",
-    "sphinx_copybutton",
-    "sphinx_design"
+    'sphinx.ext.autodoc',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.intersphinx',
+    'sphinx_rtd_theme',
+    'sphinx_design',           # For dropdowns and advanced layouts
+    'sphinx_copybutton',       # Copy button for code blocks
 ]
 
-intersphinx_mapping = {
-    "rtd": ("https://docs.readthedocs.io/en/stable/", None),
-    "python": ("https://docs.python.org/3/", None),
-    "sphinx": ("https://www.sphinx-doc.org/en/master/", None),
-}
-intersphinx_disabled_domains = ["std"]
-
-# -- Options for EPUB output
-# epub_show_urls = "footnote"
+# Add any paths that contain templates here, relative to this directory
+templates_path = ['_templates']
 
 # List of patterns, relative to source directory, that match files and
-# directories to ignore when looking for source files.
-# This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
+# directories to ignore when looking for source files
+exclude_patterns = [
+    '_build',
+    'Thumbs.db', 
+    '.DS_Store',
+    '**.ipynb_checkpoints',
+    'README.md'
+]
 
-# -- Options for HTML output -------------------------------------------------
+# The master toctree document
+master_doc = 'index'
 
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-
-html_theme = "sphinx_rtd_theme"
-
-html_theme_options = {
-    "language_selector": False,  # Hide language dropdown
-    "version_selector": False,   # Hide version selector (if applicable)
+# Source file suffixes
+source_suffix = {
+    '.rst': None,
+    '.md': 'myst-parser',
 }
 
-pygments_style = "friendly"
+# Build information
+today_fmt = '%B %d, %Y'
 
-# Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
-# html_static_path = ["_static"]
+# =============================================================================
+# INTERNATIONALIZATION
+# =============================================================================
+
+language = 'en'
+locale_dirs = ['locales/']
+gettext_compact = False
+
+# Language-specific settings for multi-language support
+locale_docs = {
+    'es': 'Spanish',
+    'fr': 'French', 
+    'ru': 'Russian',
+    'pt': 'Portuguese'
+}
+
+# =============================================================================
+# HTML OUTPUT OPTIONS
+# =============================================================================
+
+# The theme to use for HTML and HTML Help pages
+html_theme = 'sphinx_rtd_theme'
+
+# Theme options are theme-specific and customize the look and feel
+html_theme_options = {
+    'logo_only': False,
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': False,
+    'style_nav_header_background': '#2980B9',
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False
+}
+
+# Add any paths that contain custom static files (such as style sheets)
+html_static_path = ['_static']
+
+# Custom CSS files
+html_css_files = [
+    'elsa-custom.css',
+]
+
+# Page titles
+html_title = "ELSA Integrated Spatial Planning Tool - User's Guide"
+html_short_title = "ELSA User Guide"
+
+# Logo and favicon (uncomment and customize as needed)
+# html_logo = '_static/unbl_logo.png'
+# html_favicon = '_static/favicon.ico'
+
+# Search configuration
+html_search_language = 'en'
+html_search_options = {'type': 'default'}
+
+# External search integration
+html_use_opensearch = 'https://docs.unbiodiversitylab.org'
+
+# Version control links
+html_context = {
+    "display_github": True,
+    "github_user": "UNDP-UNBL",
+    "github_repo": "elsa-documentation",
+    "github_version": "main",
+    "conf_py_path": "/docs/",
+}
+
+# =============================================================================
+# FIGURE AND TABLE NUMBERING
+# =============================================================================
+
+# Automatically number figures, tables and code-blocks
+numfig = True
+numfig_secnum_depth = 2
+numfig_format = {
+    'figure': 'Figure %s',
+    'table': 'Table %s',
+    'code-block': 'Listing %s',
+    'section': 'Section %s',
+}
+
+# =============================================================================
+# LATEX/PDF OUTPUT OPTIONS
+# =============================================================================
+
+latex_elements = {
+    'papersize': 'letterpaper',
+    'pointsize': '10pt',
+    'preamble': r'''
+        \usepackage{charter}
+        \usepackage[defaultsans]{lato}
+        \usepackage{inconsolata}
+    ''',
+}
+
+# Grouping the document tree into LaTeX files
+latex_documents = [
+    ('index', 'ELSA-UserGuide.tex', 
+     'ELSA Integrated Spatial Planning Tool User\'s Guide',
+     'UN Biodiversity Lab Team', 'manual'),
+]
+
+# =============================================================================
+# EPUB OUTPUT OPTIONS
+# =============================================================================
+
+epub_title = project
+epub_author = author
+epub_publisher = 'UN Biodiversity Lab'
+epub_copyright = copyright
+
+# =============================================================================
+# EXTENSION CONFIGURATION
+# =============================================================================
+
+# Intersphinx mapping for cross-documentation links
+intersphinx_mapping = {
+    'python': ('https://docs.python.org/3/', None),
+    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
+}
+
+# Napoleon settings for Google/NumPy style docstrings
+napoleon_google_docstring = True
+napoleon_numpy_docstring = True
+napoleon_include_init_with_doc = False
+napoleon_include_private_with_doc = False
+napoleon_include_special_with_doc = True
+napoleon_use_admonition_for_examples = False
+napoleon_use_admonition_for_notes = False
+napoleon_use_admonition_for_references = False
+napoleon_use_ivar = False
+napoleon_use_param = True
+napoleon_use_rtype = True
+
+# Copy button configuration
+copybutton_prompt_text = r">>> |\.\.\. |\$ |In \[\d*\]: | {2,5}\.\.\.: | {5,8}: "
+copybutton_prompt_is_regexp = True
+
+# =============================================================================
+# COMMON EXTERNAL LINKS
+# =============================================================================
+
+# Define common links used throughout the documentation
+rst_epilog = """
+.. _UN Biodiversity Lab: https://www.unbiodiversitylab.org
+.. _KMGBF: https://www.cbd.int/conferences/2021-2022/cop-15/documents
+.. _prioritizr: https://prioritizr.net/
+.. _UNEP-WCMC: https://www.unep-wcmc.org/
+.. _UNDP: https://www.undp.org/
+"""
+
+# =============================================================================
+# CUSTOM SETUP FUNCTION
+# =============================================================================
+
+def setup(app):
+    """Custom setup for ELSA documentation."""
+    
+    # Add custom CSS for ELSA content
+    app.add_css_file('elsa-custom.css')
+    
+    # Add custom directives if needed in the future
+    # app.add_directive('elsa-example', ELSAExampleDirective)
+    
+    return {
+        'version': version,
+        'parallel_read_safe': True,
+        'parallel_write_safe': True,
+    }

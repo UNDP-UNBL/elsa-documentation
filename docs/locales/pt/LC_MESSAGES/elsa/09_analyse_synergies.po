@@ -1,0 +1,89 @@
+# Portuguese translations for ELSA Integrated Spatial Planning Tool package.
+# Copyright (C) 2025, UNDP & UNEP-WCMC
+# This file is distributed under the same license as the ELSA Integrated Spatial Planning Tool package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Integrated Spatial Planning Tool 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-14 16:14+1000\n"
+"PO-Revision-Date: 2025-10-14 16:14+1000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../elsa/09_analyse_synergies.rst:2
+msgid "Analysing synergies and trade-offs"
+msgstr ""
+
+#: ../../elsa/09_analyse_synergies.rst:4
+msgid ""
+"One outcome of the ELSA analysis is to identify synergies among actions for "
+"KMGBF Targets that span biodiversity, climate change and human well-being. "
+"The analysis measures the outcome of each planning feature with a "
+"representation score to show where planning for all KMGBF targets "
+"simultaneously might have led to specific planning features being "
+"represented to a lower level than other features. Where:"
+msgstr ""
+
+#: ../../elsa/09_analyse_synergies.rst:6
+msgid ""
+"\\text{Representation score} = \\frac{\\text{Representation in "
+"prioritization map}}{\\text{Maximum representation}}"
+msgstr ""
+
+#: ../../elsa/09_analyse_synergies.rst:10
+msgid "in the thematic maps."
+msgstr ""
+
+#: ../../elsa/09_analyse_synergies.rst:12
+msgid ""
+"After running an analysis, you can view the results and evaluate whether the "
+"parameters selected led to an acceptable representation for each of the "
+"planning features."
+msgstr ""
+
+#: ../../elsa/09_analyse_synergies.rst:14
+msgid ""
+"You can review planning feature representation by clicking the ‘**i**’ icon "
+"in the layer legend of the toggled analysis run. This will display a test "
+"information window with the total land area allocated to each nature-based "
+"action in the analysis, as well as a table showing the weight, overall "
+"representation and individual representation for each nature-based action "
+"for each planning feature."
+msgstr ""
+
+#: ../../elsa/09_analyse_synergies.rst:16
+#: ../../elsa/09_analyse_synergies.rst:20
+msgid "Figure 19. Feature representations info box."
+msgstr ""
+
+#: ../../elsa/09_analyse_synergies.rst:22
+msgid ""
+"You can alternatively save this same information to your local computer by "
+"clicking on the three vertical dots button next to the entry of your "
+"analysis run and then clicking on ‘Download CSV’ or ‘Download JSON’, "
+"depending on the format you desire. You can additionally click on ‘Download "
+"Excel summary’ to download a more comprehensive test information sheet which "
+"shows data descriptions and metadata for each planning feature, descriptions "
+"of policy targets used for the analysis, and ELSA analysis resources "
+"alongside the representation scores."
+msgstr ""
+
+#: ../../elsa/09_analyse_synergies.rst:24
+#: ../../elsa/09_analyse_synergies.rst:28
+msgid "Figure 20. Download feature representation summary tables."
+msgstr ""
+
+#: ../../elsa/09_analyse_synergies.rst:30
+msgid ""
+"You can evaluate representation scores for planning features of your choice "
+"and iteratively duplicate and run additional analysis runs with increased/"
+"decreased weights for planning features depending on whether you want to "
+"increase/decrease their representation in the final ELSA map."
+msgstr ""

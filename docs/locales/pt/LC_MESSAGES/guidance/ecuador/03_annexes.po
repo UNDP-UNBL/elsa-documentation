@@ -1,0 +1,478 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, UNDP & UNEP-WCMC
+# This file is distributed under the same license as the ELSA Integrated
+# Spatial Planning Tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ELSA Integrated Spatial Planning Tool 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-14 15:55+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: pt <LL@li.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../guidance/ecuador/03_annexes.rst:2
+msgid "3. Annexes"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:4
+msgid ""
+"3.1 Key terms used in the process of mapping priority areas for the "
+"implementation of the GBF in Ecuador."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:10
+msgid "Term"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:11
+msgid "Definition"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:12
+msgid "Application in Ecuador"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:14
+msgid "Boundary Penalty Factor (BPF)"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:15
+msgid "Solutions are penalized based on the total outer boundary or edge"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:17
+msgid "of the zones. By penalizing solutions with large edge length, this BPF"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:19
+msgid "can be used to promote spatial cohesion or clustering in the spatial"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:21
+msgid "prioritization zones of priority areas for GBF implementation."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:23
+msgid "A boundary penalty of 10 was applied to produce the second spatial"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:25
+msgid "prioritization map. This score was selected to create a scientifically"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:27
+msgid "rigorous but actionable map that promotes protection, management,"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:29
+msgid "and restoration in contiguous areas."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:31
+msgid "Objective based on areas (budget)"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:32
+msgid "The maximum area (expressed as a % of the total area of the country)"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:34
+msgid "that can be assigned to an \"area\"."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:35
+msgid "Protect: 30%."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:37
+msgid "Restore: 8.99%"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:39
+msgid "Manage: 10%"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:41
+msgid "Planning feature"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:42
+msgid "An element of biodiversity or ecosystem service selected as a focus"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:44
+msgid ""
+"for conservation planning or action. It may include ecological "
+"classifications,"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:46
+msgid "habitat types, species, physical objects, processes, or any element"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:48
+msgid "that can be measured in a planning unit. In the process of spatial"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:50
+msgid "prioritization of priority areas for GBF implementation, each priority"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:52
+msgid "commitment for a country may correspond to one or more planning"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:54
+msgid "features depending on its complexity."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:56
+msgid ""
+"The Prioritizing Nature for Ecuador webtool contains 16 planning features"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:58
+msgid "that map the 9 biodiversity targets of the GBF."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:60
+msgid "Decision support software"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:61
+msgid "A computer application that uses information about possible actions and"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:63
+msgid ""
+"the limitations of those actions to assist the decision-making process in"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:65
+msgid "achieving a stated objective."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:67
+msgid "For the Prioritizing Nature in Ecuador project, prioritizr is used as"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:69
+msgid "decision support software."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:71
+msgid "Geographic Information System (GIS)"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:72
+msgid "Computer system consisting of hardware and software necessary for the"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:74
+msgid "capture, storage, management, analysis and presentation of geographic"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:76
+msgid "(spatial) data."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:78
+msgid "The Prioritizing Nature webtool uses GIS software to present spatial"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:80
+msgid "data to users. No GIS knowledge is required to use it."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:82
+msgid "Restrictions"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:83
+msgid ""
+"A constraint that must be met during optimization, as it creates a network"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:85
+msgid ""
+"of areas. The main constraints are that the budget (land area devoted to"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:87
+msgid ""
+"each spatial prioritization action) is not exceeded and that each zone can"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:89
+msgid ""
+"only occur within specified planning units (e.g. the protection zone can only"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:91
+msgid ""
+"be possible in planning units that are not agricultural or urban coverage)."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:93
+msgid "For more details, see Table 1."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:95
+msgid "Planning units"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:96
+msgid ""
+"Planning units are the basic elements of a reserve system. A study area is"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:98
+msgid ""
+"divided into planning units that are smaller geographic parcels of regular"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:100
+msgid ""
+"or irregular shapes. Examples are squares, hexagons, cadastral parcels and"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:102
+msgid "hydrological units."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:103
+msgid "Coordinate Reference System: Custom Mollweide"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:105
+msgid "Pixel resolution or pixel size: 600x600m"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:107
+msgid "Representation"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:108
+msgid ""
+"In Systematic Conservation Planning, a representative system captures the"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:110
+msgid ""
+"full range of planning features (species, ecosystems, and ecosystem services)"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:112
+msgid "occurring in the planning region, not just iconic species."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:114
+msgid ""
+"In Ecuador's spatial prioritization analysis, the representation is used to"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:116
+msgid "measure how well the priority areas for GBF implementation capture or"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:118
+msgid "represent the elements of planning relative to a more targeted planning"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:120
+msgid ""
+"approach focused solely on biodiversity, climate change or human well-being."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:122
+msgid "Systematic Conservation Planning (SCP)"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:123
+msgid ""
+"A formal method for identifying potential areas for conservation management"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:125
+msgid ""
+"that will most efficiently achieve a specific set of objectives, commonly "
+"some"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:127
+msgid ""
+"minimum representation of biodiversity. The process involves a clear and"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:129
+msgid ""
+"structured approach to priority setting, and is now the norm for both "
+"terrestrial"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:131
+msgid "and marine conservation. The effectiveness of systematic conservation"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:133
+msgid ""
+"planning lies in its ability to make the best use of limited fiscal "
+"resources to"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:135
+msgid ""
+"achieve conservation objectives and to do so in a way that is defensible,"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:137
+msgid ""
+"accountable, and transparently recognizes the needs of different resource "
+"users."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:138
+msgid ""
+"The SCP is the science that allows the identification of spatial "
+"prioritization"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:140
+msgid "areas for the implementation of the GBF in Ecuador."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:142
+msgid "User interface"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:143
+msgid "The means by which people interact with a given computer application."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:145
+msgid "A Graphical User Interface (GUI) presents information in a simple way"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:147
+msgid "using graphics, menus and icons."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:148
+msgid ""
+"The Prioritizing Nature webtool is a graphical user interface that gives"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:150
+msgid ""
+"stakeholders the ability to run the spatial prioritization analysis "
+"themselves."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:152
+msgid "Weights"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:153
+msgid ""
+"The weights allow users to set relative priorities within their priority "
+"policy"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:155
+msgid "outcomes. Values typically range from \"0\" (no importance) to \"10\""
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:157
+msgid "(extremely high importance)."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:158
+msgid ""
+"The default weightings for the Ecuador spatial prioritization analysis were"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:160
+msgid "developed collaboratively through stakeholder engagement sessions."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:162
+msgid "Stakeholders can modify these weightings through the Prioritizing"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:164
+msgid "Nature webtool based on changes in priorities."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:166
+msgid "Zones/Shares"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:167
+msgid "A land use zone, equivalent to a nature-based action, which serves to"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:169
+msgid ""
+"enhance specific planning objects. Zones are determined by restrictions that"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:171
+msgid ""
+"define where an action may or may not absolutely occur. For example, these"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:173
+msgid ""
+"hard restrictions limit protection to intact areas (e.g., low human footprint"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:175
+msgid ""
+"values) and protection/restoration to areas that are moderately impacted by"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:177
+msgid ""
+"human activity, but not totally dominated by humans (e.g., low and medium"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:179
+msgid "human footprint values)."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:180
+msgid ""
+"In Ecuador, the spatial prioritization analysis zoning maps three different"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:182
+msgid "actions: protect, manage and restore."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:184
+msgid ""
+"Data used for zoning constraints include human footprint, degraded areas,"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:186
+msgid "protected areas, urban areas and agricultural areas."
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:189
+msgid "3.2 Data layers used in the Prioritizing Nature project in Ecuador"
+msgstr ""
+
+#: ../../guidance/ecuador/03_annexes.rst:191
+msgid ""
+"Figure 1. Data layers used in the Prioritizing Nature project in Ecuador"
+msgstr ""
