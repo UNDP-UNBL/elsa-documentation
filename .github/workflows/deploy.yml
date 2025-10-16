@@ -3,7 +3,7 @@ name: Deploy MkDocs to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - convert-to-mkdocs  # Deploy from this branch instead of main
   workflow_dispatch:
 
 permissions:
