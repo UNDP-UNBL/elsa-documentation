@@ -7,12 +7,14 @@
 - `docs/Makefile` - Sphinx build automation
 - `docs/make.bat` - Windows build script
 
-### Documentation Source Files (72 files)
+### Documentation Source Files
 - All `.rst` files removed from:
   - `docs/elsa/` (13 files)
-  - `docs/trainings/` (27 files)
-  - `docs/guidance/ecuador/` (16 files)
-  - `docs/guidance/peru/` (16 files)
+- All training materials removed:
+  - `docs/trainings/` directory (27 .md files)
+- All regional guidance removed:
+  - `docs/guidance/ecuador/` directory (16 .md files)
+  - `docs/guidance/peru/` directory (16 .md files)
 
 ### Build Artifacts
 - `docs/_build/` - All Sphinx build outputs
@@ -53,9 +55,7 @@ elsa-documentation/
 │   ├── assets/
 │   │   └── css/
 │   │       └── elsa-custom.css  # Custom styling
-│   ├── elsa/                    # ELSA tool docs (13 .md files)
-│   ├── trainings/               # Training materials (27 .md files)
-│   └── guidance/                # Regional guidance (32 .md files)
+│   └── elsa/                    # ELSA tool docs (13 .md files)
 ├── scripts/
 │   ├── convert_rst_to_md.py    # Conversion utility
 │   └── setup_i18n.py           # Translation setup helper
@@ -69,7 +69,9 @@ elsa-documentation/
 - Removed RST files: ~500 KB
 - Removed _build directory: ~15 MB
 - Removed Sphinx config: ~10 KB
-- **Total freed**: ~15.5 MB
+- Removed training materials: ~350 KB (27 .md files)
+- Removed regional guidance: ~400 KB (32 .md files)
+- **Total freed**: ~16.3 MB
 
 ## Files Preserved
 
@@ -80,7 +82,7 @@ elsa-documentation/
 - Conversion scripts in `scripts/`
 
 ### Active Files
-- All Markdown documentation (72 .md files)
+- Core ELSA tool documentation (13 .md files)
 - MkDocs configuration and documentation
 - Custom CSS and images
 - Git repository files

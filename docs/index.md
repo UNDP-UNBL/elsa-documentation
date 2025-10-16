@@ -16,8 +16,6 @@ This user's guide aims to provide a clear and concise overview on the use of the
 ## Documentation Sections
 
 - **[ELSA Tool](elsa/index.md)** - Complete guide to using the ELSA Integrated Spatial Planning Tool
-- **[Training Materials](trainings/index.md)** - Step-by-step tutorials and training resources
-- **[Regional Guidance](guidance/index.md)** - Country-specific guidance (Ecuador, Peru)
 
 ## Citation
 
