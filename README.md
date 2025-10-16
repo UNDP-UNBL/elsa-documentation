@@ -133,15 +133,6 @@ Edit `docs/assets/css/elsa-custom.css` for custom styles.
 - **Images:** 81 images preserved
 - **Hosting:** Free on ReadTheDocs
 
-## 💰 Cost Savings
-
-**Before (Sphinx):**
-- Required paid ReadTheDocs plan: $50-150/month
-
-**After (MkDocs):**
-- Free ReadTheDocs tier: $0/month
-- **Annual savings: $600-1,800**
-
 ## 🔧 Environment Setup
 
 ### Conda/Mamba Environment
