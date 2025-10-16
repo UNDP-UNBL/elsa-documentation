@@ -1,0 +1,258 @@
+site_name: ELSA Integrated Spatial Planning Tool
+site_description: User's Guide for the UN Biodiversity Lab Essential Life Support Area (ELSA) Integrated Spatial Planning Tool
+site_author: UN Biodiversity Lab Team
+site_url: https://undp-unbl.github.io/elsa-documentation/
+copyright: Copyright &copy; 2025 UNDP & UNEP-WCMC
+
+# Repository
+repo_name: UNDP-UNBL/elsa-documentation
+repo_url: https://github.com/UNDP-UNBL/elsa-documentation
+edit_uri: edit/main/docs/
+
+# Theme Configuration
+theme:
+  name: material
+  language: en
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Lato
+    code: Inconsolata
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.action.edit
+    - content.action.view
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+  logo: assets/images/unbl_logo.png
+  favicon: assets/images/favicon.ico
+
+# Plugins
+plugins:
+  - search:
+      lang:
+        - en
+        - es
+        - fr
+        - pt
+        - ru
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: es
+          name: Español
+          build: true
+          nav_translations:
+            ELSA Tool Documentation: Documentación de la Herramienta ELSA
+            Training Materials: Materiales de Capacitación
+            Regional Guidance: Guía Regional
+        - locale: fr
+          name: Français
+          build: true
+          nav_translations:
+            ELSA Tool Documentation: Documentation de l'outil ELSA
+            Training Materials: Matériel de formation
+            Regional Guidance: Orientation régionale
+        - locale: pt
+          name: Português
+          build: true
+          nav_translations:
+            ELSA Tool Documentation: Documentação da Ferramenta ELSA
+            Training Materials: Materiais de Treinamento
+            Regional Guidance: Orientação Regional
+        - locale: ru
+          name: Русский
+          build: true
+          nav_translations:
+            ELSA Tool Documentation: Документация инструмента ELSA
+            Training Materials: Учебные материалы
+            Regional Guidance: Региональное руководство
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - custom-skip-class-name
+      auto_caption: false
+      caption_position: bottom
+
+# Markdown Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      permalink_title: Anchor link to this section for reference
+      toc_depth: 4
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.snippets
+
+# Extra CSS and JavaScript
+extra_css:
+  - assets/css/elsa-custom.css
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Extra Configuration
+extra:
+  version:
+    provider: mike
+    default: latest
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/UNDP-UNBL
+      name: UNDP-UNBL on GitHub
+    - icon: fontawesome/solid/globe
+      link: https://www.unbiodiversitylab.org
+      name: UN Biodiversity Lab
+  analytics:
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page by
+            <a href="https://github.com/UNDP-UNBL/elsa-documentation/issues/new" target="_blank" rel="noopener">creating an issue</a>.
+
+# Navigation Structure
+nav:
+  - Home: index.md
+  - ELSA Tool Documentation:
+      - elsa/index.md
+      - Overview: elsa/01_overview.md
+      - Tool Purpose and Key Features: elsa/02_tool_purpose.md
+      - Registration and Access: elsa/03_registration.md
+      - Creating a New Analysis: elsa/04_creating_analysis.md
+      - Editing an Analysis: elsa/05_editing_analysis.md
+      - Running the Optimization: elsa/06_running_optimization.md
+      - Viewing Heatmaps: elsa/07_viewing_heatmaps.md
+      - Downloading Results: elsa/08_downloading_results.md
+      - Analyzing Synergies and Trade-offs: elsa/09_analyse_synergies.md
+      - Citing Maps: elsa/10_citing_maps.md
+      - Support and Contact: elsa/11_support.md
+      - Annex 1 - Technical Details: elsa/12_annex1.md
+      - Annex 2 - Glossary: elsa/13_annex2.md
+  - Training Materials:
+      - trainings/index.md
+      - Training 1 - Introduction: trainings/training1/index.md
+      - Training 2 - Basic Concepts: trainings/training2/index.md
+      - Training 3 - Software Installation:
+          - trainings/training3/index.md
+          - Installing R: trainings/training3/01_installing_r.md
+          - Installing RStudio: trainings/training3/02_installing_rstudio.md
+          - Using RStudio: trainings/training3/03_using_rstudio.md
+          - Creating R Projects: trainings/training3/04_creating_r_projects.md
+          - Installing R Packages: trainings/training3/05_installing_packages.md
+          - Installing Solvers: trainings/training3/06_installing_solvers.md
+      - Training 4 - Data Preparation: trainings/training4/index.md
+      - Training 5 - Advanced Topics:
+          - trainings/training5/index.md
+          - R Shiny Interface: trainings/training5/01_rshiny_interface.md
+          - GitHub Repository: trainings/training5/02_github_repository.md
+          - Exploring Data Structure: trainings/training5/03_exploring_data_structure.md
+          - Create R Project: trainings/training5/04_create_r_project.md
+          - Installing Gurobi: trainings/training5/05_installing_gurobi.md
+          - Installing Gurobi R Package: trainings/training5/06_installing_gurobi_r_package.md
+          - Getting Gurobi Environment: trainings/training5/07_getting_gurobi_env.md
+          - Checking Gurobi Installation: trainings/training5/08_checking_gurobi_installation.md
+          - Installing Required R Packages: trainings/training5/09_installing_required_r_packages.md
+          - Running Web Tool Part 1: trainings/training5/10_running_webtool_p1.md
+          - Running Web Tool Part 2: trainings/training5/11_running_webtool_p2.md
+          - Exploring Web Tool: trainings/training5/12_exploring_webtool.md
+      - Advanced Prioritizr: trainings/prioritizr_advanced/index.md
+  - Regional Guidance:
+      - guidance/index.md
+      - Ecuador:
+          - guidance/ecuador/index.md
+          - Introduction: guidance/ecuador/01_intro.md
+          - Using the Web Tool: guidance/ecuador/02_webtool.md
+          - Annexes: guidance/ecuador/03_annexes.md
+      - Peru:
+          - guidance/peru/index.md
+          - Introduction: guidance/peru/01_intro.md
+          - Using the Web Tool: guidance/peru/02_webtool.md
+          - Annexes: guidance/peru/03_annexes.md

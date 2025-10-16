@@ -8,15 +8,66 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- Documentation improvements for user guide
-- Enhanced glossary with key terms and definitions
+- MkDocs-based documentation system with Material theme
+- Multi-language support infrastructure (EN, ES, FR, PT, RU)
+- Modern, mobile-responsive documentation interface
+- Dark/light mode toggle for improved readability
+- Image lightbox functionality for full-size viewing
+- Code block copy buttons
+- Client-side search with multi-language support
+- GitHub integration with edit links on each page
+- GitHub Actions workflow for automatic deployment to GitHub Pages
+- Comprehensive migration and setup documentation
 
 ### Changed
-- Updated citation format for map products
-- Improved RST documentation structure
+- **BREAKING**: Migrated documentation from Sphinx/reStructuredText to MkDocs/Markdown
+- **BREAKING**: Changed hosting from ReadTheDocs to GitHub Pages
+- Converted all 72 documentation pages from .rst to .md format
+- Reorganized static assets into `docs/assets/` structure
+- Updated build system from Sphinx to MkDocs (build time: ~3-4 seconds)
+- Updated site URL to GitHub Pages (will support custom domain docs.unbiodiversitylab.org)
+- Archived Sphinx translation files to `archive/sphinx-locales/` for reference
+- Moved conversion scripts to `scripts/` directory for organization
+
+### Removed
+- Sphinx configuration files (conf.py, Makefile, make.bat)
+- All .rst documentation source files (72 files)
+- Sphinx build artifacts (_build directory)
+- Old environment.yaml for Sphinx
+- ReadTheDocs configuration (.readthedocs.yaml)
+- Requirement for paid ReadTheDocs hosting plan
+- Requirement for ReadTheDocs account management
 
 ### Fixed
-- Fixed reference links in documentation
+- Improved navigation structure with tabbed layout
+- Enhanced mobile responsiveness
+- Better cross-reference linking between documentation pages
+- Faster documentation build times
+
+### Documentation
+- Added MKDOCS_MIGRATION.md - Complete migration guide
+- Added QUICKSTART.md - Quick start guide for building docs
+- Added README-MKDOCS.md - MkDocs-specific README
+- Added GITHUB_PAGES_SETUP.md - GitHub Pages deployment guide
+- Added CUSTOM_DOMAIN_SETUP.md - Custom domain configuration guide
+- Added DEPLOYMENT_SUMMARY.md - Deployment overview
+- Added FILE_PURPOSES.md - File purposes and requirements explanation
+- Added READY_TO_DEPLOY.md - Pre-deployment checklist
+- Added TODO.md - Task tracking and roadmap
+- Added CLEANUP_SUMMARY.md - Cleanup documentation
+- Added TRANSLATION_MIGRATION.md - Translation guide
+
+### Infrastructure
+- Hosting: GitHub Pages (free tier with unlimited bandwidth)
+- Deployment: Automated via GitHub Actions
+- Build time: ~3-4 seconds locally, ~2-3 minutes on GitHub Actions
+- Supports custom domain (docs.unbiodiversitylab.org) when DNS configured
+
+### Cost Savings
+- Eliminated need for paid ReadTheDocs plan ($50-150/month)
+- No hosting costs (GitHub Pages is free)
+- No account management overhead
+- Annual savings: $600-1,800
 
 ## [1.2.0] - 2025-08-20
 
