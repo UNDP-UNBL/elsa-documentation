@@ -46,21 +46,11 @@ elsa-documentation/
 │   ├── assets/
 │   │   └── css/
 │   │       └── elsa-custom.css  # Custom styling
-│   ├── elsa/                    # ELSA Tool docs (13 pages)
-│   │   ├── index.md
-│   │   ├── 01_overview.md
-│   │   ├── 02_tool_purpose.md
-│   │   └── ...
-│   ├── trainings/               # Training materials (27 pages)
-│   │   ├── index.md
-│   │   ├── training1/
-│   │   ├── training3/           # Software installation
-│   │   ├── training5/           # Advanced topics
-│   │   └── ...
-│   └── guidance/                # Regional guidance (32 pages)
+│   └── elsa/                    # ELSA Tool docs (13 pages)
 │       ├── index.md
-│       ├── ecuador/
-│       └── peru/
+│       ├── 01_overview.md
+│       ├── 02_tool_purpose.md
+│       └── ...
 ├── site/                        # Built documentation (auto-generated)
 └── locales/                     # Original translations (for reference)
 ```
@@ -158,16 +148,6 @@ mamba env create -f environment-mkdocs.yaml
 - Running optimizations
 - Viewing and downloading results
 - Support and annexes
-
-### Training Materials (5 trainings)
-- Introduction to ELSA
-- Software installation (R, RStudio, packages)
-- Advanced topics (Gurobi, R Shiny, web tools)
-- Prioritizr advanced usage
-
-### Regional Guidance
-- Ecuador-specific guidance (16 pages)
-- Peru-specific guidance (16 pages)
 
 ## 🤝 Contributing
 

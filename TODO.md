@@ -22,7 +22,6 @@
 ### High Priority
 
 - [ ] **Review converted Markdown files** - Check that complex RST directives converted correctly
-- [ ] **Fix external links** - Update `www.7-zip.org` link in training5/05_installing_gurobi.md to include `https://`
 - [ ] **Test all internal links** - Verify cross-references between pages work
 - [ ] **Review images** - Ensure all images display correctly and paths are correct
 
@@ -66,39 +65,32 @@ Before deploying to production:
 
 ### Minor Warnings (Non-blocking)
 
-1. **Link warning**: `trainings/training5/05_installing_gurobi.md` contains link to `www.7-zip.org` without protocol
-   - **Fix**: Add `https://` to the link
-
-### Navigation Improvements Needed
-
-1. Some Ecuador/Peru guidance subsections not in nav (files exist but not linked)
-   - Files: `021_what.md`, `022_functions.md`, `023_lock.md`, etc.
-   - **Decision needed**: Should these be separate nav items or included in parent pages?
+1. ✅ All known issues resolved - Training and regional guidance sections removed
 
 ## 📝 Translation Status
 
 ### English
-- ✅ 100% complete (72 files converted)
+- ✅ 100% complete (13 ELSA tool documentation files)
 
 ### Spanish (es)
 - ⏳ Structure ready
 - ❌ Content needs migration from .po files
-- Total: 71 .po files in `docs/locales/es/LC_MESSAGES/`
+- Total: 13 ELSA pages need translation
 
 ### French (fr)
 - ⏳ Structure ready
 - ❌ Content needs migration from .po files
-- Total: 71 .po files in `docs/locales/fr/LC_MESSAGES/`
+- Total: 13 ELSA pages need translation
 
 ### Portuguese (pt)
 - ⏳ Structure ready
 - ❌ Content needs migration from .po files
-- Total: 71 .po files in `docs/locales/pt/LC_MESSAGES/`
+- Total: 13 ELSA pages need translation
 
 ### Russian (ru)
 - ⏳ Structure ready
 - ❌ Content needs migration from .po files
-- Total: 71 .po files in `docs/locales/ru/LC_MESSAGES/`
+- Total: 13 ELSA pages need translation
 
 ## 🎯 Milestone Goals
 

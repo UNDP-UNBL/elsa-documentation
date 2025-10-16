@@ -22,7 +22,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - **BREAKING**: Migrated documentation from Sphinx/reStructuredText to MkDocs/Markdown
 - **BREAKING**: Changed hosting from ReadTheDocs to GitHub Pages
-- Converted all 72 documentation pages from .rst to .md format
+- **BREAKING**: Streamlined documentation to focus on core ELSA tool usage
+- Converted all documentation pages from .rst to .md format
 - Reorganized static assets into `docs/assets/` structure
 - Updated build system from Sphinx to MkDocs (build time: ~3-4 seconds)
 - Updated site URL to GitHub Pages (will support custom domain docs.unbiodiversitylab.org)
@@ -30,8 +31,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Moved conversion scripts to `scripts/` directory for organization
 
 ### Removed
+- **BREAKING**: Training materials section (27 training documents)
+  - R and RStudio installation guides
+  - prioritizR training materials
+  - Web tool setup tutorials
+  - Gurobi solver installation guides
+- **BREAKING**: Regional guidance section (32 country-specific guides)
+  - Ecuador implementation guidance
+  - Peru implementation guidance
 - Sphinx configuration files (conf.py, Makefile, make.bat)
-- All .rst documentation source files (72 files)
+- All .rst documentation source files
 - Sphinx build artifacts (_build directory)
 - Old environment.yaml for Sphinx
 - ReadTheDocs configuration (.readthedocs.yaml)
