@@ -12,6 +12,7 @@ dependencies:
       - mkdocs-glightbox>=0.3.7
       - mkdocs-minify-plugin>=0.8.0
       - mkdocs-redirects>=1.2.1
+      - mkdocs-caption-plugin>=0.3.1
       - pymdown-extensions>=10.7
       - markdown>=3.5.0
       - Pygments>=2.17.0

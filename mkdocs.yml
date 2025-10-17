@@ -83,28 +83,84 @@ plugins:
           name: Español
           build: true
           nav_translations:
+            Home: Inicio
             ELSA Tool Documentation: Documentación de la Herramienta ELSA
+            Overview: Descripción General
+            Tool Purpose and Key Features: Propósito de la Herramienta y Características Clave
+            Registration and Access: Registro y Acceso
+            Creating a New Analysis: Crear un Nuevo Análisis
+            Editing an Analysis: Editar un Análisis
+            Running the Optimization: Ejecutar la Optimización
+            Viewing Heatmaps: Ver Mapas de Calor
+            Downloading Results: Descargar Resultados
+            Analyzing Synergies and Trade-offs: Analizar Sinergias y Compromisos
+            Citing Maps: Citar Mapas
+            Support and Contact: Soporte y Contacto
+            Annex 1 - Technical Details: Anexo 1 - Detalles Técnicos
+            Annex 2 - Glossary: Anexo 2 - Glosario
             Training Materials: Materiales de Capacitación
             Regional Guidance: Guía Regional
         - locale: fr
           name: Français
           build: true
           nav_translations:
+            Home: Accueil
             ELSA Tool Documentation: Documentation de l'outil ELSA
+            Overview: Aperçu
+            Tool Purpose and Key Features: À quoi sert l'outil ELSA
+            Registration and Access: Inscription et Accès
+            Creating a New Analysis: Créer une Nouvelle Analyse
+            Editing an Analysis: Modifier une Analyse
+            Running the Optimization: Exécuter l'Optimisation
+            Viewing Heatmaps: Visualiser les Cartes Thermiques
+            Downloading Results: Télécharger les Résultats
+            Analyzing Synergies and Trade-offs: Analyser les Synergies et les Compromis
+            Citing Maps: Citer les Cartes
+            Support and Contact: Soutien et Contact
+            Annex 1 - Technical Details: Annexe 1 - Détails Techniques
+            Annex 2 - Glossary: Annexe 2 - Glossaire
             Training Materials: Matériel de formation
             Regional Guidance: Orientation régionale
         - locale: pt
           name: Português
           build: true
           nav_translations:
+            Home: Início
             ELSA Tool Documentation: Documentação da Ferramenta ELSA
+            Overview: Visão Geral
+            Tool Purpose and Key Features: Finalidade da Ferramenta e Recursos Principais
+            Registration and Access: Registro e Acesso
+            Creating a New Analysis: Criar uma Nova Análise
+            Editing an Analysis: Editar uma Análise
+            Running the Optimization: Executar a Otimização
+            Viewing Heatmaps: Visualizar Mapas de Calor
+            Downloading Results: Baixar Resultados
+            Analyzing Synergies and Trade-offs: Analisar Sinergias e Compensações
+            Citing Maps: Citar Mapas
+            Support and Contact: Suporte e Contato
+            Annex 1 - Technical Details: Anexo 1 - Detalhes Técnicos
+            Annex 2 - Glossary: Anexo 2 - Glossário
             Training Materials: Materiais de Treinamento
             Regional Guidance: Orientação Regional
         - locale: ru
           name: Русский
           build: true
           nav_translations:
+            Home: Главная
             ELSA Tool Documentation: Документация инструмента ELSA
+            Overview: Обзор
+            Tool Purpose and Key Features: Назначение инструмента и ключевые функции
+            Registration and Access: Регистрация и доступ
+            Creating a New Analysis: Создание нового анализа
+            Editing an Analysis: Редактирование анализа
+            Running the Optimization: Запуск оптимизации
+            Viewing Heatmaps: Просмотр тепловых карт
+            Downloading Results: Загрузка результатов
+            Analyzing Synergies and Trade-offs: Анализ синергии и компромиссов
+            Citing Maps: Цитирование карт
+            Support and Contact: Поддержка и контакты
+            Annex 1 - Technical Details: Приложение 1 - Технические детали
+            Annex 2 - Glossary: Приложение 2 - Глоссарий
             Training Materials: Учебные материалы
             Regional Guidance: Региональное руководство
   - glightbox:
