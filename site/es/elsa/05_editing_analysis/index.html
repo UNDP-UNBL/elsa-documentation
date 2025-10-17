@@ -111,7 +111,7 @@
   <nav class="md-header__inner md-grid" aria-label="Cabecera">
     <a href="../../" title="ELSA Integrated Spatial Planning Tool" class="md-header__button md-logo" aria-label="ELSA Integrated Spatial Planning Tool" data-md-component="logo">
       
-  <img src="../../../assets/images/unbl_logo.png" alt="logo">
+  <img src="../../../assets/images/UNBL_FULL_WEBSITE.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -353,7 +353,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="../../" title="ELSA Integrated Spatial Planning Tool" class="md-nav__button md-logo" aria-label="ELSA Integrated Spatial Planning Tool" data-md-component="logo">
       
-  <img src="../../../assets/images/unbl_logo.png" alt="logo">
+  <img src="../../../assets/images/UNBL_FULL_WEBSITE.png" alt="logo">
 
     </a>
     ELSA Integrated Spatial Planning Tool
@@ -928,23 +928,24 @@
 
 
 <h1 id="editing-an-elsa-analysis-run">Editing an ELSA analysis run<a class="headerlink" href="#editing-an-elsa-analysis-run" title="Anchor link to this section for reference">¶</a></h1>
-<p>.. admonition:: Key Concepts
-   :class: important</p>
+<div class="admonition info">
+<p class="admonition-title">Key Concepts</p>
 <ul>
-<li>:term:<code>Action Zones</code></li>
-<li>:term:<code>Lock-in Features</code></li>
-<li>:term:<code>Area-based constraint</code></li>
-<li>:term:<code>Boundary Penalty Factor (BPF)</code></li>
-<li>:term:<code>Planning feature</code></li>
-<li>:term:<code>Planning units</code></li>
-<li>:term:<code>Decision support software</code></li>
-<li>:term:<code>Geographic Information System (GIS)</code></li>
-<li>:term:<code>Restrictions</code></li>
-<li>:term:<code>Representation</code></li>
-<li>:term:<code>Systematic Conservation Planning (SCP)</code></li>
-<li>:term:<code>User interface</code></li>
-<li>:term:<code>Weights</code></li>
+<li><a href="../12_annex1/#action-zones">Action Zones</a></li>
+<li><a href="../12_annex1/#lock-in-features">Lock-in Features</a></li>
+<li><a href="../12_annex1/#area-based-constraint">Area-based constraint</a></li>
+<li><a href="../12_annex1/#boundary-penalty-factor-bpf">Boundary Penalty Factor (BPF)</a></li>
+<li><a href="../12_annex1/#planning-feature">Planning feature</a></li>
+<li><a href="../12_annex1/#planning-units">Planning units</a></li>
+<li><a href="../12_annex1/#decision-support-software">Decision support software</a></li>
+<li><a href="../12_annex1/#geographic-information-system-gis">Geographic Information System (GIS)</a></li>
+<li><a href="../12_annex1/#restrictions">Restrictions</a></li>
+<li><a href="../12_annex1/#representation">Representation</a></li>
+<li><a href="../12_annex1/#systematic-conservation-planning-scp">Systematic Conservation Planning (SCP)</a></li>
+<li><a href="../12_annex1/#user-interface">User interface</a></li>
+<li><a href="../12_annex1/#weights">Weights</a></li>
 </ul>
+</div>
 <h2 id="naming-elsa-analysis-run">Naming ELSA analysis run<a class="headerlink" href="#naming-elsa-analysis-run" title="Anchor link to this section for reference">¶</a></h2>
 <p>Upon clicking ‘NEW ANALYSIS RUN’ (Figure 5), you will be able to view and edit a tentative analysis. First, you must provide a new, unique name for your analysis run. While there are no restrictions on the name given to each run, we suggest that run names should include meaningful descriptions, ideally referencing the parameters used (e.g., include information like, BPF 10, or Protect 38%). </p>
 <h2 id="selecting-lock-in-functions">Selecting lock-in functions<a class="headerlink" href="#selecting-lock-in-functions" title="Anchor link to this section for reference">¶</a></h2>
@@ -953,18 +954,16 @@
 <p class="admonition-title">Important</p>
 <p>Protected Areas are locked-in <strong>BY DEFAULT</strong></p>
 </div>
-<p>Lock-in of Protected Areas (:numref:<code>fig-lockin-options</code>):</p>
+<p>Lock-in of Protected Areas (<a href="#fig-lockin-options">Figure 1</a>):</p>
 <ul>
 <li>Select ‘Lock-in Existing Protected Areas’ if you want to force the analysis to include existing Protected Areas within the ‘Protection’ action in the solution. </li>
 <li>Select ‘Lock-in nothing’ if you wish to independently assess the optimal location of existing and new Protected Areas in your country based on the ‘Protect’ areas selected in the resulting action map. </li>
 </ul>
-<p>[fig-lockin-options]: <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../elsa/images/image007.png" data-desc-position="bottom"><img alt="Figure 6. Lock-in functionalities" src="../../../elsa/images/image007.png"></a></p>
-<p><em>Figure 6. Lock-in functionalities</em></p>
-<p>As seen in :numref:<code>fig-lockin-options</code> for Cuba, existing Protected Areas cover 17.08% of the country. Therefore, the selection of ‘Lock-in Existing Protected Areas’ requires that at least 17.08% of the national territory be assigned under the ‘Protect’ area constraint. </p>
+<p></p><figure id="_figure-1"><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../elsa/images/image007.png" data-desc-position="bottom"><img alt="Lock-in functionalities" id="fig-lockin-options" src="../../../elsa/images/image007.png"></a><figcaption>Figure 1: Lock-in functionalities</figcaption></figure><p></p>
+<p>As seen in <a href="#fig-lockin-options">Figure 1</a> for Cuba, existing Protected Areas cover 17.08% of the country. Therefore, the selection of ‘Lock-in Existing Protected Areas’ requires that at least 17.08% of the national territory be assigned under the ‘Protect’ area constraint. </p>
 <h2 id="alternative-zones">Alternative Zones<a class="headerlink" href="#alternative-zones" title="Anchor link to this section for reference">¶</a></h2>
 <p>Users cannot define zones themselves, but for some actions, there may be both a default zone and an alternative zone that can be selected. For example, some tools may have an option to consider "Agricultural areas only" for the manage action, or “Forested areas only” for the restore action, based on the individual needs and priorities of users and countries. </p>
-<p>[fig-alt-zone-options]: <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../elsa/images/image008.png" data-desc-position="bottom"><img alt="Figure 7. Alternative zones for narrowing down nature-based activity areas" src="../../../elsa/images/image008.png"></a></p>
-<p><em>Figure 7. Alternative zones for narrowing down nature-based activity areas</em></p>
+<p></p><figure id="_figure-2"><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../elsa/images/image008.png" data-desc-position="bottom"><img alt="Alternative zones for narrowing down nature-based activity areas" id="fig-alt-zone-options" src="../../../elsa/images/image008.png"></a><figcaption>Figure 2: Alternative zones for narrowing down nature-based activity areas</figcaption></figure><p></p>
 <h2 id="setting-area-based-constraints-for-actions">Setting area-based constraints for actions<a class="headerlink" href="#setting-area-based-constraints-for-actions" title="Anchor link to this section for reference">¶</a></h2>
 <p>This part of the tool allows you to set area-based constraints (targets) for protection, restoration, management and/or urban greening. Area constraints can also be understood as the percentage of land area that should be given to each action in the resulting action map. The default values in any given ELSA Tool are derived from terrestrial targets in the KMGBF, unless further customized for your country by the UNBL team based on your National Biodiversity Strategy and Action Plan (NBSAP) or other national policy documents. </p>
 <p>You can set any value greater than or equal to 0.001 for protection, restoration, management, and/or urban greening objectives. The sum of the value for all objectives may be less than or equal to 100% but should not exceed 100%. Additionally, the maximum value for any single area constraint cannot exceed the total area of that action zone. For example, if 80% of a country is covered by a protect zone, then the maximum value that can be assigned for the area-based constraint for protection cannot exceed 80%. If you enter a number that is too high, you will receive an error specifying the maximum amount that can be allocated.  </p>
@@ -973,8 +972,7 @@
 <p>Note: The location and total area of each action zone defines where it is possible for each action to take place. It is determined based on ecosystem type and level of development in a country (e.g., protection cannot take place in areas with a high human industrial index).  </p>
 </div>
 <p>You should also consider that if you want to lock-in existing Protected Areas (the default), the overall protection area constraint must be equal to or greater than the land area covered by existing Protected Areas. For example, the land area covered by existing Protected Areas in Cuba is 17.08%. Therefore, the protect area constraint should be equal to or greater than 17.08%.</p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../elsa/images/image009.png" data-desc-position="bottom"><img alt="Figure 8. Setting objectives" src="../../../elsa/images/image009.png"></a></p>
-<p><em>Figure 8. Setting objectives</em></p>
+<p></p><figure id="_figure-3"><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../elsa/images/image009.png" data-desc-position="bottom"><img alt="Setting objectives" id="fig-setting-objectives" src="../../../elsa/images/image009.png"></a><figcaption>Figure 3: Setting objectives</figcaption></figure><p></p>
 <h2 id="specifying-the-boundary-penalty-factor">Specifying the boundary penalty factor<a class="headerlink" href="#specifying-the-boundary-penalty-factor" title="Anchor link to this section for reference">¶</a></h2>
 <p>The boundary penalty factor is used to promote spatial cohesion when prioritizing land use zones. The boundary penalty can be 0 or higher. The higher the value, the more connected and contiguous the action zones will be on the map. This adjustment is based on the idea that, for real-world planning, a more connected zone is usually easier to manage and execute actions. </p>
 <p>Steps: </p>
@@ -982,12 +980,11 @@
 <li>To set the limit penalty, start with a small number, e.g. 10.</li>
 <li>Increase the number iteratively, i.e., rerun the analysis repeatedly, by an order of magnitude (e.g., 10 -&gt; 100-&gt; 1000), reducing the rate of increase as you approach solutions that lead to your desired level of clustering. Each time you change the penalty, you will have to rerun the optimization until you arrive at a map that is sufficiently contiguous to meet your needs. </li>
 </ol>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Note: Increasing the boundary penalty factor from 0 will result in longer solve times; in some cases these can be much longer. </p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>Increasing the boundary penalty factor from 0 will result in longer solve times; in some cases these can be much longer. </p>
 </div>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../elsa/images/image010.png" data-desc-position="bottom"><img alt="Figure 9. Adjustment of the boundary penalty factor" src="../../../elsa/images/image010.png"></a></p>
-<p><em>Figure 9. Adjustment of the boundary penalty factor</em></p>
+<p></p><figure id="_figure-4"><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../elsa/images/image010.png" data-desc-position="bottom"><img alt="Adjustment of the boundary penalty factor" id="fig-adjust-bpf" src="../../../elsa/images/image010.png"></a><figcaption>Figure 4: Adjustment of the boundary penalty factor</figcaption></figure><p></p>
 <h2 id="editing-the-weights-of-planning-features">Editing the weights of planning features<a class="headerlink" href="#editing-the-weights-of-planning-features" title="Anchor link to this section for reference">¶</a></h2>
 <p>To edit planning feature weights, click on the ‘SET FEATURE WEIGHTS’ button near the top-right corner of the analysis run pop-up window. </p>
 <p>You should enter a weight for each planning feature in the input data list. We recommend a scale of 0 to 10 as follows, based on the priority level of each planning feature and your confidence in the accuracy of the dataset for your country: </p>
@@ -997,15 +994,13 @@
 <li>5.0 - medium importance </li>
 <li>10 - utmost importance  </li>
 </ul>
-<p>To allow users to make the most informed decision possible, the theme (biodiversity/climate change/human well-being), relevant actions, and proxy KMGBF policy target (or other relevant NBSAP/national policy target) are listed for each planning feature. You can evaluate the priority level of each planning feature and assign an informed weight by deciding on the relative importance of each of the planning features used to map KMGBF targets (or other relevant NBSAP/national policy targets otherwise defined by their country) in your country. For example, if KMGBF Target 1 is of especially high importance for your country, then planning features such as intact ecosystems, high integrity forests, biodiversity habitat index and biodiversity intactness index should be given greater weight (&gt; 3). Alternatively, if you believe threatened ecosystems in your country are particularly degraded and should be considered for identifying priority areas for restoration for KMGBF Target 2, then you can give a higher weight to the ‘Threatened Ecosystems for Restoration’ planning feature which specifically maps these areas (:numref:<code>fig-edit-weights</code>). </p>
-<p>For a full list of input data, as well as which KMGBF targets they are used to map, please see :ref:<code>Annex 2 &lt;annex-2&gt;</code>.</p>
-<p>[fig-edit-weights]: <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../elsa/images/image011.png" data-desc-position="bottom"><img alt="Figure 10. Editing weights" src="../../../elsa/images/image011.png"></a></p>
-<p><em>Figure 10. Editing weights</em></p>
+<p>To allow users to make the most informed decision possible, the theme (biodiversity/climate change/human well-being), relevant actions, and proxy KMGBF policy target (or other relevant NBSAP/national policy target) are listed for each planning feature. You can evaluate the priority level of each planning feature and assign an informed weight by deciding on the relative importance of each of the planning features used to map KMGBF targets (or other relevant NBSAP/national policy targets otherwise defined by their country) in your country. For example, if KMGBF Target 1 is of especially high importance for your country, then planning features such as intact ecosystems, high integrity forests, biodiversity habitat index and biodiversity intactness index should be given greater weight (&gt; 3). Alternatively, if you believe threatened ecosystems in your country are particularly degraded and should be considered for identifying priority areas for restoration for KMGBF Target 2, then you can give a higher weight to the ‘Threatened Ecosystems for Restoration’ planning feature which specifically maps these areas (see <a href="#fig-edit-weights">Figure 5</a>). </p>
+<p>For a full list of input data, as well as which KMGBF targets they are used to map, please see <a href="../13_annex2/">Annex 2</a>.</p>
+<p></p><figure id="_figure-5"><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../elsa/images/image011.png" data-desc-position="bottom"><img alt="Editing weights" id="fig-edit-weights" src="../../../elsa/images/image011.png"></a><figcaption>Figure 5: Editing weights</figcaption></figure><p></p>
 <h2 id="view-input-layers">View input layers<a class="headerlink" href="#view-input-layers" title="Anchor link to this section for reference">¶</a></h2>
 <p>If you want to view planning features before setting weights, you will have to exit the pop-up window by clicking ‘SAVE FOR LATER’ in the bottom-right corner. You can then come back to your saved draft analysis run after viewing the desired planning features. </p>
 <p>To view planning features, click on the ‘INPUT LAYERS’ option next to the ‘ANALYSIS RUNS’ option in the left tool tab. You can then toggle specific input layers to view them on UNBL. </p>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../elsa/images/image012.png" data-desc-position="bottom"><img alt="Figure 11. Viewing action zones and planning features on UNBL" src="../../../elsa/images/image012.png"></a></p>
-<p><em>Figure 11. Viewing action zones and planning features on UNBL</em></p>
+<p></p><figure id="_figure-6"><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../elsa/images/image012.png" data-desc-position="bottom"><img alt="Viewing action zones and planning features on UNBL" src="../../../elsa/images/image012.png"></a><figcaption>Figure 6: Viewing action zones and planning features on UNBL</figcaption></figure><p></p>
 <p>By clicking on the ‘INPUT LAYERS’ tab, you can view each individual input planning feature layer included in the ELSA analysis; these inputs are specifically tailored to help identify priority areas for KMGBF implementation, as well as NBSAP/other national policy implementation, if specifically requested by your country. You can additionally view (optional) lock-in features (namely, existing protected areas) in your country. Finally, you can view the layer for each action zone that defines where it is possible for each action to take place in your country for the analysis.</p>
 <p>Steps: </p>
 <ul>
@@ -1013,8 +1008,7 @@
 <li>Click the toggle button again to remove the selected layer from the view.  </li>
 <li>You have the option to view additional information (description of the layer, original input layers, source) for currently toggled layers by clicking on the round ‘<strong>i</strong>’ icon either in the individual layer’s legend or next to the toggle button for each layer. </li>
 </ul>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../elsa/images/image013.png" data-desc-position="bottom"><img alt="Figure 12. Viewing metadata" src="../../../elsa/images/image013.png"></a></p>
-<p><em>Figure 12. Viewing metadata</em></p>
+<p></p><figure id="_figure-7"><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../elsa/images/image013.png" data-desc-position="bottom"><img alt="Viewing metadata" src="../../../elsa/images/image013.png"></a><figcaption>Figure 7: Viewing metadata</figcaption></figure><p></p>
 
 
 

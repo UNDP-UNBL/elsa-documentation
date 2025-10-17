@@ -83,27 +83,6 @@ Then:
 3. Wait for green checkmark (2-3 minutes)
 4. Visit your site!
 
-## ⚡ Advantages of GitHub Pages
-
-### vs ReadTheDocs
-
-| Feature | GitHub Pages | ReadTheDocs Paid |
-|---------|-------------|------------------|
-| **Cost** | $0/month | $50-150/month |
-| **Multi-language** | ✅ Free | ✅ Paid plan only |
-| **Auto-deploy** | ✅ On push | ✅ On push |
-| **Build time** | ~2-3 min | ~3-5 min |
-| **Setup** | Simple | More complex |
-| **Maintenance** | Automatic | Need account |
-| **Custom domains** | ✅ Free | ✅ Free |
-| **HTTPS** | ✅ Automatic | ✅ Automatic |
-| **Bandwidth** | Unlimited | Fair use |
-| **Storage** | 1 GB | Varies |
-
-**Annual savings: $600-1,800**
-
-## 🛠️ How It Works
-
 ### GitHub Actions Workflow
 
 The `.github/workflows/deploy.yml` file:
@@ -199,16 +178,6 @@ ls -la site/
 - **Setup Guide**: [GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md) - Complete guide
 - **Quick Start**: [QUICKSTART.md](QUICKSTART.md) - Fast reference
 - **Migration Guide**: [MKDOCS_MIGRATION.md](MKDOCS_MIGRATION.md) - Full migration info
-
-## ✨ Benefits Summary
-
-1. **Free**: $0/month vs $50-150/month
-2. **Simple**: Push to deploy
-3. **Fast**: 2-3 minute builds
-4. **Reliable**: GitHub infrastructure
-5. **Automatic**: No manual steps
-6. **Secure**: HTTPS by default
-7. **Scalable**: Handles any traffic
 
 ## 🎉 Ready to Deploy!
 
