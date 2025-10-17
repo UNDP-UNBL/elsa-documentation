@@ -2,6 +2,8 @@
 
 This repository contains the complete documentation for the ELSA (Essential Life Support Area) Integrated Spatial Planning Tool, now powered by MkDocs with Material theme.
 
+[![Deploy MkDocs to GitHub Pages](https://github.com/UNDP-UNBL/elsa-documentation/actions/workflows/deploy.yml/badge.svg)](https://github.com/UNDP-UNBL/elsa-documentation/actions/workflows/deploy.yml)
+
 ## 🚀 Quick Start
 
 ### Using Mamba/Conda (Recommended)
