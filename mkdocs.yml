@@ -57,7 +57,7 @@ theme:
     repo: fontawesome/brands/github
     edit: material/pencil
     view: material/eye
-  logo: assets/images/unbl_logo.png
+  logo: assets/images/UNBL_FULL_WEBSITE.png
   favicon: assets/images/favicon.ico
 
 # Plugins
@@ -120,6 +120,7 @@ plugins:
         - custom-skip-class-name
       auto_caption: false
       caption_position: bottom
+  - caption:
 
 # Markdown Extensions
 markdown_extensions:

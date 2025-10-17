@@ -7,14 +7,11 @@
 - [x] Set up multi-language support structure (5 languages)
 - [x] Migrated CSS files to `docs/assets/css/`
 - [x] Preserved image directories in place (81 images)
-- [x] Updated ReadTheDocs configuration
 - [x] Created conda/mamba environment (`environment-mkdocs.yaml`)
 - [x] Created Python requirements file (`requirements.txt`)
 - [x] Fixed navigation structure in `mkdocs.yml`
 - [x] Created missing index files (elsa/index.md)
-- [x] Tested build successfully (builds in ~8 seconds)
 - [x] Verified all 5 language builds work
-- [x] Created migration documentation
 - [x] Created quick start guide
 
 ## 🔄 In Progress / Recommended Next Steps
@@ -58,14 +55,8 @@ Before deploying to production:
 - [ ] Test images and diagrams display
 - [ ] Test code blocks and syntax highlighting
 - [ ] Test admonitions (notes, warnings, etc.)
-- [ ] Verify ReadTheDocs build succeeds
-- [ ] Test deployed site on ReadTheDocs URL
 
 ## 🐛 Known Issues
-
-### Minor Warnings (Non-blocking)
-
-1. ✅ All known issues resolved - Training and regional guidance sections removed
 
 ## 📝 Translation Status
 
@@ -73,71 +64,31 @@ Before deploying to production:
 - ✅ 100% complete (13 ELSA tool documentation files)
 
 ### Spanish (es)
-- ⏳ Structure ready
-- ❌ Content needs migration from .po files
-- Total: 13 ELSA pages need translation
+- ⏳ Structure ready - needs real person review
 
 ### French (fr)
-- ⏳ Structure ready
-- ❌ Content needs migration from .po files
-- Total: 13 ELSA pages need translation
+- ⏳ Structure ready - needs real person review
 
 ### Portuguese (pt)
-- ⏳ Structure ready
-- ❌ Content needs migration from .po files
-- Total: 13 ELSA pages need translation
+- ⏳ Structure ready - needs real person review
 
 ### Russian (ru)
-- ⏳ Structure ready
-- ❌ Content needs migration from .po files
-- Total: 13 ELSA pages need translation
+- ⏳ Structure ready - needs real person review
 
 ## 🎯 Milestone Goals
 
-### Milestone 1: Basic Migration ✅
-- Convert all RST to Markdown
-- Set up MkDocs configuration
-- Get builds working
-- Update ReadTheDocs config
-
-### Milestone 2: Content Review (Current)
-- Review converted content
-- Fix any conversion issues
-- Test all features work
-- Fix broken links
-
-### Milestone 3: Translations
+### Milestone 1: Translations
 - Migrate translations from .po to Markdown
 - Test all language versions
 - Verify content accuracy
 
-### Milestone 4: Production Ready
+### Milestone 2: Production Ready
 - All tests passing
 - All languages complete
-- ReadTheDocs deployment successful
-- Documentation reviewed by team
-
-## 🚀 Deployment Plan
-
-1. **Staging**: Test on a branch/fork
-2. **Review**: Team reviews the new MkDocs site
-3. **Parallel run**: Keep Sphinx running while testing MkDocs
-4. **Switch**: Update main branch and ReadTheDocs points to MkDocs
-5. **Monitor**: Watch for any issues in first week
-6. **Cleanup**: Remove old Sphinx files after successful migration (optional)
-
-## 💡 Tips
-
-- Keep the Sphinx files for now as backup
-- Test thoroughly before switching ReadTheDocs
-- Consider a "preview" deployment to a different URL first
-- Document any custom changes for future reference
-- Set up CI/CD to automatically test builds on PRs
 
 ## 📞 Resources
 
 - MkDocs Docs: https://www.mkdocs.org/
 - Material Theme: https://squidfunk.github.io/mkdocs-material/
 - i18n Plugin: https://github.com/ultrabug/mkdocs-static-i18n
-- Migration Guide: See `MKDOCS_MIGRATION.md`
 - Quick Start: See `QUICKSTART.md`

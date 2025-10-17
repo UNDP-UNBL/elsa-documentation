@@ -200,5 +200,3 @@ See [TODO.md](TODO.md) for detailed status.
 - [Admonitions Guide](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
 
 ---
-
-**Note:** The original Sphinx documentation is preserved for reference. All original RST files and configuration remain in the repository.

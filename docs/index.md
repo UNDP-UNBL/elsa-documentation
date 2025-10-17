@@ -11,7 +11,7 @@ This user's guide aims to provide a clear and concise overview on the use of the
 
 * [Chapter 1](elsa/01_overview.md) provides an overview of and key supplementary resources on the ELSA mapping process.
 * [Chapter 2](elsa/02_tool_purpose.md) outlines the key functionalities and applications of the ELSA tool.
-* [Chapters 3](elsa/03_registration.md) - 11 provide step-by-step instructions on how to use the ELSA Tool on UNBL.
+* [Chapters 3](elsa/03_registration.md) - [11](elsa/11_support.md) provide step-by-step instructions on how to use the ELSA Tool on UNBL.
 
 ## Documentation Sections
 

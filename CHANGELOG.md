@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - MkDocs-based documentation system with Material theme
 - Multi-language support infrastructure (EN, ES, FR, PT, RU)
+- Complete Spanish (ES) documentation translation
+- Complete French (FR) documentation translation
+- Complete Portuguese (PT) documentation translation
+- Complete Russian (RU) documentation translation
 - Modern, mobile-responsive documentation interface
 - Dark/light mode toggle for improved readability
 - Image lightbox functionality for full-size viewing
@@ -46,6 +50,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ReadTheDocs configuration (.readthedocs.yaml)
 - Requirement for paid ReadTheDocs hosting plan
 - Requirement for ReadTheDocs account management
+- Temporary migration documentation files (after migration completion):
+  - CLEANUP_SUMMARY.md
+  - DEPLOYMENT_SUMMARY.md
+  - GITHUB_PAGES_SETUP.md
+  - MKDOCS_MIGRATION.md
+  - READY_TO_DEPLOY.md
+  - RST_TO_MARKDOWN_GUIDE.md
+- Migration utility scripts (after migration completion):
+  - scripts/convert_rst_to_md.py
+  - scripts/fix_rst_remnants.py
+  - scripts/setup_i18n.py
 
 ### Fixed
 - Improved navigation structure with tabbed layout
