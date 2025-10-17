@@ -107,8 +107,6 @@ mkdocs gh-deploy
 docs/
 ├── index.md              # Homepage
 ├── elsa/                 # ELSA tool docs
-├── trainings/            # Training materials
-├── guidance/             # Regional guidance
 └── assets/               # CSS, images, etc.
 
 mkdocs.yml               # Configuration file
@@ -146,7 +144,7 @@ To create translations, create files with language suffix:
 
 **Solution:** Activate the environment first or use full path:
 ```bash
-/home/scottca/miniconda3/bin/mamba run -n elsa-mkdocs mkdocs build
+/your/path/miniconda3/bin/mamba run -n elsa-mkdocs mkdocs build
 ```
 
 ### Build warnings about missing files
