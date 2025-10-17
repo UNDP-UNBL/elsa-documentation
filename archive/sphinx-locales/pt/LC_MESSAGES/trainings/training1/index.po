@@ -1,7 +1,0 @@
-#: ../../trainings/training1/index.rst:4
-msgid "Training 1: Systematic Conservation Planning"
-msgstr ""
-
-#: ../../trainings/training1/index.rst:6
-msgid "TBD"
-msgstr ""
