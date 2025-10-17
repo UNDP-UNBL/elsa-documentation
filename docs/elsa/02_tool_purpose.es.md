@@ -4,10 +4,10 @@ La Herramienta ELSA permite a diversas partes interesadas evaluar de manera cola
 
   - Mostrar capas de entrada (también conocidas como características de planificación) utilizadas para mapear los objetivos del KMGBF.
   - Crear y ejecutar nuevas ejecuciones de análisis ELSA con diferentes grupos de partes interesadas. Los usuarios pueden modificar y editar ejecuciones de análisis ELSA de las siguientes maneras:
-  - Modificar el porcentaje del territorio nacional asignado para cada zona de acción basada en la naturaleza, incluyendo protección (Objetivo 3 del KMGBF), restauración (Objetivo 2 del KMGBF), gestión (Objetivo 10 del KMGBF) y/o revegetación urbana (Objetivo 12 del KMGBF). Estas configuraciones pueden adaptarse a los objetivos de política del país para conservación, restauración y protección, entre otros;
-  - Elegir si se deben bloquear las Áreas Protegidas existentes para protección, asegurando que las Áreas Protegidas existentes sean seleccionadas dentro del mapa de solución;
-  - Editar los pesos de cada una de las capas de entrada (características de planificación) en función de la importancia nacional de la característica mapeada y la confianza en los datos de entrada; y
-  - Editar el parámetro de factor de penalización de límites para ajustar la cohesión espacial del mapa de acción.
+    - Modificar el porcentaje del territorio nacional asignado para cada zona de acción basada en la naturaleza, incluyendo protección (Objetivo 3 del KMGBF), restauración (Objetivo 2 del KMGBF), gestión (Objetivo 10 del KMGBF) y/o revegetación urbana (Objetivo 12 del KMGBF). Estas configuraciones pueden adaptarse a los objetivos de política del país para conservación, restauración y protección, entre otros;
+    - Elegir si se deben bloquear las Áreas Protegidas existentes para protección, asegurando que las Áreas Protegidas existentes sean seleccionadas dentro del mapa de solución;
+    - Editar los pesos de cada una de las capas de entrada (características de planificación) en función de la importancia nacional de la característica mapeada y la confianza en los datos de entrada; y
+    - Editar el parámetro de factor de penalización de límites para ajustar la cohesión espacial del mapa de acción.
   - Ver y descargar los mapas de calor y mapas de acción resultantes.
   - Descargar los mapas de calor y mapas de acción resultantes en formato ráster, que pueden utilizarse para análisis adicionales según las necesidades de las partes interesadas en software de Sistemas de Información Geográfica (SIG) de escritorio.
   - Descargar resultados y parámetros de una ejecución de análisis ELSA existente como una tabla de resumen, que está disponible en formatos .xlsx, .csv y .json.

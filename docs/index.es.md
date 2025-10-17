@@ -5,6 +5,8 @@ Bienvenido | Welcome | Добро пожаловать | مرحبًا | Bienvenu
 !!! note
     Esta sección cubre la Herramienta de Planificación Espacial Integrada ELSA (Área Esencial de Soporte Vital) en el Laboratorio de Biodiversidad de la ONU (UNBL). La herramienta ELSA apoya la planificación sistemática de la conservación para implementar el Marco Mundial de Biodiversidad de Kunming-Montreal.
 
+!!! important
+	Esta versión lingüística se genera automáticamente mediante un programa de inteligencia artificial. Se actualizará en un futuro próximo.
 ## Resumen
 
 Esta guía del usuario tiene como objetivo proporcionar una descripción clara y concisa sobre el uso de la Herramienta de Planificación Espacial Integrada de Área Esencial de Soporte Vital (ELSA) del Laboratorio de Biodiversidad de la ONU (UNBL). Esta herramienta ha sido desarrollada para apoyar a los países a utilizar la planificación espacial integrada para apoyar la implementación del Marco Mundial de Biodiversidad de Kunming-Montreal a través de un enfoque de Planificación Sistemática de la Conservación (SCP) respaldado por UNBL.
