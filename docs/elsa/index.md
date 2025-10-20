@@ -1,8 +1,8 @@
-# ELSA Tool Documentation
+# ELSA Integrated Spatial Planning Tool on UN Biodiversity Lab User Guide 
 
-Welcome to the ELSA (Essential Life Support Area) Integrated Spatial Planning Tool documentation.
+Welcome to the Essential Life Support Area (ELSA) Integrated Spatial Planning Tool User Guide.
 
-The ELSA tool is a free, open-source, cloud-hosted tool that provides stakeholders in all countries with a science-based methodology to identify national priority areas where protection, restoration, management, and urban greening can lead to the best outcomes across the KMGBF targets and indicators.
+This user's guide aims to provide a clear and concise overview on the use of the UN Biodiversity Lab (UNBL) Essential Life Support Area (ELSA) Integrated Spatial Planning Tool. This tool has been developed to support countries to use integrated spatial planning to support implementation of the Kunming-Montreal Global Biodiversity Framework through a UNBL-backed Systematic Conservation Planning (SCP) approach. 
 
 ## Contents
 
