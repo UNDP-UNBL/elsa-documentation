@@ -4,10 +4,10 @@ L'outil ELSA permet à diverses parties prenantes d'évaluer de manière collabo
 
   - Afficher les couches d'entrée (également appelées caractéristiques de planification) utilisées pour cartographier les objectifs du KMGBF.
   - Créer et exécuter de nouvelles exécutions d'analyse ELSA avec différents groupes de parties prenantes. Les utilisateurs peuvent modifier et éditer les exécutions d'analyse ELSA de la manière suivante :
-  - Modifier le pourcentage du territoire national alloué à chaque zone d'action basée sur la nature, y compris la protection (Objectif 3 du KMGBF), la restauration (Objectif 2 du KMGBF), la gestion (Objectif 10 du KMGBF) et/ou le verdissement urbain (Objectif 12 du KMGBF). Ces configurations peuvent être adaptées aux objectifs politiques du pays en matière de conservation, de restauration et de protection, entre autres ;
-  - Choisir de verrouiller les Aires Protégées existantes pour la protection, garantissant que les Aires Protégées existantes sont sélectionnées dans la carte de solution ;
-  - Modifier les poids de chacune des couches d'entrée (caractéristiques de planification) en fonction de l'importance nationale de la caractéristique cartographiée et de la confiance dans les données d'entrée ; et
-  - Modifier le paramètre de facteur de pénalité de frontière pour ajuster la cohésion spatiale de la carte d'action.
+    - Modifier le pourcentage du territoire national alloué à chaque zone d'action basée sur la nature, y compris la protection (Objectif 3 du KMGBF), la restauration (Objectif 2 du KMGBF), la gestion (Objectif 10 du KMGBF) et/ou le verdissement urbain (Objectif 12 du KMGBF). Ces configurations peuvent être adaptées aux objectifs politiques du pays en matière de conservation, de restauration et de protection, entre autres ;
+    - Choisir de verrouiller les Aires Protégées existantes pour la protection, garantissant que les Aires Protégées existantes sont sélectionnées dans la carte de solution ;
+    - Modifier les poids de chacune des couches d'entrée (caractéristiques de planification) en fonction de l'importance nationale de la caractéristique cartographiée et de la confiance dans les données d'entrée ; et
+    - Modifier le paramètre de facteur de pénalité de frontière pour ajuster la cohésion spatiale de la carte d'action.
   - Visualiser et télécharger les cartes thermiques et cartes d'action résultantes.
   - Télécharger les cartes thermiques et cartes d'action résultantes au format raster, qui peuvent être utilisées pour une analyse plus approfondie selon les besoins des parties intéressées dans les logiciels de Systèmes d'Information Géographique (SIG) de bureau.
   - Télécharger les résultats et paramètres d'une exécution d'analyse ELSA existante sous forme de tableau récapitulatif, disponible aux formats .xlsx, .csv et .json.

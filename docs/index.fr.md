@@ -5,6 +5,9 @@ Bienvenido | Welcome | Добро пожаловать | مرحبًا | Bienvenu
 !!! note
     Cette section couvre l'Outil de Planification Spatiale Intégrée ELSA (Zones Essentielles de Soutien à la Vie) sur le Laboratoire de la Biodiversité de l'ONU (UNBL). L'outil ELSA soutient la planification systématique de la conservation pour mettre en œuvre le Cadre mondial de la biodiversité de Kunming-Montréal.
 
+!!! important
+	Cette version linguistique est générée automatiquement par un programme d'intelligence artificielle. Elle sera mise à jour dans un avenir proche.
+
 ## Résumé
 
 Ce guide de l'utilisateur vise à fournir un aperçu clair et concis de l'utilisation de l'Outil de Planification Spatiale Intégrée des Zones Essentielles de Soutien à la Vie (ELSA) du Laboratoire de la Biodiversité de l'ONU (UNBL). Cet outil a été développé pour aider les pays à utiliser la planification spatiale intégrée pour soutenir la mise en œuvre du Cadre mondial de la biodiversité de Kunming-Montréal grâce à une approche de Planification Systématique de la Conservation (SCP) soutenue par l'UNBL.
